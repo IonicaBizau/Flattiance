@@ -1,0 +1,17 @@
+Source: ubuntu-mono
+Section: gnome
+Priority: optional
+Maintainer: Kenneth Wimer <kwwii@ubuntu.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+
+Package: ubuntu-mono
+Architecture: all
+Depends: ${misc:Depends},
+         humanity-icon-theme,
+         gnome-icon-theme,
+         hicolor-icon-theme
+Description: Ubuntu Mono Icon theme
+ Dark and Light panel icons to make your desktop beautiful
+

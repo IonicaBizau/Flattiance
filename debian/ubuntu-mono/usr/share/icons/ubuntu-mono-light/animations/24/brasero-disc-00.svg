@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="24"
+   height="24"
+   id="svg3181">
+  <defs
+     id="defs3183" />
+  <g
+     id="layer1">
+    <g
+       id="g3176"
+       style="opacity:0.4">
+      <path
+         d="M 12,4 C 7.5840001,4 3.9999998,7.5840001 4,12 C 4,16.416 7.5840002,20 12,20 C 16.416,20 20,16.416 20,12 C 20,7.5840001 16.416,4.0000002 12,4 z M 12,9 C 13.656,9.0000001 15,10.344 15,12 C 15,13.656 13.656,15 12,15 C 10.344,15 9,13.656 9,12 C 9.0000001,10.344 10.344,9 12,9 z"
+         id="path3170"
+         style="opacity:1;fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         d="M 21.108434,12.433735 A 9.2530117,9.2530117 0 1 1 2.6024103,12.433735 A 9.2530117,9.2530117 0 1 1 21.108434,12.433735 z"
+         transform="matrix(0.9186198,0,0,0.9186198,1.1093743,0.5781246)"
+         id="path2402"
+         style="opacity:0.6;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#eae3d0;stroke-width:1.08858967;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         d="M 14.361446,12.144578 A 2.3132529,2.3132529 0 1 1 9.7349401,12.144578 A 2.3132529,2.3132529 0 1 1 14.361446,12.144578 z"
+         transform="matrix(1.1888021,0,0,1.1888021,-2.3229175,-2.4375002)"
+         id="path3174"
+         style="opacity:0.3;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.42059144;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>

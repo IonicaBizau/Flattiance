@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="22"
+   height="22"
+   id="svg3215">
+  <defs
+     id="defs3217" />
+  <g
+     transform="translate(-1,-1)"
+     id="g3195"
+     style="opacity:0.3">
+    <path
+       d="M 12.5,5.3333332 L 12.5,8.6666663"
+       id="path3193"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       width="13.5"
+       height="8.5"
+       rx="2.3"
+       ry="3.3000903"
+       x="-18.75"
+       y="8.25"
+       transform="matrix(0,-1,1,0,0,0)"
+       id="rect3236"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <path
+     d="M 9,7 C 8.448,7 8,7.448 8,8 L 8,15 C 8,16.108 9.338,17 11,17 L 12,17 C 13.662,17 15,16.108 15,15 L 15,7.875 C 14.991161,7.8779908 14.977639,7.8721043 14.96875,7.875 C 14.902495,7.3870787 14.506,7 14,7 C 13.448,7 13,7.448 13,8 C 13,8.554 12.554,9 12,9 L 11,9 C 10.446,9 10,8.554 10,8 C 10,7.448 9.552,7 9,7 z"
+     id="rect3728"
+     style="fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <rect
+     width="10"
+     height="15.000001"
+     rx="3.9999998"
+     ry="3"
+     x="6.5"
+     y="3.499999"
+     id="rect2406"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#3a3935;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <rect
+     width="12"
+     height="17"
+     rx="5"
+     ry="4"
+     x="5.5"
+     y="2.5"
+     id="rect3178"
+     style="opacity:0.6;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#eae3d0;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 11.541885,3.5 L 11.541885,7.5"
+     id="path3182"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#3a3935;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</svg>

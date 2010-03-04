@@ -1,0 +1,30 @@
+ubuntu-mono (0.0.5) lucid; urgency=low
+
+  * Adding LoginIcons for gdm
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Mar 2010 10:50:52 +0000
+
+ubuntu-mono (0.0.4) lucid; urgency=low
+
+  * Including latest updates to battery icons and lots of new icons 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 02 Mar 2010 10:33:40 +0000
+
+ubuntu-mono (0.0.3) lucid; urgency=low
+
+  * Fixing errors in index.theme files 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 26 Feb 2010 14:31:26 +0000
+
+ubuntu-mono (0.0.2) lucid; urgency=low
+
+  * Adding FUSA icons and many more 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 26 Feb 2010 10:49:07 +0000
+
+ubuntu-mono (0.0.1) lucid; urgency=low
+
+  * Initial packaging
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thurs, 25 Feb 2010 9:08:20 +0200
+

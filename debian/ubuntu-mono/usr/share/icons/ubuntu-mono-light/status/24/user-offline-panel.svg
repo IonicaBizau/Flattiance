@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="24"
+   height="24"
+   id="svg2816"
+   style="display:inline">
+  <defs
+     id="defs2818" />
+  <path
+     d="M 12.5,4.03125 C 9.951764,4.03125 7.6352076,4.8028559 5.90625,6.125 C 4.1772924,7.4471441 3.0312499,9.3601648 3.03125,11.5 C 3.03125,11.936421 3.1279529,12.323157 3.21875,12.71875 L 0.375,15.15625 C 0.070480924,15.417493 -0.043511926,15.83827 0.087495501,16.217502 C 0.21850293,16.596734 0.56791211,16.857426 0.96875,16.875 L 6.1875,16.96875 C 7.8895944,18.191586 10.05847,18.96875 12.5,18.96875 C 15.048236,18.96875 17.364792,18.197144 19.09375,16.875 C 20.822708,15.552856 21.968751,13.639836 21.96875,11.5 C 21.96875,9.3601647 20.822708,7.4471441 19.09375,6.125 C 17.364792,4.8028559 15.048236,4.0312499 12.5,4.03125 z"
+     id="path3189"
+     style="opacity:0.6;fill:#eae3d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 12.5,5 C 7.8079998,5 3.9999999,7.9120003 4,11.5 C 4,12.050338 4.1126247,12.583288 4.28125,13.09375 L 1,15.90625 L 6.375,16 C 7.9221381,17.23217 10.091504,18 12.5,18 C 17.192,18 21.000001,15.088 21,11.5 C 21,7.9120001 17.192,4.9999999 12.5,5 z M 10.3125,8 L 12.5,10.25 L 14.75,8.03125 L 16,9.3125 L 13.75,11.5 L 15.96875,13.75 L 14.6875,15 L 12.5,12.75 L 10.25,14.96875 L 9,13.6875 L 11.25,11.5 L 9.03125,9.25 L 10.3125,8 z"
+     id="path2396"
+     style="fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</svg>
