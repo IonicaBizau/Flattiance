@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+
+<metacity_theme>
+<info>
+    <name>Dark</name>
+    <author>Kenneth Wimer</author>
+    <copyright>Canonical Ltd.</copyright>
+    <date>Nov 28, 2009</date>
+    <description>Metacity theme</description>
+</info>
+
+<!-- General window layout -->
+<frame_geometry name="frame_geometry_normal" title_scale="medium" rounded_top_left="true" rounded_top_right="true"  rounded_bottom_left="true" rounded_bottom_right="true">
+    <distance name="left_width" value="1"/>
+    <distance name="right_width" value="1"/>
+    <distance name="bottom_height" value="4"/>
+    <distance name="left_titlebar_edge" value="4"/>
+    <distance name="right_titlebar_edge" value="4"/>
+    <distance name="button_width" value="20"/>
+    <distance name="button_height" value="20"/>
+    <distance name="title_vertical_pad" value="4"/>
+    <border name="title_border" left="2" right="2" top="2" bottom="2"/>
+    <border name="button_border" left="0" right="0" top="2" bottom="1"/>
+</frame_geometry>
+
+<frame_geometry name="frame_geometry_abnormal" title_scale="medium" rounded_top_left="false" rounded_top_right="false">
+    <distance name="left_width" value="0"/>
+    <distance name="right_width" value="0"/>
+    <distance name="bottom_height" value="4"/>
+    <distance name="left_titlebar_edge" value="3"/>
+    <distance name="right_titlebar_edge" value="2"/>
+    <distance name="button_width" value="20"/>
+    <distance name="button_height" value="20"/>
+    <distance name="title_vertical_pad" value="0"/>
+    <border name="title_border" left="2" right="0" top="2" bottom="2"/>
+    <border name="button_border" left="0" right="0" top="2" bottom="1"/>
+</frame_geometry>
+
+<!-- Window Title -->
+
+<draw_ops name="draw_title_text_normal">
+  <title color="#333"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="#333"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)-1"/>
+  <title color="#333"
+         x="9"
+         y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333"
+         x="11"
+         y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#dfd8c8"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)"/>
+
+</draw_ops>
+
+<draw_ops name="draw_title_text_inactive">
+  <title color="#333333"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="#333333"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)-1"/>
+  <title color="#333333"
+         x="9"
+         y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333333"
+         x="11"
+         y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#99958b"
+         x="10"
+         y="(((height - title_height) / 2) `max` 0)"/>
+</draw_ops>
+
+<draw_ops name="draw_title">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+        <color value="#5c5b56" />
+        <color value="#3c3b37" />
+	<color value="#3c3b37" />
+    </gradient>
+    
+    <!-- Topmost dark line -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="width" y1="0" y2="0"/>
+    
+    <!-- Darkening of the left arch -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="4" y1="1" y2="1"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="2" y1="2" y2="2"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="1" y1="3" y2="3"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="1" y1="4" y2="4"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="0" y1="5" y2="40"/>
+    
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-5" x2="width" y1="1" y2="1"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-3" x2="width" y1="2" y2="2"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-2" x2="width" y1="3" y2="3"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-2" x2="width" y1="4" y2="4"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-1" x2="width" y1="5" y2="90"/>
+    
+    <!-- Top highlight -->
+    <tint color="#5c5b56" alpha="0.55" x="5" y="1" width="width - 10" height="1"/> 
+    <tint color="#5c5b56" alpha="0.15" x="5" y="2" width="width - 10" height="1"/> 
+    
+</draw_ops>
+
+<draw_ops name="draw_title_inactive">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+        <color value="#5c5b56" />
+        <color value="#3c3b37" />
+	<color value="#3c3b37" />
+    </gradient>
+    
+    <!-- Topmost dark line -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="width" y1="0" y2="0"/>
+    
+    <!-- Darkening of the left arch -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="4" y1="1" y2="1"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="2" y1="2" y2="2"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="1" y1="3" y2="3"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="1" y1="4" y2="4"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="0" y1="5" y2="40"/>
+    
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-5" x2="width" y1="1" y2="1"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-3" x2="width" y1="2" y2="2"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-2" x2="width" y1="3" y2="3"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-2" x2="width" y1="4" y2="4"/>
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="width-1" x2="width" y1="5" y2="90"/>
+    
+    <!-- Top highlight -->
+    <tint color="#5c5b56" alpha="0.55" x="5" y="1" width="width - 10" height="1"/> 
+    <tint color="#5c5b56" alpha="0.15" x="5" y="2" width="width - 10" height="1"/> 
+    
+</draw_ops>
+
+<draw_ops name="draw_title_maximized">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+        <color value="#5c5b56" />
+        <color value="#3c3b37" />
+	<color value="#3c3b37" />
+    </gradient>
+    
+    <!-- Topmost dark line -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="width" y1="0" y2="0"/>
+    
+    <!-- Top highlight -->
+    <tint color="#5c5b56" alpha="0.55" x="0" y="1" width="width" height="1"/> 
+    <tint color="#5c5b56" alpha="0.15" x="0" y="2" width="width" height="1"/> 
+</draw_ops>
+
+<draw_ops name="draw_title_maximized_inactive">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+        <color value="#5c5b56" />
+        <color value="#3c3b37" />
+    </gradient>
+    
+    <!-- Topmost dark line -->
+    <line color="shade/gtk:bg[NORMAL]/0.4" x1="0" x2="width" y1="0" y2="0"/>
+    
+    <!-- Top highlight -->
+    <tint color="#5c5b56" alpha="0.55" x="0" y="1" width="width" height="1"/> 
+    <tint color="#5c5b56" alpha="0.15" x="0" y="2" width="width" height="1"/> 
+</draw_ops>
+
+<!-- Window Frames -->
+
+<draw_ops name="draw_frame">
+<rectangle color="shade/gtk:bg[NORMAL]/0.5" x="0" y="0" width="width" height="height" filled="true"/>
+    <gradient type="vertical" x="0" y="0" width="width" height="60">
+        <color value="shade/gtk:bg[NORMAL]/0.4" />
+        <color value="shade/gtk:bg[NORMAL]/0.6" />
+    </gradient>
+</draw_ops>
+
+<!-- bottom border -->
+<draw_ops name="bottom_edge">
+<line color="shade/gtk:bg[NORMAL]/0.6" x1="0" x2="width" y1="height-1" y2="height-1"/>
+	<!-- bottom left -->
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="1" y1="height-4" x2="0" y2="height-7"/>
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="1" y1="height-4" x2="1" y2="height-5"/>
+ 	<line color="shade/gtk:bg[NORMAL]/0.6" x1="2" y1="height-3" x2="2" y2="height-3"/>
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="2" y1="height-2" x2="4" y2="height-2"/>
+
+	<!-- bottom right -->
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="width-2" y1="height-4" x2="width-1" y2="height-7"/>
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="width-2" y1="height-4" x2="width-2" y2="height-5"/>
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="width-3" y1="height-3" x2="width-3" y2="height-3"/>
+	<line color="shade/gtk:bg[NORMAL]/0.6" x1="width-4" y1="height-2" x2="width-5" y2="height-2"/>
+</draw_ops>
+
+
+
+<!-- Buttons-->
+
+<!-- close button-->
+<draw_ops name="button_close_normal">
+    <image filename="button_close_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_close_prelight">
+    <image filename="button_close_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_close_inactive_prelight">
+    <image filename="button_close_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_close_pressed">
+    <image filename="button_close_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_close_inactive">
+    <image filename="button_close_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="buttontrough_close_normal">
+    <image filename="buttontrough_close_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_close_prelight">
+    <image filename="buttontrough_close_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_close_inactive_prelight">
+    <image filename="buttontrough_close_prelight_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_close_pressed">
+    <image filename="buttontrough_close_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_close_inactive">
+    <image filename="buttontrough_close_normal_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+
+<!-- maximize button-->
+<draw_ops name="button_max_normal">
+    <image filename="button_max_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_prelight">
+    <image filename="button_max_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_inactive_prelight">
+    <image filename="button_max_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_pressed">
+    <image filename="button_max_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_inactive">
+    <image filename="button_max_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_restore">
+    <image filename="button_max_restore.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_max_restore_prelight">
+    <image filename="button_max_restore_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_normal">
+    <image filename="buttontrough_max_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_prelight">
+    <image filename="buttontrough_max_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_inactive_prelight">
+    <image filename="buttontrough_max_prelight_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_pressed">
+    <image filename="buttontrough_max_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_inactive">
+    <image filename="buttontrough_max_normal_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_restore">
+    <image filename="buttontrough_max_restore.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_restore_inactive">
+    <image filename="buttontrough_max_normal_restore_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_max_restore_prelight">
+    <image filename="buttontrough_max_restore_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<!-- minimize button-->
+<draw_ops name="button_min_normal">
+    <image filename="button_min_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_min_prelight">
+    <image filename="button_min_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_min_inactive_prelight">
+    <image filename="button_min_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_min_pressed">
+    <image filename="button_min_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="button_min_inactive">
+    <image filename="button_min_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="buttontrough_min_normal">
+    <image filename="buttontrough_min_normal.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_min_prelight">
+    <image filename="buttontrough_min_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_min_inactive_prelight">
+    <image filename="buttontrough_min_prelight_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_min_pressed">
+    <image filename="buttontrough_min_pressed.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+<draw_ops name="buttontrough_min_inactive">
+    <image filename="buttontrough_min_normal_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
+
+<!-- menu icon -->
+<draw_ops name="button_menu_normal">
+<image filename="menu.png" x="0" y="1" width="20" height="18"/>
+</draw_ops>
+<draw_ops name="button_menu_prelight">
+<image filename="menu.png" x="0" y="1" width="20" height="18"/>
+</draw_ops>
+<draw_ops name="button_menu_inactive_prelight">
+<image filename="menu.png" x="0" y="1" width="20" height="18"/>
+</draw_ops>
+<draw_ops name="button_menu_pressed">
+<image filename="menu_over.png" x="0" y="1" width="20" height="18"/>
+</draw_ops>
+<draw_ops name="button_menu_inactive">
+<image filename="menu.png" x="0" y="1" width="20" height="18"/>
+</draw_ops>
+
+<!-- Frame styles -->
+<frame_style name="frame_style_normal_focused" geometry="frame_geometry_normal">
+   <piece position="title" draw_ops="draw_title_text_normal"/>
+   <piece position="titlebar" draw_ops="draw_title"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="buttontrough_close_normal"/>
+   <button function="close" state="prelight" draw_ops="buttontrough_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="buttontrough_close_pressed"/>
+   <button function="minimize" state="normal" draw_ops="buttontrough_min_normal"/>
+   <button function="minimize" state="prelight" draw_ops="buttontrough_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="buttontrough_min_pressed"/>
+   <button function="maximize" state="normal" draw_ops="buttontrough_max_normal"/>
+   <button function="maximize" state="prelight" draw_ops="buttontrough_max_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="buttontrough_max_pressed"/>
+   <button function="menu" state="normal" draw_ops="button_menu_normal"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_pressed"/>
+</frame_style>
+
+<frame_style name="frame_style_normal_unfocused" geometry="frame_geometry_normal">
+   <piece position="title" draw_ops="draw_title_text_inactive"/>
+   <piece position="titlebar" draw_ops="draw_title_inactive"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="buttontrough_close_inactive"/>
+   <button function="close" state="prelight" draw_ops="buttontrough_close_inactive_prelight"/>
+   <button function="close" state="pressed" draw_ops="buttontrough_close_inactive"/>
+   <button function="minimize" state="normal" draw_ops="buttontrough_min_inactive"/>
+   <button function="minimize" state="prelight" draw_ops="buttontrough_min_inactive_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="buttontrough_min_inactive"/>
+   <button function="maximize" state="normal" draw_ops="buttontrough_max_inactive"/>
+   <button function="maximize" state="prelight" draw_ops="buttontrough_max_inactive_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="buttontrough_max_inactive"/>
+   <button function="menu" state="normal" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_inactive_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_inactive"/>
+</frame_style>
+
+<frame_style name="frame_style_maximized_focused" geometry="frame_geometry_abnormal">
+   <piece position="title" draw_ops="draw_title_text_normal"/>
+   <piece position="titlebar" draw_ops="draw_title_maximized"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="buttontrough_close_normal"/>
+   <button function="close" state="prelight" draw_ops="buttontrough_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="buttontrough_close_pressed"/>
+   <button function="minimize" state="normal" draw_ops="buttontrough_min_normal"/>
+   <button function="minimize" state="prelight" draw_ops="buttontrough_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="buttontrough_min_pressed"/>
+   <button function="maximize" state="normal" draw_ops="buttontrough_max_restore"/>
+   <button function="maximize" state="prelight" draw_ops="buttontrough_max_restore_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="buttontrough_max_restore"/>
+   <button function="menu" state="normal" draw_ops="button_menu_normal"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_normal"/>
+</frame_style>
+
+<frame_style name="frame_style_maximized_unfocused" geometry="frame_geometry_abnormal">
+   <piece position="title" draw_ops="draw_title_text_inactive"/>
+   <piece position="titlebar" draw_ops="draw_title_maximized_inactive"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="buttontrough_close_inactive"/>
+   <button function="close" state="prelight" draw_ops="buttontrough_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="buttontrough_close_inactive"/>
+   <button function="minimize" state="normal" draw_ops="buttontrough_min_inactive"/>
+   <button function="minimize" state="prelight" draw_ops="buttontrough_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="buttontrough_min_inactive"/>
+   <button function="maximize" state="normal" draw_ops="buttontrough_max_restore_inactive"/>
+   <button function="maximize" state="prelight" draw_ops="buttontrough_max_restore_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="buttontrough_max_restore"/>
+   <button function="menu" state="normal" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_inactive"/>
+</frame_style>
+
+<frame_style name="frame_style_normal_focused2" geometry="frame_geometry_normal">
+   <piece position="title" draw_ops="draw_title_text_normal"/>
+   <piece position="titlebar" draw_ops="draw_title"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="button_close_normal"/>
+   <button function="close" state="prelight" draw_ops="button_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="button_close_pressed"/>
+   <button function="minimize" state="normal" draw_ops="button_min_normal"/>
+   <button function="minimize" state="prelight" draw_ops="button_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="button_min_pressed"/>
+   <button function="maximize" state="normal" draw_ops="button_max_normal"/>
+   <button function="maximize" state="prelight" draw_ops="button_max_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="button_max_pressed"/>
+   <button function="menu" state="normal" draw_ops="button_menu_normal"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_pressed"/>
+</frame_style>
+
+<frame_style name="frame_style_normal_unfocused2" geometry="frame_geometry_normal">
+   <piece position="title" draw_ops="draw_title_text_inactive"/>
+   <piece position="titlebar" draw_ops="draw_title_inactive"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="button_close_inactive"/>
+   <button function="close" state="prelight" draw_ops="button_close_inactive_prelight"/>
+   <button function="close" state="pressed" draw_ops="button_close_inactive"/>
+   <button function="minimize" state="normal" draw_ops="button_min_inactive"/>
+   <button function="minimize" state="prelight" draw_ops="button_min_inactive_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="button_min_inactive"/>
+   <button function="maximize" state="normal" draw_ops="button_max_inactive"/>
+   <button function="maximize" state="prelight" draw_ops="button_max_inactive_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="button_max_inactive"/>
+   <button function="menu" state="normal" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_inactive_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_inactive"/>
+</frame_style>
+
+<frame_style name="frame_style_maximized_focused2" geometry="frame_geometry_abnormal">
+   <piece position="title" draw_ops="draw_title_text_normal"/>
+   <piece position="titlebar" draw_ops="draw_title_maximized"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="button_close_normal"/>
+   <button function="close" state="prelight" draw_ops="button_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="button_close_pressed"/>
+   <button function="minimize" state="normal" draw_ops="button_min_normal"/>
+   <button function="minimize" state="prelight" draw_ops="button_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="button_min_pressed"/>
+   <button function="maximize" state="normal" draw_ops="button_max_restore"/>
+   <button function="maximize" state="prelight" draw_ops="button_max_restore_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="button_max_restore"/>
+   <button function="menu" state="normal" draw_ops="button_menu_normal"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_prelight"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_normal"/>
+</frame_style>
+
+<frame_style name="frame_style_maximized_unfocused2" geometry="frame_geometry_abnormal">
+   <piece position="title" draw_ops="draw_title_text_inactive"/>
+   <piece position="titlebar" draw_ops="draw_title_maximized_inactive"/>
+   <piece position="left_edge" draw_ops="draw_frame"/>
+   <piece position="right_edge" draw_ops="draw_frame"/>
+   <piece position="bottom_edge" draw_ops="bottom_edge"/>
+   <button function="close" state="normal" draw_ops="button_close_inactive"/>
+   <button function="close" state="prelight" draw_ops="button_close_prelight"/>
+   <button function="close" state="pressed" draw_ops="button_close_inactive"/>
+   <button function="minimize" state="normal" draw_ops="button_min_inactive"/>
+   <button function="minimize" state="prelight" draw_ops="button_min_prelight"/>
+   <button function="minimize" state="pressed" draw_ops="button_min_inactive"/>
+   <button function="maximize" state="normal" draw_ops="button_max_restore"/>
+   <button function="maximize" state="prelight" draw_ops="button_max_restore_prelight"/>
+   <button function="maximize" state="pressed" draw_ops="button_max_restore"/>
+   <button function="menu" state="normal" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="prelight" draw_ops="button_menu_inactive"/>
+   <button function="menu" state="pressed" draw_ops="button_menu_inactive"/>
+</frame_style>
+
+<frame_style_set name="frame_style_set_normal">
+  <frame focus="yes" state="normal" resize="both" style="frame_style_normal_focused"/>
+  <frame focus="no" state="normal" resize="both" style="frame_style_normal_unfocused"/>
+  <frame focus="yes" state="maximized" style="frame_style_maximized_focused"/>
+  <frame focus="no" state="maximized" style="frame_style_maximized_unfocused"/>
+  <frame focus="yes" state="shaded" style="frame_style_normal_focused"/>
+  <frame focus="no" state="shaded" style="frame_style_normal_unfocused"/>
+  <frame focus="yes" state="maximized_and_shaded" style="frame_style_maximized_focused"/>
+  <frame focus="no" state="maximized_and_shaded" style="frame_style_maximized_unfocused"/>
+</frame_style_set>
+
+<frame_style_set name="frame_style_set_other">
+  <frame focus="yes" state="normal" resize="both" style="frame_style_normal_focused2"/>
+  <frame focus="no" state="normal" resize="both" style="frame_style_normal_unfocused2"/>
+  <frame focus="yes" state="maximized" style="frame_style_maximized_focused2"/>
+  <frame focus="no" state="maximized" style="frame_style_maximized_unfocused2"/>
+  <frame focus="yes" state="shaded" style="frame_style_normal_focused2"/>
+  <frame focus="no" state="shaded" style="frame_style_normal_unfocused2"/>
+  <frame focus="yes" state="maximized_and_shaded" style="frame_style_maximized_focused2"/>
+  <frame focus="no" state="maximized_and_shaded" style="frame_style_maximized_unfocused2"/>
+</frame_style_set>
+
+<window type="normal" style_set="frame_style_set_normal"/>
+<window type="dialog" style_set="frame_style_set_other"/>
+<window type="modal_dialog" style_set="frame_style_set_other"/>
+<window type="menu" style_set="frame_style_set_other"/>
+<window type="utility" style_set="frame_style_set_other"/>
+<window type="border" style_set="frame_style_set_other"/>
+
+<menu_icon function="close" state="normal" draw_ops="button_close_normal"/>
+<menu_icon function="maximize" state="normal" draw_ops="button_max_normal"/>
+<menu_icon function="unmaximize" state="normal" draw_ops="button_max_normal"/>
+<menu_icon function="minimize" state="normal" draw_ops="button_min_normal"/>
+
+
+</metacity_theme>

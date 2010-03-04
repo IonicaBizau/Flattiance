@@ -1,0 +1,220 @@
+phase-themes (0.1.4ubuntu2.13) lucid; urgency=low
+
+  * Fixing insensitive fg color
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 04 Mar 2010 10:03:55 +0000
+
+phase-themes (0.1.4ubuntu2.12) lucid; urgency=low
+
+  * Changing GtkScale color order 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Mar 2010 18:08:01 +0000
+
+phase-themes (0.1.4ubuntu2.11) lucid; urgency=low
+
+  * Adding new close button pics
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Mar 2010 17:39:00 +0000
+
+phase-themes (0.1.4ubuntu2.10) lucid; urgency=low
+
+  * Adding restore button states 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Mar 2010 11:44:00 +0000
+
+phase-themes (0.1.4ubuntu2.9) lucid; urgency=low
+
+  * Adding dependency on new icon theme 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 02 Mar 2010 19:20:42 +0000
+
+phase-themes (0.1.4ubuntu2.8) lucid; urgency=low
+
+  * Adding insensitive button states to fix bug 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 02 Mar 2010 17:29:46 +0000
+
+phase-themes (0.1.4ubuntu2.7) lucid; urgency=low
+
+  * Made progress bars orange, bg to scale orange and set new radioCheck orange 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 25 Feb 2010 15:18:35 +0000
+
+phase-themes (0.1.4ubuntu2.6) lucid; urgency=low
+
+  * Updating CSD code to include unfocused buttons on both themes
+  * Min button now showing
+  * Minor improvements to keep things better in line
+  * Created and included unfocused buttons for light theme
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 23 Feb 2010 11:09:31 +0000
+
+phase-themes (0.1.4ubuntu2.5) lucid; urgency=low
+
+  * Adding two new theme variants 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 17 Feb 2010 03:20:50 -0800
+
+phase-themes (0.1.4ubuntu2.4) lucid; urgency=low
+
+  * Initial Client Side Decoration implementation
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 10 Feb 2010 09:32:54 +0100
+
+phase-themes (0.1.4ubuntu2.1) karmic; urgency=low
+
+  * More light theme fixes
+
+  * Removed unescesary code from both dark and light theme
+
+  * Made outer line on dark metacity theme a lighter color
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 09 Feb 2010 15:00:37 +0100
+
+phase-themes (0.1.4ubuntu2) lucid; urgency=low
+
+  * Updating dark theme to fix y padding on menus
+
+  * Updating light theme to match panel text, new tooltips and more
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 09 Feb 2010 10:59:25 +0100
+
+phase-themes (0.1.3ubuntu18) karmic; urgency=low
+
+  * Adding new relief style, fix for new widget and new comboBoxEntry to closer match mockups
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 05 Feb 2010 13:01:59 -0800
+
+phase-themes (0.1.3ubuntu17) lucid; urgency=low
+
+  * Updating tooltip rounding, menu select roundness
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Feb 2010 11:56:58 -0800
+
+phase-themes (0.1.3ubuntu15) lucid; urgency=low
+
+  * Fixing quotation error and going to bed
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 03 Feb 2010 01:20:10 -0800
+
+phase-themes (0.1.3ubuntu13) lucid; urgency=low
+
+  * Adding unfocused window buttons states and images and including new tooltop definitions
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 02 Feb 2010 15:24:05 -0800
+
+phase-themes (0.1.3ubuntu11) lucid; urgency=low
+
+  * SPECIAL PACKAGE FOR JONO
+
+  * Adding prelight states for window buttons, very slight effect 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 27 Jan 2010 16:12:10 +0100
+
+phase-themes (0.1.3ubuntu9) lucid; urgency=low
+
+  * Tweaked all buttons and spacing, adding new max_restore states for maximised windows 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 27 Jan 2010 13:13:24 +0100
+
+phase-themes (0.1.3ubuntu7) lucid; urgency=low
+
+  * Left aligning the title text 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 26 Jan 2010 18:10:39 +0100
+
+phase-themes (0.1.3ubuntu5) lucid; urgency=low
+
+  * ADding new button design and moving old to different theme for testing
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 26 Jan 2010 12:14:14 +0100
+
+phase-themes (0.1.3ubuntu3) lucid; urgency=low
+
+  * Changed title color outline on focused windows
+
+  * Slightly improved the bottom corner outlines, needs extra inner line to simulating anti-aliasing - TODO
+
+  * Moved titles back and forth
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 21 Jan 2010 23:40:05 +0100
+
+phase-themes (0.1.3) lucid; urgency=low
+
+  * Bumping version number for lucid ppa build
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 21 Jan 2010 12:56:35 +0100
+
+phase-themes (0.1.2ubuntu9) lucid; urgency=low
+
+  * New metacity buttons with trough for normal window, utility, dialog, menu and co all use buttons with trough to avoid design problems with button orders vs backgrounds 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 21 Jan 2010 12:26:54 +0100
+
+phase-themes (0.1.2ubuntu8) lucid; urgency=low
+
+  * Fixing bug in window.pane handle size 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 19 Jan 2010 17:23:31 +0100
+
+phase-themes (0.1.2ubuntu7) lucid; urgency=low
+
+  * Changed buttons and script to min,max:close 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 19 Jan 2010 15:18:41 +0100
+
+phase-themes (0.1.2ubuntu6) lucid; urgency=low
+
+  * Latest changes included in ppa, totally secret don't tell your friends! 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 19 Jan 2010 00:47:50 +0100
+
+phase-themes (0.1.2ubuntu5) karmic; urgency=low
+
+  * Fixing OOo menu problems, fixing gconf settings 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 15 Jan 2010 15:37:51 +0100
+
+phase-themes (0.1.2ubuntu4) karmic; urgency=low
+
+  * Adding gconf settings for button placement and thereby removing the menu button
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 14 Jan 2010 23:12:22 +0100
+
+phase-themes (0.1.2ubuntu3) karmic; urgency=low
+
+  * increased vertical padding on maximized windows, removed title text padding which is solved by direct placement 
+
+  * Looking into speed improvements by reducing number of combobox work arounds 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 14 Jan 2010 22:35:06 +0100
+
+phase-themes (0.1.2ubuntu2) karmic; urgency=low
+
+  * Finally fixing the comboBoxMenu text color with a work-around and various other fixes 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 14 Jan 2010 15:15:13 +0100
+
+phase-themes (0.1.2ubuntu1) karmic; urgency=low
+
+  * Adding outlines to window deco titles, fixing menu roundness and menu padding 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 14 Jan 2010 13:38:46 +0100
+
+phase-themes (0.1.2) karmic; urgency=low
+
+  * Including various fixes from the London session with Otto
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 13 Jan 2010 16:29:11 +0100
+
+phase-themes (0.1.1) karmic; urgency=low
+
+  * Menu buttons, button rounding, menu colors in certain apps 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 16 Dec 2009 15:49:25 +0100
+
+phase-themes (0.1) lucid; urgency=low
+
+  * Initial packaging
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 13 Dec 2009 17:08:20 +0200

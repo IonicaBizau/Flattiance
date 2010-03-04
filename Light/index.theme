@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Light
+Comment=Ubuntu Light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Light
+MetacityTheme=Light
+IconTheme=ubuntu-mono-light
+CursorTheme=DMZ-White
