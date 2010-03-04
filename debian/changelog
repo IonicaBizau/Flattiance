@@ -1,3 +1,9 @@
+phase-themes (0.1.4ubuntu2.15) lucid; urgency=low
+
+  * Fixing problems with SoundMenu, MeMenu and window deco's 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 04 Mar 2010 18:05:11 +0000
+
 phase-themes (0.1.4ubuntu2.14) lucid; urgency=low
 
   * Adding bits to fix SoundMenu problems 

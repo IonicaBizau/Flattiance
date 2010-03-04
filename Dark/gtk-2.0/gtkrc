@@ -9,7 +9,7 @@ style "default"
 	xthickness = 1
 	ythickness = 1
 
-	GtkWidget      ::new-tooltip-style    = 1
+	GtkWidget::new-tooltip-style = 1
 
 	GtkScrolledWindow ::scrollbar-spacing = 0
 	GtkScrolledWindow ::scrollbar-within-bevel = 0
@@ -56,7 +56,7 @@ style "default"
 	fg[PRELIGHT]      = @fg_color
 	fg[SELECTED]      = @selected_fg_color
 	fg[ACTIVE]        = @fg_color
-	fg[INSENSITIVE]   = shade(0.8, @bg_color)
+	fg[INSENSITIVE]   = shade (0.8, @bg_color)
 
 	bg[NORMAL]        = @bg_color
 	bg[PRELIGHT]      = shade (1.02, @bg_color)
@@ -80,7 +80,7 @@ style "default"
 		arrowstyle         = 1
 		animation           = FALSE  # FALSE = disabled, TRUE = enabled
 		colorize_scrollbar  = FALSE # FALSE = disabled, TRUE = enabled
-		comboboxstyle	    = 1
+		comboboxstyle	= 1
 		contrast            = 0.4  # 0.8 for less contrast, more than 1.0 for more contrast on borders
 		glazestyle          = 3     # 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
                 glow_shade          = 1.1
@@ -161,13 +161,6 @@ style "notebook" = "notebook-bg"
 	bg[PRELIGHT] = shade (1.0, @bg_color)
 	bg[SELECTED] = shade (0.9, @bg_color)
 
- #       engine "murrine" {
- #           glowstyle = 2
- #           roundness = 4
- #           highlight_shade = 1.0
-  #          lightborder_shade   = 1.0
-  #          gradient_shades = {1.3,1.1,0.8,1.0}
-  #      }
 }
 
 style "panel" {
@@ -187,7 +180,6 @@ style "panel" {
         engine "murrine" {
             roundness = 0
         }
-
 }
 
 style "menu" 
@@ -271,8 +263,6 @@ style "progressbar"
 	xthickness = 0
 	ythickness = 0
 
-#	bg[SELECTED] = "#d43500"
-
 	bg[SELECTED] = "#f15d2c"
 
 	fg[PRELIGHT] ="#fff"
@@ -351,8 +341,6 @@ style "radiocheck"
 {
 #	text[NORMAL]	= @selected_fg_color	# Color for selected checks/radio items.
 #	text[PRELIGHT]	= @selected_fg_color	# Color for selected checks/radio items on prelight.
-
-	
 	bg[SELECTED] = "#f15d2c"
 	bg[NORMAL]   = mix (0.3, @selected_bg_color, @bg_color)
 
@@ -363,29 +351,12 @@ style "radiocheck"
 	    gradient_shades = {1.5,1.3,1.0,0.9}
 	}
 }
-
-
-style "soundmenu"
-{
-	fg[NORMAL]        = @fg_color
-	fg[PRELIGHT]      = @fg_color
-	fg[SELECTED]      = @selected_fg_color
-	fg[ACTIVE]        = @fg_color
-	fg[INSENSITIVE]   = shade(0.8, @bg_color)
-
-        engine "murrine" {
-             glowstyle = 0
-             roundness = 0
-             highlight_shade = 1.0
-             lightborder_shade   = 1.0
-            gradient_shades = {1.0,1.0,1.0,1.0}
-        }
-}
 #########################################
 # Matches
 #########################################
 
-widget "ido-offscreen-scale" style "soundmenu"
+widget "ido-offscreen-scale" style "menubar"
+widget "*IdoEntryMenuItem*" style "wide"
 
 # default style is applied to every widget
 class "GtkWidget"    style "default"
@@ -464,7 +435,7 @@ widget "*TomboyApplet*"					style "panel"
 
 #XFCE panel
 widget_class "*notif*"		style "panel"
-widget_class "*Notif*"		style "panel"
+widget_class "*Notif*"	widget "*IdoEntryMenuItem*" style "wide"	style "panel"
 widget_class "*Tray*"		style "panel"
 widget_class "*tray*"		style "panel"
 widget "*Xfce*Panel*"		style "panel"

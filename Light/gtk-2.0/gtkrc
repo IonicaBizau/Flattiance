@@ -9,7 +9,7 @@ style "default"
 	xthickness = 1
 	ythickness = 1
 
-	GtkWidget      ::new-tooltip-style    = 1
+	GtkWidget::new-tooltip-style = 1
 
 	GtkScrolledWindow ::scrollbar-spacing = 0
 	GtkScrolledWindow ::scrollbar-within-bevel = 0
@@ -153,7 +153,6 @@ style "toolbar-sep" = "toolbar-item"
 style "notebook-bg" = "wider"
 {
 
-
 }
 
 style "notebook" = "notebook-bg"
@@ -161,13 +160,6 @@ style "notebook" = "notebook-bg"
 	bg[NORMAL]   = @bg_color
 	bg[ACTIVE]   = shade (1.2, @selected_bg_color)
 
- #       engine "murrine" {
-  #          glowstyle = 2
-   #         roundness = 4
-    #        highlight_shade = 1.0
-     #       lightborder_shade   = 1.0
-      #      gradient_shades = {1.0,1.0,1.0,1.0}
-       # }
 }
 
 style "panel" {
@@ -177,7 +169,6 @@ style "panel" {
 
 	bg[NORMAL] = "#faf7ee"
 	bg_pixmap[NORMAL] = "panel_bg.png"
-
         engine "murrine" {
             roundness = 0
         }
@@ -338,28 +329,12 @@ style "radiocheck"
 	}
 }
 
-style "soundmenu"
-{
-	fg[NORMAL]        = @fg_color
-	fg[PRELIGHT]      = @fg_color
-	fg[SELECTED]      = @selected_fg_color
-	fg[ACTIVE]        = @fg_color
-	fg[INSENSITIVE]   = shade(0.8, @bg_color)
-
-        engine "murrine" {
-            glowstyle = 0
-            roundness = 0
-            highlight_shade = 1.0
-            lightborder_shade   = 1.0
-            gradient_shades = {1.0,1.0,1.0,1.0}
-        }
-
-}
 #########################################
 # Matches
 #########################################
 
-widget "ido-offscreen-scale" style "soundmenu"
+widget "ido-offscreen-scale" style "menubar"
+widget "*IdoEntryMenuItem*" style "wide"
 
 # default style is applied to every widget
 class "GtkWidget"    style "default"
