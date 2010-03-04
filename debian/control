@@ -1,16 +1,16 @@
-Source: phase-themes
+Source: light-themes
 Section: gnome
 Priority: optional
 Maintainer: Kenneth Wimer <kwwii@ubuntu.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
 
-Package: phase-themes
+Package: light-themes
 Architecture: all
 Depends: ${misc:Depends},
          ubuntu-mono,
          gtk2-engines-murrine (> 0.90.3),
          humanity-icon-theme
-Description: Phase themes
- Includes Dark and Light theme now also with client side window deco versions
+Description: Light Themes
+ Includes Ambiance and Radiance themes
 
