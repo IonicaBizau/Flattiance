@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Dark
-Comment=Ubuntu Dark theme
+Name=Ambiance
+Comment=Ubuntu Ambiance theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Dark
-MetacityTheme=Dark
+GtkTheme=Ambiance
+MetacityTheme=Ambiance
 IconTheme=ubuntu-mono-dark
 CursorTheme=DMZ-White

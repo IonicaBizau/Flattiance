@@ -1,4 +1,4 @@
-# Light theme
+# Radiance theme
 
 gtk_color_scheme = "fg_color:#404040\nbg_color:#F7F5F2\nbase_color:#ffffff\ntext_color:#323232\nselected_bg_color:#d6d4ca\nselected_fg_color:#323232\ntooltip_bg_color:#300a24\ntooltip_fg_color:#fff"
 
@@ -283,8 +283,8 @@ style "spinbutton"
 
 style "scale"
 {
-	bg[NORMAL] = "#f15d2c"
-	bg[ACTIVE] = shade (1.0, @selected_bg_color)
+	bg[NORMAL] = shade (1.0, @selected_bg_color)
+	bg[SELECTED] = "#f15d2c"
 
 	engine "murrine"{
 	    roundness = 8
