@@ -1,3 +1,31 @@
+light-themes (0.1.5.5) lucid; urgency=low
+
+  [ James Schriver ]
+  * Ambiance/Radiance: Deprecate pixmap scrollbars now drawn via the murrine engine 
+   - Visual refresh of buttons, notebook, comboboxentry for theme consistency
+   - Add border_shade and colors
+   - Add additional murrine options through_shades, shadow_shades, etc.
+   - Sync scale with visual scrollbar changes for theme consistency
+   - Fix blurry BG[INSENSITIVE] text/menubar text
+   - Fix GtkScrollbar::min-slider-length = 36 (LP: #533537).
+   - Adjust global border_shades for consistent shading with combobox
+  * Ambiance: Fix text on memenu (LP: #532843).
+   - Clean up panel; Fix (LP: # 533081) panel buttons with no contrast 
+   - Fix statusbar (LP: # 532964).
+   - Fix dark text CPU applet on panel (LP: # 532385).
+   - Fix system monitor artifacts (LP: # 533271).
+   - Fix Gedit and Gimp menu separators (LP: # 532323).
+  * Radiance: Fix indistinguishable notebook tabs (LP: #532340).
+   - Fix statusbar (LP: # 532693).
+  * Ambiance/Radiance: Fix metacity frame_style_maximized close and minimize unfocused prelight (LP: #532690).
+
+  [ Kenneth Wimer ]
+  * Ambiance/Radiance: set trough border only under scrollbar
+  * Ambiance/Radiance: set automnemonics to 1
+  * Setting focus_color
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Mon, 08 Mar 2010 21:13:33 +0100
+
 light-themes (0.1.5.4) lucid; urgency=low
 
   * debian/gconf-defaults:

@@ -275,6 +275,9 @@
 <draw_ops name="buttontrough_max_restore_prelight">
     <image filename="buttontrough_max_restore_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
+<draw_ops name="buttontrough_max_restore_inactive_prelight">
+    <image filename="buttontrough_max_prelight_restore_unfocused.png" x="0" y="1" width="object_width" height="object_height"/>
+</draw_ops>
 <!-- minimize button-->
 <draw_ops name="button_min_normal">
     <image filename="button_min_normal.png" x="0" y="1" width="object_width" height="object_height"/>
@@ -393,13 +396,13 @@
    <piece position="right_edge" draw_ops="draw_frame"/>
    <piece position="bottom_edge" draw_ops="bottom_edge"/>
    <button function="close" state="normal" draw_ops="buttontrough_close_inactive"/>
-   <button function="close" state="prelight" draw_ops="buttontrough_close_prelight"/>
+   <button function="close" state="prelight" draw_ops="buttontrough_close_inactive_prelight"/>
    <button function="close" state="pressed" draw_ops="buttontrough_close_inactive"/>
    <button function="minimize" state="normal" draw_ops="buttontrough_min_inactive"/>
-   <button function="minimize" state="prelight" draw_ops="buttontrough_min_prelight"/>
+   <button function="minimize" state="prelight" draw_ops="buttontrough_min_inactive_prelight"/>
    <button function="minimize" state="pressed" draw_ops="buttontrough_min_inactive"/>
    <button function="maximize" state="normal" draw_ops="buttontrough_max_restore_inactive"/>
-   <button function="maximize" state="prelight" draw_ops="buttontrough_max_restore_prelight"/>
+   <button function="maximize" state="prelight" draw_ops="buttontrough_max_restore_inactive_prelight"/>
    <button function="maximize" state="pressed" draw_ops="buttontrough_max_restore"/>
    <button function="menu" state="normal" draw_ops="button_menu_inactive"/>
    <button function="menu" state="prelight" draw_ops="button_menu_inactive"/>

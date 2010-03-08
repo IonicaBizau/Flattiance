@@ -338,10 +338,10 @@
    <piece position="right_edge" draw_ops="draw_frame"/>
    <piece position="bottom_edge" draw_ops="bottom_edge"/>
    <button function="close" state="normal" draw_ops="button_close_inactive"/>
-   <button function="close" state="prelight" draw_ops="button_close_prelight"/>
+   <button function="close" state="prelight" draw_ops="button_close_inactive_prelight"/>
    <button function="close" state="pressed" draw_ops="button_close_inactive"/>
    <button function="minimize" state="normal" draw_ops="button_min_inactive"/>
-   <button function="minimize" state="prelight" draw_ops="button_min_prelight"/>
+   <button function="minimize" state="prelight" draw_ops="button_min_inactive_prelight"/>
    <button function="minimize" state="pressed" draw_ops="button_min_inactive"/>
    <button function="maximize" state="normal" draw_ops="button_max_inactive_restore_unfocused"/>
    <button function="maximize" state="prelight" draw_ops="button_max_inactive_prelight_restore_unfocused"/>
