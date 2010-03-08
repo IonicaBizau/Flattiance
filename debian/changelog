@@ -1,3 +1,13 @@
+light-themes (0.1.5.4) lucid; urgency=low
+
+  * debian/gconf-defaults:
+    - correctly set the wm buttons on the left corner
+
+  [ James Schriver ]
+  * Fix dark menubar text OOo (LP: #532461).
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 05 Mar 2010 15:09:46 +0100
+
 light-themes (0.1.5.3) lucid; urgency=low
 
   * Update by Kenneth Wimer to fix some other issue

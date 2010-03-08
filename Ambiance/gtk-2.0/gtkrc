@@ -322,6 +322,8 @@ style "menubar" = "default"
 	fg[SELECTED]      = @base_color
 	fg[ACTIVE]        = @base_color
 	fg[INSENSITIVE]   = "#99958b"
+
+	text[NORMAL] = @bg_color               # Menubar text (OOo) 
 }
 
 style "frame"
