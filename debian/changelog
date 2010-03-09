@@ -1,6 +1,12 @@
+ubuntu-mono (0.0.7~ppa1) lucid; urgency=low
+
+  * Updating network-offline and new messages icons 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 09 Mar 2010 15:49:14 +0000
+
 ubuntu-mono (0.0.6) lucid; urgency=low
 
-  * Adding newest icons, volume fix  
+  * Adding newest icons, volume fix
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 04 Mar 2010 19:03:34 +0000
 
