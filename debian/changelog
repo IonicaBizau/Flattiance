@@ -1,3 +1,9 @@
+light-themes (0.1.5.6) lucid; urgency=low
+
+  * Bringing things back inline with the original design
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 09 Mar 2010 11:42:16 +0000
+
 light-themes (0.1.5.5) lucid; urgency=low
 
   [ James Schriver ]

@@ -24,9 +24,9 @@ style "default"
 
 	GtkPaned::handle-size = 6
 
-	GtkRange::trough-border = 1
+	GtkRange::trough-border = 0
 	GtkRange::slider-width = 16
-	GtkRange::stepper-size = 12
+	GtkRange::stepper-size = 20
         GtkRange::trough-under-steppers = 0
 
 	GtkScale::slider-length = 28
@@ -127,11 +127,17 @@ style "wider"
 
 style "button" = "wider"
 {
-        bg[NORMAL]  = "#D5CAB6"
-	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
-	bg[SELECTED] = shade (1.0, "#D5CAB6")
-	bg[ACTIVE] = shade (0.9, "#D5CAB6")
-	bg[INSENSITIVE] = mix (0.3, @selected_bg_color, @bg_color)
+#        bg[NORMAL]  = "#D5CAB6"
+#	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
+#	bg[SELECTED] = shade (1.0, "#D5CAB6")
+#	bg[ACTIVE] = shade (0.9, "#D5CAB6")
+#	bg[INSENSITIVE] = mix (0.3, @selected_bg_color, @bg_color)
+
+	bg[NORMAL]   = shade (0.9, @selected_bg_color)
+	bg[PRELIGHT] = shade (1.0, @selected_bg_color)
+	bg[SELECTED] = shade (1.0, @selected_bg_color)
+	bg[ACTIVE]   = shade (0.9, @selected_bg_color)
+	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color) 
 }
 
 style "entry" = "wider"
@@ -289,19 +295,31 @@ style "comboboxentry"
 	ythickness = 3
 	xthickness = 3
 		
-	bg[NORMAL]   = "#D5CAB6"
-	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
-	bg[SELECTED] = shade (1.0, "#D5CAB6")
-	bg[ACTIVE]   = shade (0.9, "#D5CAB6")
+#	bg[NORMAL]   = "#D5CAB6"
+#	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
+#	bg[SELECTED] = shade (1.0, "#D5CAB6")
+#	bg[ACTIVE]   = shade (0.9, "#D5CAB6")
+#	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color)
+
+	bg[NORMAL]   = shade (0.9, @selected_bg_color)
+	bg[PRELIGHT] = shade (1.0, @selected_bg_color)
+	bg[SELECTED] = shade (1.0, @selected_bg_color)
+	bg[ACTIVE]   = shade (0.9, @selected_bg_color)
 	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color)
 }
 
 style "spinbutton"
 {
-	bg[NORMAL]   = "#D5CAB6"
-	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
-	bg[SELECTED] = shade (1.0, "#D5CAB6")
-	bg[ACTIVE]   = shade (0.9, "#D5CAB6")
+#	bg[NORMAL]   = "#D5CAB6"
+#	bg[PRELIGHT] = shade (1.2, "#D5CAB6")
+#	bg[SELECTED] = shade (1.0, "#D5CAB6")
+#	bg[ACTIVE]   = shade (0.9, "#D5CAB6")
+#	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color)
+
+	bg[NORMAL]   = shade (0.9, @selected_bg_color)
+	bg[PRELIGHT] = shade (1.0, @selected_bg_color)
+	bg[SELECTED] = shade (1.0, @selected_bg_color)
+	bg[ACTIVE]   = shade (0.9, @selected_bg_color)
 	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color)
 }
 
