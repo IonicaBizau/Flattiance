@@ -1,6 +1,6 @@
 # Radiance theme
 
-gtk_color_scheme = "fg_color:#404040\nbg_color:#F7F5F2\nbase_color:#ffffff\ntext_color:#323232\nselected_bg_color:#d6d4ca\nselected_fg_color:#323232\ntooltip_bg_color:#300a24\ntooltip_fg_color:#fff"
+gtk_color_scheme = "fg_color:#404040\nbg_color:#F7F5F2\nbase_color:#ffffff\ntext_color:#323232\nselected_bg_color:#d6d4ca\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#fff"
 
 #include "scrollbars/scrollbar.rc"
 
@@ -186,6 +186,7 @@ style "menu"
 	xthickness = 0
 	ythickness = 0
 
+	bg[NORMAL] = "#F7F5F2"
 	bg[INSENSITIVE]   = mix (0.4, @selected_bg_color, @bg_color)
 
         engine "murrine" {
@@ -206,8 +207,6 @@ style "menu-item" = "default"
 #           lightborder_shade   = 1.0
 #           gradient_shades = {1.0,1.0,1.0,1.0}
         }
-
-
 }
 
 style "separator-menu-item"
@@ -346,11 +345,17 @@ style "scrollbar"
 	}
 
 	bg[NORMAL]   = "#ECECEC"
+	bg[PRELIGHT] = shade (1.2, "#ECECEC")
 }
 
 style "menubar" = "default"
 {
 	bg[NORMAL]="#e0d6ba"
+}
+
+style "soundfix"
+{
+bg[NORMAL]="#F7F5F2"
 }
 
 style "frame"
@@ -393,7 +398,7 @@ style "radiocheck"
 # Matches
 #########################################
 
-widget "ido-offscreen-scale" style "menubar"
+widget "ido-offscreen-scale" style "soundfix"
 widget "*IdoEntryMenuItem*" style "wide"
 
 # default style is applied to every widget
@@ -421,13 +426,6 @@ style "text-is-fg-color-workaround"
 	text[INSENSITIVE] = darker (@bg_color)
 }
 widget_class "*.<GtkComboBox>.<GtkCellView>"   style "text-is-fg-color-workaround"
-
-style "text-is-fg-color-workaround-dark"
-{
-	#Make it work with this theme!
-	text[NORMAL] = @fg_color
-	text[PRELIGHT] = @selected_fg_color
-}
 
 class "GtkSpinButton"  style "spinbutton"
 class "GtkScale"       style "scale"
@@ -487,21 +485,6 @@ widget_class "*tray*"		style "panel"
 widget "*Xfce*Panel*"		style "panel"
 class "*Xfce*Panel*"		style "panel"
 
-# The following lines make panel-menu-applet, slab-main-menu and gimmie applet's text bold. The radius value sets the roundness value of the selected menu-item.
-#style "bold-panel-menu"
-#{
-#	font_name = "Bold"
-#}
-
-#style "bold-panel-slab"
-#{
-#	font_name = "Bold"
-#}
-#widget "*Panel*slab-main-menu-panel-button*" style "bold-panel-slab"
-#widget "*gimmie*" style "bold-panel-slab"
-#widget "*Panel*MenuBar*" style "bold-panel-menu"
-#widget "*Panel*Clock*" style "bold-panel-menu"
-
 widget "gtk-tooltip*" style "tooltips"
 
 ###################################################
@@ -517,7 +500,7 @@ widget_class "*.ETable.ECanvas"    style "treeview-header"
 widget_class "*.ETree.ECanvas"    style "treeview-header"
 
 # Firefox isn't nice to dark themes, so unset the dark stuff.
-widget "MozillaGtkWidget*Toolbar*"	style "toolbar-item"
+#widget "MozillaGtkWidget*Toolbar*"	style "toolbar-item"
 #widget "MozillaGtkWidget*Frame*"	style "default"
 
 # Monodevelop uses an OptionPanel widget, which incidentally is dark in our theme.
@@ -570,8 +553,7 @@ style "rhythmbox-header" = "default"
 {
 	xthickness = 3
 	ythickness = 3
-	engine "clearlooks" {
-	}
+
 }
 widget "*RBSourceHeader*"	style:highest "rhythmbox-header"
 widget "*HeaderToolbar*"	style:highest "rhythmbox-header"
