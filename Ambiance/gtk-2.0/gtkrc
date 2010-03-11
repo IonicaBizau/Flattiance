@@ -95,7 +95,7 @@ style "default"
 		lightborderstyle    	= 1     # 0 = lightborder on top side, 1 = lightborder on all sides
 		listviewheaderstyle 	= 1     # 0 = flat, 1 = glassy, 2 = raised
 		listviewstyle       	= 0     # 0 = nothing, 1 = dotted
-		menubaritemstyle   	= 1     # 0 = menuitem look, 1 = button look
+		menubaritemstyle   	= 0     # 0 = menuitem look, 1 = button look
 		menubarstyle        	= 0     # 0 = flat, 1 = glassy, 2 = gradient, 3 = striped
 		menuitemstyle       	= 0     # 0 = flat, 1 = glassy, 2 = striped
 		menustyle          	= 0     # 0 = no vertical menu stripe, 1 = display vertical menu stripe

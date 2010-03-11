@@ -1,3 +1,10 @@
+light-themes (0.1.5.7~ppa2) lucid; urgency=low
+
+  * Fixing panel spacing in Radiance
+  * Fixing menuitem look in Ambiance 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 11 Mar 2010 12:15:31 +0000
+
 light-themes (0.1.5.7~ppa1) lucid; urgency=low
 
   * Minor fixes in Ambiance, Radiance fix for lp:#522471

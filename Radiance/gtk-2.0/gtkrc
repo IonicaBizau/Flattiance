@@ -171,7 +171,7 @@ style "notebook" = "wider"
 
 style "panel" {
 
-	xthickness = 4
+	xthickness = 0
 	ythickness = 0
 
 	bg[NORMAL] = "#faf7ee"
