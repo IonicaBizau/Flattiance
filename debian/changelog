@@ -1,6 +1,7 @@
 ubuntu-mono (0.0.8~ppa2) lucid; urgency=low
 
   * Changing message new icon and user icons 
+  * Adding microblogging icon for messagemenu
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 11 Mar 2010 12:02:57 +0000
 
