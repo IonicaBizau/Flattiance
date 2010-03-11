@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.8~ppa2) lucid; urgency=low
+
+  * Changing message new icon and user icons 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 11 Mar 2010 12:02:57 +0000
+
 ubuntu-mono (0.0.8~ppa1) lucid; urgency=low
 
   * Fixing naming for SoundMenu icons to fix lp:#535064
