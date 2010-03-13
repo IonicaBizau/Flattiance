@@ -6,7 +6,7 @@ Inherits=Humanity,gnome,hicolor
 Example=directory-x-normal
 
 #Directory list
-Directories=actions/16,actions/22,actions/24,animations/24,animations/24,apps/22,apps/24,categories/22,categories/24,status/22,status/24
+Directories=actions/16,actions/22,actions/24,animations/24,animations/24,apps/16,apps/22,apps/24,categories/22,categories/24,status/22,status/24
 
 [actions/16]
 Size=16
@@ -31,6 +31,11 @@ Type=Fixed
 [animations/24]
 Size=24
 Context=Actions
+Type=Fixed
+
+[apps/16]
+Size=16
+Context=Applications
 Type=Fixed
 
 [apps/22]

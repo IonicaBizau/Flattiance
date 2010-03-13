@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.9~ppa1) lucid; urgency=low
+
+  * Adding Tomboy, Session Menu and -dark nm-applet wifi icons
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Sat, 13 Mar 2010 00:19:58 +0000
+
 ubuntu-mono (0.0.8~ppa2) lucid; urgency=low
 
   * Changing message new icon and user icons 
