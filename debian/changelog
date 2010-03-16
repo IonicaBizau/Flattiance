@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.9~ppa3) lucid; urgency=low
+
+  * Starting to add weather icons, work in progress 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 16 Mar 2010 12:35:14 +0000
+
 ubuntu-mono (0.0.9~ppa2) lucid; urgency=low
 
   * Adding MessagingMenu Chat and Email icons 
