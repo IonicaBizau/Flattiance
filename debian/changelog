@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.9~ppa5) lucid; urgency=low
+
+  * Adding new user status icons based on simple icons from new visual identity 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 18 Mar 2010 11:31:18 +0000
+
 ubuntu-mono (0.0.9~ppa4) lucid; urgency=low
 
   * Adding more weather icons and reworked microblogging 
