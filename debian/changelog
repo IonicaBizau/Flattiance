@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.9~ppa6) lucid; urgency=low
+
+  * Adding new broadcast icon (microblogging) 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 18 Mar 2010 16:24:57 +0000
+
 ubuntu-mono (0.0.9~ppa5) lucid; urgency=low
 
   * Adding new user status icons based on simple icons from new visual identity 
