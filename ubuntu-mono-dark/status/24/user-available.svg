@@ -15,7 +15,7 @@
    style="display:inline"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   sodipodi:docname="user-available-panel.svg"
+   sodipodi:docname="user-available.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata7">
@@ -29,8 +29,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="706"
-     inkscape:window-width="640"
+     inkscape:window-height="781"
+     inkscape:window-width="1440"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -41,20 +41,20 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="10.375"
-     inkscape:cx="12"
+     inkscape:zoom="20.75"
+     inkscape:cx="-2.8192771"
      inkscape:cy="12"
-     inkscape:window-x="55"
-     inkscape:window-y="43"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:current-layer="svg2816" />
   <defs
      id="defs2818" />
   <path
-     d="M 12.5,4.03125 C 9.951764,4.03125 7.6352076,4.8028559 5.90625,6.125 C 4.1772924,7.4471441 3.0312499,9.3601648 3.03125,11.5 C 3.03125,11.936421 3.1279529,12.323157 3.21875,12.71875 L 0.375,15.15625 C 0.070480924,15.417493 -0.043511926,15.83827 0.087495501,16.217502 C 0.21850293,16.596734 0.56791211,16.857426 0.96875,16.875 L 6.1875,16.96875 C 7.8895944,18.191586 10.05847,18.96875 12.5,18.96875 C 15.048236,18.96875 17.364792,18.197144 19.09375,16.875 C 20.822708,15.552856 21.968751,13.639836 21.96875,11.5 C 21.96875,9.3601647 20.822708,7.4471441 19.09375,6.125 C 17.364792,4.8028559 15.048236,4.0312499 12.5,4.03125 z"
+     d="M 10.633508,5 C 12.956963,5 15.069175,5.7748344 16.645621,7.1025105 C 18.222067,8.4301865 19.267017,10.351211 19.267017,12.5 C 19.267017,12.938247 19.178844,13.326601 19.096056,13.723849 L 21.688958,16.171548 C 21.966615,16.433884 22.070552,16.856422 21.9511,17.237241 C 21.83165,17.618059 21.513062,17.879842 21.147582,17.89749 L 16.38918,17.991632 C 14.837228,19.219584 12.85967,20 10.633508,20 C 8.310053,20 6.1978412,19.225166 4.6213952,17.89749 C 3.0449492,16.569814 1.9999991,14.648789 2,12.5 C 2,10.351211 3.0449492,8.4301865 4.6213952,7.1025105 C 6.1978412,5.7748344 8.310053,4.9999999 10.633508,5 z"
      id="path3189"
-     style="opacity:0.59999999999999998;fill:#43423e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999992999999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;color:#000000" />
+     style="opacity:0.59999999999999998;fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999992999999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="M 12.5,5 C 7.8079998,5 3.9999999,7.9120003 4,11.5 C 4,12.050338 4.1126247,12.583288 4.28125,13.09375 L 1,15.90625 L 6.375,16 C 7.9221381,17.23217 10.091504,18 12.5,18 C 17.192,18 21.000001,15.088 21,11.5 C 21,7.9120001 17.192,4.9999999 12.5,5 z"
+     d="M 10.65,6 C 14.8728,6 18.3,8.9120003 18.3,12.5 C 18.3,13.050338 18.198637,13.583288 18.046875,14.09375 L 21,16.90625 L 16.1625,17 C 14.770076,18.23217 12.817646,19 10.65,19 C 6.4272,19 2.9999991,16.088 3,12.5 C 3,8.9120001 6.4272,5.9999999 10.65,6 z"
      id="path2396"
-     style="opacity:1;fill:#dfd8c8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999992999999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;color:#000000" />
+     style="fill:#eae3d1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
 </svg>
