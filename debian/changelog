@@ -1,6 +1,7 @@
 ubuntu-mono (0.0.9~ppa6) lucid; urgency=low
 
   * Adding new broadcast icon (microblogging) 
+  * Adding new restart icons, work in progress
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 18 Mar 2010 16:24:57 +0000
 
