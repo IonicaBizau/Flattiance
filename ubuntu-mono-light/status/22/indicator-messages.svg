@@ -11,12 +11,16 @@
      id="defs3231" />
   <g
      transform="translate(-1,-1)"
-     id="layer1"
+     id="g3160"
      style="opacity:0.4">
     <path
-       d="M 4.3050355,6.0221223 C 3.6956293,6.0221223 3,6.7823212 3,7.3363212 L 3,16.634982 C 3,17.36596 3.788896,18 4.4535077,18 L 19.502248,18 C 20.299593,18 21,17.322163 21,16.62392 L 21,7.4645688 C 21,6.68903 20.310739,6 19.590737,6 L 4.3050355,6.0221223 z M 4.84375,7.15625 L 11.6875,14 L 12.28125,14 L 19.15625,7.15625 L 19.84375,7.84375 L 15.75,12 L 18.84375,15.15625 L 18.15625,15.84375 L 15,12.6875 L 12.71875,15 L 11.28125,15 L 9,12.6875 L 5.84375,15.875 L 5.15625,15.15625 L 8.28125,12 L 4.15625,7.84375 L 4.84375,7.15625 z"
+       d="M 4.3050355,6.0221223 C 3.6956293,6.0221223 3,6.7823212 3,7.3363212 L 3,16.634982 C 3,17.36596 3.788896,18 4.4535077,18 L 19.502248,18 C 20.299593,18 21,17.322163 21,16.62392 L 21,7.4645688 C 21,6.68903 20.310739,6 19.590737,6 L 4.3050355,6.0221223 z"
+       id="path2387"
+       style="fill:#3a3935;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 4.84375,7.15625 L 4.15625,7.84375 L 8.28125,12 L 5.15625,15.15625 L 5.84375,15.875 L 9,12.6875 L 11.28125,15 L 12.71875,15 L 15,12.6875 L 18.15625,15.84375 L 18.84375,15.15625 L 15.75,12 L 19.84375,7.84375 L 19.15625,7.15625 L 12.28125,14 L 11.6875,14 L 4.84375,7.15625 z"
        id="rect3170"
-       style="opacity:1;fill:#3a3935;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="fill:#eae3d1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
        width="19"
        height="13"
