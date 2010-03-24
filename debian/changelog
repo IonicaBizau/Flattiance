@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.9~ppa7) karmic; urgency=low
+
+  * Adding account-logged-in and new mail icon
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 24 Mar 2010 10:09:47 +0100
+
 ubuntu-mono (0.0.9~ppa6) lucid; urgency=low
 
   * Adding new broadcast icon (microblogging) 

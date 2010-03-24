@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="22"
+   height="22"
+   id="svg3174">
+  <defs
+     id="defs3176" />
+  <g
+     transform="translate(-0.9999997,-1.0008069)"
+     id="layer1">
+    <path
+       d="M 20.021118,13.041696 C 20.021632,17.818314 16.149561,21.690801 11.372943,21.690801 C 6.5963244,21.690801 2.7242541,17.818314 2.7247677,13.041696 C 2.7242541,8.2650776 6.5963244,4.3925908 11.372943,4.3925908 C 16.149561,4.3925908 20.021632,8.2650776 20.021118,13.041696 z"
+       transform="matrix(0.867235,0,0,0.867235,2.1369858,0.6897851)"
+       id="path2394"
+       style="opacity:0.6;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#eae3d0;stroke-width:1.15308988;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 12,5 C 8.1360001,5 5,8.1360005 5,12 C 5,15.864 8.1359999,18.999999 12,19 C 15.864,19 19,15.864 19,12 C 19,8.1360001 15.864,5.0000002 12,5 z M 15,7 L 17,9 L 11.5,16.5 L 7.5,13 L 9.5,11 L 11.5,13 L 15,7 z"
+       id="path2396"
+       style="opacity:1;fill:#3a3935;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 7.8544493,13 L 9.5,11.354449 L 11.554531,13.40898 L 15.054531,7.40898 L 16.672816,9.0272653 L 11.472735,16.145551 L 7.8544493,13 z"
+       id="path3170"
+       style="opacity:0.3;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
