@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.10~ppa2) lucid; urgency=low
+
+  * updating package number to build in ppa for lucid
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 24 Mar 2010 15:56:55 +0100
+
 ubuntu-mono (0.0.10~ppa1) karmic; urgency=low
 
   * Adding account-logged-in and new mail icon
