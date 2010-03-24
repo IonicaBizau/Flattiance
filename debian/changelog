@@ -1,50 +1,19 @@
-ubuntu-mono (0.0.9~ppa7) karmic; urgency=low
+ubuntu-mono (0.0.10~ppa1) karmic; urgency=low
 
   * Adding account-logged-in and new mail icon
   * Adding indeterminate states for me menu
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 24 Mar 2010 10:09:47 +0100
 
-ubuntu-mono (0.0.9~ppa6) lucid; urgency=low
+ubuntu-mono (0.0.9) lucid; urgency=low
 
   * Adding new broadcast icon (microblogging) 
   * Adding new restart icons, work in progress
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 18 Mar 2010 16:24:57 +0000
-
-ubuntu-mono (0.0.9~ppa5) lucid; urgency=low
-
   * Adding new user status icons based on simple icons from new visual identity 
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 18 Mar 2010 11:31:18 +0000
-
-ubuntu-mono (0.0.9~ppa4) lucid; urgency=low
-
   * Adding more weather icons and reworked microblogging 
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 17 Mar 2010 15:17:02 +0000
-
-ubuntu-mono (0.0.9~ppa3) lucid; urgency=low
-
   * Starting to add weather icons, work in progress 
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 16 Mar 2010 12:35:14 +0000
-
-ubuntu-mono (0.0.9~ppa2) lucid; urgency=low
-
   * Adding MessagingMenu Chat and Email icons 
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Sat, 13 Mar 2010 01:04:09 +0000
-
-ubuntu-mono (0.0.9~ppa1) lucid; urgency=low
-
   * Adding Tomboy, Session Menu and -dark nm-applet wifi icons
-
- -- Kenneth Wimer <kwwii@ubuntu.com>  Sat, 13 Mar 2010 00:19:58 +0000
-
-ubuntu-mono (0.0.8~ppa2) lucid; urgency=low
-
-  * Changing message new icon and user icons 
   * Adding microblogging icon for messagemenu
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 11 Mar 2010 12:02:57 +0000
