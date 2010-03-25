@@ -1,11 +1,39 @@
-light-themes (0.1.5.7~ppa2) lucid; urgency=low
+light-themes (0.1.5.9) lucid; urgency=low
 
-  * Fixing panel spacing in Radiance
+  * Fixing Radiance menu seperator padding
+  * Adding buttons and metactiy config for unfocused windows
+  * Rearraning values to best match intended design
+  * Ambiance/Radiance: Reduce progressbar appearance (LP: #535175).
+   - Minor beautifications / reduced code to buttons, treeview-header, spinbutton, and comboboxentry closer to the original design. Thanks to l3on.
+   - Adjustment to scale / scrollbar to utilize bg_color for customization
+   - Mixed focus color (LP: #535177).
+   - Cleaned up code
+   - Fix panel visibility (LP: #536844).
+   - Fix inactive entry text and focus
+   - Restore missing style sections
+   - Fix separator-menu-item Mozilla GTK (LP: #538164).
+   - Fix metacity border not defined (LP: #537920).
+   - Rewritten metacity themes using trough bg's and icons; prelight, presses, etc. were added (LP: #538721).
+   - Fix GtkTreeView::indent-expanders (LP: #540973).
+   - Fix round maximized metacity bottom corners (LP: #541542). 
+  * Ambiance: Fix brown scale in Banshee (LP: #538500).
+   - Fix comboboxentry (LP: #540511).
+   - Fix Evolution button/text (LP: #539188).
+   - Fix white border on show desktop icon (LP: #544962).
+  * Ambiance/Radiance: Global button settings
+   - Fix scale borders (LP: #545024). 
+
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 24 Mar 2010 14:17:17 +0100
+
+light-themes (0.1.5.8) lucid; urgency=low
+
+  * Fixing panel spacing in Radiance (lp: #527267)
   * Fixing menuitem look in Ambiance 
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 11 Mar 2010 12:15:31 +0000
 
-light-themes (0.1.5.7~ppa1) lucid; urgency=low
+light-themes (0.1.5.7) lucid; urgency=low
 
   * Minor fixes in Ambiance, Radiance fix for lp:#522471
 
@@ -29,18 +57,18 @@ light-themes (0.1.5.5) lucid; urgency=low
    - Fix GtkScrollbar::min-slider-length = 36 (LP: #533537).
    - Adjust global border_shades for consistent shading with combobox
   * Ambiance: Fix text on memenu (LP: #532843).
-   - Clean up panel; Fix (LP: # 533081) panel buttons with no contrast 
-   - Fix statusbar (LP: # 532964).
-   - Fix dark text CPU applet on panel (LP: # 532385).
-   - Fix system monitor artifacts (LP: # 533271).
-   - Fix Gedit and Gimp menu separators (LP: # 532323).
+   - Clean up panel; Fix (LP: #533081) panel buttons with no contrast 
+   - Fix statusbar (LP: #532964).
+   - Fix dark text CPU applet on panel (LP: #532385).
+   - Fix system monitor artifacts (LP: #533271).
+   - Fix Gedit and Gimp menu separators (LP: #532323).
   * Radiance: Fix indistinguishable notebook tabs (LP: #532340).
-   - Fix statusbar (LP: # 532693).
+   - Fix statusbar (LP: #532693).
   * Ambiance/Radiance: Fix metacity frame_style_maximized close and minimize unfocused prelight (LP: #532690).
 
   [ Kenneth Wimer ]
   * Ambiance/Radiance: set trough border only under scrollbar
-  * Ambiance/Radiance: set automnemonics to 1
+  * Ambiance/Radiance: set automnemonics to 1 (lp: #532927)
   * Setting focus_color
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Mon, 08 Mar 2010 21:13:33 +0100
