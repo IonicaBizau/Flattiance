@@ -108,7 +108,7 @@ style "default"
 		lightborder_shade   = 1.1   # sets lightborder amount for buttons or widgets
 		lightborderstyle    = 1     # 0 = lightborder on top side, 1 = lightborder on all sides
 		listviewheaderstyle = 1     # 0 = flat, 1 = glassy, 2 = raised
-		listviewstyle       = 1     # 0 = nothing, 1 = dotted 2 = solid
+		listviewstyle       = 2     # 0 = nothing, 1 = dotted 2 = solid
 		menubaritemstyle    = 1     # 0 = menuitem look, 1 = button look
 		menubarstyle        = 0     # 0 = flat, 1 = glassy, 2 = gradient, 3 = striped
 		menuitemstyle       = 0     # 0 = flat, 1 = glassy, 2 = striped
@@ -119,7 +119,7 @@ style "default"
 		rgba		    = FALSE # FALSE = disabled, TRUE = enabled
 		roundness           = 3     # 0 = squared, 1 = old default, more will increase roundness
 		scrollbarstyle      = 2     # 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
-#		separatorstyle	    = 1
+		separatorstyle	    = 1
 		shadow_shades 	    = { 0.8, 2.2 } # draw gradient on shadow of some widgets
 		sliderstyle         = 1     # 0 = nothing added, 1 = handles
 		spinbuttonstyle     = 1     # 0 = no seperator, 1 = with separator

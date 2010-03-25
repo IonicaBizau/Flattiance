@@ -1,5 +1,6 @@
 light-themes (0.1.5.9) lucid; urgency=low
 
+  * Adding new listviewheaderstyle and seperatorstyle
   * Fixing Radiance menu seperator padding
   * Adding buttons and metactiy config for unfocused windows
   * Rearraning values to best match intended design
