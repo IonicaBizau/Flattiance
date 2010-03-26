@@ -39,6 +39,7 @@ style "default"
 	GtkScale::trough-side-details = 1
 
 	GtkScrollbar::min-slider-length = 36
+	GtkScrollbar::activate-slider = 1
 	GtkMenuBar::internal-padding = 0
 	GtkExpander::expander-size = 15
 	GtkToolbar::internal-padding = 5
@@ -109,7 +110,7 @@ style "default"
 		lightborderstyle    = 1     # 0 = lightborder on top side, 1 = lightborder on all sides
 		listviewheaderstyle = 1     # 0 = flat, 1 = glassy, 2 = raised
 		listviewstyle       = 2     # 0 = nothing, 1 = dotted 2 = solid
-		menubaritemstyle    = 1     # 0 = menuitem look, 1 = button look
+		menubaritemstyle    = 0     # 0 = menuitem look, 1 = button look
 		menubarstyle        = 0     # 0 = flat, 1 = glassy, 2 = gradient, 3 = striped
 		menuitemstyle       = 0     # 0 = flat, 1 = glassy, 2 = striped
 		menustyle           = 0     # 0 = no vertical menu stripe, 1 = display vertical menu stripe
@@ -212,11 +213,21 @@ style "panel" = "selected"
 	ythickness = 0
 
 	bg_pixmap[NORMAL] = "panel_bg.png"
+
+	bg[ACTIVE] = shade (0.65, @selected_bg_color)	
         
 	engine "murrine" 
 	{
             	roundness = 0
         }
+}
+
+
+style "terminal" 
+{
+text[NORMAL] = "#ffffff"
+base[NORMAL] = "#300a24"
+TerminalScreen:background-darkness=0.95
 }
 
 style "menu" 
@@ -573,3 +584,5 @@ class "PanelApp*" 					style "panel"
 class "PanelToplevel*" 					style "panel"
 widget_class "*notif*" 					style "panel"
 widget_class "*Notif*" 					style "panel"
+
+class "TerminalScreen" style "terminal"

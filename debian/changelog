@@ -1,3 +1,15 @@
+light-themes (0.1.6.0~ppa1) lucid; urgency=low
+
+  * Adding code to make the terminal theme without a profile
+  * Ambiance/Radiance: Fix windows control's right alignment (LP: #548532).
+   - Fix trough transparency (LP: #548468). 
+   - Adjust scrollbar contrast with more distinct borders/add active slider (LP: #537375).
+   - Fix menubaritemstyle = 0 (LP: #548735).
+  * Ambiance: Fix dropdown list firefox (LP: #532259).
+  * Radiance: Fix panel bg[ACTIVE] (LP: #536844).   
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 26 Mar 2010 15:13:30 +0000
+
 light-themes (0.1.5.9) lucid; urgency=low
 
   * Adding new listviewheaderstyle and seperatorstyle
