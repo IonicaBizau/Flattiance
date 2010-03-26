@@ -9,3 +9,4 @@ GtkTheme=Ambiance
 MetacityTheme=Ambiance
 IconTheme=ubuntu-mono-dark
 CursorTheme=DMZ-White
+ButtonLayout=maximize,minimize,close:

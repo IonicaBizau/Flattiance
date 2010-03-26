@@ -1,5 +1,7 @@
 light-themes (0.1.6.0~ppa1) lucid; urgency=low
 
+  * Adding more button images to solve problems with focused vs ufocused
+  * Adding button layout to index.theme to fix appearance capplet problem
   * Adding code to make the terminal theme without a profile
   * Ambiance/Radiance: Fix windows control's right alignment (LP: #548532).
    - Fix trough transparency (LP: #548468). 

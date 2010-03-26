@@ -231,7 +231,7 @@
 	<draw_ops name="left_right_background_unfocused_pressed">
 		<image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
-
+	
 <!-- Button Trough Right -->
 	<draw_ops name="right_left_background_focused_normal">
 		<image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
@@ -252,10 +252,10 @@
 		<image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="right_left_background_unfocused_normal">
-		<image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
+		<image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="right_left_background_unfocused_pressed">
-		<image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
+		<image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="right_middle_background_unfocused_normal">
 		<image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/>
@@ -269,7 +269,7 @@
 	<draw_ops name="right_right_background_unfocused_pressed">
 		<image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
-
+	
 <!-- Button Overlays -->
 	<draw_ops name="menu_focused_normal">
    	<image filename="menu.png" x="0" y="1" width="object_width" height="object_height" alpha=".85"/>
