@@ -3,6 +3,7 @@ ubuntu-mono (0.0.11~ppa1) lucid; urgency=low
   * Correcting naming problem (png->svg)
   * Changing the direction of the batteries (work in progress)
   * Adding weather at different sizes
+  * Adding link to nm-device-wwan for 3g devices
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 26 Mar 2010 12:46:08 +0000
 
