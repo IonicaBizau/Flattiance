@@ -227,7 +227,7 @@ style "terminal"
 {
 text[NORMAL] = "#ffffff"
 base[NORMAL] = "#300a24"
-TerminalScreen:background-darkness=0.95
+TerminalScreen::background-darkness=0.95
 }
 
 style "menu" 
