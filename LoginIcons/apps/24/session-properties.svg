@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="24"
+   height="24"
+   id="svg3378">
+  <defs
+     id="defs3380" />
+  <g
+     id="layer1">
+    <path
+       d="M 5,3 C 3.3524873,3 2,4.3524873 2,6 L 2,19 C 2,20.647513 3.3524873,22 5,22 L 19,22 C 20.647513,22 22,20.647513 22,19 L 22,6 C 22,4.3524873 20.647513,3 19,3 L 5,3 z M 11,10.25 L 11,11 C 11.002917,11.551072 11.448928,11.997083 12,12 L 19,12 L 19,14.9375 L 12,14.9375 C 11.448928,14.940417 11.002917,15.386428 11,15.9375 L 11,16.6875 L 7.4375,13.46875 L 11,10.25 z"
+       id="path3374"
+       style="opacity:0.6;fill:#eae3d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 5,4 C 3.892,4 3,4.892 3,6 L 3,19 C 3,20.108 3.892,21 5,21 L 19,21 C 20.108,21 21,20.108 21,19 L 21,6 C 21,4.892 20.108,4 19,4 L 5,4 z M 4.5,5 L 19.5,5 C 19.777,5 20,5.223 20,5.5 C 20,5.777 19.777,6 19.5,6 L 4.5,6 C 4.223,6 4,5.777 4,5.5 C 4,5.223 4.223,5 4.5,5 z M 12,7.96875 L 12,11 L 20,11 L 20,15.9375 L 12,15.9375 L 12,18.96875 L 5.90625,13.46875 L 12,7.96875 z"
+       id="rect2396"
+       style="opacity:1;fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+</svg>

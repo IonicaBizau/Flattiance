@@ -1,5 +1,5 @@
 [Icon Theme]
-Name=LoginIcons
+Name=HumanLoginIcons
 Comment=Special icons for the Ubuntu login experience
 Inherits=Humanity,gnome,hicolor
 
