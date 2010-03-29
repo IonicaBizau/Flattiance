@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.12~ppa1) lucid; urgency=low
+
+  * Removing extra symlinks to fix lp:532660
+  * Adding application-running icon
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Mon, 29 Mar 2010 21:10:47 +0100
+
 ubuntu-mono (0.0.11~ppa2) lucid; urgency=low
 
   * New battery icons which progress from left to right
