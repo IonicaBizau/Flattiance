@@ -2,6 +2,8 @@ ubuntu-mono (0.0.12~ppa1) lucid; urgency=low
 
   * Removing extra symlinks to fix lp:532660
   * Adding application-running icon
+  * Avatar icons stock_person-panel fixes lp:550956
+  * Adding variants for new message icons
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Mon, 29 Mar 2010 21:10:47 +0100
 
