@@ -13,7 +13,6 @@ Depends: ${misc:Depends},
          gtk2-engines-murrine (>= 0.90.3),
          humanity-icon-theme
 Conflicts: phase-themes
-Replaces: human-theme
 Description: Light Themes
  Includes Ambiance and Radiance themes
 
