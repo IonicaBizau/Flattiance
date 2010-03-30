@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.12~ppa2) lucid; urgency=low
+
+  * Adding links to distributor-logo  
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 30 Mar 2010 10:28:15 +0100
+
 ubuntu-mono (0.0.12~ppa1) lucid; urgency=low
 
   * Removing extra symlinks to fix lp:532660
