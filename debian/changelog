@@ -3,6 +3,7 @@ light-themes (0.1.6.1) lucid; urgency=low
   * Ambiance/Radiance: Fix spinbuttonstyle with non-gtk applications (LP: #549110).
   * Ambiance: Matched FG[PRELIGHT] menu-item and panel (LP: #536984).
    - Cleaned up dark code 
+  * Added Replaces: human-theme to control file
 
  -- James Schriver <james@james-laptop>  Mon, 29 Mar 2010 23:38:25 -0400
 
