@@ -289,16 +289,16 @@
 	
 <!-- Button Overlays -->
 	<draw_ops name="menu_focused_normal">
-   	<image filename="menu.png" x="0" y="1" width="object_width" height="object_height" alpha=".85"/>
+   	<image filename="menu.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 		<draw_ops name="menu_focused_prelight">
-  	 <image filename="menu_prelight.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.2"/>
+  	 <image filename="menu_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="menu_unfocused_normal">
-  	 	<image filename="menu.png" x="0" y="1" width="object_width" height="object_height" alpha=".4"/>
+  	 	<image filename="menu.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="menu_unfocused_prelight">
-   	<image filename="menu_prelight.png" x="0" y="1" width="object_width" height="object_height" alpha=".7"/>
+   		<image filename="menu_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="minimize_focused_normal">
 		<image filename="minimize.png" x="0" y="1" width="object_width" height="object_height"/>

@@ -6,7 +6,7 @@
 #
 # Feel free to modify and share!
 
-gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#f0ebe2\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#fff"
+gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#f0ebe2\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFF"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -126,7 +126,7 @@ style "default"
 		separatorstyle	    = 1
 		shadow_shades 	    = { 0.8, 2.2 } # draw gradient on shadow of some widgets
 		sliderstyle         = 1     # 0 = nothing added, 1 = handles
-		spinbuttonstyle     = 1     # 0 = no seperator, 1 = with separator
+		spinbuttonstyle     = 0     # 0 = no seperator, 1 = with separator
 		stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = squared steppers with round slider
 		textstyle           = 0     # 0 = normal text, 1 = inset
 		toolbarstyle	    = 0     # 0 = flat, 1 = glassy, 2 = gradient
@@ -141,6 +141,33 @@ style "selected" = "default"
 	bg[SELECTED] = shade (0.85, "#F7F5F2")
 	bg[ACTIVE]   = shade (0.75, "#F7F5F2")
 	bg[INSENSITIVE]   = mix (0.35, @selected_bg_color, "#F7F5F2")
+}
+
+style "dark"
+{
+	fg[NORMAL]      	= "#dfd8c8"
+	fg[PRELIGHT]   	 	= "#fff"
+	fg[ACTIVE]      	= "#fff"
+	fg[SELECTED]    	= "#fff"
+	fg[INSENSITIVE] 	= "#99958b"
+
+	bg[NORMAL]		= "#3c3b37"
+	bg[PRELIGHT]    	= shade (.65, @selected_bg_color)
+	bg[ACTIVE]		= shade(.55, @selected_bg_color)
+	bg[SELECTED]    	= shade(0.9,@selected_bg_color)
+	bg[INSENSITIVE]		= "#3c3b37"
+
+	base[NORMAL]		= @base_color
+	base[PRELIGHT]		= shade (0.95, @bg_color)
+	base[ACTIVE]		= shade (0.55, @bg_color)
+	base[SELECTED]		= shade (1.0, @selected_bg_color)
+	base[INSENSITIVE]	= @bg_color
+
+	text[NORMAL]		= "#dfd8c8"
+	text[PRELIGHT]		= @base_color
+	text[ACTIVE]		= @base_color
+	text[SELECTED]		= @base_color
+	text[INSENSITIVE]	= mix (0.5, @bg_color, "#3c3b37")
 }
 
 style "wide"
@@ -206,55 +233,36 @@ style "notebook" = "wider"
 	}
 }
 
-style "panel" 
+style "panel" = "dark"
 {
 	xthickness = 0
 	ythickness = 0
-
-	bg[NORMAL]	= "#3c3b37"
-	bg[PRELIGHT] 	= shade(.65, @selected_bg_color)      	# panel prelight
-	bg[ACTIVE]	= shade(.55, @selected_bg_color)	# active button
-  	
-	fg[NORMAL] = "#dfd8c8"
-	fg[PRELIGHT] = "#dfd8c8"
-	fg[ACTIVE] = "#dfd8c8"
 
 	bg_pixmap[NORMAL] = "panel_bg.png"
         
 	engine "murrine" 
 	{
-		border_colors = {"#3c3b37", "#3c3b37"}
-		border_shades = { 1.8, 0.8 }
-		contrast = 1.1   				# 0.8 for less contrast, more than 1.0 for more contrast on borders
-		glow_shade = 1.05  				# sets glow amount for buttons or widgets
-		lightborder_shade = 1.1  			# sets lightborder amount for buttons or widgets
+		border_colors = {@fg_color, @fg_color}
+		border_shades = { 1.4, 1.2 }
+		contrast = 1.0   				# 0.8 for less contrast, more than 1.0 for more contrast on borders
+		glow_shade = 1.2  				# sets glow amount for buttons or widgets
+		lightborder_shade = 1.4  			# sets lightborder amount for buttons or widgets
 		lightborderstyle = 1     			# 0 = lightborder on top side, 1 = lightborder on all sides
 	}
 }
 
 style "terminal" 
 {
-text[NORMAL] = "#ffffff"
-base[NORMAL] = "#300a24"
-TerminalScreen::background-darkness=0.95
+	text[NORMAL] = "#ffffff"
+	base[NORMAL] = "#300a24"
+	
+	TerminalScreen::background-darkness = 0.95
 }
 
-style "menu" 
+style "menu" = "dark"
 {
 	xthickness = 0
 	ythickness = 0
-
-	fg[NORMAL]      = "#dfd8c8"
-	fg[PRELIGHT]    = "#fff"
-	fg[ACTIVE]      = "#fff"
-	fg[SELECTED]    = "#fff"
-	fg[INSENSITIVE] = "#99958b"
-
-	bg[INSENSITIVE]	= "#3c3b37"
-	bg[NORMAL]	= "#3c3b37"
-	bg[ACTIVE]   	= "#54524d"
-	bg[SELECTED]   	= "#54524d"
-	bg[PRELIGHT]  	= "#54524d"
 
 	engine "murrine"
 	{
@@ -262,21 +270,10 @@ style "menu"
 	}
 }
 
-style "menu-item" 
+style "menu-item" = "menu"
 {
 	xthickness = 0
 	ythickness = 5
-	
-	bg[SELECTED]	= shade (0.85, @selected_bg_color)
-	bg[PRELIGHT]	= shade (0.85, @selected_bg_color)
-	
-	fg[NORMAL]      = "#dfd8c8"
-	fg[PRELIGHT]    = "#fff"
-	fg[ACTIVE]      = "#fff"
-	fg[SELECTED]    = "#fff"
-	fg[INSENSITIVE] = "#99958b"
-
-	text[NORMAL]	= "#dfd8c8"
 
 	engine "murrine"
 	{
@@ -424,18 +421,8 @@ style "vscrollbar"
 {
 }
 
-style "menubar" = "default"
+style "menubar" = "menu"
 {
-	bg[NORMAL]	= "#3c3b37"
-	bg[INSENSITIVE] = "#302F2C"
-
-	fg[NORMAL]	= "#dfd8c8"
-	fg[PRELIGHT]   	= @base_color
-	fg[SELECTED]  	= @base_color
-	fg[ACTIVE]     	= @base_color
-	fg[INSENSITIVE]	= "#99958b"
-
-	text[NORMAL] = "#dfd8c8"              # Menubar text (OOo) 
 }
 
 style "frame"
@@ -522,9 +509,11 @@ widget_class "*<GtkMenuBar>*"           		style "menubar"
 widget_class "*<GtkMenu>*"              		style "menu"
 widget_class "*<GtkMenuItem>*"          		style "menu-item"
 widget_class "*<GtkSeparatorMenuItem>*" 		style "separator-menu-item"
+#widget_class "*<GtkCheckMenuItem>*" 			style "radiocheck"
+#widget_class "*<GtkRadioMenuItem>*" 			style "radiocheck"
 
 widget_class "*.<GtkFrame>.<GtkLabel>" 			style "frame-title"
-#widget_class "*.<GtkTreeView>*"        			style "treeview"
+#widget_class "*.<GtkTreeView>*"        		style "treeview"
 
 widget_class "*<GtkProgress>"				style "progressbar"
 widget_class "*<GtkProgressBar>"       			style "progressbar"

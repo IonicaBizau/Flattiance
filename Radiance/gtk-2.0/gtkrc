@@ -123,7 +123,7 @@ style "default"
 		shadow_shades 	    = { 0.8, 2.2 } # draw gradient on shadow of some widgets
 		separatorstyle	    = 1
 		sliderstyle         = 1     # 0 = nothing added, 1 = handles
-		spinbuttonstyle     = 1     # 0 = no seperator, 1 = with separator
+		spinbuttonstyle     = 0     # 0 = no seperator, 1 = with separator
 		stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = squared steppers with round slider
 		textstyle           = 0     # 0 = normal text, 1 = inset
 		toolbarstyle	    = 0     # 0 = flat, 1 = glassy, 2 = gradient
