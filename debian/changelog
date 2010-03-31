@@ -1,3 +1,11 @@
+ubuntu-mono (0.0.13) lucid; urgency=low
+
+  * Removing extra and broken symlinks - lp:541882
+  * Add several app icons
+  * Moving link to file, to fix green message icon in menu
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 31 Mar 2010 15:06:23 +0100
+
 ubuntu-mono (0.0.12~ppa2) lucid; urgency=low
 
   * Adding links to distributor-logo 
