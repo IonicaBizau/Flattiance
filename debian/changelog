@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.14) lucid; urgency=low
+
+  * Adding wide panel icons for gpm
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 31 Mar 2010 19:25:21 +0100
+
 ubuntu-mono (0.0.13) lucid; urgency=low
 
   * Removing extra and broken symlinks - lp:541882
