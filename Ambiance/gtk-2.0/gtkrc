@@ -19,6 +19,8 @@ style "default"
 
 	GtkWidget::new-tooltip-style = 1
 
+	GtkImage::x-ayatana-indicator-dynamic = 1
+
 	GtkScrolledWindow ::scrollbar-spacing = 0
 	GtkScrolledWindow ::scrollbar-within-bevel = 0
 	
