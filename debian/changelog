@@ -2,6 +2,7 @@ ubuntu-mono (0.0.15) lucid; urgency=low
 
   * Added new logo for GDM
   * Added pacakge-supported icons with new logo for software-center, synaptic
+  * Added new logos to distributor-logo
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 01 Apr 2010 14:05:03 +0100
 
