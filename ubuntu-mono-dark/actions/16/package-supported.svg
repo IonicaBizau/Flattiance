@@ -12,9 +12,9 @@
    id="svg2910"
    version="1.1"
    inkscape:version="0.47 r22583"
-   width="64"
-   height="64"
-   sodipodi:docname="computer.svg"
+   width="16"
+   height="16"
+   sodipodi:docname="package-supported.svg"
    inkscape:export-filename="/home/kwwii/bzr/u-art/distributor-logo2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -31,7 +31,15 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs2914" />
+     id="defs2914">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective9" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -45,15 +53,15 @@
      inkscape:window-height="612"
      id="namedview2912"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="31.811171"
-     inkscape:cy="38.647796"
-     inkscape:window-x="70"
-     inkscape:window-y="111"
+     inkscape:zoom="7.3541667"
+     inkscape:cx="22"
+     inkscape:cy="22"
+     inkscape:window-x="45"
+     inkscape:window-y="87"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2910" />
   <g
-     transform="matrix(0.63980726,0,0,-0.63981785,3,61)"
+     transform="matrix(0.17649856,0,0,-0.17650148,0,16)"
      id="g2846">
     <path
        d="M 90.6523,45.3246 C 90.6523,20.293 70.3594,0 45.3262,0 20.293,0 0,20.293 0,45.3246 c 0,25.0332 20.293,45.3262 45.3262,45.3262 25.0332,0 45.3261,-20.293 45.3261,-45.3262"
