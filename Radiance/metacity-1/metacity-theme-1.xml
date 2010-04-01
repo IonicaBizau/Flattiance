@@ -304,7 +304,7 @@
 		<image filename="minimize.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="minimize_focused_prelight">
-		<image filename="minimize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.2"/>
+		<image filename="minimize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.7"/>
 	</draw_ops>
 	<draw_ops name="minimize_focused_pressed">
 		<image filename="minimize.png" x="0" y="1" width="object_width" height="object_height" alpha=".2"/>
@@ -322,7 +322,7 @@
 		<image filename="maximize.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="maximize_focused_prelight">
-		<image filename="maximize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.2"/>
+		<image filename="maximize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.7"/>
 	</draw_ops>
 	<draw_ops name="maximize_focused_pressed">
 		<image filename="maximize.png" x="0" y="1" width="object_width" height="object_height" alpha=".2"/>
@@ -340,7 +340,7 @@
 		<image filename="unmaximize.png" x="0" y="1" width="object_width" height="object_height"/>
 	</draw_ops>
 	<draw_ops name="unmaximize_focused_prelight">
-		<image filename="unmaximize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.2"/>
+		<image filename="unmaximize.png" x="0" y="1" width="object_width" height="object_height" colorize="shade/gtk:bg[SELECTED]/.7"/>
 	</draw_ops>
 	<draw_ops name="unmaximize_focused_pressed">
 		<image filename="unmaximize.png" x="0" y="1" width="object_width" height="object_height" alpha=".2"/>

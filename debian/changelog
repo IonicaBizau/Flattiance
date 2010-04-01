@@ -1,3 +1,10 @@
+light-themes (0.1.6.3) lucid; urgency=low
+
+  * Changing button order and adding new buttons 
+  * Fixing error in Radiance mouseOver effect
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 01 Apr 2010 18:20:49 +0100
+
 light-themes (0.1.6.2) lucid; urgency=low
 
   * Adding property to use wide icons

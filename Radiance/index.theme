@@ -9,4 +9,4 @@ GtkTheme=Radiance
 MetacityTheme=Radiance
 IconTheme=ubuntu-mono-light
 CursorTheme=DMZ-White
-ButtonLayout=maximize,minimize,close:
+ButtonLayout=close,minimize,maximize:
