@@ -129,7 +129,7 @@ style "default"
 		stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = squared steppers with round slider
 		textstyle           = 0     # 0 = normal text, 1 = inset
 		toolbarstyle	    = 0     # 0 = flat, 1 = glassy, 2 = gradient
-		trough_shades       = { 0.98, 1.08 } # draw gradient on trough of GtkScrollbar and GtkProgressbar
+		trough_shades       = { 0.88, 2.0 } # draw gradient on trough of GtkScrollbar and GtkProgressbar
 	}
 }
 
@@ -308,9 +308,8 @@ style "progressbar"
 		glowstyle           	= 0     # 0 = top, 1 = bottom, 2 = top and bottom, 3 = center (vertical), 4 = center (horizontal) 
 		gradient_shades 	= {1.1,.9,.9,.8}
 		#highlight_shade     	= 1.02  # set highlight amount for buttons or widgets
-		lightborder_shade   	= 1.2   # sets lightborder amount for buttons or widgets
+		#lightborder_shade   	= 1.2   # sets lightborder amount for buttons or widgets
 		roundness		= 12
-		trough_shades       	= { .88, 2.0 } # draw gradient on trough of GtkScrollbar and GtkProgressbar
 	}
 
 	bg[NORMAL]	= shade (1.0, @bg_color)
@@ -351,7 +350,6 @@ style "scale"
 		glowstyle           	= 0     # 0 = top, 1 = bottom, 2 = top and bottom, 3 = center (vertical), 4 = center (horizontal) 
 		highlight_shade     	= 1.02  # set highlight amount for buttons or widgets
 		roundness		= 6
-		trough_shades       	= { .88, 2.0 } # draw gradient on trough of GtkScrollbar and GtkProgressbar
 	}
 
 	bg[NORMAL]	= shade (1.0, @bg_color)
@@ -376,11 +374,10 @@ style "scrollbar"
 		contrast		= .6 
 		glazestyle          	= 0     # 0 = flat, 1 = curved, 2 = concave, 3 = top-curved, 4 = beryl
 		glow_shade          	= 1.14   # sets glow amount for buttons or widgets
-		glowstyle           	= 4     # 0 = top, 1 = bottom, 2 = top and bottom, 3 = center (vertical), 4 = center (horizontal) 
-		highlight_shade     	= 1.04  # set highlight amount for buttons or widgets
-		lightborder_shade   	= 1.0   # sets lightborder amount for buttons or widgets
+		glowstyle           	= 0     # 0 = top, 1 = bottom, 2 = top and bottom, 3 = center (vertical), 4 = center (horizontal) 
+		highlight_shade     	= 1.02  # set highlight amount for buttons or widgets
+		lightborder_shade   	= 1.2   # sets lightborder amount for buttons or widgets
 		roundness		= 8
-		trough_shades       	= { .68, 1.2 } # draw gradient on trough of GtkScrollbar and GtkProgressbar
 	}
 
 	bg[NORMAL]	= shade (1.0, @bg_color)

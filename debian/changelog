@@ -1,3 +1,13 @@
+light-themes (0.1.6.4) lucid; urgency=low
+
+  * Ambiance/Radiance:  Adjust scrollbar lighting (LP: #542686).
+   - Remove progressbar lightbordershade (LP: #551107).
+   - Global trough_shades for scrollbar/progressbar
+
+  * Ambiance: Adjust hyperlink color options (LP: #549760).
+
+ -- James Schriver <jws141@gmail.com>  Fri, 09 Apr 2010 09:28:24 -0400
+
 light-themes (0.1.6.3) lucid; urgency=low
 
   * Changing button order and adding new buttons 
