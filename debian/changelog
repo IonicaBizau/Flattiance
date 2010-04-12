@@ -1,3 +1,13 @@
+ubuntu-mono (0.0.16) lucid; urgency=low
+
+  * Battery icons to fix LP: #546477
+  * Correcting naming bug in light variant
+  * Adding properly sized wifi icons so correct apparent panel spacing bug
+  * Fixing naming error in light variant for restart icon
+  * Adding running app indicator to light theme
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Mon, 12 Apr 2010 16:24:39 +0100
+
 ubuntu-mono (0.0.15) lucid; urgency=low
 
   * Added new logo for GDM
