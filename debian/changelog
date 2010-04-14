@@ -1,19 +1,14 @@
-light-themes (0.1.6.4ubuntu1) lucid; urgency=low
-
-  * Ambiance: Adjust sublety of metacity icons prelight 
-   - Colorize close icon prelight for added glow and pronounced prelight 
-
- -- James Schriver <jws141@gmail.com>  Mon, 12 Apr 2010 14:10:54 -0400
-
 light-themes (0.1.6.4) lucid; urgency=low
 
+  * Changing link color to fix LP: #549760 
+  [James Schriver]
+  * Ambiance: Adjust sublety of metacity icons prelight 
+   - Colorize close icon prelight for added glow and pronounced prelight 
   * Ambiance/Radiance:  Adjust scrollbar lighting (LP: #542686).
    - Remove progressbar lightbordershade (LP: #551107).
    - Global trough_shades for scrollbar/progressbar
 
-  * Ambiance: Adjust hyperlink color options (LP: #549760).
-
- -- James Schriver <jws141@gmail.com>  Fri, 09 Apr 2010 09:28:24 -0400
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 14 Apr 2010 15:45:29 +0100
 
 light-themes (0.1.6.3) lucid; urgency=low
 

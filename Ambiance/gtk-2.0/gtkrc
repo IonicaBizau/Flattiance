@@ -6,7 +6,7 @@
 #
 # Feel free to modify and share!
 
-gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#f0ebe2\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#AB9061"
+gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#f0ebe2\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#DD4814"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
