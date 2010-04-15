@@ -1,3 +1,9 @@
+light-themes (0.1.6.5) lucid; urgency=low
+
+  * Radiance: Sync link color with Ambiance 
+
+ -- James Schriver <jws141@gmail.com>  Thu, 15 Apr 2010 09:40:22 -0400
+
 light-themes (0.1.6.4) lucid; urgency=low
 
   * Changing link color to fix LP: #549760 
