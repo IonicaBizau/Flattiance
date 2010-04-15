@@ -1,6 +1,7 @@
 light-themes (0.1.6.5) lucid; urgency=low
 
   * Fixing incorrect gconf settings for button layout
+  * Radiance: Sync link color with Ambiance 
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 15 Apr 2010 16:09:03 +0100
 
