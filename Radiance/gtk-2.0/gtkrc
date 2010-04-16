@@ -72,8 +72,7 @@ style "default"
 	GtkMenuBar::window-dragging = 1
 
 	GtkWidget::link-color = @link_color
-	GtkIMHtml::hyperlink-color = @link_color
-	GtkHTML::link-color = @link_color
+	GtkWidget::visited-link-color = @text_color
 
 	####################
 	# Color Definitions

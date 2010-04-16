@@ -1,3 +1,10 @@
+light-themes (0.1.6.6) lucid; urgency=low
+
+  * Ambiance/Radiance: Change evolution hyperlinks to blue and visited to orange
+  * Ambiance: Remove glow from close prelight until a better fix is available
+
+ -- James Schriver <jws141@gmail.com>  Fri, 16 Apr 2010 10:41:29 -0400
+
 light-themes (0.1.6.5) lucid; urgency=low
 
   * Fixing incorrect gconf settings for button layout
