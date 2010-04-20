@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.18) lucid; urgency=low
+
+  * Missing symlinks for nm
+  * Adding audacious icons
+
+ -- K.Vishnoo Charan Reddy <drkvi-a@yahoo.com>  Wed, 20 Apr 2010 21:45:41 +0100
+
 ubuntu-mono (0.0.17) lucid; urgency=low
 
   * Removing extra 24px audio icons
