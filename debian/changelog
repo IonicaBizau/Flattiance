@@ -1,9 +1,11 @@
 ubuntu-mono (0.0.18) lucid; urgency=low
 
+  * Correcting indicator-messages icon 
+   [K.Vishnoo Charan Reddy]
   * Missing symlinks for nm
   * Adding audacious icons
 
- -- K.Vishnoo Charan Reddy <drkvi-a@yahoo.com>  Wed, 20 Apr 2010 21:45:41 +0100
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 21 Apr 2010 10:36:36 +0200
 
 ubuntu-mono (0.0.17) lucid; urgency=low
 
