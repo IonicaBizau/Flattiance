@@ -419,6 +419,11 @@ style "frame-title" = "frame"
 {
 }
 
+style "nautilus-handle"
+{
+	GtkPaned::handle-size = 2
+}
+
 style "nautilus-location"
 {
 	bg[NORMAL] = mix(0.60, @bg_color, @selected_bg_color)
@@ -527,6 +532,8 @@ widget "*.nautilus-extra-view-widget" 			style : highest "nautilus-location"
 # Nautilus sidebar
 widget_class "*Nautilus*Places*Sidebar*"    	style "nautilus-sidebar"
 widget_class "*Nautilus*Side*.GtkWidget"    	style "nautilus-sidebar"
+widget "*Nautilus*Splitter"                     style "nautilus-handle"
+
 
 # Work around for http://bugzilla.gnome.org/show_bug.cgi?id=382646
 # Note that the work around assumes that the combobox is _not_ in
