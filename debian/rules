@@ -1,24 +1,3 @@
 #!/usr/bin/make -f
-
-build: build-stamp
-build-stamp:
-	dh build
-	touch $@
-
-install: install-stamp
-install-stamp: build
-	dh install
-	touch $@
-
-binary: binary-arch binary-indep
-binary-arch: install
+%:
 	dh $@
-
-binary-indep: install
-	dh $@
-
-clean:
-	dh $@
-
-PHONY: binary-arch binary-indep clean binary build install
-
