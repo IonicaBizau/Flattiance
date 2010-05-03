@@ -1,3 +1,12 @@
+ubuntu-mono (0.0.18) lucid; urgency=low
+
+  * Correcting indicator-messages icon 
+   [K.Vishnoo Charan Reddy]
+  * Missing symlinks for nm
+  * Adding audacious icons
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 21 Apr 2010 10:36:36 +0200
+
 ubuntu-mono (0.0.17) lucid; urgency=low
 
   * Removing extra 24px audio icons
