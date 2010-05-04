@@ -450,7 +450,7 @@ style "nautilus-location"
 
 style "nautilus-sidebar" 
 {
-	GtkTreeView::even_row_color = @bg_color
+#	GtkTreeView::even_row_color = @bg_color
 }
 
 style "radiocheck"
