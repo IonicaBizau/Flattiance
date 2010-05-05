@@ -1,3 +1,9 @@
+light-themes (0.1.6.6~ppa3) lucid; urgency=low
+
+  * Ambiance/Radiance: Changing colours to match latest design, playing with new padding and border values 
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 05 May 2010 16:06:13 +0100
+
 light-themes (0.1.6.6~ppa2) lucid; urgency=low
 
   * Ambiance/Radiance: Removing nautilus-sidebar definiton so that the nautilus side pane is white

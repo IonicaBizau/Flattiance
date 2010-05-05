@@ -6,7 +6,9 @@
 #
 # Feel free to modify and share!
 
-gtk_color_scheme = "fg_color:#404040\nbg_color:#F7F5F2\nbase_color:#ffffff\ntext_color:#323232\nselected_bg_color:#d6d4ca\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#DD4814"
+gtk_color_scheme = "fg_color:#404040\nbg_color:#fcfbfa\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#DD4814\nbutton_bg_color:#e6e6e6"
+
+#d6d4ca
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -66,7 +68,7 @@ style "default"
 	GtkEntry::honors-transparent-bg-hint = 1
 	GtkEntry::state-hint = 0
 
-        GtkEntry::progress-border = { 2, 2, 2, 2 }
+	GtkEntry::progress-border = { 2, 2, 2, 2 }
 	GtkToolbar:: shadow-type = GTK_SHADOW_NONE
 	GtkMenuBar:: shadow-type = GTK_SHADOW_NONE
 	GtkMenuBar::window-dragging = 1
@@ -95,7 +97,6 @@ style "default"
 	base[SELECTED]    = @selected_bg_color
 	base[INSENSITIVE] = @bg_color
 
-
 	text[NORMAL]      = @text_color
 	text[PRELIGHT]    = @text_color
 	text[ACTIVE]      = @selected_fg_color
@@ -118,7 +119,7 @@ style "default"
 		gradient_shades     = {1.2,1.0,1.0,0.9} # default: {1.1,1.0,1.0,1.1}
 		highlight_shade     = 1.0  # set highlight amount for buttons or widgets
 		lightborder_shade   = 1.1   # sets lightborder amount for buttons or widgets
-		lightborderstyle    = 1     # 0 = lightborder on top side, 1 = lightborder on all sides
+		lightborderstyle    = 0     # 0 = lightborder on top side, 1 = lightborder on all sides
 		listviewheaderstyle = 1     # 0 = flat, 1 = glassy, 2 = raised
 		listviewstyle       = 2     # 0 = nothing, 1 = dotted 2 = solid
 		menubaritemstyle    = 0     # 0 = menuitem look, 1 = button look
@@ -127,12 +128,12 @@ style "default"
 		menustyle           = 0     # 0 = no vertical menu stripe, 1 = display vertical menu stripe
 		prelight_shade      = .95  # shade level for scrollbar's slider, comboboxstyle(1), and prelight state with gradient_colors
 		progressbarstyle    = 0     # 0 = no stripes, 1 = diagonal stripes, 2 = vertical stripes 
-		reliefstyle	    = 3     # 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
+		reliefstyle	    = 4     # 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
 		rgba		    = FALSE # FALSE = disabled, TRUE = enabled
 		roundness           = 3     # 0 = squared, 1 = old default, more will increase roundness
 		scrollbarstyle      = 2     # 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
-		shadow_shades 	    = { 0.8, 2.2 } # draw gradient on shadow of some widgets
 		separatorstyle	    = 1
+		shadow_shades 	    = { 0.8, 2.2 } # draw gradient on shadow of some widgets
 		sliderstyle         = 1     # 0 = nothing added, 1 = handles
 		spinbuttonstyle     = 0     # 0 = no seperator, 1 = with separator
 		stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = squared steppers with round slider
@@ -180,20 +181,25 @@ style "entry"
 
 style "button" = "selected"
 {
-	xthickness = 3
-	ythickness = 3
+	xthickness = 0
+	ythickness = 0
 
-	bg[NORMAL]   = shade (0.9, @selected_bg_color)
-	bg[PRELIGHT] = shade (1.0, @selected_bg_color)
-	bg[SELECTED] = shade (1.0, @selected_bg_color)
-	bg[ACTIVE]   = shade (0.9, @selected_bg_color)
-	bg[INSENSITIVE]   = mix (0.3, @selected_bg_color, @bg_color) 
+	bg[NORMAL]   = @button_bg_color
+	bg[PRELIGHT] = shade (1.0, @button_bg_color)
+	bg[SELECTED] = shade (1.0, @button_bg_color)
+	bg[ACTIVE]   = shade (0.9, @button_bg_color)
+	bg[INSENSITIVE]   = mix (0.3, @button_bg_color, @bg_color) 
 
 	engine "murrine"
 	{
-		contrast = .6
-		glow_shade = 1.20
-		lightborder_shade = 1.06
+#		contrast = .6
+#		glow_shade = 1.20
+		lightborder_shade = 3.0
+		gradient_shades     = {1.2,0.9,0.9,0.78}
+		shadow_shades 	    = { 0.8, 2.2 }
+		border_colors      = { "#919191", "#898989" } # colors used on borders of many widgets
+		border_shades       = { 1.1, 1.0 } # gradient to draw on border
+
 	}
 }
 
