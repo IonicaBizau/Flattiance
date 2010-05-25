@@ -1,6 +1,8 @@
 light-themes (0.1.6.6~ppa4) lucid; urgency=low
 
   * Ambiance: new metacity buttons with all states 
+  * Adding source files for buttons
+  * Adding CSD enabled theme (Ambiance only currently)
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 07 May 2010 16:01:45 +0100
 
