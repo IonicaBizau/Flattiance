@@ -6,7 +6,7 @@
 #
 # Feel free to modify and share!
 
-gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#fcfbfa\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#DD4814\nbutton_bg_color:#e6e6e6"
+gtk_color_scheme = "fg_color:#3c3b37\nbg_color:#fcfbfa\nbase_color:#ffffff\ntext_color:#3a3935\nselected_bg_color:#c6b9a6\nselected_fg_color:#323232\ntooltip_bg_color:#000\ntooltip_fg_color:#FFFFFF\nlink_color:#DD4814\nbutton_bg_color:#e6e6e6\nframe_color:#3c3b37\ninactive_frame_color:#3c3b37"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -14,8 +14,8 @@ gtk-auto-mnemonics = 1
 
 style "default"
 {
-	xthickness = 1
-	ythickness = 1
+	xthickness = 0
+	ythickness = 0
 
 	#######################
 	# Style Properties
@@ -107,14 +107,19 @@ style "default"
 		arrowstyle          = 1     # 0 = normal arrows, 1 = filled arrows
 		#border_colors      = { "#ffffff", "#ffffff" } # colors used on borders of many widgets
 		border_shades       = { 1.2, 1.0 } # gradient to draw on border
+		cellstyle           = 0
 		comboboxstyle       = 1     # 0 = normal combobox, 1 = colorized combobox below arrow
 		colorize_scrollbar  = FALSE  # FALSE = disabled, TRUE = enabled
 		contrast            = 0.4   # 0.8 for less contrast, more than 1.0 for more contrast on borders
+		default_button_color = "#DD4814"
+		expanderstyle	= 1
 		focus_color         = "#FE765E"
+		focusstyle          = 3
 		glazestyle          = 4     # 0 = flat, 1 = curved, 2 = concave, 3 = top-curved, 4 = beryl
 		glow_shade          = 1.1   # sets glow amount for buttons or widgets
 		glowstyle           = 0     # 0 = top, 1 = bottom, 2 = top and bottom, 3 = center (vertical), 4 = center (horizontal) 
 		gradient_shades     = {1.2,1.0,1.0,0.9} # default: {1.1,1.0,1.0,1.1}
+		handlestyle         = 1
 		highlight_shade     = 1.0  # set highlight amount for buttons or widgets
 		lightborder_shade   = 1.1   # sets lightborder amount for buttons or widgets
 		lightborderstyle    = 0     # 0 = lightborder on top side, 1 = lightborder on all sides
@@ -206,12 +211,12 @@ style "entry"
 
 style "button" = "selected"
 {
-	xthickness = 0
-	ythickness = 0
+	xthickness = 4
+	ythickness = 4
 
 	bg[NORMAL]   = @button_bg_color
 	bg[PRELIGHT] = shade (1.0, @button_bg_color)
-	bg[SELECTED] = shade (1.0, @button_bg_color)
+	bg[SELECTED] = @button_bg_color
 	bg[ACTIVE]   = shade (0.9, @button_bg_color)
 	bg[INSENSITIVE]   = mix (0.3, @button_bg_color, @bg_color) 
 
@@ -222,14 +227,19 @@ style "button" = "selected"
 		lightborder_shade = 3.0
 		gradient_shades     = {1.2,0.9,0.9,0.78}
 		shadow_shades 	    = { 0.8, 2.2 }
-		border_colors      = { "#919191", "#898989" } # colors used on borders of many widgets
-		border_shades       = { 1.1, 1.0 } # gradient to draw on border
+#		border_colors      = { "#919191", "#898989" } # colors used on borders of many widgets
+		border_shades       = { .9, .8 } # gradient to draw on border
 
 	}
 }
 
-style "toolbar" 
+style "toolbar" = "default"
 {
+	engine "murrine"
+	{
+		contrast = 0.0
+
+	}
 }
 
 style "toolbar-item" = "toolbar"
@@ -314,7 +324,7 @@ style "treeview"
 {
 }
 
-style "treeview-header" = "selected"
+style "treeview-header" = "button"
 {
 	xthickness = 2
 	ythickness = 1
@@ -363,6 +373,12 @@ style "progressbar"
 
 style "statusbar" = "default"
 {
+	xthickness = 4
+
+	engine "murrine"
+	{
+	    	contrast = 1.2
+	}
 }
 
 style "comboboxentry" 
@@ -458,7 +474,8 @@ style "nautilus-location"
 
 style "nautilus-sidebar" 
 {
-#	GtkTreeView::even_row_color = @bg_color
+	GtkTreeView::even_row_color = @bg_color
+	
 }
 
 style "radiocheck"
@@ -490,8 +507,9 @@ widget "*IdoEntryMenuItem*" style "wide"
 # default style is applied to every widget
 class "GtkWidget"    style "default"
 
-# Increase the x/ythickness in some widgets
-class "GtkToolbar"   					style "default" 
+
+widget_class "*<GtkToolbar>*" 				style "toolbar"
+#class "GtkToolbar"   					style "toolbar" 
 class "GtkRange"     					style "wide"
 class "GtkFrame"     					style "wide"
 class "GtkSeparator" 					style "wide"
@@ -651,3 +669,5 @@ style "evo-new-button-workaround"
 
 widget "*swt*toolbar*"	style "default"
 class "TerminalScreen" style "terminal"
+
+widget_class "*<GtkToolbar>*" style "toolbar"
