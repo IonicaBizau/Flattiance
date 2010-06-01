@@ -6,6 +6,9 @@ light-themes (0.1.6.6~ppa4) lucid; urgency=low
   * Adding CSD enabled theme
   * Adding fix for Chromium
   * Changing button colors
+  * Adding new expander style option
+  * Adding gripper style
+  * New defualt button state style
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Fri, 07 May 2010 16:01:45 +0100
 

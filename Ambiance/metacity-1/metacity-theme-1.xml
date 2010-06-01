@@ -14,12 +14,12 @@
  	<distance name="left_width" value="1"/>
 	<distance name="right_width" value="1"/>
 	<distance name="bottom_height" value="5"/>
-	<distance name="left_titlebar_edge" value="10"/>
-	<distance name="right_titlebar_edge" value="10"/>
+	<distance name="left_titlebar_edge" value="6"/>
+	<distance name="right_titlebar_edge" value="6"/>
 	<distance name="button_width" value="18"/>
 	<distance name="button_height" value="18"/>
-	<distance name="title_vertical_pad" value="8"/>
-	<border name="title_border" left="2" right="2" top="2" bottom="0"/>
+	<distance name="title_vertical_pad" value="6"/>
+	<border name="title_border" left="2" right="2" top="2" bottom="2"/>
 	<border name="button_border" left="0" right="0" top="2" bottom="1"/>
 </frame_geometry>
 
@@ -27,12 +27,12 @@
   	<distance name="left_width" value="0"/>
   	<distance name="right_width" value="0"/>
   	<distance name="bottom_height" value="4"/>
-  	<distance name="left_titlebar_edge" value="10"/>
-  	<distance name="right_titlebar_edge" value="10"/>
+  	<distance name="left_titlebar_edge" value="6"/>
+  	<distance name="right_titlebar_edge" value="6"/>
   	<distance name="button_width" value="18"/>
  	<distance name="button_height" value="18"/>
-  	<distance name="title_vertical_pad" value="2"/>
-  	<border name="title_border" left="2" right="2" top="2" bottom="0"/>
+  	<distance name="title_vertical_pad" value="6"/>
+  	<border name="title_border" left="2" right="2" top="2" bottom="2"/>
 	<border name="button_border" left="0" right="0" top="2" bottom="1"/>
 </frame_geometry>
 
@@ -40,11 +40,11 @@
 	<distance name="left_width" value="0"/>
 	<distance name="right_width" value="0"/>
 	<distance name="bottom_height" value="0"/>
-	<distance name="left_titlebar_edge" value="10"/>
-  	<distance name="right_titlebar_edge" value="10"/>
+	<distance name="left_titlebar_edge" value="6"/>
+  	<distance name="right_titlebar_edge" value="6"/>
   	<distance name="button_width" value="18"/>
   	<distance name="button_height" value="18"/>
-  	<distance name="title_vertical_pad" value="8"/>
+  	<distance name="title_vertical_pad" value="6"/>
   	<border name="title_border" left="2" right="2" top="2" bottom="0"/>
  	<border name="button_border" left="0" right="0" top="2" bottom="1"/>
 </frame_geometry>
@@ -104,8 +104,11 @@
 <draw_ops name="draw_title">
     <!-- Background gradient -->
     <gradient type="vertical" x="0" y="0" width="width+9" height="height">
-        <color value="#5c5b56" />
-        <color value="#3c3b37" />
+	<color value="#5c5b56"/> 
+        <color value="#52504d" />
+        <color value="#454341" />
+	<color value="#3c3b37" />
+	<color value="#3c3b37" />
 	<color value="#3c3b37" />
     </gradient>
     
