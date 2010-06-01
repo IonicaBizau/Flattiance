@@ -511,7 +511,7 @@ style "window-title"
 
         # fg[NORMAL] = "#ffffff"
 
-        GtkWindow::decoration-button-layout = "maximize,minimize,close:"
+        GtkWindow::decoration-button-layout = "close,minimize,maximize:"
         GtkWindow::decoration-title-justification = "left"
         GtkWindow::decoration-titlebar-lower-padding = 7
 	GtkWindow::decoration-titlebar-upper-padding = 4
