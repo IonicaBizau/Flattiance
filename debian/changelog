@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.19) maverick; urgency=low
+
+  * Adding resources for sound menu (album artwork and player icons)
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Wed, 07 Jul 2010 17:09:00 +0100
+
 ubuntu-mono (0.0.18) lucid; urgency=low
 
   * Correcting indicator-messages icon 
