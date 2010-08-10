@@ -1,0 +1,18 @@
+# ==============================================================================
+# CHROMIUM SPECIFIC SETTINGS
+# ==============================================================================
+
+style "chromium_toolbar_button" {
+	engine "murrine" {
+		roundness = 3
+		textstyle = 0
+	}
+}
+
+widget_class "*Chrom*Button*" style "chromium_toolbar_button"
+
+
+
+
+
+

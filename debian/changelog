@@ -1,3 +1,9 @@
+light-themes (0.1.6.8~ppa2) maverick; urgency=low
+
+  * Update of Ambiance-maverick-beta and inclusion of -dark variant
+
+ -- Kenneth Wimer <kwwii@ubuntu.com>  Tue, 10 Aug 2010 11:41:27 +0200
+
 light-themes (0.1.6.8~ppa1) maverick; urgency=low
 
   * Adding latest changes to Ambiance which now requires the latest git snapshot of the murrine theme engine. 

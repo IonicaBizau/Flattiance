@@ -77,7 +77,7 @@
   <title color="#333"
          x="11"
          y="(((height - title_height) / 2) `max` 0)"/>
-  <title color="#dfd8c8"
+  <title color="#dfdbd2"
          x="10"
          y="(((height - title_height) / 2) `max` 0)"/>
 
@@ -96,7 +96,7 @@
   <title color="#333333"
          x="11"
          y="(((height - title_height) / 2) `max` 0)"/>
-  <title color="#807C74"
+  <title color="#807d78"
          x="10"
          y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
@@ -109,7 +109,7 @@
 	<color value="#3c3b37" />
     </gradient>
     
-    <!-- ** titlebar outline ** -->
+    <!-- Titlebar outline -->
     <rectangle color="shade/#3c3b37/1.2" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
 
     <!-- Topmost lines -->
@@ -135,17 +135,17 @@
 <draw_ops name="draw_title_unfocused">
     <!-- Background gradient -->
     <gradient type="vertical" x="0" y="0" width="width+9" height="height">
-        <color value="shade/#5c5b56/0.9" />
+        <color value="#4b4a46" />
         <color value="#3c3b37" />
 	<color value="#3c3b37" />
     </gradient>
-    
-    <!-- Topmost dark line -->
-    <line color="shade/#3c3b37/1.2" x1="0" x2="width" y1="0" y2="0"/>
+
+    <!-- Titlebar outline -->
+    <rectangle color="shade/#3c3b37/1.2" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
 
     <!-- Topmost lines -->
-    <line color="shade/#3c3b37/1.2" x1="0" x2="width" y1="0" y2="0"/>
-    <line color="shade/#5c5b56/1.0" x1="0" x2="width" y1="1" y2="1"/>
+    <line color="shade/#3c3b37/1.16" x1="0" x2="width" y1="0" y2="0"/>
+    <line color="shade/#494844/1.14" x1="0" x2="width" y1="1" y2="1"/>
     
     <!-- Darkening of the left arch -->
     <line color="shade/#3c3b37/1.2" x1="0" x2="4" y1="1" y2="1"/>
@@ -184,13 +184,13 @@
 <draw_ops name="draw_title_maximized_unfocused">
     <!-- Background gradient -->
     <gradient type="vertical" x="0" y="0" width="width+9" height="height">
-        <color value="shade/#5c5b56/0.9" />
+        <color value="#494844" />
         <color value="#3c3b37" />
 	<color value="#3c3b37" />
     </gradient>
     
     <!-- Topmost dark line -->
-    <line color="shade/#5c5b56/1.0" x1="0" x2="width" y1="0" y2="0"/>
+    <line color="shade/#494844/1.1" x1="0" x2="width" y1="0" y2="0"/>
     
     <line color="shade/#3c3b37/0.94" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
 </draw_ops>
