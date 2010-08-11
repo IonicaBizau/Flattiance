@@ -1,3 +1,10 @@
+light-themes (0.1.6.8) maverick; urgency=low
+
+  * New version
+    - include Ambiance-maverick-beta and a -dark variant
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 10 Aug 2010 09:49:13 -0400
+
 light-themes (0.1.6.8~ppa2) maverick; urgency=low
 
   * Update of Ambiance-maverick-beta and inclusion of -dark variant
@@ -10,6 +17,12 @@ light-themes (0.1.6.8~ppa1) maverick; urgency=low
   * Bumping version number for maverick
 
  -- Kenneth Wimer <kwwii@ubuntu.com>  Thu, 05 Aug 2010 15:28:32 +0200
+
+light-themes (0.1.6.7) maverick; urgency=low
+
+  * Updated Ambiance for ido calendar theming, thanks Cody Russell
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 22 Jul 2010 21:33:30 +0200
 
 light-themes (0.1.6.6~ppa4) lucid; urgency=low
 

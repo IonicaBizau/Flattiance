@@ -10,7 +10,7 @@ Package: light-themes
 Architecture: all
 Depends: ${misc:Depends},
          ubuntu-mono,
-         gtk2-engines-murrine (>= 0.91.0),
+         gtk2-engines-murrine (>= 0.90.3+git20100810),
          humanity-icon-theme
 Conflicts: phase-themes
 Description: Light Themes
