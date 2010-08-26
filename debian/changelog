@@ -1,3 +1,15 @@
+light-themes (0.1.7) maverick; urgency=low
+
+  * New version
+    - Updated for maverick
+    - Dropped the -maverick-beta themes and use the default names
+  * debian/source/format
+    - Specify source format
+  * debian/control
+    - Bump standards version to 3.9.1
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 26 Aug 2010 14:06:05 -0400
+
 light-themes (0.1.6.8) maverick; urgency=low
 
   * New version

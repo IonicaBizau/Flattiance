@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kenneth Wimer <kwwii@ubuntu.com>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 
 Package: light-themes
 Architecture: all
