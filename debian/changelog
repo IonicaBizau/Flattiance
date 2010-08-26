@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.20) maverick; urgency=low
+
+  * Rename panel status icons to include -panel suffix (LP: #624479)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 26 Aug 2010 09:12:48 -0400
+
 ubuntu-mono (0.0.19) maverick; urgency=low
 
   * Adding resources for sound menu (album artwork and player icons)
