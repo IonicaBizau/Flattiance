@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.21) maverick; urgency=low
+
+  * Added ubuntu-mono-light sound_icon needed for indicator-sound (LP: #628896)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 10 Sep 2010 12:35:58 -0400
+
 ubuntu-mono (0.0.20) maverick; urgency=low
 
   * Rename panel status icons to include -panel suffix (LP: #624479)
