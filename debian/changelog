@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.22) maverick; urgency=low
+
+  * workaround for broadband bug (LP: #638276)
+  * Rename sound_icon to sound-icon required for indicator-sound (LP: #628896)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 14 Sep 2010 14:33:59 -0400
+
 ubuntu-mono (0.0.21) maverick; urgency=low
 
   * Added ubuntu-mono-light sound_icon needed for indicator-sound (LP: #628896)
