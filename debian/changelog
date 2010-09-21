@@ -1,3 +1,17 @@
+light-themes (0.1.8) maverick; urgency=low
+
+  * usability fixes based on the user feedback (LP: #634422)
+    - Menuitem speedup
+    - Subtle shadow on inactive notebook’s tabs
+    - White text color on GtkProgressBar
+    - Increased visibility of the resize gripper
+    - Fixed contrast applied to elements in GtkStatusbar
+    - More compatibility with custom color specified in Appearance Preferences
+    - Increased contrast between text and background
+    - Tweaks to the odd row color inside GtkTreeView
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 21 Sep 2010 17:09:53 -0400
+
 light-themes (0.1.7) maverick; urgency=low
 
   * New version

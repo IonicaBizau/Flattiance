@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#ffffff\nfg_color:#525252\ntooltip_fg_color:#ffffff\nselected_bg_color:#f07746\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#F2F1F0\ntooltip_bg_color:#000000\nlink_color:#DD4814"
+gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#f07746\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#F2F1F0\ntooltip_bg_color:#000000\nlink_color:#DD4814"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -41,6 +41,7 @@ style "default" {
 	GtkToolbar::shadow-type = GTK_SHADOW_NONE
 	GtkTreeView::expander-size = 7
 	GtkTreeView::vertical-separator = 0
+	GtkTreeView::odd-row-color = shade (0.96, @base_color)
 	GtkNotebook::tab-overlap = -1
 
 	GtkMenu::horizontal-padding = 0
@@ -83,7 +84,7 @@ style "default" {
 	text[PRELIGHT]    = @text_color
 	text[SELECTED]    = @selected_fg_color
 	text[INSENSITIVE] = shade (0.8, @bg_color)
-	text[ACTIVE]      = @text_color
+	text[ACTIVE]      = darker (@text_color)
 
 	base[NORMAL]      = @base_color
 	base[PRELIGHT]    = shade (0.98, @bg_color)
@@ -269,7 +270,7 @@ style "scale" = "button" {
 style "notebook_bg" {
 	bg[NORMAL] = shade (1.02, @bg_color)
 	bg[ACTIVE] = shade (0.97, @bg_color)
-	fg[ACTIVE] = mix (0.9, @fg_color, @bg_color)
+	fg[ACTIVE] = mix (0.8, @fg_color, shade (0.97, @bg_color))
 }
 
 # The color is changed by the notebook_bg style, this style
@@ -283,12 +284,13 @@ style "notebook" {
 		contrast = 0.8
 		focusstyle = 2
 		lightborder_shade = 1.16
+		gradient_shades = {1.1, 1.0, 1.0, 0.68}
 	}
 }
 
 style "statusbar" {
 	engine "murrine" {
-		contrast = 1.0
+		contrast = 1.2
 	}
 }
 
@@ -328,9 +330,9 @@ style "menu" = "dark" {
 	xthickness = 0
 	ythickness = 0
 
-	bg[NORMAL] = "#4D4C48"
-	bg[INSENSITIVE] = "#4D4C48"
-	fg[INSENSITIVE]   = shade (0.75, "#4D4C48")
+	bg[NORMAL] = "#43423f"
+	bg[INSENSITIVE] = "#43423f"
+	fg[INSENSITIVE]   = shade (0.7, "#43423f")
 
 	engine "murrine"
 	{
@@ -394,7 +396,7 @@ style "separator_menu_item" {
 	GtkWidget::separator-height = 7
 	
 	engine "murrine" {
-		contrast = 0.5
+		contrast = 0.6
 		separatorstyle = 0
 	}
 }
@@ -409,7 +411,7 @@ style "separator_tool_item" {
 	GtkWidget::separator-height = 1
 
 	engine "murrine" {
-		contrast = 0.5
+		contrast = 0.6
 		separatorstyle = 0
 	}
 }
@@ -432,6 +434,7 @@ style "progressbar" {
 	ythickness = 1
 
 	bg[ACTIVE] = shade (0.94, @bg_color)
+	fg[PRELIGHT] = @selected_fg_color
 	#bg[SELECTED] = "#cdcdcd"
 
 	engine "murrine" {
@@ -478,10 +481,12 @@ style "scrolledwindow" {
 }
 
 style "radiocheck"  = "button" {
-	text[NORMAL] = "#793c24"
-	text[PRELIGHT] = shade(1.06, "#793c24")
+	text[NORMAL] = shade (0.535, @selected_bg_color)
+	text[PRELIGHT] = shade(1.06, shade (0.535, @selected_bg_color))
 	bg[NORMAL]   = shade (0.92, @bg_color)
 	bg[PRELIGHT] = mix (0.2, @selected_bg_color, shade(1.1, @bg_color))
+	fg[INSENSITIVE] = darker (@bg_color)
+	fg[ACTIVE] = @fg_color
 
 	engine "murrine" {
 		reliefstyle = 3
@@ -615,7 +620,7 @@ widget_class "*<GtkButton>" style "button"
 widget_class "*<GtkButton>*<GtkLabel>" style "button"
 widget_class "*<GtkToolbar>.*.<GtkButton>*" style "notebook_button"
 widget_class "*<GtkNotebook>" style "notebook"
-widget_class "*<GtkStatusbar>*" style "statusbar"
+widget_class "*<GtkStatusbar>" style "statusbar"
 widget_class "*<GtkSpinButton>*" style "spinbutton"
 widget_class "*<GtkNotebook>*<GtkButton>" style "notebook_button"
 widget_class "*<GtkNotebook>*<GtkButton>*<GtkLabel>" style "notebook_button"
