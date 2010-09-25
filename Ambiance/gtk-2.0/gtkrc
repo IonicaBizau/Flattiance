@@ -125,7 +125,7 @@ style "dark"
 	fg[PRELIGHT]      = "#fff"
 	fg[ACTIVE]        = "#fff"
 	fg[SELECTED]      = "#fff"
-	fg[INSENSITIVE]   = shade (0.8, "#3c3b37")
+	fg[INSENSITIVE]   = shade (0.52, "#3c3b37")
 
 	bg[NORMAL]        = "#3c3b37"
 	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
@@ -332,7 +332,7 @@ style "menu" = "dark" {
 
 	bg[NORMAL] = "#43423f"
 	bg[INSENSITIVE] = "#43423f"
-	fg[INSENSITIVE]   = shade (0.7, "#43423f")
+	fg[INSENSITIVE]   = shade (0.56, "#43423f")
 
 	engine "murrine"
 	{
