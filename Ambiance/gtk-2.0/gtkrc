@@ -112,7 +112,6 @@ style "default" {
 		focusstyle = 3
 		handlestyle = 1
 		sliderstyle = 3
-		handlestyle = 1
 		scrollbarstyle = 2
 		stepperstyle = 3
 #		rgba = TRUE
