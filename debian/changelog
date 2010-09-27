@@ -1,3 +1,9 @@
+light-themes (0.1.8.1) maverick; urgency=low
+
+  * helps making disabled menu items more readable (LP: #617192)
+
+ -- Andrea Cimitan <andrea.cimitan@gmail.com>  Mon, 27 Sep 2010 16:42:10 +0200
+
 light-themes (0.1.8) maverick; urgency=low
 
   * usability fixes based on the user feedback (LP: #634422)
