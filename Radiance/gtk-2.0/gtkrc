@@ -41,7 +41,7 @@ style "default" {
 	GtkToolbar::shadow-type = GTK_SHADOW_NONE
 	GtkTreeView::expander-size = 7
 	GtkTreeView::vertical-separator = 0
-	GtkTreeView::odd-row-color = shade (0.96, @base_color)
+#	GtkTreeView::odd-row-color = shade (0.96, @base_color)
 	GtkNotebook::tab-overlap = -1
 
 	GtkMenu::horizontal-padding = 0
@@ -286,6 +286,10 @@ style "comboboxentry" = "notebook_button" {
 }
 
 style "menubar" = "dark" {
+	# those two lines were added to fix firefox's menubar item text
+	bg[SELECTED] = "#ece7e2"
+	fg[SELECTED] = @fg_color
+
 	engine "murrine" {
 		textstyle = 1
 		text_shade = 1.23
