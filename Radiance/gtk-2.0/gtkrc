@@ -286,6 +286,10 @@ style "comboboxentry" = "notebook_button" {
 }
 
 style "menubar" = "dark" {
+	# those two lines were added to fix firefox's menubar item text
+	bg[SELECTED] = "#ece7e2"
+	fg[SELECTED] = @fg_color
+
 	engine "murrine" {
 		textstyle = 1
 		text_shade = 1.23
