@@ -45,7 +45,7 @@ style "default" {
 	GtkNotebook::tab-overlap = -1
 
 	GtkMenu::horizontal-padding = 0
-	GtkMenu::vertical-padding = 4
+	GtkMenu::vertical-padding = 3
 
 	WnckTasklist::fade-overlay-rect = 0
 	# The following line hints to gecko (and possibly other appliations)
