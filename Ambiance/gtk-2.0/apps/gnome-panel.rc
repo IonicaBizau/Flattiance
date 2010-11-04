@@ -106,6 +106,7 @@ style "panel_task_button" = "dark"
 widget "*PanelWidget*"            style "panel"
 widget "*PanelApplet*"            style "panel"
 widget "*fast-user-switch*"       style "panel" # workaround for Fast User Switch applet
+widget "*CPUFreqApplet*"          style "panel" # workaround for CpuFreq Applet
 class "PanelApp*"                 style "panel"
 class "PanelToplevel*"            style "panel"
 #widget_class "*Mail*"             style "panel"

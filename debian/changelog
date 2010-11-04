@@ -1,3 +1,10 @@
+light-themes (0.1.8.3) maverick-proposed; urgency=low
+
+  * Include cpu-freq among the panel applets known to the Ambiance theme
+    (LP: #640096)
+
+ -- John S Gruber <JohnSGruber@gmail.com>  Fri, 01 Oct 2010 23:00:56 -0400
+
 light-themes (0.1.8.2) maverick; urgency=low
 
   * Removes a warning due to the usage of symbolic colors for odd-row-color
