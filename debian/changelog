@@ -1,3 +1,9 @@
+light-themes (0.1.8.4) natty; urgency=low
+
+  * Add symlinks so the themes work in GTK3
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Thu, 11 Nov 2010 16:20:13 +1100
+
 light-themes (0.1.8.3) maverick-proposed; urgency=low
 
   * Include cpu-freq among the panel applets known to the Ambiance theme
