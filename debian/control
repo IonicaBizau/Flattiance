@@ -6,6 +6,7 @@ XSBC-Original-Maintainer: Kenneth Wimer <kwwii@ubuntu.com>
 Build-Depends: debhelper (>= 7),
                icon-naming-utils
 Standards-Version: 3.8.3
+Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
 
 Package: ubuntu-mono
 Architecture: all
