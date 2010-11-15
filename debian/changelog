@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.23) UNRELEASED; urgency=low
+ubuntu-mono (0.0.23) natty; urgency=low
 
   * debian/control: Add Vcs-Bzr.
   * debian/control: Bump Standards-Version to 3.9.1 (no changes necessary).
@@ -7,7 +7,7 @@ ubuntu-mono (0.0.23) UNRELEASED; urgency=low
   * debian/control: Drop XSBC-Original-Maintainer, we only use that for Debian
     derived packages.
 
- -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 15 Nov 2010 13:30:18 +0100
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 15 Nov 2010 13:37:18 +0100
 
 ubuntu-mono (0.0.22) maverick; urgency=low
 
