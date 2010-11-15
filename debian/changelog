@@ -1,6 +1,7 @@
 ubuntu-mono (0.0.23) UNRELEASED; urgency=low
 
   * debian/control: Add Vcs-Bzr.
+  * debian/control: Bump Standards-Version to 3.9.1 (no changes necessary).
 
  -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 15 Nov 2010 13:30:18 +0100
 

@@ -5,7 +5,7 @@ Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kenneth Wimer <kwwii@ubuntu.com>
 Build-Depends: debhelper (>= 7),
                icon-naming-utils
-Standards-Version: 3.8.3
+Standards-Version: 3.9.1
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
 
 Package: ubuntu-mono
