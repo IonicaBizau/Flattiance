@@ -6,6 +6,9 @@ ubuntu-mono (0.0.24) UNRELEASED; urgency=low
     nm-applet to use for VPNs and to denote wireless security.
   * debian/control: add a python Depends for the compositor script.
 
+  [Paul Sladen]
+  * Move scavenge.py to debian/
+
  -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 05 Jan 2011 09:15:31 -0500
 
 ubuntu-mono (0.0.23) natty; urgency=low
