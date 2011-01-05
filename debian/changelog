@@ -2,8 +2,10 @@ ubuntu-mono (0.0.24) UNRELEASED; urgency=low
 
   * scavenge.py, debian/install: Add and install new scavenge.py script to
     patch multiple svg icons together.
+  * ubuntu-mono.postinst: call scavenge.py to generate "secure" icons for
+    nm-applet to use for VPNs and to denote wireless security.
 
- -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 05 Jan 2011 08:52:28 -0500
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 05 Jan 2011 08:55:49 -0500
 
 ubuntu-mono (0.0.23) natty; urgency=low
 

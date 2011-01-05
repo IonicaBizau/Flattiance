@@ -1,0 +1,55 @@
+#!/bin/sh
+
+set -e
+
+compositor=/usr/share/ubuntu-mono/tools/scavenge.py 
+
+case $1 in
+	configure)
+		# Post-process additional icons to composite.
+		for type in light dark; do
+			for iconsize in \
+			/usr/share/icons/ubuntu-mono-$type/status/22 \
+			/usr/share/icons/ubuntu-mono-$type/status/24 \
+			;
+			do
+				$compositor -o $iconsize/nm-device-wired-secure.svg  \
+					$iconsize/nm-device-wired.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/nm-signal-00-secure.svg \
+					$iconsize/nm-signal-00.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/nm-signal-25-secure.svg \
+					$iconsize/nm-signal-25.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/nm-signal-50-secure.svg \
+					$iconsize/nm-signal-50.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/nm-signal-75-secure.svg \
+					$iconsize/nm-signal-75.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/nm-signal-100-secure.svg \
+					$iconsize/nm-signal-100.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/gsm-3g-none-secure.svg \
+					$iconsize/gsm-3g-none.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/gsm-3g-low-secure.svg \
+					$iconsize/gsm-3g-low.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/gsm-3g-medium-secure.svg \
+					$iconsize/gsm-3g-medium.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/gsm-3g-high-secure.svg \
+					$iconsize/gsm-3g-high.svg \
+					$iconsize/nm-vpn-lock.svg
+				$compositor -o $iconsize/gsm-3g-full-secure.svg \
+					$iconsize/gsm-3g-full.svg \
+					$iconsize/nm-vpn-lock.svg
+			done
+			update-icon-caches /usr/share/icons/ubuntu-mono-$type
+		done
+		;;
+	*)
+		;;
+esac
