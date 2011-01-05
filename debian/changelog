@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.24) UNRELEASED; urgency=low
+
+  * scavenge.py, debian/install: Add and install new scavenge.py script to
+    patch multiple svg icons together.
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 05 Jan 2011 08:52:28 -0500
+
 ubuntu-mono (0.0.23) natty; urgency=low
 
   * debian/control: Add Vcs-Bzr.
