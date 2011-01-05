@@ -6,7 +6,7 @@ Upstream Author:
 
 Copyright:
 
-(c) Canonical Ltd 2004- 2009
+(c) Canonical Ltd 2004-2011
 
 Unless otherwise indicated, artwork is available under the Creative
 Commons Attribution Share-alike license v3.0 or any later version. To
@@ -283,3 +283,9 @@ available upon request from time to time.
 
 Creative Commons may be contacted at http://creativecommons.org/
 
+
+Files: debian/scavenge.py
+Copyright: Copyright 2011 Canonical Ltd.
+License: GPL-3+
+  On Debian systems, the full text of the GNU General Public
+  License version 3 can be found in /usr/share/common-licenses/GPL-3
