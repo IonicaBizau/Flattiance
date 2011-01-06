@@ -7,8 +7,8 @@ ubuntu-mono (0.0.24) UNRELEASED; urgency=low
   * debian/control: add a python Depends for the compositor script.
 
   [Paul Sladen]
-  * Move scavenge.py to debian/
   * debian/copyright: mention GPL-3+ for debian/scavenge.py
+  * Makefile: replace postinst/prerm with Makefile
 
  -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 05 Jan 2011 09:15:31 -0500
 

@@ -284,7 +284,7 @@ available upon request from time to time.
 Creative Commons may be contacted at http://creativecommons.org/
 
 
-Files: debian/scavenge.py
+Files: scavenge.py Makefile
 Copyright: Copyright 2011 Canonical Ltd.
 License: GPL-3+
   On Debian systems, the full text of the GNU General Public

@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 Build-Depends: debhelper (>= 7),
                icon-naming-utils,
+               python,
                python-scour
 Standards-Version: 3.9.1
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
@@ -14,7 +15,6 @@ Depends: ${misc:Depends},
          humanity-icon-theme,
          gnome-icon-theme,
          hicolor-icon-theme,
-         python
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful
 
