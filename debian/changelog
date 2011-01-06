@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.24) UNRELEASED; urgency=low
+ubuntu-mono (0.0.24) natty; urgency=low
 
   * scavenge.py, debian/install: Add and install new scavenge.py script to
     patch multiple svg icons together.
