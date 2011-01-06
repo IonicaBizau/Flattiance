@@ -14,7 +14,7 @@ Architecture: all
 Depends: ${misc:Depends},
          humanity-icon-theme,
          gnome-icon-theme,
-         hicolor-icon-theme,
+         hicolor-icon-theme
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful
 
