@@ -695,6 +695,8 @@ widget_class "*<EelEditableLabel>" style "fg_is_text_color_workaround"
 widget "ido-offscreen-scale" style "soundfix"
 # Thickness for indicator menu items
 widget "*IdoEntryMenuItem*" style "wide"
+# Make IdoMessageDialog use dark colors
+widget "*IdoMessageDialog*" style "dark"
 
 # See the documentation of the style.
 widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" style "evo_new_button_workaround"
