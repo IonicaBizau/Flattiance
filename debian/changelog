@@ -1,7 +1,8 @@
-light-themes (0.1.8.6~natty1) natty; urgency=low
+light-themes (0.1.8.6) natty; urgency=low
 
   * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
-    - Set style for IdoMessageDialog
+    - Set style for IdoMessageDialog used by incoming call notifications 
+      in empathy
 
  -- Ken VanDine <ken.vandine@canonical.com>  Fri, 28 Jan 2011 23:03:18 -0500
 
