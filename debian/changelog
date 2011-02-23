@@ -1,3 +1,13 @@
+light-themes (0.1.8.7) UNRELEASED; urgency=low
+
+  [Daniel Foré]
+  * apps/ubuntuone.rc: Move the Ubuntu One-specific themeing for when
+    running under light-themes into the theme.  This impoves the
+    look of the Ubuntu One clients when running under other themes.
+    (LP: #715717)
+
+ -- Paul Sladen <sladen@ubuntu.com>  Wed, 23 Feb 2011 16:20:00 +0000
+
 light-themes (0.1.8.6) natty; urgency=low
 
   * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
