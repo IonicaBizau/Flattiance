@@ -1,3 +1,12 @@
+light-themes (0.1.8.8) natty; urgency=low
+
+  * Ambiance/gtk-2.0/gtkrc
+    - Removed style for IdoMessageDialog
+  * Radiance/gtk-2.0/gtkrc
+    - Removed style for IdoMessageDialog
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 24 Feb 2011 21:17:19 -0500
+
 light-themes (0.1.8.7) natty; urgency=low
 
   [Daniel Foré]
