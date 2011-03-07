@@ -1,1 +1,40 @@
-weather-clear-night.svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="15"
+   height="22"
+   id="svg3793">
+  <defs
+     id="defs3795" />
+  <metadata
+     id="metadata3798">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,6)"
+     id="layer1">
+    <path
+       d="m 8.3337585,7.9504658 c 0.07108,-1.964309 -1.14814,-2.514932 -1.482101,-2.811483 C 5.6733846,4.0924198 8.5656085,-0.24909955 7.0145335,0.0112305 5.4635579,0.2715607 4.028708,1.1720109 3.1151211,2.4583682 2.2016343,3.7447256 1.8205226,5.4011738 2.0795024,6.9600458 2.3384821,8.5188978 3.23445,9.960986 4.5143326,10.879195 5.7942151,11.797393 7.4422955,12.180403 8.9932705,11.920073 10.544347,11.659743 11.979097,10.759292 12.892684,9.472935 13.806371,8.1865678 8.5927385,9.509355 8.3337585,7.9504658 l 0,0 z"
+       id="path2876-6-6-4-4"
+       style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       d="m 8.3337585,6.9504638 c 0.07108,-1.964309 -1.14814,-2.514932 -1.482101,-2.811483 C 5.6733846,3.0924177 8.5656085,-1.2491013 7.0145335,-0.98877115 5.4635579,-0.72844095 4.028708,0.1720092 3.1151211,1.4583665 2.2016343,2.7447239 1.8205226,4.4011718 2.0795024,5.9600438 c 0.2589797,1.558852 1.1549476,3.00094 2.4348302,3.9191492 1.2798825,0.918198 2.9279629,1.301208 4.4789379,1.040878 1.5510765,-0.26033 2.9858265,-1.160781 3.8994135,-2.4471382 0.913687,-1.286367 -4.2999455,0.03642 -4.5589255,-1.522469 l 0,0 z"
+       id="path2876-6-6-4"
+       style="fill:#3c3c3c;fill-opacity:1;stroke:none;display:inline" />
+  </g>
+</svg>

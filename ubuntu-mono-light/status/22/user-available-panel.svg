@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.0"
-   width="22"
+   version="1.1"
+   width="20"
    height="22"
-   id="svg2816"
-   style="display:inline">
+   id="svg3795">
   <defs
-     id="defs2818" />
-  <path
-     d="M 10.5,3 C 5.8201419,3 2.0000001,6.8201419 2,11.5 C 2,16.179858 5.820142,20 10.5,20 C 12.536607,20 14.379002,19.198943 15.84375,18 L 21,18 C 21.412848,18.012088 21.790476,17.768588 21.949824,17.38754 C 22.109171,17.006492 22.017301,16.566656 21.71875,16.28125 L 18.71875,13.28125 C 18.853483,12.705488 19,12.139671 19,11.5 C 19,6.8201419 15.179858,3.0000001 10.5,3 z"
-     id="path3162"
-     style="opacity:0.6;fill:#eae3d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <path
-     d="M 10.5,4 C 6.36,4 3.0000001,7.3599999 3,11.5 C 3,15.64 6.3600001,19 10.5,19 C 12.464788,19 14.256106,18.23778 15.59375,17 L 21,17 L 17.65625,13.65625 C 17.864192,12.968633 18,12.255184 18,11.5 C 18,7.36 14.64,4.0000001 10.5,4 z"
-     id="path2396"
-     style="fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     id="defs3797" />
+  <metadata
+     id="metadata3800">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,6)"
+     id="layer1">
+    <path
+       d="M 9.5,-1 C 5.36,-1 2.0000001,2.3599999 2,6.5 2,10.64 5.3600001,14 9.5,14 c 1.964788,0 3.756106,-0.76222 5.09375,-2 L 20,12 16.65625,8.65625 C 16.864192,7.968633 17,7.255184 17,6.5 17,2.36 13.64,-0.9999999 9.5,-1 z"
+       id="path2396-2"
+       style="opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 9.5,-2 C 5.36,-2 2.0000001,1.3599999 2,5.5 2,9.64 5.3600001,13 9.5,13 c 1.964788,0 3.756106,-0.76222 5.09375,-2 L 20,11 16.65625,7.65625 C 16.864192,6.968633 17,6.255184 17,5.5 17,1.36 13.64,-1.9999999 9.5,-2 z"
+       id="path2396"
+       style="fill:#3c3c3c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
 </svg>

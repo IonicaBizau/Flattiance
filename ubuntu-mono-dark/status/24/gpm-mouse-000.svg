@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,10 +13,28 @@
    width="24"
    height="24"
    id="svg3215"
-   sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="gpm-mouse-000.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="gpm-mouse-000.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="13.227273"
+     inkscape:cx="11"
+     inkscape:cy="11.793814"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3215" />
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -24,37 +43,25 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview
-     inkscape:window-height="781"
-     inkscape:window-width="1440"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     guidetolerance="10.0"
-     gridtolerance="10.0"
-     objecttolerance="10.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base"
-     showgrid="false"
-     inkscape:zoom="10.375"
-     inkscape:cx="4.5301205"
-     inkscape:cy="12"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:current-layer="svg3215" />
   <defs
      id="defs3217" />
+  <path
+     d="m 11.5,5.499999 2,0 c 2.216,0 4,1.338 4,3 L 17.5,17.5 c 0,1.662 -1.784,3 -4,3 l -2,0 c -2.2160001,0 -4,-1.338 -4,-3 l 0,-9.000001 c 0,-1.662 1.7839999,-3 4,-3 z m 1.041885,1e-6 0,4"
+     id="rect2406-4"
+     style="opacity:0.3;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
   <g
      id="g3195"
-     style="opacity:0.3">
+     style="opacity:0.3;stroke:#df382c;stroke-opacity:1">
     <path
-       d="M 12.5,5.3333332 L 12.5,8.6666663"
+       d="m 12.5,5.3333332 0,3.3333331"
        id="path3193"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="fill:none;stroke:#df382c;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
     <rect
        width="13.5"
        height="8.5"
@@ -64,19 +71,11 @@
        y="8.25"
        transform="matrix(0,-1,1,0,0,0)"
        id="rect3236"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="fill:none;stroke:#df382c;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
-  <rect
-     width="12"
-     height="17"
-     rx="5"
-     ry="4"
-     x="6.5"
-     y="3.5"
-     id="rect3178"
-     style="opacity:0.6;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#43423e;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="M 11.5,4.499999 L 13.5,4.499999 C 15.716,4.499999 17.5,5.837999 17.5,7.499999 L 17.5,16.5 C 17.5,18.162 15.716,19.5 13.5,19.5 L 11.5,19.5 C 9.2839999,19.5 7.5,18.162 7.5,16.5 L 7.5,7.499999 C 7.5,5.837999 9.2839999,4.499999 11.5,4.499999 z M 12.541885,4.5 L 12.541885,8.5"
+     d="m 11.5,4.499999 2,0 c 2.216,0 4,1.338 4,3 L 17.5,16.5 c 0,1.662 -1.784,3 -4,3 l -2,0 c -2.2160001,0 -4,-1.338 -4,-3 l 0,-9.000001 c 0,-1.662 1.7839999,-3 4,-3 z m 1.041885,1e-6 0,4"
      id="rect2406"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#dc0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="fill:none;stroke:#df382c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
 </svg>

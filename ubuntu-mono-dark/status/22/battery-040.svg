@@ -7,86 +7,59 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.0"
-   width="32"
+   version="1.1"
+   width="26"
    height="22"
-   id="svg3240"
-   sodipodi:version="0.32"
-   inkscape:version="0.47 r22583"
-   sodipodi:docname="battery-040.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   id="svg3014">
+  <defs
+     id="defs3016" />
   <metadata
-     id="metadata10">
+     id="metadata3019">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview
-     inkscape:window-height="706"
-     inkscape:window-width="944"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     guidetolerance="10.0"
-     gridtolerance="10.0"
-     objecttolerance="10.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base"
-     showgrid="false"
-     inkscape:zoom="6.1429902"
-     inkscape:cx="7.0791367"
-     inkscape:cy="10.884892"
-     inkscape:window-x="339"
-     inkscape:window-y="54"
-     inkscape:current-layer="svg3240"
-     inkscape:window-maximized="0" />
-  <defs
-     id="defs3242">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 11 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="32 : 11 : 1"
-       inkscape:persp3d-origin="16 : 7.3333333 : 1"
-       id="perspective12" />
-  </defs>
   <path
-     d="M 7,5 C 5.892,5 5,5.892 5,7 l 0,8 c 0,1.108 0.892,2 2,2 l 18,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 1,0 c 1.108,0 2,-0.892 2,-2 l 0,-2 C 30,8.892 29.108,8 28,8 L 27,8 27,7 C 27,5.892 26.108,5 25,5 L 7,5 z m 0,1 18,0 c 0.554,0 1,0.446 1,1 l 0,8 c 0,0.554 -0.446,1 -1,1 L 7,16 C 6.446,16 6,15.554 6,15 L 6,7 C 6,6.446 6.446,6 7,6 z m 20,3 1,0 c 0.554,0 1,0.446 1,1 l 0,2 c 0,0.554 -0.446,1 -1,1 l -1,0 0,-4 z"
-     id="rect2401"
-     style="fill:#eae3d0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     d="M 4,6 C 2.892,6 2,6.892 2,8 l 0,8 c 0,1.108 0.892,2 2,2 l 18,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 0.384328,0 C 25.492328,15 26,14.108 26,13 l 0,-2 C 26,9.892 25.574418,9 24.466418,9 L 24,9 24,8 C 24,6.892 23.108,6 22,6 z m 0,1 18,0 c 0.554,0 1,0.446 1,1 l 0,8 c 0,0.554 -0.446,1 -1,1 L 4,17 C 3.446,17 3,16.554 3,16 L 3,8 C 3,7.446 3.446,7 4,7 z m 20,3 c 0.597415,0 1,0.051 1,1 l 0,2 c 0,0.9914 -0.406448,1 -1,1 z"
+     id="rect2401-5"
+     style="opacity:0.3;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <rect
      width="8"
      height="7"
      rx="0.5"
      ry="0.5"
-     x="7"
-     y="-14"
+     x="8"
+     y="-11"
      transform="matrix(0,1,-1,0,0,0)"
-     id="rect3190"
-     style="fill:#eae3d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     id="rect3190-4"
+     style="opacity:0.3;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 4,5 C 2.892,5 2,5.892 2,7 l 0,8 c 0,1.108 0.892,2 2,2 l 18,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 0.384328,0 C 25.492328,14 26,13.108 26,12 l 0,-2 C 26,8.892 25.574418,8 24.466418,8 L 24,8 24,7 C 24,5.892 23.108,5 22,5 z m 0,1 18,0 c 0.554,0 1,0.446 1,1 l 0,8 c 0,0.554 -0.446,1 -1,1 L 4,16 C 3.446,16 3,15.554 3,15 L 3,7 C 3,6.446 3.446,6 4,6 z m 20,3 c 0.597415,0 1,0.051 1,1 l 0,2 c 0,0.9914 -0.406448,1 -1,1 z"
+     id="rect2401"
+     style="fill:#dfdbd2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <rect
      width="19.5"
      height="9.500001"
      rx="0.75"
      ry="0.75"
-     x="6.25"
-     y="6.2499995"
+     x="3.25"
+     y="6.25"
      id="rect3192"
-     style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <path
-     d="m 28,14 -1,0 0,1 c 0,1.436187 -1,2 -2,2 L 7,17 C 6,17 5,16.191135 5,15 L 5,7 C 5,5.825202 6,5 7,5 l 18,0 c 1.174798,0 2,0.8366321 2,2 l 0,1 1,0 c 1,0 2,0.8039585 2,2 l 0,2 c 0,1.196607 -1.00292,2 -2,2 z M 6.522777,4 C 5.414777,4 4,5.4637876 4,6.5717876 L 4,15.477223 C 4,16.585223 5.431114,18 6.539114,18 l 18.987119,0 C 26.634233,18 28,17 28,15.54257 L 28,15 28.428212,15 C 30,15 31,13.65057 31,12.411876 L 31,9.5 C 31,8.392 30,7 28.5,7 L 28,7 28,6.4737669 C 28,5.2187358 26.764927,4 25.477223,4 L 6.522777,4 z"
-     id="path3194"
-     style="opacity:0.6;fill:#3a3935;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <path
-     d="m 27.25,9.2244976 0,3.5255024 c 0.753172,0 1.5,0.04671 1.5,-0.75 l 0,-2 c 0,-0.7901996 -0.750182,-0.7755024 -1.5,-0.7755024 z"
-     id="path3196"
-     style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+     style="opacity:0.3;fill:none;stroke:#dfdbd2;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <rect
+     width="8"
+     height="7"
+     rx="0.5"
+     ry="0.49999177"
+     x="7"
+     y="-11"
+     transform="matrix(0,1,-1,0,0,0)"
+     id="rect3190"
+     style="fill:#dfdbd2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
 </svg>
