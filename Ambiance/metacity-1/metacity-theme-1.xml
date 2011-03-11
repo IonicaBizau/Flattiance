@@ -11,9 +11,9 @@
 
 <!-- General window layout -->
 <frame_geometry name="frame_geometry_normal" title_scale="medium" rounded_top_left="true" rounded_top_right="true"  rounded_bottom_left="false" rounded_bottom_right="false">
- 	<distance name="left_width" value="1"/>
-	<distance name="right_width" value="1"/>
-	<distance name="bottom_height" value="1"/>
+ 	<distance name="left_width" value="0"/>
+	<distance name="right_width" value="0"/>
+	<distance name="bottom_height" value="0"/>
 	<distance name="left_titlebar_edge" value="10"/>
 	<distance name="right_titlebar_edge" value="10"/>
 	<distance name="button_width" value="18"/>
@@ -423,8 +423,8 @@
 	<button function="close" state="normal" draw_ops="close_focused_normal"/>
 	<button function="close" state="prelight" draw_ops="close_focused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_focused_pressed"/>
-	<shadow radius="16.0" opacity="1.3" color="#abde4f" x_offset="1" y_offset="4"/>
-	<padding left="7" right="7" bottom="7"/>
+	<shadow radius="45.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
+	<padding left="5" right="5" bottom="5"/>
 </frame_style>
 
 <frame_style name="normal_unfocused" geometry="frame_geometry_normal">
