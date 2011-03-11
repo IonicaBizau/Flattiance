@@ -1,3 +1,13 @@
+light-themes (0.1.8.9) UNRELEASED; urgency=low
+
+  [Neil J. Patel]
+  * {Amb,Rad}iance/metacity-1/metacity-theme-1.xml
+    Make borders = 0
+    - Invisible grip size = 5
+    - Shadow = 45.0 radius and 0.75 opacity (LP: #733233)
+
+ -- Paul Sladen <sladen@canonical.com>  Fri, 11 Mar 2011 12:35:01 +0000
+
 light-themes (0.1.8.8) natty; urgency=low
 
   * Ambiance/gtk-2.0/gtkrc
