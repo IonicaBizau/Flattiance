@@ -1,3 +1,11 @@
+light-themes (0.1.8.10) natty; urgency=low
+
+  * {Amb,Rad}iance/metacity-1/metacity-theme-1.xml
+    Revert borders to 1px (blandness, and issues with
+    Metacity and Unity-2D).  (LP: #733431, #733233)
+
+ -- Paul Sladen <sladen@canonical.com>  Sat, 12 Mar 2011 13:28:45 +0000
+
 light-themes (0.1.8.9) natty; urgency=low
 
   [Neil J. Patel]
