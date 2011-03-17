@@ -36,12 +36,14 @@ style "mode-right" {
 	}
 }
 
-widget "*ManagementPanel.GtkVBox.GtkEventBox*"                                                         style "dark"
-widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHBox*Button"                           style "ubuntuone-button"
-widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkVBox.GtkHBox*"                                 style "ubuntuone-buttonfix"
-widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkVBox.GtkHBox*GtkHButtonBox*Button"             style "mode-button"
-widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkVBox.GtkHBox*GtkHButtonBox*Account*"           style "mode-left"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkVBox.GtkHBox*GtkHButtonBox*Devices*" style "mode-right"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkVBox.GtkHBox.GtkHSeparator"          style "ubuntuone-sep"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkNotebook.GtkVBox.GtkEventBox*"                           style "dark"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHBox*Button"                   style "ubuntuone-button"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox*GtkHButtonBox*Button"             style "mode-button"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox*GtkHButtonBox*ModeLeft*"          style "mode-left"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox*GtkHButtonBox*ModeRight*"         style "mode-right"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox*GtkHButtonBox*"                   style:highest "ubuntuone-buttonfix"
+widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHSeparator"          style "ubuntuone-sep"
+widget "*ubuntuone*ManagementPanel.GtkVBox.GtkNotebook.GtkVBox.GtkEventBox*"                   style "dark"
+widget "*ubuntuone*ManagementPanel*DevicesPanel.GtkEventBox*"                                  style "dark"
+widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox*"                                       style "dark"
+widget "*ubuntuone*OverviewPanel.GtkVBox.GtkEventBox*"                                         style "dark"
 
