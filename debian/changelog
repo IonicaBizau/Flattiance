@@ -1,6 +1,10 @@
 light-themes (0.1.8.11) UNRELEASED; urgency=low
 
   [Andrea Cimitan]
+  * Ambiance/apps/gnome-terminal.rc
+    - Add dark-terminal theming to tweak resize grip 
+
+  [Andrea Cimitan]
   * Ambiance/Radiance/apps/chromium.rc
     - Add specific chromium theming bits (LP: #697854)
 
@@ -14,7 +18,7 @@ light-themes (0.1.8.11) UNRELEASED; urgency=low
     - Update <info> meta-data; version, and incorrect Radiance *name*.
     - Downcase some hexadecimal colours
 
- -- James Schriver <jws141@gmail.com>  Mon, 21 Mar 2011 21:59:46 -0400
+ -- James schriver <jws141@gmail.com>  Mon, 21 Mar 2011 22:05:43 -0400
 
 light-themes (0.1.8.10) natty; urgency=low
 
