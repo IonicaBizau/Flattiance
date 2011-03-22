@@ -1,16 +1,20 @@
 light-themes (0.1.8.11) UNRELEASED; urgency=low
 
+  [Andrea Cimitan]
+  * Ambiance/Radiance/apps/chromium.rc
+    - Add specific chromium theming bits (LP: #697854)
+
   [Daniel Foré]
   * Ambiance/gtk-2.0/apps/ubuntuone.rc
     - Further tweaks following on from (LP: #715717)
 
-  [James schriver]
+  [James Schriver]
   * Radiance/metacity/metacity-theme-1.xml
     - Fix borderless overlap (LP: #733504)*
     - Update <info> meta-data; version, and incorrect Radiance *name*.
     - Downcase some hexadecimal colours
 
- -- Paul Sladen <sladen@canonical.com>  Mon, 21 Mar 2011 19:46:40 +0000
+ -- James Schriver <jws141@gmail.com>  Mon, 21 Mar 2011 21:59:46 -0400
 
 light-themes (0.1.8.10) natty; urgency=low
 
