@@ -38,7 +38,8 @@
        style="color:#ffffff;fill:#3c3c3c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <g
        transform="translate(1,-1)"
-       id="g3022">
+       id="g3022"
+       style="opacity:0.4">
       <path
          d="m 17.12036,0.095476 c 0,0 -1.845351,1.744801 -1.779696,5.404524 0.0662,3.690079 1.809335,5.404524 1.809335,5.404524 m 3,-8.682665 c 0,0 -0.983474,0.794985 -1.008541,3.230647 -0.02476,2.405297 1.008541,3.325635 1.008541,3.325635"
          id="path3209-4"
