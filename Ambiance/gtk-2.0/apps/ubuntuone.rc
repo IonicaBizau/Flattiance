@@ -36,14 +36,14 @@ style "mode-right" {
 	}
 }
 
-widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHBox*Button"            style "ubuntuone-button"
-widget "*ubuntuone*ManagementPanel*GtkHButtonBox*Button"                                style "mode-button"
-widget "*ubuntuone*ManagementPanel*GtkHButtonBox*ModeLeft*"                             style "mode-left"
-widget "*ubuntuone*ManagementPanel*GtkHButtonBox*ModeRight*"                            style "mode-right"
-widget "*ubuntuone*ManagementPanel*GtkHButtonBox*"                                      style:highest "ubuntuone-buttonfix"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHSeparator"   style "ubuntuone-sep"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkNotebook.GtkVBox.GtkEventBox*"            style "dark"
-widget "*ubuntuone*ManagementPanel*DevicesPanel.GtkEventBox*"                           style "dark"
-widget "*ubuntuone*ManagementPanel.GtkVBox.GtkEventBox*"                                style "dark"
-widget "*ubuntuone*OverviewPanel.GtkVBox.GtkEventBox*"                                  style "dark"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHBox*Button"  style "ubuntuone-button"
+widget "*ManagementPanel*GtkHButtonBox*Button"                                style "mode-button"
+widget "*ManagementPanel*GtkHButtonBox*ModeLeft*"                             style "mode-left"
+widget "*ManagementPanel*GtkHButtonBox*ModeRight*"                            style "mode-right"
+widget "*ManagementPanel*GtkHButtonBox*"                                      style:highest "ubuntuone-buttonfix"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHSeparator"   style "ubuntuone-sep"
+widget "*ManagementPanel.GtkVBox.GtkNotebook.GtkVBox.GtkEventBox*"            style "dark"
+widget "*ManagementPanel*DevicesPanel.GtkEventBox*"                           style "dark"
+widget "*ManagementPanel.GtkVBox.GtkEventBox*"                                style "dark"
+widget "*OverviewPanel.GtkVBox.GtkEventBox*"                                  style "dark"
 
