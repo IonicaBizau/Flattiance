@@ -1,6 +1,10 @@
 light-themes (0.1.8.11) UNRELEASED; urgency=low
 
   [Andrea Cimitan]
+  * Ambiance/Radiance/gtk-2.0/gtkrc
+    - Fix inconsistent menu item distances (LP: #659866)
+
+  [Andrea Cimitan]
   * Ambiance/apps/gnome-terminal.rc
     - Add dark-terminal theming to tweak resize grip 
 
@@ -18,7 +22,7 @@ light-themes (0.1.8.11) UNRELEASED; urgency=low
     - Update <info> meta-data; version, and incorrect Radiance *name*.
     - Downcase some hexadecimal colours
 
- -- James schriver <jws141@gmail.com>  Mon, 21 Mar 2011 22:05:43 -0400
+ -- James schriver <jws141@gmail.com>  Mon, 21 Mar 2011 22:11:28 -0400
 
 light-themes (0.1.8.10) natty; urgency=low
 
