@@ -2,7 +2,11 @@ ubuntu-mono (0.0.25) UNRELEASED; urgency=low
 
   [Daniel Foré]
   * Major complete redraw of all the mono icons:
-    - use correct consistent colors
+    - use correct consistent colors (LP: #740900)
+      + Red: Critical issues
+      + Orange: Warnings
+      + Blue: Pure information
+      + Green: Approved or "now OK"
     - providing the correct sizes
     - providing the correct spacing
     - a minor style change.
