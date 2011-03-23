@@ -1,3 +1,11 @@
+ubuntu-mono (0.0.26) UNRELEASED; urgency=low
+
+  * Upgrade 'start-here' Big Friendly Button icon to a tweaked version of the
+    Ubuntu Circle of Friends with surround. (LP: #737772)
+  * Convert 'start-here.svg' black and white to be #3c3c3c and #dfdbd2 .
+
+ -- Paul Sladen <sladen@canonical.com>  Wed, 23 Mar 2011 23:00:00 +0000
+
 ubuntu-mono (0.0.25) natty; urgency=low
 
   [Daniel Foré]
