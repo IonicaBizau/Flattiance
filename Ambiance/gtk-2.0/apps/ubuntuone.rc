@@ -37,10 +37,10 @@ style "mode-right" {
 }
 
 widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHBox*Button"  style "ubuntuone-button"
-widget "*ManagementPanel*GtkHButtonBox*Button"                                style "mode-button"
-widget "*ManagementPanel*GtkHButtonBox*ModeLeft*"                             style "mode-left"
-widget "*ManagementPanel*GtkHButtonBox*ModeRight*"                            style "mode-right"
-widget "*ManagementPanel*GtkHButtonBox*"                                      style:highest "ubuntuone-buttonfix"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.*GtkHButtonBox*Button"           style "mode-button"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.*GtkHButtonBox*ModeLeft*"        style "mode-left"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.*GtkHButtonBox*ModeRight*"       style "mode-right"
+widget "*ManagementPanel.GtkVBox.GtkEventBox.*GtkHButtonBox*"                 style:highest "ubuntuone-buttonfix"
 widget "*ManagementPanel.GtkVBox.GtkEventBox.GtkVBox.GtkHBox.GtkHSeparator"   style "ubuntuone-sep"
 widget "*ManagementPanel.GtkVBox.GtkNotebook.GtkVBox.GtkEventBox*"            style "dark"
 widget "*ManagementPanel*DevicesPanel.GtkEventBox*"                           style "dark"
