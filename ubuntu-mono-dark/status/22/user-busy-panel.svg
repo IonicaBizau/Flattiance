@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.0"
-   width="22"
+   width="20"
    height="22"
    id="svg2816"
    style="display:inline">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <defs
      id="defs2818" />
   <path
-     d="M 10.5,3 C 5.8201419,3 2.0000001,6.8201419 2,11.5 C 2,16.179858 5.820142,20 10.5,20 C 12.536607,20 14.379002,19.198943 15.84375,18 L 21,18 C 21.412848,18.012088 21.778153,17.756048 21.9375,17.375 C 22.096848,16.993951 22.017301,16.566656 21.71875,16.28125 L 18.71875,13.28125 C 18.853483,12.705488 19,12.139671 19,11.5 C 19,6.8201419 15.179858,3.0000001 10.5,3 z M 15,13 L 6,13 L 6,11 L 15,11 L 15,13 z"
-     id="path3162"
-     style="opacity:0.6;fill:#3a3935;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     d="M 9.5,5 C 5.36,5 2.0000001,8.3599999 2,12.5 2,16.64 5.3600001,20 9.5,20 c 1.964788,0 3.756106,-0.76222 5.09375,-2 L 20,18 16.65625,14.65625 C 16.864192,13.968633 17,13.255184 17,12.5 17,8.36 13.64,5.0000001 9.5,5 z m 4.5,9 -9,0 0,-2 9,0 0,2 z"
+     id="path2396-4"
+     style="opacity:0.3;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="M 10.5,4 C 6.36,4 3.0000001,7.3599999 3,11.5 C 3,15.64 6.3600001,19 10.5,19 C 12.464788,19 14.256106,18.23778 15.59375,17 L 21,17 L 17.65625,13.65625 C 17.864192,12.968633 18,12.255184 18,11.5 C 18,7.36 14.64,4.0000001 10.5,4 z M 15,13 L 6,13 L 6,11 L 15,11 L 15,13 z"
+     d="M 9.5,4 C 5.36,4 2.0000001,7.3599999 2,11.5 2,15.64 5.3600001,19 9.5,19 c 1.964788,0 3.756106,-0.76222 5.09375,-2 L 20,17 16.65625,13.65625 C 16.864192,12.968633 17,12.255184 17,11.5 17,7.36 13.64,4.0000001 9.5,4 z m 4.5,9 -9,0 0,-2 9,0 0,2 z"
      id="path2396"
-     style="fill:#eae3d1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="fill:#dfdbd2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
 </svg>

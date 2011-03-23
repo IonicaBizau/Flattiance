@@ -1,3 +1,21 @@
+ubuntu-mono (0.0.25) UNRELEASED; urgency=low
+
+  [Daniel Foré]
+  * Major complete redraw of all the mono icons:
+    - use correct consistent colors
+    - providing the correct sizes
+    - providing the correct spacing
+    - a minor style change.
+    This changes were made at the last platform sprint under the
+    supervision (and at the request) of Otto Greenslade. (LP: #740540)
+  * Note that both 'ubuntu-mono-dark' and 'ubuntu-mono-light' are consistent
+    enough to be transformed manually using regular expressions in the
+    'ambiancetoradiance.sh' script.
+    - This has to be run manually.  Ideally the re-colouring step
+      could be moved to be part of the package build process/Makefile.
+
+ --  <sladen@canonical.com>  Wed, 23 Mar 2011 10:37:50 +0000
+
 ubuntu-mono (0.0.24) natty; urgency=low
 
   * scavenge.py, debian/install: Add and install new scavenge.py script to
