@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.27) UNRELEASED; urgency=low
+ubuntu-mono (0.0.27) natty; urgency=low
 
   * Clean up stray duplicate symlinks for the nm-stage02-connecting03 icon
     under animations/ that would make icon cache validation fail. (LP: #741387)
