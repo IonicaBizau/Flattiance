@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.28) UNRELEASED; urgency=low
+
+  * User-home should be folder. (LP: #721121)
+
+ -- K Vishnoo Charan Reddy <vish@ubuntu.com>  Mon, 04 Mar 2011 22:41:45 +0530
+
 ubuntu-mono (0.0.27) natty; urgency=low
 
   * Clean up stray duplicate symlinks for the nm-stage02-connecting03 icon
