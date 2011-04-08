@@ -3,12 +3,8 @@ light-themes (0.1.8.11) UNRELEASED; urgency=low
   [Andrea Cimitan]
   * Ambiance/Radiance/gtk-2.0/gtkrc
     - Fix inconsistent menu item distances (LP: #659866)
-
-  [Andrea Cimitan]
   * Ambiance/apps/gnome-terminal.rc
     - Add dark-terminal theming to tweak resize grip 
-
-  [Andrea Cimitan]
   * Ambiance/Radiance/apps/chromium.rc
     - Add specific chromium theming bits (LP: #697854)
 
