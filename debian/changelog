@@ -11,12 +11,18 @@ light-themes (0.1.8.11) UNRELEASED; urgency=low
   [Daniel Foré]
   * Ambiance/gtk-2.0/apps/ubuntuone.rc
     - Further tweaks following on from (LP: #715717)
+    - May need further adjusting to cope with widgetname adjustments
+      in the application itself.
 
   [James Schriver]
   * Radiance/metacity/metacity-theme-1.xml
     - Fix borderless overlap (LP: #733504)*
     - Update <info> meta-data; version, and incorrect Radiance *name*.
     - Downcase some hexadecimal colours
+
+  [Paul Sladen]
+  * This release is known not to be perfect but is an iterative
+    improvement on the previous and should get a new base-line.
 
  -- James schriver <jws141@gmail.com>  Mon, 21 Mar 2011 22:11:28 -0400
 
