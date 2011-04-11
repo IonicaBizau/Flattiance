@@ -1,3 +1,16 @@
+light-themes (0.1.8.12) UNRELEASED; urgency=low
+
+  [James Schriver]
+  * Ambiance/metacity-1/metacity-theme-1.xml
+    - Darken frame and bottom edge fix for (LP:740579)
+  
+  * Radiance/apps/chromium.rc
+    - Fix incognito theming in Radiance (LP: #697854)
+  * Radiance/metacity/metacity-theme-1.xml
+    - Revert fix borderless overlap (LP: #733504) as this is a fix for "0" pixel borders"
+
+ -- James Schriver <jws141@gmail.com>  Mon, 11 Apr 2011 11:13:13 -0400
+
 light-themes (0.1.8.11) natty; urgency=low
 
   [Andrea Cimitan]

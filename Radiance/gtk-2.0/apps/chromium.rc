@@ -17,8 +17,8 @@ style "chrome-gtk-frame"
   ChromeGtkFrame::frame-gradient-size = 16
   ChromeGtkFrame::frame-gradient-color = shade (0.97, @bg_color)
 
-  ChromeGtkFrame::incognito-frame-color = lighter ("#dfd7cf")
-  ChromeGtkFrame::incognito-inactive-frame-color = lighter ("#dfd7cf")
+  ChromeGtkFrame::incognito-frame-color = "#dfd7cf"
+  ChromeGtkFrame::incognito-inactive-frame-color = "#dfd7cf"
 
   ChromeGtkFrame::incognito-frame-gradient-size = 16
   ChromeGtkFrame::incognito-frame-gradient-color = shade (0.97, @bg_color)

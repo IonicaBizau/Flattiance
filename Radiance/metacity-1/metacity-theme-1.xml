@@ -39,7 +39,7 @@
 <frame_geometry name="geometry_maximized" rounded_top_left="false" rounded_top_right="false" rounded_bottom_left="false" rounded_bottom_right="false">
 	<distance name="left_width" value="0"/>
 	<distance name="right_width" value="0"/>
-	<distance name="bottom_height" value="0"/>
+	<distance name="bottom_height" value="1"/>
 	<distance name="left_titlebar_edge" value="10"/>
   	<distance name="right_titlebar_edge" value="10"/>
   	<distance name="button_width" value="18"/>
@@ -103,18 +103,29 @@
 
 <draw_ops name="draw_title">
     <!-- Background gradient -->
-    <gradient type="vertical" x="0" y="0" width="width" height="top_height">
+    <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-2">
         <color value="#f5f4f1" />
         <color value="#dfd7cf" />
 	<color value="#dfd7cf" />
     </gradient>
     
     <!-- Titlebar outline -->
-    <rectangle color="#dfd7cf" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
+    <rectangle color="shade/#dfd7cf/0.8" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
 
     <!-- Topmost lines -->
-    <line color="shade/#f5f4f1/1.0" x1="0" x2="width" y1="1" y2="1"/>
-
+    <line color="shade/#f5f4f1/1.1" x1="0" x2="width" y1="1" y2="1"/>
+    
+    <!-- Darkening of the left arch -->
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="4" y1="1" y2="1"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="2" y1="2" y2="2"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="3" y2="3"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="4" y2="4"/>
+    
+    <line color="shade/#dfd7cf/0.8" x1="width-5" x2="width" y1="1" y2="1"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-3" x2="width" y1="2" y2="2"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="3" y2="3"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="4" y2="4"/>
+    
     <line color="shade/#dfd7cf/0.96" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
 </draw_ops>
 
@@ -126,12 +137,25 @@
 	<color value="#dfd7cf" />
     </gradient>
 
-     <!-- Titlebar outline -->
-    <rectangle color="#dfd7cf" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
+    <!-- Titlebar outline -->
+    <rectangle color="shade/#dfd7cf/0.8" filled="false" x="0" y="0" width="width - 1" height="top_height - 1"/>
 
     <!-- Topmost lines -->
-    <line color="shade/#f5f4f1/.9" x1="0" x2="width" y1="1" y2="1"/>
-
+    <line color="shade/#EDE7E1/1.05" x1="0" x2="width" y1="1" y2="1"/>
+    
+    <!-- Darkening of the left arch -->
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="4" y1="1" y2="1"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="2" y1="2" y2="2"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="3" y2="3"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="4" y2="4"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="0" y1="5" y2="40"/>
+    
+    <line color="shade/#dfd7cf/0.8" x1="width-5" x2="width" y1="1" y2="1"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-3" x2="width" y1="2" y2="2"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="3" y2="3"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="4" y2="4"/>
+    <line color="shade/#dfd7cf/0.8" x1="width-1" x2="width" y1="5" y2="90"/>
+  
     <line color="shade/#dfd7cf/0.96" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
 </draw_ops>
 
@@ -141,30 +165,32 @@
 
 <draw_ops name="draw_title_maximized">
     <!-- Background gradient -->
-    <gradient type="vertical" x="0" y="0" width="width" height="top_height">
-        <color value="#5c5b56" />
+    <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
+        <color value="#f5f4f1" />
         <color value="#dfd7cf" />
 	<color value="#dfd7cf" />
     </gradient>
     
     <!-- Topmost dark line -->
-    <line color="shade/#5c5b56/1.1" x1="0" x2="width" y1="0" y2="0"/>
-    
-    <line color="shade/#dfd7cf/0.94" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="width" y1="0" y2="0"/>
+    <line color="shade/#f5f4f1/1.1" x1="0" x2="width" y1="1" y2="1"/>    
+
+    <line color="shade/#dfd7cf/0.96" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_unfocused">
     <!-- Background gradient -->
-    <gradient type="vertical" x="0" y="0" width="width" height="top_height">
-        <color value="#494844" />
+    <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
+        <color value="#EDE7E1" />
         <color value="#dfd7cf" />
 	<color value="#dfd7cf" />
     </gradient>
-    
+
     <!-- Topmost dark line -->
-    <line color="shade/#494844/1.1" x1="0" x2="width" y1="0" y2="0"/>
+    <line color="shade/#dfd7cf/0.8" x1="0" x2="width" y1="0" y2="0"/>
+    <line color="shade/#EDE7E1/1.05" x1="0" x2="width" y1="1" y2="1"/> 
     
-    <line color="shade/#dfd7cf/0.94" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
+    <line color="shade/#dfd7cf/0.96" x1="1" y1="top_height - 1" x2="width - 2" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_inactive">
@@ -174,21 +200,21 @@
 <!-- Window Frames -->
 
 <draw_ops name="draw_frame">
-    <rectangle color="shade/gtk:bg[NORMAL]/0.7" x="0" y="0" width="width" height="height" filled="true"/>
+    <rectangle color="shade/gtk:bg[NORMAL]/0.9" x="0" y="0" width="width" height="height" filled="true"/>
     <gradient type="vertical" x="0" y="0" width="width" height="60">
-        <color value="shade/#dfd7cf/1.2" />
-        <color value="shade/gtk:bg[NORMAL]/0.7" />
+        <color value="shade/#dfd7cf/0.8" />
+        <color value="shade/gtk:bg[NORMAL]/0.9" />
     </gradient>
 </draw_ops>
 
 <!-- bottom border -->
 <draw_ops name="bottom_edge">
-	<line color="shade/gtk:bg[NORMAL]/0.7" x1="0" x2="width" y1="height-1" y2="height-1"/>
+	<line color="shade/gtk:bg[NORMAL]/0.9" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="border">
-	<line color="shade/gtk:bg[NORMAL]/0.88" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
-	<line color="shade/gtk:bg[NORMAL]/0.88" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
+	<line color="shade/gtk:bg[NORMAL]/0.98" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
+	<line color="shade/gtk:bg[NORMAL]/0.98" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
 	<line color="shade/gtk:bg[NORMAL]/1.4" x1="1" y1="1" x2="width - 2" y2="1"/>
 	<line color="shade/gtk:bg[NORMAL]/1.4" x1="1" y1="1" x2="1" y2="height - 2"/>
 	
