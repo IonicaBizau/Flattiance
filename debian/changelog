@@ -1,5 +1,8 @@
 ubuntu-mono (0.0.29) UNRELEASED; urgency=low
 
+  [Paul Sladen]
+  * Provide 'system-file-manager' aliased to the new 'folder-home.svg'
+    icon instead of shipping in unity-asset-pool. (LP: #752607)
 
  -- Paul Sladen <sladen@canonical.com>  Mon, 11 Apr 2011 15:57:26 +0100
 
