@@ -1,4 +1,4 @@
-light-themes (0.1.8.11) UNRELEASED; urgency=low
+light-themes (0.1.8.11) natty; urgency=low
 
   [Andrea Cimitan]
   * Ambiance/Radiance/gtk-2.0/gtkrc
@@ -24,7 +24,7 @@ light-themes (0.1.8.11) UNRELEASED; urgency=low
   * This release is known not to be perfect but is an iterative
     improvement on the previous and should get a new base-line.
 
- -- James schriver <jws141@gmail.com>  Mon, 21 Mar 2011 22:11:28 -0400
+ -- Paul Sladen <sladen@canonical.com>  Mon, 11 Apr 2011 08:36:37 +0000
 
 light-themes (0.1.8.10) natty; urgency=low
 
