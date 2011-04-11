@@ -1,6 +1,12 @@
 ubuntu-mono (0.0.28) UNRELEASED; urgency=low
 
+  [K.Vishnoo Charan Reddy]
   * User-home should be folder. (LP: #721121)
+
+  [Olivier Tilloy]
+  * Removed a suspicious 'fill="none"' attribute from some paths in the
+    start-here icons, this was resulting in fully transparent rendering
+    with Qt’s SVG engine. (LP: #752607)
 
  -- K Vishnoo Charan Reddy <vish@ubuntu.com>  Mon, 04 Mar 2011 22:41:45 +0530
 
