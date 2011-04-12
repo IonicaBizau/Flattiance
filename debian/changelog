@@ -1,7 +1,11 @@
 light-themes (0.1.8.13) UNRELEASED; urgency=low
 
+  [James Schriver]
+  * Ambiance/Radiance/apps/gedit.rc
+    - Add gedit specific theming bits fixes (LP: #740864)
+    - Minor gedit specific theming tweaks
 
- -- Paul Sladen <sladen@canonical.com>  Mon, 11 Apr 2011 23:45:41 +0100
+ -- James Schriver <jws141@gmail.com>  Tue, 12 Apr 2011 01:50:29 -0400
 
 light-themes (0.1.8.12) natty; urgency=low
 
