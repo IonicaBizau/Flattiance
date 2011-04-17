@@ -120,29 +120,27 @@ style "default" {
 
 style "dark"
 {
-	fg[NORMAL]        = "#dfdbd2"
-	fg[PRELIGHT]      = "#fff"
-	fg[ACTIVE]        = "#fff"
-	fg[SELECTED]      = "#fff"
-	fg[INSENSITIVE]   = shade (0.5, "#3c3b37")
+	color["bg_color_dark"] 	= "#3c3b37"
+  	color["fg_color_dark"] 	= "#dfdbd2"
+  	color["selected_fg_color_dark"] = "#ffffff"
 
-	bg[NORMAL]        = "#3c3b37"
-	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
-	bg[ACTIVE]        = shade(0.94, "#3c3b37")
-	bg[SELECTED]      = shade(1.0, @selected_bg_color)
-	bg[INSENSITIVE]   = "#3c3b37"
-
-	base[NORMAL]      = "#333230"
-	base[PRELIGHT]    = shade (0.95, @bg_color)
-	base[ACTIVE]      = shade (0.55, @bg_color)
-	base[SELECTED]    = shade (1.0, @selected_bg_color)
-	base[INSENSITIVE] = @bg_color
-
-	text[NORMAL]      = "#dfdbd2"
-	text[PRELIGHT]    = @base_color
-	text[ACTIVE]      = @base_color
-	text[SELECTED]    = @base_color
-	text[INSENSITIVE] = mix (0.5, @bg_color, "#3c3b37")
+  	fg[NORMAL]        = @fg_color_dark
+	fg[PRELIGHT]	  = shade (1.15, @fg_color_dark)
+	fg[ACTIVE]	  = @fg_color_dark
+	fg[SELECTED]	  = @selected_fg_color_dark
+	fg[INSENSITIVE]	  = shade (0.5, @fg_color_dark)
+  
+	bg[NORMAL]        = @bg_color_dark
+ 	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
+  	bg[SELECTED]      = @selected_bg_color
+ 	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
+  	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
+  	
+	text[NORMAL]      = @fg_color_dark
+	text[PRELIGHT]	  = shade (1.15, @fg_color_dark)
+	text[SELECTED]	  = @selected_fg_color_dark
+  	text[ACTIVE]      = @fg_color_dark
+  	text[INSENSITIVE] = mix (0.5, @bg_color, @bg_color_dark)
 }
 
 style "wide" {
