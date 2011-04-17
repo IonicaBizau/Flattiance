@@ -4,8 +4,14 @@ light-themes (0.1.8.13) UNRELEASED; urgency=low
   * Ambiance/Radiance/apps/gedit.rc
     - Add gedit specific theming bits fixes (LP: #740864)
     - Minor gedit specific theming tweaks
+  
+  [Andrea Cimitan]
+  * Ambiance/Radiance/gtk-2.0/gtkrc
+  - Tweaked colors for overlay-scrollbars
+  * Ambiance/Radiance/gtk-3.0/
+  - Directories removed 
 
- -- James Schriver <jws141@gmail.com>  Tue, 12 Apr 2011 01:50:29 -0400
+ -- James Schriver <jws141@gmail.com>  Sat, 16 Apr 2011 23:47:00 -0400
 
 light-themes (0.1.8.12) natty; urgency=low
 
