@@ -9,9 +9,9 @@ light-themes (0.1.8.13) UNRELEASED; urgency=low
 
   [Andrea Cimitan]
   * Ambiance/Radiance/gtk-2.0/gtkrc
-  - Tweaked colors for overlay-scrollbars
+  - Tweaked colors for overlay-scrollbars (LP: #767524)
   * Ambiance/Radiance/gtk-3.0/
-  - Directories removed 
+  - Directories removed (unused)
 
  -- James Schriver <jws141@gmail.com>  Sun, 17 Apr 2011 00:31:42 -0400
 
