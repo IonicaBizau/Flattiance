@@ -10,10 +10,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="22"
+   width="16"
    height="16"
    id="svg3229"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="nm-signal-0.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -24,13 +24,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="753"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="13.227273"
-     inkscape:cx="11"
-     inkscape:cy="11.793814"
+     inkscape:zoom="35.9375"
+     inkscape:cx="5.4486957"
+     inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -51,14 +51,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs3231" />
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999999)"
      id="g3893"
      style="opacity:0.4">
     <path
@@ -73,7 +73,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999999)"
      id="g3916"
      style="opacity:0.4">
     <path
@@ -88,7 +88,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999999)"
      id="g3939"
      style="opacity:0.5">
     <path
@@ -103,7 +103,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999999)"
      id="g3962"
      style="opacity:0.4">
     <path
