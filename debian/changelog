@@ -2,8 +2,9 @@ ubuntu-mono (0.0.30) UNRELEASED; urgency=low
 
   * Drop extra nm-vpn-connecting* animation icons from status/ directories,
     they don't belong in there anyway.
+  * Reinstate vpn padlock composited in VPN connecting animation. (LP: #746674)
 
- -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Thu, 21 Apr 2011 09:27:25 -0400
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Thu, 21 Apr 2011 09:44:33 -0400
 
 ubuntu-mono (0.0.29) natty; urgency=low
 
