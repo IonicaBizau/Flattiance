@@ -10,10 +10,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="22"
+   width="16"
    height="16"
    id="svg3229"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="nm-signal-25.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -24,17 +24,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="753"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="13.227273"
-     inkscape:cx="11"
-     inkscape:cy="11.793814"
+     inkscape:zoom="35.9375"
+     inkscape:cx="2.4486957"
+     inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3229" />
+     inkscape:current-layer="svg3229"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata9">
     <rdf:RDF>
@@ -43,14 +47,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs3231" />
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999998)"
      id="g3893"
      style="opacity:0.4">
     <path
@@ -65,7 +69,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999998)"
      id="g3916"
      style="opacity:0.4">
     <path
@@ -80,7 +84,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-0.99999998,-4)"
+     transform="matrix(0.8,0,0,0.8,-1.6,-2.3999998)"
      id="g3939"
      style="opacity:0.5">
     <path
@@ -95,12 +99,12 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     d="m 10.145105,14 c -0.471902,0 -0.854895,0.298667 -0.854895,0.666667 0,0.136758 0.0529,0.263941 0.143587,0.369778 0,0 1.007602,0.801438 1.007602,0.801438 C 10.591259,15.938886 10.786534,16 11.000001,16 c 0.253303,0 0.480993,-0.08605 0.63758,-0.222693 0,0 0.900909,-0.710397 0.900909,-0.710397 0.107541,-0.111488 0.1713,-0.250094 0.1713,-0.400243 0,-0.368 -0.382993,-0.666667 -0.854895,-0.666667 0,0 -1.70979,0 -1.70979,0 z"
+     d="m 7.316084,12 c -0.3775216,0 -0.683916,0.238934 -0.683916,0.533334 0,0.109406 0.04232,0.211152 0.1148696,0.295822 0,0 0.8060816,0.64115 0.8060816,0.64115 0.119888,0.0808 0.276108,0.129694 0.4468816,0.129694 0.2026424,0 0.3847944,-0.06884 0.510064,-0.178154 0,0 0.7207272,-0.568318 0.7207272,-0.568318 0.08603,-0.08919 0.13704,-0.200075 0.13704,-0.320194 C 9.367832,12.238934 9.061438,12 8.683916,12 c 0,0 -1.367832,0 -1.367832,0 z"
      id="path3196-5-7"
      style="opacity:0.3;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      inkscape:connector-curvature="0" />
   <path
-     d="m 10.145105,13 c -0.471902,0 -0.854895,0.298667 -0.854895,0.666667 0,0.136758 0.0529,0.263941 0.143587,0.369778 0,0 1.007602,0.801438 1.007602,0.801438 C 10.591259,14.938886 10.786534,15 11.000001,15 c 0.253303,0 0.480993,-0.08605 0.63758,-0.222693 0,0 0.900909,-0.710397 0.900909,-0.710397 0.107541,-0.111488 0.1713,-0.250094 0.1713,-0.400243 0,-0.368 -0.382993,-0.666667 -0.854895,-0.666667 0,0 -1.70979,0 -1.70979,0 z"
+     d="m 7.316084,11.2 c -0.3775216,0 -0.683916,0.238934 -0.683916,0.533334 0,0.109406 0.04232,0.211152 0.1148696,0.295822 0,0 0.8060816,0.64115 0.8060816,0.64115 0.119888,0.0808 0.276108,0.129694 0.4468816,0.129694 0.2026424,0 0.3847944,-0.06884 0.510064,-0.178154 0,0 0.7207272,-0.568318 0.7207272,-0.568318 0.08603,-0.08919 0.13704,-0.200075 0.13704,-0.320194 0,-0.2944 -0.306394,-0.533334 -0.683916,-0.533334 0,0 -1.367832,0 -1.367832,0 z"
      id="path3196-5"
      style="fill:#dfdbd2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      inkscape:connector-curvature="0" />
