@@ -1,5 +1,8 @@
 light-themes (0.1.8.14) UNRELEASED; urgency=low
 
+  [Andrea Cimitan]
+  * Don't load gedit.rc custom settings, as they are introducing
+    regressions (LP: #740864)
 
  -- Paul Sladen <sladen@ubuntu.com>  Wed, 20 Apr 2011 20:43:40 +0100
 
