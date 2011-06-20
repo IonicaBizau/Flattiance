@@ -1,8 +1,9 @@
-light-themes (0.1.8.14) UNRELEASED; urgency=low
+light-themes (0.1.8.14) oneiric; urgency=low
 
   * New snapshot with unico based gtk3 theme
   * debian/control
     - Added a depends on gtk3-engines-unico (>= 0.1.0+r69)
+    - Bumped standards version to 3.9.2
 
  -- Ken VanDine <ken.vandine@canonical.com>  Fri, 17 Jun 2011 16:27:28 -0400
 
