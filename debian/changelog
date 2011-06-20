@@ -1,3 +1,9 @@
+light-themes (0.1.8.15) oneiric; urgency=low
+
+  * Added gtk3 version of Radiance 
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Mon, 20 Jun 2011 13:16:16 -0400
+
 light-themes (0.1.8.14) oneiric; urgency=low
 
   * New snapshot with unico based gtk3 theme
