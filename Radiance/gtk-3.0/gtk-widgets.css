@@ -224,6 +224,7 @@ GtkScale.slider,
 }
 
 .button.default {
+    text-shadow: 0 1 alpha (shade (@selected_bg_color, 1.26), 0.4);
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (shade (@theme_selected_bg_color, 1.1), @theme_bg_color, 0.3)),
                                      to (mix (shade (@theme_selected_bg_color, 0.9), @theme_bg_color, 0.3)));
