@@ -140,6 +140,12 @@ GtkProgressBar.progressbar,
 }
 
 /* button */
+.button {
+    -unico-focus-border-color: alpha (@theme_selected_bg_color, 0.7);
+    -unico-focus-fill-color: alpha (@theme_selected_bg_color, 0.0);
+    -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.2);
+}
+
 GtkScale.slider,
 .button {
     border-radius: 4;

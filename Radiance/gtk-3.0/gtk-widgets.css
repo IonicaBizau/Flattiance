@@ -237,8 +237,6 @@ GtkScale.slider,
                                            from (shade (@theme_bg_color, 0.68)),
                                            to (shade (@theme_bg_color, 0.68)));
     -unico-inner-stroke-color: alpha (shade (@theme_base_color, 0.1), 0.02);
-    -unico-focus-fill-color: alpha (@theme_selected_bg_color, 0.1);
-    -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.0);
 }
 
 .check,
@@ -273,7 +271,6 @@ GtkScale.slider,
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@theme_bg_color, 0.05), 0.02)),
                                                  to (alpha (shade (@theme_bg_color, 0.05), 0.08)));
-    -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.0);
 }
 
 .check:insensitive,
