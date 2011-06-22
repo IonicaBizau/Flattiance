@@ -59,7 +59,7 @@
     -unico-focus-border-radius: 4;
     -unico-focus-fill-color: alpha (@theme_selected_bg_color, 0.1);
     -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.0);
-    -unico-inner-stroke-color: rgba (0, 0, 0, 0)
+    -unico-inner-stroke-color: rgba (0, 0, 0, 0);
 }
 
 *:insensitive {
@@ -222,6 +222,38 @@ GtkScale.slider,
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.04)),
                                      to (shade (@theme_bg_color, 0.96)));
+}
+
+.button.default {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (mix (shade (@theme_selected_bg_color, 1.1), @theme_bg_color, 0.3)),
+                                     to (mix (shade (@theme_selected_bg_color, 0.9), @theme_bg_color, 0.3)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_selected_bg_color, 0.8)),
+                                           to (shade (@theme_selected_bg_color, 0.8)));
+    -unico-inner-stroke-color: alpha (mix (shade (@theme_selected_bg_color, 1.26), @theme_bg_color, 0.3), 0.65);
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@theme_bg_color, 0.05), 0.02)),
+                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.08)));
+    -unico-focus-border-color: alpha (@theme_selected_bg_color, 0.0);
+    -unico-focus-fill-color: alpha (@theme_selected_bg_color, 0.0);
+    -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.2);
+}
+
+.button.default:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (mix (shade (@theme_selected_bg_color, 0.95), @theme_bg_color, 0.3)),
+                                     to (mix (shade (@theme_selected_bg_color, 1.05), @theme_bg_color, 0.3)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_selected_bg_color, 0.7)),
+                                           to (shade (@theme_selected_bg_color, 0.7)));
+    -unico-inner-stroke-color: alpha (shade (@theme_selected_bg_color, 1.0), 0.1);
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@theme_bg_color, 0.85), 0.6)),
+                                                 to (alpha (shade (@theme_bg_color, 1.25), 0.6)));
 }
 
 /* check and radio */
