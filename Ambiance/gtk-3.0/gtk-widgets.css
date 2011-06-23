@@ -495,8 +495,6 @@ GtkSwitch.trough {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                     from (shade (@theme_selected_bg_color, 0.93)),
                                     to (shade (@theme_selected_bg_color, 0.99)));
-
-    -unico-inner-stroke-style: none;
 }
 
 /* menu */
@@ -659,13 +657,6 @@ GtkSwitch.trough {
     -unico-outer-stroke-style: none;
 }
 
-/* gnome-terminal */
-TerminalScreen {
-    -TerminalScreen-background-darkness: 0.95;
-    background-color: #300a24;
-    color: #fff;
-}
-
 /* toolbar */
 .toolbar {
     border-style: none;
@@ -674,64 +665,4 @@ TerminalScreen {
 /* tooltip */
 .tooltip {
     border-color: @theme_tooltip_bg_color;
-}
-
-/* Fallback Mode Panel */
-PanelWidget,
-PanelApplet,
-PanelToplevel {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
-    color: @dark_fg_color;
-    padding: 0;
-}
-
-PanelApplet > GtkMenuBar.menubar,
-.gnome-panel-menu-bar,
-PanelMenuBar.menubar,
-PanelApplet > GtkMenuBar.menubar.menuitem,
-PanelMenuBar.menubar.menuitem {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
-}
-
-PanelApplet > GtkMenuBar.menubar.menuitem:prelight,
-.gnome-panel-menu-bar.menuitem:prelight {
-}
-
-PanelAppletFrame { 
-    background-color: @dark_bg_color;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
-}
-
-PanelApplet .button {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));    
-    border-radius: 0;
-    border-width:0;
-    text-shadow: none;
-}
-
-PanelApplet .button:prelight:active,
-PanelApplet .button:active {
-    background-color: shade (@dark_bg_color, 0.85);
-    background-image: none;
-}
-
-PanelApplet .button :prelight {
-    background-color: shade (@dark_bg_color, 1.2);
-    background-image: none;
-}
-
-ClockBox {
-    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
-}
-
-WnckPager, WnckTasklist {
-    background-color: @dark_bg_color;
 }
