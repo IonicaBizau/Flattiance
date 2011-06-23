@@ -12,7 +12,7 @@
     -GtkCheckMenuItem-indicator-size: 14;
     -GtkEntry-inner-border: 2;
     -GtkEntry-progress-border: 0; 
-    -GtkExpander-expander-size: 10;   
+    -GtkExpander-expander-size: 8;   
     -GtkHTML-link-color: @link_color;
     -GtkIMHtml-hyperlink-color: @link_color;
     -GtkMenu-horizontal-padding: 0;
@@ -367,6 +367,11 @@ column-header .button {
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@theme_bg_color, 0.05), 0.04)),
                                                  to (alpha (shade (@theme_bg_color, 0.05), 0.02)));
+}
+
+/* expander */
+.expander {
+  color: @theme_fg_color;
 }
 
 /* frame */
