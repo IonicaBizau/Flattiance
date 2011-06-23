@@ -59,7 +59,6 @@
     -unico-focus-border-radius: 4;
     -unico-focus-fill-color: alpha (@theme_selected_bg_color, 0.1);
     -unico-focus-outer-stroke-color: alpha (@theme_selected_bg_color, 0.0);
-    -unico-inner-stroke-color: rgba (0, 0, 0, 0);
 }
 
 *:insensitive {
@@ -479,6 +478,27 @@ GtkStatusbar .frame {
     -unico-outer-stroke-style: none;
 }
 
+/* Switch */
+GtkSwitch {
+    border-radius: 4;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@button_bg_color, 1.1)),
+                                     to (shade (@button_bg_color, 0.9)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@button_bg_color, 0.85)),
+                                           to (shade (@button_bg_color, 0.7)));
+    -unico-inner-stroke-color: alpha (shade (@button_bg_color, 1.26), 0.2);
+}
+
+GtkSwitch.trough {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_selected_bg_color, 0.93)),
+                                    to (shade (@theme_selected_bg_color, 0.99)));
+
+    -unico-inner-stroke-style: none;
+}
+
 /* menu */
 .menu {
     padding: 0;
@@ -543,8 +563,8 @@ GtkStatusbar .frame {
 
 .menuitem:insensitive,
 .menuitem *:insensitive {
-    color: mix (@dark_fg_color, @dark_bg_color, 0.5);
-    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
+    color: shade (@dark_bg_color, 0.55);
+    text-shadow: 0 1 shade (@dark_bg_color, 1.1);
 }
 
 .menuitem.check:active,
@@ -584,7 +604,134 @@ GtkStatusbar .frame {
                                      to (shade (@theme_bg_color, 1.02)));
 }
 
+/* Scrollbars */
+.scrollbar {
+    border-radius:  20;
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+}
+
+.scrollbar.button.vertical,
+.scrollbar.button.horizontal {
+}
+
+.scrollbar.trough {
+    background-image: -gtk-gradient (linear, left top, right top,
+                                    from (shade (@theme_bg_color, 0.9)),
+                                    to (shade (@theme_bg_color, 0.95)));
+}
+
+.scrollbar.trough.horizontal {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 0.9)),
+                                    to (shade (@theme_bg_color, 0.95)));
+}
+
+.scrollbar.slider,
+.scrollbar.slider:prelight,
+.scrollbar.button {                     
+    background-image: -gtk-gradient (linear, left top, right top,
+                                    from (shade (@theme_bg_color, 1.08)),
+                                    to (shade (@theme_bg_color, 0.92)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, right top,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
+}
+
+.scrollbar.slider.horizontal,
+.scrollbar.slider.horizontal:prelight,
+.scrollbar.button.horizontal {                                   
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 1.08)),
+                                    to (shade (@theme_bg_color, 0.92)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
+}
+
+.scrollbar.button,
+.scrollbar.button:insensitive {
+    -unico-outer-stroke-style: none;
+}
+
+/* gnome-terminal */
+TerminalScreen {
+    -TerminalScreen-background-darkness: 0.95;
+    background-color: #300a24;
+    color: #fff;
+}
+
 /* toolbar */
 .toolbar {
     border-style: none;
+}
+
+/* tooltip */
+.tooltip {
+    border-color: @theme_tooltip_bg_color;
+}
+
+/* Fallback Mode Panel */
+PanelWidget,
+PanelApplet,
+PanelToplevel {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+    color: @dark_fg_color;
+    padding: 0;
+}
+
+PanelApplet > GtkMenuBar.menubar,
+.gnome-panel-menu-bar,
+PanelMenuBar.menubar,
+PanelApplet > GtkMenuBar.menubar.menuitem,
+PanelMenuBar.menubar.menuitem {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+}
+
+PanelApplet > GtkMenuBar.menubar.menuitem:prelight,
+.gnome-panel-menu-bar.menuitem:prelight {
+}
+
+PanelAppletFrame { 
+    background-color: @dark_bg_color;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+}
+
+PanelApplet .button {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));    
+    border-radius: 0;
+    border-width:0;
+    text-shadow: none;
+}
+
+PanelApplet .button:prelight:active,
+PanelApplet .button:active {
+    background-color: shade (@dark_bg_color, 0.85);
+    background-image: none;
+}
+
+PanelApplet .button :prelight {
+    background-color: shade (@dark_bg_color, 1.2);
+    background-image: none;
+}
+
+ClockBox {
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
+}
+
+WnckPager, WnckTasklist {
+    background-color: @dark_bg_color;
 }
