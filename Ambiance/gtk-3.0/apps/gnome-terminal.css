@@ -93,7 +93,7 @@ TerminalWindow .scrollbar.button:insensitive {
 TerminalWindow .scrollbar.slider.horizontal,
 TerminalWindow .scrollbar.slider.horizontal:prelight,
 TerminalWindow .scrollbar.button.horizontal,
-TerminalWindow .scrollbar.button:insensitive:insensitive {                                   
+TerminalWindow .scrollbar.button:insensitive {                                   
     background-image: -gtk-gradient (linear, left top, left bottom,
                                     from (shade (@dark_bg_color, 1.08)),
                                     to (shade (@dark_bg_color, 0.92)));
