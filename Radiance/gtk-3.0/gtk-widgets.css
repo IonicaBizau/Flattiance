@@ -494,6 +494,13 @@ GtkSwitch {
 
 GtkSwitch.trough {
     background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 0.93)),
+                                    to (shade (@theme_bg_color, 0.99)));
+    color: @theme_fg_color;
+}
+
+GtkSwitch.trough:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
                                     from (shade (@theme_selected_bg_color, 0.93)),
                                     to (shade (@theme_selected_bg_color, 0.99)));
 }
