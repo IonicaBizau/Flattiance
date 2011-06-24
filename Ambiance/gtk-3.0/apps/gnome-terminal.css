@@ -5,7 +5,8 @@ TerminalScreen {
     color: #fff;
 }
 
-TerminalWindow {
+TerminalWindow,
+TerminalWindow.background {
     background-color: @dark_bg_color;
     color: @dark_fg_color;
 }
@@ -19,6 +20,8 @@ TerminalWindow .notebook {
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@dark_bg_color, 0.93)),
                                            to (shade (@dark_bg_color, 0.93)));
+    -unico-outer-stroke-style: none;
+    -unico-inner-stroke-color: rgba (0, 0, 0, 0);
 }
 
 TerminalWindow .notebook tab {
@@ -29,7 +32,7 @@ TerminalWindow .notebook tab {
                                      color-stop (0.60, shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.85)));                   
                                      
-    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.2);
 }
 
 TerminalWindow .notebook tab:active {
@@ -40,24 +43,25 @@ TerminalWindow .notebook tab:active {
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 1.0);
 }
 
+TerminalWindow .notebook .button,
+TerminalWindow .notebook .button:active  {
+    background-image: -gtk-gradient (linear, left top, right top,
+                                    from (shade (@dark_bg_color, 1.08)),
+                                    to (shade (@dark_bg_color, 0.92)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, right top,
+                                           from (shade (@dark_bg_color, 0.9)),
+                                           to (shade (@dark_bg_color, 0.9)));                                          
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.7);
+    -unico-outer-stroke-style: none;
+}
+
 /* Scrollbars */
 TerminalWindow .scrollbar {
     border-radius:  20;
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.74)),
                                            to (shade (@dark_bg_color, 0.74)));
-}
-
-TerminalWindow .scrollbar.button,
-TerminalWindow .scrollbar.button:insensitive {
-    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@dark_bg_color, 0.74)),
-                                           to (shade (@dark_bg_color, 0.74)));
-    -unico-outer-stroke-style: none;
-}
-
-TerminalWindow .scrollbar.button.vertical,
-TerminalWindow .scrollbar.button.horizontal {
 }
 
 TerminalWindow .scrollbar.trough {
@@ -74,7 +78,8 @@ TerminalWindow .scrollbar.trough.horizontal {
 
 TerminalWindow .scrollbar.slider,
 TerminalWindow .scrollbar.slider:prelight,
-TerminalWindow .scrollbar.button {                     
+TerminalWindow .scrollbar.button,
+TerminalWindow .scrollbar.button:insensitive {                     
     background-image: -gtk-gradient (linear, left top, right top,
                                     from (shade (@dark_bg_color, 1.08)),
                                     to (shade (@dark_bg_color, 0.92)));
@@ -87,7 +92,8 @@ TerminalWindow .scrollbar.button {
 
 TerminalWindow .scrollbar.slider.horizontal,
 TerminalWindow .scrollbar.slider.horizontal:prelight,
-TerminalWindow .scrollbar.button.horizontal {                                   
+TerminalWindow .scrollbar.button.horizontal,
+TerminalWindow .scrollbar.button:insensitive:insensitive {                                   
     background-image: -gtk-gradient (linear, left top, left bottom,
                                     from (shade (@dark_bg_color, 1.08)),
                                     to (shade (@dark_bg_color, 0.92)));
