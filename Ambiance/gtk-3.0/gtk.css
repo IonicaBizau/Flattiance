@@ -31,3 +31,5 @@
 @define-color dark_fg_color #dfdbd2;
 
 @import url("gtk-widgets.css");
+@import url("apps/gnome-panel.css");
+@import url("apps/gnome-terminal.css");

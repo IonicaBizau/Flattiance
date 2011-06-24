@@ -1,0 +1,58 @@
+/* Fallback Mode Panel */
+PanelWidget,
+PanelApplet,
+PanelToplevel {
+    color: @dark_fg_color;
+    padding: 0;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.15)),
+                                     to (shade (@dark_bg_color, 0.95)));
+}
+
+.gnome-panel-menu-bar,
+PanelApplet > GtkMenuBar.menubar,
+PanelApplet > GtkMenuBar.menubar.menuitem,
+PanelMenuBar.menubar,
+PanelMenuBar.menubar.menuitem {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.15)),
+                                     to (shade (@dark_bg_color, 0.95)));
+    text-shadow: 0 1 shade (@dark_bg_color, 1.3);
+}
+
+PanelAppletFrame { 
+    background-color: @dark_bg_color;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.15)),
+                                     to (shade (@dark_bg_color, 0.95)));
+}
+
+PanelApplet .button {
+    border-radius: 0;
+    border-width:0;
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.15)),
+                                     to (shade (@dark_bg_color, 0.95)));    
+}
+
+PanelApplet .button:prelight:active,
+PanelApplet .button:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 0.7)),
+                                     to (shade (@dark_bg_color, 0.8); 
+}
+
+PanelApplet .button:prelight {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.2)),
+                                     to (shade (@dark_bg_color, 1.0))); 
+}
+
+ClockBox {
+    text-shadow: 0 1 shade (@dark_bg_color, 1.3);
+}
+
+WnckPager, WnckTasklist {
+    background-color: @dark_bg_color;
+}

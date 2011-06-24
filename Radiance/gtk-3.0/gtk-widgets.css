@@ -484,6 +484,32 @@ GtkStatusbar .frame {
     -unico-outer-stroke-style: none;
 }
 
+/* Switch */
+GtkSwitch {
+    border-radius: 4;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@button_bg_color, 1.1)),
+                                     to (shade (@button_bg_color, 0.9)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@button_bg_color, 0.85)),
+                                           to (shade (@button_bg_color, 0.7)));
+    -unico-inner-stroke-color: alpha (shade (@button_bg_color, 1.26), 0.2);
+}
+
+GtkSwitch.trough {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 0.93)),
+                                    to (shade (@theme_bg_color, 0.99)));
+    color: @theme_fg_color;
+}
+
+GtkSwitch.trough:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_selected_bg_color, 0.93)),
+                                    to (shade (@theme_selected_bg_color, 0.99)));
+}
+
 /* menu */
 .menu {
     padding: 0;
@@ -602,7 +628,67 @@ GtkStatusbar .frame {
                                      to (shade (@theme_bg_color, 1.02)));
 }
 
+/* Scrollbars */
+.scrollbar {
+    border-radius:  20;
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+}
+
+.scrollbar.button.vertical,
+.scrollbar.button.horizontal {
+}
+
+.scrollbar.trough {
+    background-image: -gtk-gradient (linear, left top, right top,
+                                    from (shade (@theme_bg_color, 0.9)),
+                                    to (shade (@theme_bg_color, 0.95)));
+}
+
+.scrollbar.trough.horizontal {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 0.9)),
+                                    to (shade (@theme_bg_color, 0.95)));
+}
+
+.scrollbar.slider,
+.scrollbar.slider:prelight,
+.scrollbar.button {                     
+    background-image: -gtk-gradient (linear, left top, right top,
+                                    from (shade (@theme_bg_color, 1.08)),
+                                    to (shade (@theme_bg_color, 0.92)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, right top,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
+}
+
+.scrollbar.slider.horizontal,
+.scrollbar.slider.horizontal:prelight,
+.scrollbar.button.horizontal {                                   
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                    from (shade (@theme_bg_color, 1.08)),
+                                    to (shade (@theme_bg_color, 0.92)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.74)),
+                                           to (shade (@theme_bg_color, 0.74)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
+}
+
+.scrollbar.button,
+.scrollbar.button:insensitive {
+    -unico-outer-stroke-style: none;
+}
+
 /* toolbar */
 .toolbar {
     border-style: none;
+}
+
+/* tooltip */
+.tooltip {
+    border-color: @theme_tooltip_bg_color;
 }

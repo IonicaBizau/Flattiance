@@ -1,0 +1,57 @@
+/* Fallback Mode Panel */
+PanelWidget,
+PanelApplet,
+PanelToplevel {
+    color: @dark_fg_color;
+    padding: 0;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+}
+
+.gnome-panel-menu-bar,
+PanelApplet > GtkMenuBar.menubar,
+PanelApplet > GtkMenuBar.menubar.menuitem,
+PanelMenuBar.menubar,
+PanelMenuBar.menubar.menuitem {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+}
+
+PanelAppletFrame { 
+    background-color: @dark_bg_color;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));
+}
+
+PanelApplet .button {
+    border-radius: 0;
+    border-width:0;
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.05)));    
+}
+
+PanelApplet .button:prelight:active,
+PanelApplet .button:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 0.85)),
+                                     to (shade (@dark_bg_color, 1.0))); 
+}
+
+PanelApplet .button:prelight {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.7)),
+                                     to (shade (@dark_bg_color, 1.25))); 
+}
+
+ClockBox {
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
+}
+
+WnckPager, WnckTasklist {
+    background-color: @dark_bg_color;
+}
