@@ -246,10 +246,10 @@
 <!-- Window Frames -->
 
 <draw_ops name="draw_frame">
-    <rectangle color="shade/gtk:bg[NORMAL]/0.7" x="0" y="0" width="width" height="height" filled="true"/>
+    <rectangle color="shade/#3c3b37/0.7" x="0" y="0" width="width" height="height" filled="true"/>
     <gradient type="vertical" x="0" y="0" width="width" height="60">
         <color value="shade/#3c3b37/1.2" />
-        <color value="shade/gtk:bg[NORMAL]/0.7" />
+        <color value="shade/#3c3b37/0.7" />
     </gradient>
 </draw_ops>
 
@@ -262,7 +262,7 @@
 
 <!-- bottom border -->
 <draw_ops name="bottom_edge">
-	<line color="shade/gtk:bg[NORMAL]/0.7" x1="0" x2="width" y1="height-1" y2="height-1"/>
+	<line color="shade/#3c3b37/0.7" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="border">
