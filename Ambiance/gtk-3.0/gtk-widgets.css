@@ -573,8 +573,8 @@ GtkSwitch.trough:active {
 
 .menuitem:insensitive,
 .menuitem *:insensitive {
-    color: shade (@dark_bg_color, 0.55);
-    text-shadow: 0 1 shade (@dark_bg_color, 1.1);
+    color: mix (@dark_fg_color, @dark_bg_color, 0.5);
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
 }
 
 .menuitem.check:active,
