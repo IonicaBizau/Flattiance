@@ -643,6 +643,11 @@ OsScrollbar:active {
    background-color: shade (@theme_bg_color, 0.6);
 }
 
+OsThumb:insensitive,
+OsScrollbar:insensitive {
+   background-color: shade (@theme_bg_color, 0.85);
+}
+
 /* Scrollbars */
 .scrollbar {
     border-radius:  20;

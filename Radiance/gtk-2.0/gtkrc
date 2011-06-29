@@ -230,8 +230,9 @@ style "vscrollbar" {
 
 style "overlay_scrollbar"
 {
-	base[SELECTED] = shade (1.0, @selected_bg_color)
-	base[INSENSITIVE] = shade (0.85, @bg_color)
+	bg[SELECTED] = shade (1.0, @selected_bg_color)
+	bg[INSENSITIVE] = shade (0.85, @bg_color)
+	bg[ACTIVE] = shade (0.6, @bg_color)
 }
 
 style "scale" = "button" {
@@ -630,7 +631,8 @@ widget_class "*.<GtkList>.<GtkButton>.*<GtkLabel>" style "treeview_header"
 widget_class "*.<GtkCList>.<GtkButton>.*<GtkLabel>" style "treeview_header"
 
 # Overlay scrollbar
-widget_class "*<GtkScrolledWindow>*<OsScrollbar>" style "overlay_scrollbar"
+widget_class "*<OsScrollbar>" style "overlay_scrollbar"
+widget_class "*<OsThumb>" style "overlay_scrollbar"
 
 # The window of the tooltip is called "gtk-tooltip"
 ##################################################################
