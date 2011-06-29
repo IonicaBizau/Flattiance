@@ -519,6 +519,10 @@ GtkSwitch.trough:active {
     color: @dark_fg_color;
 }
 
+.menu:selected {
+    background-color: @selected_bg_color;
+}
+
 /* menubar */
 .menubar {
     -GtkWidget-window-dragging: true;
@@ -626,6 +630,17 @@ GtkSwitch.trough:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.1)),
                                      to (shade (@theme_bg_color, 1.02)));
+}
+
+/* OsScrollbar */
+OsThumb:selected,
+OsScrollbar:selected {
+   background-color: @theme_selected_bg_color;
+}
+
+OsThumb:active,
+OsScrollbar:active {
+   background-color: shade (@theme_bg_color, 0.6);
 }
 
 /* Scrollbars */
