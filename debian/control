@@ -11,7 +11,7 @@ Architecture: all
 Depends: ${misc:Depends},
          ubuntu-mono,
          gtk2-engines-murrine (>= 0.90.3+git20100810),
-         gtk3-engines-unico (>= 0.1.0+r69),
+         gtk3-engines-unico (>= 0.1.0+r74),
          humanity-icon-theme
 Conflicts: phase-themes
 Breaks: metacity (<< 1:2.30.3-0ubuntu2)

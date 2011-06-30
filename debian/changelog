@@ -1,3 +1,17 @@
+light-themes (0.1.8.16) oneiric; urgency=low
+
+  * New snapshot
+    - use with new modal dialog plugin for compiz
+    - adjust size and color for the expanders
+    - removed some deprecated stuff
+    - adjust text-shadow
+    - style default buttons
+    - tweaks to the focus ring, required unico 0.1.0+r74
+  * debian/control
+    - Require gtk3-engines-unico >= 0.1.0+r74
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 30 Jun 2011 10:36:34 +0100
+
 light-themes (0.1.8.15) oneiric; urgency=low
 
   * Added gtk3 version of Radiance 
