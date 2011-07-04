@@ -510,7 +510,6 @@ GtkSwitch.trough:active {
 }
 
 /* menu */
-
 .menu {
     padding: 0;
     background-image: none;
@@ -594,6 +593,46 @@ GtkSwitch.trough:active {
     color: @selected_fg_color;
 
     -unico-bullet-color: @selected_fg_color;
+}
+
+.menuitem GtkCalendar,
+.menuitem GtkCalendar.button,
+.menuitem GtkCalendar.header,
+.menuitem GtkCalendar.view {
+    padding: 0;
+    border-width: 0;
+    border-radius: 0;
+    border-style: solid;
+    color: @dark_fg_color;
+    background-color: @dark_bg_color;
+    background-image: none;
+}
+
+.menuitem GtkCalendar {
+    background-color: shade (@dark_bg_color, 1.3);
+    background-image: none;
+}
+
+.menuitem .entry {
+    color: @dark_fg_color;
+    background-color: shade (@dark_bg_color, 1.3);
+    background-image: none;
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.75)),
+                                           to (shade (@dark_bg_color, 0.9)));
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@dark_bg_color, 0.98)),
+                                                 to (shade (@dark_bg_color, 1.1)));;
+}
+
+.menuitem GtkScale.trough {
+    background-color: @dark_bg_color;
+    background-image: none;
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.75)),
+                                           to (shade (@dark_bg_color, 1.15)));
 }
 
 /* notebook */
