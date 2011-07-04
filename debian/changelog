@@ -1,3 +1,11 @@
+light-themes (0.1.8.17) oneiric; urgency=low
+
+  * New snapshot
+    - fix datetime indicator calendar difficult to read with Ambiance
+      (LP: #804348)
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 04 Jul 2011 12:54:01 +0200
+
 light-themes (0.1.8.16) oneiric; urgency=low
 
   * New snapshot
