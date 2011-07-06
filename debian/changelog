@@ -1,8 +1,8 @@
-light-themes (0.1.8.18) UNRELEASED; urgency=low
+light-themes (0.1.8.18) oneiric; urgency=low
 
   * Radiance/gtk-3.0/apps/gnome-panel.css: Fix syntax error. (LP: #804157)
 
- -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 06 Jul 2011 10:22:23 +0200
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 06 Jul 2011 10:23:48 +0200
 
 light-themes (0.1.8.17) oneiric; urgency=low
 
