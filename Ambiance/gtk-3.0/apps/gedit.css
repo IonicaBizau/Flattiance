@@ -1,0 +1,33 @@
+GeditPanel .toolbar {
+    background-color: @theme_bg_color;
+}
+
+GeditPanel .toolbar .button{
+    text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.4);
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.1)),
+                                     to (shade (@theme_bg_color, 0.94)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.84)),
+                                           to (shade (@theme_bg_color, 0.74)));
+    -unico-glow-color: shade (@theme_bg_color, 1.03);
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
+}
+
+GeditPanel .toolbar .button:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 0.9)),
+                                     to (shade (@theme_bg_color, 0.95)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.6)),
+                                           to (shade (@theme_bg_color, 0.7)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 0.8), 0.5);
+}
+
+GeditPanel .toolbar .button:insensitive {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.04)),
+                                     to (shade (@theme_bg_color, 0.96)));
+}

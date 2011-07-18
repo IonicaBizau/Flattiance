@@ -194,8 +194,7 @@ GtkScale.slider,
 column-header .button,
 GtkScale.slider,
 GtkScale.slider.vertical,
-.notebook .button,
-.toolbar .button {
+.notebook .button{
     text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.4);
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.1)),
@@ -208,8 +207,7 @@ GtkScale.slider.vertical,
     -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
 }
 
-.notebook .button:active,
-.toolbar .button:active {
+.notebook .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 0.9)),
                                      to (shade (@theme_bg_color, 0.95)));
@@ -220,8 +218,7 @@ GtkScale.slider.vertical,
     -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 0.8), 0.5);
 }
 
-.notebook .button:insensitive,
-.toolbar .button:insensitive {
+.notebook .button:insensitive {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.04)),
                                      to (shade (@theme_bg_color, 0.96)));
@@ -742,6 +739,58 @@ OsScrollbar:insensitive {
 /* toolbar */
 .toolbar {
     border-style: none;
+    background-color: @dark_bg_color;
+}
+
+.toolbar .button {
+    color: @dark_fg_color;
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.1)),
+                                     to (shade (@dark_bg_color, 0.94)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.84)),
+                                           to (shade (@dark_bg_color, 0.74)));
+    -unico-glow-color: shade (@dark_bg_color, 1.03);
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
+}
+
+.toolbar .button:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 0.9)),
+                                     to (shade (@dark_bg_color, 0.95)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.6)),
+                                           to (shade (@dark_bg_color, 0.7)));
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 0.8), 0.5);
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (@theme_bg_color, 0.0)),
+                                                 to (alpha (@theme_bg_color, 0.0)));
+}
+
+.toolbar .button:insensitive {
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.04)),
+                                     to (shade (@dark_bg_color, 0.96)));
+}
+
+.toolbar .entry {
+    border-radius: 4;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_base_color, 0.90)),
+                                     color-stop (0.10, shade (@theme_base_color, 0.94)),
+                                     to (@theme_base_color));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.65)),
+                                           to (shade (@theme_bg_color, 0.7)));
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@theme_bg_color, 0.05), 0.06)),
+                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.03)));
 }
 
 /* tooltip */
