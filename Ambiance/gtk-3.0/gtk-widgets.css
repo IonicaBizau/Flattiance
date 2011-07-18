@@ -742,10 +742,15 @@ OsScrollbar:insensitive {
 /* toolbar */
 .toolbar {
     border-style: none;
+}
+
+.primary-toolbar .toolbar,
+.primary-toolbar.toolbar {
     background-color: @dark_bg_color;
 }
 
-.toolbar .button {
+.primary-toolbar .toolbar .button,
+.primary-toolbar.toolbar .button {
     color: @dark_fg_color;
     text-shadow: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -759,7 +764,8 @@ OsScrollbar:insensitive {
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
 }
 
-.toolbar .button:active {
+.primary-toolbar .toolbar .button:active,
+.primary-toolbar.toolbar .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
@@ -767,6 +773,7 @@ OsScrollbar:insensitive {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.6)),
                                            to (shade (@dark_bg_color, 0.7)));
+                                           
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 0.8), 0.5);
     -unico-outer-stroke-style: custom;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
@@ -774,17 +781,21 @@ OsScrollbar:insensitive {
                                                  to (alpha (@theme_bg_color, 0.0)));
 }
 
-.toolbar .button:insensitive {
+.primary-toolbar .toolbar .button:insensitive ,
+.primary-toolbar.toolbar .button:insensitive {
     text-shadow: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.04)),
                                      to (shade (@dark_bg_color, 0.96)));
 }
 
-.toolbar .entry {
+.primary-toolbar .toolbar .entry,
+.primary-toolbar.toolbar .entry,
+.primary-toolbar .toolbar .entry:focused,
+.primary-toolbar.toolbar .entry:focused {
     -unico-outer-stroke-style: custom;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@dark_bg_color, 0.95)),
+                                                 from (shade (@dark_bg_color, 0.9)),
                                                  to (shade (@dark_bg_color, 0.95)));
 }
 
