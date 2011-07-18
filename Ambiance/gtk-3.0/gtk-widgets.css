@@ -783,7 +783,9 @@ OsScrollbar:insensitive {
 
 .toolbar .entry {
     -unico-outer-stroke-style: custom;
-    -unico-outer-stroke-color: #ffff00, 1.0;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@dark_bg_color, 0.95)),
+                                                 to (shade (@dark_bg_color, 0.95)));
 }
 
 .inline-toolbar.toolbar {
