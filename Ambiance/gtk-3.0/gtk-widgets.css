@@ -753,6 +753,11 @@ OsScrollbar:insensitive {
                                             to (shade (@dark_bg_color, 0.8)));
 }
 
+.primary-toolbar .toolbar :insensitive,
+.primary-toolbar.toolbar :insensitive {
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
+}
+
 .primary-toolbar .toolbar .button,
 .primary-toolbar.toolbar .button {
     color: @dark_fg_color;
