@@ -746,7 +746,11 @@ OsScrollbar:insensitive {
 
 .primary-toolbar .toolbar,
 .primary-toolbar.toolbar {
+    border-style: solid;
     background-color: @dark_bg_color;
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                            from (shade (@dark_bg_color, 1.1)),
+                                            to (shade (@dark_bg_color, 0.8)));
 }
 
 .primary-toolbar .toolbar .button,
@@ -804,7 +808,17 @@ OsScrollbar:insensitive {
     border-radius: 0;
     border-style: solid;
     padding: 2;
-    background-color: @theme_bg_color;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (#f2f1ef),
+                                     to (#ffffff));
+
+    engine: none;
+}
+
+.inline-toolbar.toolbar:nth-child(last) {
+    border-width: 0 1 1 1;
+    border-radius: 0 0 3 3;
+    border-color: shade (@theme_bg_color, 0.75);
 }
 
 /* tooltip */
