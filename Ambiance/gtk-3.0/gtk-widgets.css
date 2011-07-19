@@ -195,7 +195,7 @@ column-header .button,
 GtkScale.slider,
 GtkScale.slider.vertical,
 .notebook .button,
-.toolbar .button {
+.inline-toolbar.toolbar .button {
     text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.4);
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.1)),
@@ -209,7 +209,7 @@ GtkScale.slider.vertical,
 }
 
 .notebook .button:active,
-.toolbar .button:active {
+.inline-toolbar.toolbar .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 0.9)),
                                      to (shade (@theme_bg_color, 0.95)));
@@ -221,7 +221,7 @@ GtkScale.slider.vertical,
 }
 
 .notebook .button:insensitive,
-.toolbar .button:insensitive {
+.inline-toolbar.toolbar .button:insensitive {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 1.04)),
                                      to (shade (@theme_bg_color, 0.96)));
@@ -742,6 +742,83 @@ OsScrollbar:insensitive {
 /* toolbar */
 .toolbar {
     border-style: none;
+}
+
+.primary-toolbar .toolbar,
+.primary-toolbar.toolbar {
+    border-style: solid;
+    background-color: @dark_bg_color;
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                            from (shade (@dark_bg_color, 1.1)),
+                                            to (shade (@dark_bg_color, 0.8)));
+}
+
+.primary-toolbar .toolbar .button,
+.primary-toolbar.toolbar .button {
+    color: @dark_fg_color;
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.1)),
+                                     to (shade (@dark_bg_color, 0.94)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.84)),
+                                           to (shade (@dark_bg_color, 0.74)));
+    -unico-glow-color: shade (@dark_bg_color, 1.03);
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
+}
+
+.primary-toolbar .toolbar .button:active,
+.primary-toolbar.toolbar .button:active {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 0.9)),
+                                     to (shade (@dark_bg_color, 0.95)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.6)),
+                                           to (shade (@dark_bg_color, 0.7)));
+                                           
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 0.8), 0.5);
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (@theme_bg_color, 0.0)),
+                                                 to (alpha (@theme_bg_color, 0.0)));
+}
+
+.primary-toolbar .toolbar .button:insensitive ,
+.primary-toolbar.toolbar .button:insensitive {
+    text-shadow: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.04)),
+                                     to (shade (@dark_bg_color, 0.96)));
+}
+
+.primary-toolbar .toolbar .entry,
+.primary-toolbar.toolbar .entry,
+.primary-toolbar .toolbar .entry:focused,
+.primary-toolbar.toolbar .entry:focused {
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@dark_bg_color, 0.9)),
+                                                 to (shade (@dark_bg_color, 0.95)));
+}
+
+.inline-toolbar.toolbar {
+    border-width: 1;
+    border-radius: 0;
+    border-style: solid;
+    padding: 2;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (#f2f1ef),
+                                     to (#ffffff));
+
+    engine: none;
+}
+
+.inline-toolbar.toolbar:nth-child(last) {
+    border-width: 0 1 1 1;
+    border-radius: 0 0 3 3;
+    border-color: shade (@theme_bg_color, 0.75);
 }
 
 /* tooltip */
