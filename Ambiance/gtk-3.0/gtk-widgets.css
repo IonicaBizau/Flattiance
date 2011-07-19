@@ -542,7 +542,7 @@ GtkSwitch.trough:active {
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 1.1)),
-                                           to (shade (@dark_bg_color, 0.75)));
+                                           to (shade (@dark_bg_color, 0.8)));
 }
 
 .menubar.menuitem {
