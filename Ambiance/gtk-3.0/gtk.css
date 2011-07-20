@@ -30,7 +30,9 @@
 @define-color button_insensitive_bg_color mix (@button_bg_color, @theme_bg_color, 0.6);
 @define-color dark_bg_color #3c3b37;
 @define-color dark_fg_color #dfdbd2;
+@define-color cluebar_color #f2f1f0;
 
 @import url("gtk-widgets.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
+@import url("apps/nautilus.css");
