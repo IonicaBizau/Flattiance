@@ -1,3 +1,11 @@
+light-themes (0.1.8.19) UNRELEASED; urgency=low
+
+  * {Ambiance,Radiance}/metacity-1/metacity-theme-1.xml:
+    - make all shadow size of 8 to minimize recent perf issue with
+      unity-window-decorator, waiting for the real fix.
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 21 Jul 2011 07:31:12 +0200
+
 light-themes (0.1.8.18) oneiric; urgency=low
 
   * Radiance/gtk-3.0/apps/gnome-panel.css: Fix syntax error. (LP: #804157)

@@ -498,7 +498,7 @@
 	<button function="close" state="normal" draw_ops="close_focused_normal"/>
 	<button function="close" state="prelight" draw_ops="close_focused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_focused_pressed"/>
-	<shadow radius="45.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
+	<shadow radius="8.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
 	<padding left="5" right="5" bottom="5"/>
 </frame_style>
 
