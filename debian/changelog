@@ -1,10 +1,10 @@
-light-themes (0.1.8.19) UNRELEASED; urgency=low
+light-themes (0.1.8.19) oneiric; urgency=low
 
   * {Ambiance,Radiance}/metacity-1/metacity-theme-1.xml:
     - make all shadow size of 8 to minimize recent perf issue with
       unity-window-decorator, waiting for the real fix.
 
- -- Didier Roche <didrocks@ubuntu.com>  Thu, 21 Jul 2011 07:31:12 +0200
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 21 Jul 2011 07:32:08 +0200
 
 light-themes (0.1.8.18) oneiric; urgency=low
 
