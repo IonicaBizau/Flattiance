@@ -281,13 +281,14 @@ column-header .button:active,
  ****************/
 .cell {
     border-width: 0;
+    border-radius: 0;
 }
 
 .cell:selected {
 }
 
-
 row:hover {
+    background-color: alpha (shade (@theme_selected_bg_color, 1.0), 0.5);
 }
 
 row:insensitive {
@@ -297,7 +298,6 @@ row:selected:focused {
 }
 
 row:selected {
-    border-radius: 0;
     border-width: 1 0 0 0;
     border-style: solid;
     border-top-color: shade (@theme_selected_bg_color, 0.88);
@@ -309,10 +309,13 @@ row:selected {
 /*******************
  * check and radio *
  *******************/
+.check row:selected,
+.radio row:selected,
 .check,
 .check row,
 .radio,
 .radio row {
+    border-width: 1;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_base_color, 0.96)),
                                      color-stop (0.10, shade (@theme_base_color, 0.98)),
