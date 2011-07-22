@@ -630,6 +630,7 @@ GtkIconView.view.cell:selected:focused {
     border-radius: 3;
     background-image: none;
     background-color: shade (@theme_bg_color, 1.02);
+    padding: 3;
 
     -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.3);
 }
