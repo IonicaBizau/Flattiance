@@ -18,6 +18,7 @@
     -GtkMenu-horizontal-padding: 0;
     -GtkMenu-vertical-padding: 3;  
     -GtkMenuBar-internal-padding: 0;
+    -GtkMenuItem-arrow-scaling: 0.5;
     -GtkNotebook-tab-overlap: 0;
     -GtkPaned-handle-size: 6;
     -GtkProgressBar-min-horizontal-bar-height: 14;
@@ -39,7 +40,7 @@
     -GtkToolButton-icon-spacing: 6;
     -GtkToolItemGroup-expander-size: 11;
     -GtkToolbar-internal-padding: 0;
-    -GtkTreeView-expander-size: 8;
+    -GtkTreeView-expander-size: 6;
     -GtkTreeView-vertical-separator: 0;
     -GtkWidget-wide-separators: 1;
     -GtkWidget-separator-width: 2;
@@ -205,6 +206,7 @@ column-header .button,
 GtkScale.slider,
 GtkScale.slider.vertical,
 .notebook .button,
+.notebook column-header .button,
 .inline-toolbar.toolbar .button {
     text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.4);
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -218,6 +220,8 @@ GtkScale.slider.vertical,
     -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.26), 0.4);
 }
 
+column-header .button:active,
+.notebook column-header .button:active,
 .notebook .button:active,
 .inline-toolbar.toolbar .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -348,11 +352,20 @@ GtkScale.slider.vertical,
 /*****************
  * column-header *
  *****************/
-column-header .button {
+column-header .button,
+column-header .button:active,
+.notebook column-header .button,
+.notebook column-header .button:active {
     border-radius: 0;
 
     -unico-glow-radius: 0;
     -unico-outer-stroke-style: none;
+}
+
+column-header .button:prelight {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.13)),
+                                     to (shade (@theme_bg_color, 0.97)));
 }
 
 /*********
@@ -403,6 +416,27 @@ column-header .button {
  *********/
 .frame {
     border-radius: 3;
+}
+
+/************
+ * iconview *
+ ************/
+GtkIconView.view.cell:selected,
+GtkIconView.view.cell:selected:focused {
+    border-radius: 4;
+    border-width: 1;
+    border-style: solid;
+    color: @theme_selected_fg_color;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_selected_bg_color, 1.0)),
+                                     to (shade (@theme_selected_bg_color, 0.9)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_selected_bg_color, 0.7)),
+                                           to (shade (@theme_selected_bg_color, 0.7)));
+    -unico-glow-radius: 6;
+    -unico-glow-color: shade (@theme_selected_bg_color, 1.3);
+    -unico-inner-stroke-color: alpha (shade (@theme_selected_bg_color, 1.26), 0.4);
 }
 
 /*************************
@@ -713,6 +747,9 @@ GtkSwitch.trough:active {
  * scrollbar *
  *************/
 .scrollbar {
+    -GtkScrollbar-has-backward-stepper: 0;
+    -GtkScrollbar-has-forward-stepper: 0;
+
     border-radius:  20;
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@theme_bg_color, 0.74)),
@@ -789,10 +826,14 @@ OsScrollbar:insensitive {
     border-style: none;
 }
 
+/* primary-toolbar */
 .primary-toolbar .toolbar,
 .primary-toolbar.toolbar {
+    -GtkWidget-window-dragging: true;
+
     border-style: solid;
     background-color: @dark_bg_color;
+
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                             from (shade (@dark_bg_color, 1.1)),
                                             to (shade (@dark_bg_color, 0.8)));
@@ -853,6 +894,17 @@ OsScrollbar:insensitive {
                                                  to (shade (@dark_bg_color, 0.95)));
 }
 
+.primary-toolbar .toolbar GtkSeparatorToolItem,
+.primary-toolbar.toolbar GtkSeparatorToolItem,
+.primary-toolbar .toolbar .separator,
+.primary-toolbar.toolbar .separator {
+    border-style: solid;
+    border-color: shade (@dark_bg_color, 0.8);
+
+    -unico-border-gradient: none;
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.5);
+}
+
 /* inline-toolbar */
 .inline-toolbar.toolbar {
     border-width: 1;
@@ -877,4 +929,14 @@ OsScrollbar:insensitive {
  ***********/
 .tooltip {
     border-color: @theme_tooltip_bg_color;
+}
+
+/************
+ * treeview *
+ ************/
+GtkTreeView .entry {
+    border-radius: 0;
+    background-image: none;
+
+    -unico-inner-stroke-gradient: none;
 }
