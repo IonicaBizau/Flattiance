@@ -852,11 +852,22 @@ GtkSeparator {
 /**************
  * spinbutton *
  **************/
-GtkSpinButton.button {
+
+GtkSpinButton.button,
+.notebook GtkSpinButton.button {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.1)),
+                                     to (shade (@theme_bg_color, 0.9)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.65)),
+                                           to (shade (@theme_bg_color, 0.7)));
+
     -unico-outer-stroke-style: none;
 }
 
-GtkSpinButton.button:insensitive {
+GtkSpinButton.button:insensitive,
+.notebook GtkSpinButton.button:insensitive {
     -unico-outer-stroke-style: none;
 }
 
