@@ -49,6 +49,7 @@
     -GtkWidget-focus-line-width: 1;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
+    -GtkWindow-resize-grip-default: 0;
     -WnckTasklist-fade-overlay-rect: 0;
 
     border-width: 1;
@@ -923,6 +924,7 @@ GtkSwitch.trough:active {
 .primary-toolbar.toolbar {
     -GtkWidget-window-dragging: true;
 
+    color: @dark_fg_color;
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
     border-style: solid;
     border-width: 0 0 1 0;
