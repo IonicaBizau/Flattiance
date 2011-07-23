@@ -1046,21 +1046,64 @@ GtkSwitch.trough:active {
 
 /* inline-toolbar */
 .inline-toolbar.toolbar {
+    -GtkToolbar-button-relief: normal;
+
     border-width: 1;
     border-radius: 0;
     border-style: solid;
-    padding: 2;
+    padding: 2 3 3 3;
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (#f2f1ef),
+                                     from (shade (#f2f1ef, 0.86)),
+                                     color-stop (0.08, #f2f1ef),
                                      to (#ffffff));
-
-    engine: none;
 }
 
 .inline-toolbar.toolbar:nth-child(last) {
     border-width: 0 1 1 1;
     border-radius: 0 0 3 3;
     border-color: shade (@theme_bg_color, 0.75);
+}
+
+.inline-toolbar.toolbar .button {
+    border-radius: 0;
+    border-width: 1 0 1 1;
+    border-style: solid;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.12)),
+                                     to (shade (@theme_bg_color, 0.88)));
+
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.2), 0.5);
+    -unico-outer-stroke-style: none;
+}
+
+.inline-toolbar.toolbar .button *:active,
+.inline-toolbar.toolbar .button *:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:active,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive {
+    -unico-outer-stroke-style: none;
+}
+
+.inline-toolbar.toolbar .button *:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 1.02)),
+                                     to (shade (@theme_bg_color, 0.98)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@theme_bg_color, 0.85)),
+                                           to (shade (@theme_bg_color, 0.8)));
+    -unico-inner-stroke-color: alpha (shade (@theme_bg_color, 1.2), 0.25);
+}
+
+.inline-toolbar.toolbar .button:nth-child(first),
+.inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
+    border-radius: 3 0 0 3;
+}
+
+.inline-toolbar.toolbar .button:nth-child(last),
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
+    border-radius: 0 3 3 0;
+    border-width: 1;
 }
 
 /***********
