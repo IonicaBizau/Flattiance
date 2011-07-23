@@ -49,7 +49,7 @@
     -GtkWidget-focus-line-width: 1;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
-    -GtkWindow-resize-grip-default: 0;
+    -GtkWindow-resize-grip-default: false;
     -WnckTasklist-fade-overlay-rect: 0;
 
     border-width: 1;
@@ -307,6 +307,10 @@ row:selected {
                                      to (shade (@theme_selected_bg_color, 0.94)));
 }
 
+.sidebar row:selected {
+    text-shadow: 0 1 shade (@theme_selected_bg_color, 0.7);
+}
+
 /*******************
  * check and radio *
  *******************/
@@ -508,11 +512,11 @@ GtkIconView.view.cell:selected:focused {
     color: @dark_fg_color;
     text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
     background-image: none;
-    background-color: shade (@dark_bg_color, 0.98);
+    background-color: shade (@dark_bg_color, 0.9);
 
     /* hack to deal with the buggy global menubar */
     border-width: 1;
-    border-color:shade (@dark_bg_color, 0.98);
+    border-color:shade (@dark_bg_color, 0.9);
 
     -unico-border-gradient: none;
 }
@@ -655,6 +659,7 @@ GtkIconView.view.cell:selected:focused {
 /******************
  * pane separator *
  ******************/
+.sidebar .pane-separator,
 .pane-separator {
     background-color: @transparent;
     border-color: shade (@theme_bg_color, 0.84);
@@ -930,7 +935,8 @@ GtkSwitch.trough:active {
     border-width: 0 0 1 0;
     border-bottom-color: shade (@dark_bg_color, 1.1);
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.98)),
+                                     from (shade (@dark_bg_color, 0.9)),
+                                     color-stop (0.25, shade (@dark_bg_color, 1.06)),
                                      to (shade (@dark_bg_color, 1.3)));
 
     -unico-border-gradient: none;
@@ -985,6 +991,8 @@ GtkSwitch.trough:active {
 .primary-toolbar.toolbar .entry,
 .primary-toolbar .toolbar .entry:focused,
 .primary-toolbar.toolbar .entry:focused {
+    color: @dark_fg_color;
+
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_base_color, 0.70)),
                                      color-stop (0.15, shade (@theme_base_color, 0.94)),

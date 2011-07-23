@@ -113,7 +113,7 @@
   <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="3" y2="3"/>
   <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="4" y2="4"/>
   <!-- bottom line -->
-  <line color="shade/#3c3b37/0.89" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
+  <line color="shade/#3c3b37/0.8" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
@@ -136,7 +136,7 @@
   <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="3" y2="3"/>
   <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="4" y2="4"/>
   <!-- bottom line -->
-  <line color="shade/#3c3b37/0.89" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
+  <line color="shade/#3c3b37/0.82" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_inactive">
