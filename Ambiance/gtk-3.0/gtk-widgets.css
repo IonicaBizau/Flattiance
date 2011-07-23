@@ -936,7 +936,7 @@ GtkSwitch.trough:active {
     border-bottom-color: shade (@dark_bg_color, 1.1);
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.9)),
-                                     color-stop (0.25, shade (@dark_bg_color, 1.06)),
+                                     color-stop (0.15, shade (@dark_bg_color, 1.03)),
                                      to (shade (@dark_bg_color, 1.3)));
 
     -unico-border-gradient: none;
