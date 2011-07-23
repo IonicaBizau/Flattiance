@@ -960,23 +960,28 @@ GtkSwitch.trough:active {
                                            to (shade (@dark_bg_color, 0.74)));
     -unico-glow-color: shade (@dark_bg_color, 1.08);
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@dark_bg_color, 0.8), 0.125)),
+                                                 to (alpha (shade (@dark_bg_color, 0.8), 0.25)));
 }
 
 .primary-toolbar .toolbar .button:active,
 .primary-toolbar.toolbar .button:active {
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@dark_bg_color, 0.6)),
-                                           to (shade (@dark_bg_color, 0.7)));
+                                           from (shade (@dark_bg_color, 0.7)),
+                                           to (shade (@dark_bg_color, 0.8)));
                                            
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 0.8), 0.5);
     -unico-outer-stroke-style: custom;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (alpha (@theme_bg_color, 0.0)),
-                                                 to (alpha (@theme_bg_color, 0.0)));
+                                                 from (alpha (shade (@dark_bg_color, 0.9), 0.25)),
+                                                 to (alpha (shade (@dark_bg_color, 1.4), 0.75)));
 }
 
 .primary-toolbar .toolbar .button:insensitive ,
@@ -985,6 +990,15 @@ GtkSwitch.trough:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.04)),
                                      to (shade (@dark_bg_color, 0.96)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 0.8)),
+                                           to (shade (@dark_bg_color, 0.9)));
+
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@dark_bg_color, 0.9), 0.18)),
+                                                 to (alpha (shade (@dark_bg_color, 1.4), 0.5)));
 }
 
 .primary-toolbar .toolbar .entry,
@@ -1009,6 +1023,14 @@ GtkSwitch.trough:active {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.85)),
                                            to (shade (@dark_bg_color, 0.95)));
+}
+
+.primary-toolbar .toolbar .entry:insensitive,
+.primary-toolbar.toolbar .entry:insensitive {
+    -unico-outer-stroke-style: custom;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@dark_bg_color, 0.9), 0.18)),
+                                                 to (alpha (shade (@dark_bg_color, 1.4), 0.5)));
 }
 
 .primary-toolbar .toolbar GtkSeparatorToolItem,
