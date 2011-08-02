@@ -4,8 +4,7 @@ UnityPanelWidget,
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.7)),
                                      color-stop (0.042, shade (@dark_bg_color, 1.5)),
-                                     color-stop (0.9582, shade (@dark_bg_color, 1.05)),
-                                     to (shade (@dark_bg_color, 0.52)));
+                                     to (shade (@dark_bg_color, 1.05)));
 }
 
 .unity-panel.menubar,
