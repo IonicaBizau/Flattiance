@@ -2,11 +2,12 @@
 PanelWidget,
 PanelApplet,
 PanelToplevel {
-    color: @dark_fg_color;
-    padding: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
+    padding: 0;
+
+    color: @dark_fg_color;
 }
 
 .gnome-panel-menu-bar,
@@ -27,12 +28,13 @@ PanelAppletFrame {
 }
 
 PanelApplet .button {
-    border-radius: 0;
-    border-width:0;
-    text-shadow: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));    
+    border-radius: 0;
+    border-width:0;
+
+    text-shadow: none;
 }
 
 PanelApplet .button:prelight:active,

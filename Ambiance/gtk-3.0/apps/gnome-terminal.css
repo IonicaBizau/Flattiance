@@ -1,37 +1,41 @@
 /* gnome-terminal */
 TerminalScreen {
     -TerminalScreen-background-darkness: 0.95;
+
     background-color: #300a24;
+
     color: #fff;
 }
 
 TerminalWindow,
 TerminalWindow.background {
     background-color: @dark_bg_color;
+
     color: @dark_fg_color;
 }
 
 /* notebook */
 TerminalWindow .notebook {
-    border-radius: 3;
     background-image: none;
     background-color: shade (@dark_bg_color, 1.02);
-    
+    border-radius: 3;
+
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@dark_bg_color, 0.93)),
                                            to (shade (@dark_bg_color, 0.93)));
-    -unico-outer-stroke-style: none;
-    -unico-inner-stroke-color: rgba (0, 0, 0, 0);
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0;
 }
 
 TerminalWindow .notebook tab {
-    padding: 0;
-    color: @dark_fg_color;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.92)),
                                      color-stop (0.60, shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.85)));                   
-                                     
+    padding: 0;
+
+    color: @dark_fg_color;
+
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.2);
 }
 
@@ -39,7 +43,7 @@ TerminalWindow .notebook tab:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.12)));
-                                     
+
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 1.0);
 }
 
@@ -59,6 +63,7 @@ TerminalWindow .notebook .button:active  {
 /* Scrollbars */
 TerminalWindow .scrollbar {
     border-radius:  20;
+
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.74)),
                                            to (shade (@dark_bg_color, 0.74)));
