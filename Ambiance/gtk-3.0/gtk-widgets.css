@@ -178,7 +178,7 @@ GtkScale.slider,
     -unico-glow-radius: 6;
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@button_bg_color, 1.16)),
-                                                 to (shade (@button_bg_color, 1.04)));
+                                                 to (shade (@button_bg_color, 1.02)));
     -unico-inner-stroke-width: 1;
 }
 
@@ -236,7 +236,7 @@ GtkScale.slider.vertical,
     -unico-glow-color: shade (@theme_bg_color, 1.02);
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@theme_bg_color, 1.16)),
-                                                 to (shade (@theme_bg_color, 1.0)));
+                                                 to (shade (@theme_bg_color, 1.02)));
 }
 
 column-header .button:active,
@@ -1328,7 +1328,7 @@ GtkSwitch.slider {
     -unico-outer-stroke-width: 1 0 1 0;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@theme_bg_color, 0.05), 0.02)),
-                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.06)));\
+                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.06)));
 }
 
 .inline-toolbar.toolbar .button *:insensitive,
