@@ -1251,7 +1251,7 @@ GtkSwitch.slider {
                                            to (shade (@dark_bg_color, 0.95)));
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@theme_bg_color, 0.05), 0.16)),
-                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.8)));
+                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.08)));
 }
 
 .primary-toolbar .toolbar .entry:insensitive,
