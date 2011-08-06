@@ -587,11 +587,9 @@ GtkIconView.view.cell:selected:focused {
 .menubar {
     -GtkWidget-window-dragging: true;
 
-    /* workaround to deal with the buggy global menubar */
-    background-color: shade (@dark_bg_color, 1.1);
+    background-color: @dark_bg_color;
     background-image: none;
-    border-color: shade (@dark_bg_color, 1.1);
-    border-width: 1;
+    border-width: 0;
 
     color: @dark_fg_color;
     text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
