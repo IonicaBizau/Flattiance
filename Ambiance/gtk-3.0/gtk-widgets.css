@@ -86,9 +86,15 @@
 }
 
 *:selected {
+    background-color: @theme_selected_bg_color;
+
+    color: @theme_selected_fg_color;
 }
 
 *:selected:focused {
+    background-color: @theme_selected_bg_color;
+
+    color: @theme_selected_fg_color;
 }
 
 /******************
@@ -469,17 +475,17 @@ GtkComboBoxText .button:active {
  *********/
 .entry {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@theme_base_color, 0.90)),
-                                     color-stop (0.10, shade (@theme_base_color, 0.94)),
+                                     from (shade (@theme_base_color, 0.88)),
+                                     color-stop (0.2, shade (@theme_base_color, 0.96)),
                                      to (@theme_base_color));
     border-radius: 4;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@theme_bg_color, 0.65)),
+                                           from (shade (@theme_bg_color, 0.6)),
                                            to (shade (@theme_bg_color, 0.7)));
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (alpha (shade (@theme_bg_color, 0.05), 0.06)),
-                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.03)));
+                                                 from (alpha (shade (@theme_bg_color, 0.05), 0.08)),
+                                                 to (alpha (shade (@theme_bg_color, 0.05), 0.04)));
     -unico-inner-stroke-width: 1;
 }
 
