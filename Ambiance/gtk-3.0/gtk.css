@@ -5,19 +5,8 @@
 @define-color text_color #3C3C3C;
 @define-color selected_bg_color #f07746;
 @define-color selected_fg_color #ffffff;
-@define-color tooltip_bg_color #000;
+@define-color tooltip_bg_color #000000;
 @define-color tooltip_fg_color #ffffff;
-@define-color transparent rgba (0, 0, 0, 0);
-
-/* other color schemes could simply override these */
-@define-color theme_bg_color @bg_color;
-@define-color theme_fg_color @fg_color;
-@define-color theme_base_color @base_color;
-@define-color theme_text_color @text_color;
-@define-color theme_selected_bg_color @selected_bg_color;
-@define-color theme_selected_fg_color @selected_fg_color;
-@define-color theme_tooltip_bg_color @tooltip_bg_color;
-@define-color theme_tooltip_fg_color @tooltip_fg_color;
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color rgb (181, 171, 156);
@@ -31,9 +20,10 @@
 
 /* theme common colors */
 @define-color button_bg_color #cdcdcd;
-@define-color button_insensitive_bg_color mix (@button_bg_color, @theme_bg_color, 0.6);
+@define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
 @define-color dark_bg_color #3c3b37;
 @define-color dark_fg_color #dfdbd2;
+@define-color transparent rgba (0, 0, 0, 0);
 
 @import url("gtk-widgets.css");
 @import url("apps/gnome-panel.css");
