@@ -1370,13 +1370,15 @@ GtkScrolledWindow.frame {
  ***********/
 .sidebar,
 .sidebar .view {
-    background-color: shade (@bg_color, 1.0);
 }
 
 .sidebar row:selected {
     text-shadow: 0 1 shade (@selected_bg_color, 0.7);
 }
 
+.sidebar .frame {
+    border-width: 0;
+}
 
 /**************
  * spinbutton *
