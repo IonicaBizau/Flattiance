@@ -1211,25 +1211,33 @@ GtkScale.slider.vertical:hover {
                                            to (shade (@bg_color, 0.74)));
 }
 
-.scrollbar.button.vertical,
-.scrollbar.button.horizontal {
-}
-
-.scrollbar.trough {
+.scrollbar.trough,
+.scrollbar.trough.vertical {
     background-image: -gtk-gradient (linear, left top, right top,
                                      from (shade (@bg_color, 0.9)),
                                      to (shade (@bg_color, 0.95)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@bg_color, 0.74)),
+                                           to (shade (@bg_color, 0.74)));
 }
 
 .scrollbar.trough.horizontal {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 0.9)),
                                      to (shade (@bg_color, 0.95)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@bg_color, 0.74)),
+                                           to (shade (@bg_color, 0.74)));
 }
 
 .scrollbar.slider,
 .scrollbar.slider:hover,
-.scrollbar.button {
+.scrollbar.button,
+.scrollbar.slider.vertical,
+.scrollbar.slider.vertical:hover,
+.scrollbar.button.vertical {
     background-image: -gtk-gradient (linear, left top, right top,
                                      from (shade (@bg_color, 1.08)),
                                      to (shade (@bg_color, 0.92)));
