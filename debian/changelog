@@ -1,3 +1,9 @@
+light-themes (0.1.8.20) oneiric; urgency=low
+
+  * New snapshot
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 10 Aug 2011 13:53:02 -0400
+
 light-themes (0.1.8.19) oneiric; urgency=low
 
   * {Ambiance,Radiance}/metacity-1/metacity-theme-1.xml:
