@@ -778,6 +778,14 @@ GtkIconView.view.cell:selected:focused {
     -unico-inner-stroke-width: 1;
 }
 
+.rubberband {
+    background-color: alpha (@selected_bg_color, 0.35);
+    border-color: @selected_bg_color;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1;
+}
+
 /***********
  * infobar *
  ***********/
@@ -1014,6 +1022,19 @@ GtkIconView.view.cell:selected:focused {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.75)),
                                            to (shade (@dark_bg_color, 1.15)));
+}
+
+.menuitem .accelerator {
+    color: alpha (@dark_fg_color, 0.5);
+}
+
+.menuitem .accelerator:hover {
+    color: alpha (@selected_fg_color, 0.8);
+}
+
+.menuitem .accelerator:insensitive {
+    color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
+    text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
 }
 
 /************
@@ -1312,9 +1333,8 @@ GtkScrolledWindow.frame {
     -unico-inner-stroke-gradient: none;
 }
 
-
 .menuitem.separator {
-  -GtkMenuItem-horizontal-padding: 0;
+    -GtkMenuItem-horizontal-padding: 0;
 
     border-color: shade (@dark_bg_color, 0.96);
 

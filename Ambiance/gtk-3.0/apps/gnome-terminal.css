@@ -7,13 +7,14 @@ TerminalScreen {
     color: #fff;
 }
 
+/*
 TerminalWindow,
 TerminalWindow.background {
     background-color: @dark_bg_color;
 
     color: @dark_fg_color;
 }
-
+*/
 /* notebook */
 /*
 TerminalWindow .notebook {
