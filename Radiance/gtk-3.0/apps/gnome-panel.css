@@ -2,11 +2,12 @@
 PanelWidget,
 PanelApplet,
 PanelToplevel {
-    color: @dark_fg_color;
     padding: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));
+
+    color: @dark_fg_color;
 }
 
 .gnome-panel-menu-bar,
@@ -17,7 +18,6 @@ PanelMenuBar.menubar.menuitem {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));
-    text-shadow: 0 1 shade (@dark_bg_color, 1.3);
 }
 
 PanelAppletFrame { 
@@ -28,12 +28,13 @@ PanelAppletFrame {
 }
 
 PanelApplet .button {
-    border-radius: 0;
-    border-width:0;
-    text-shadow: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));    
+    border-radius: 0;
+    border-width:0;
+
+    text-shadow: none;
 }
 
 PanelApplet .button:prelight:active,
@@ -50,7 +51,7 @@ PanelApplet .button:prelight {
 }
 
 ClockBox {
-    text-shadow: 0 1 shade (@dark_bg_color, 1.3);
+    text-shadow: 0 1 shade (@dark_bg_color, 1.08);
 }
 
 WnckPager, WnckTasklist {

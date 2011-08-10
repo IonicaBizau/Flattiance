@@ -15,6 +15,7 @@ TerminalWindow.background {
 }
 
 /* notebook */
+/*
 TerminalWindow .notebook {
     background-image: none;
     background-color: shade (@dark_bg_color, 1.02);
@@ -59,8 +60,9 @@ TerminalWindow .notebook .button:active  {
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.7);
     -unico-outer-stroke-style: none;
 }
-
+*/
 /* Scrollbars */
+/*
 TerminalWindow .scrollbar {
     border-radius:  20;
 
@@ -108,4 +110,4 @@ TerminalWindow .scrollbar.button:insensitive {
                                            to (shade (@dark_bg_color, 0.74)));                                   
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.7);
 }
-
+*/

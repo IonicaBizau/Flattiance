@@ -102,7 +102,7 @@
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
-  <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+  <gradient type="vertical" x="0" y="0" width="width" height="height">
     <color value="#4b4a46" />
     <color value="shade/#3c3b37/1.08" />
     <color value="#3c3b37" />
@@ -129,25 +129,21 @@
 <draw_ops name="draw_title_maximized">
   <gradient type="vertical" x="0" y="0" width="width" height="top_height">
     <color value="#5c5b56" />
-    <color value="shade/#3c3b37/1.1" />
+    <color value="shade/#3c3b37/1.08" />
     <color value="#3c3b37" />
   </gradient>
   <!-- topmost dark line -->
   <line color="shade/#5c5b56/1.1" x1="0" x2="width" y1="0" y2="0"/>
-  <!-- bottom line -->
-  <line color="shade/#3c3b37/0.89" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_unfocused">
   <gradient type="vertical" x="0" y="0" width="width" height="top_height">
     <color value="#494844" />
-    <color value="shade/#3c3b37/1.1" />
+    <color value="shade/#3c3b37/1.08" />
     <color value="#3c3b37" />
   </gradient>
   <!-- topmost dark line -->
   <line color="shade/#494844/1.1" x1="0" x2="width" y1="0" y2="0"/>
-  <!-- bottom line -->
-  <line color="shade/#3c3b37/0.89" x1="0" y1="top_height - 1" x2="width" y2="top_height - 1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_inactive">

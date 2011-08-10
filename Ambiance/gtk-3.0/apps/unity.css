@@ -17,3 +17,20 @@ UnityPanelWidget,
 
     icon-shadow: 0 -1 shade (@dark_bg_color, 0.7);
 }
+
+.unity-panel.menubar.menuitem:hover,
+.unity-panel.menubar .menuitem *:hover {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.7)),
+                                     to (shade (@dark_bg_color, 1.12)));
+
+    color: shade (@dark_fg_color, 1.1);
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@dark_bg_color, 1.08)),
+                                           to (shade (@dark_bg_color, 0.98)));
+
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@dark_bg_color, 1.8)),
+                                                 to (shade (@dark_bg_color, 1.2)));
+}
