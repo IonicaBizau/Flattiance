@@ -384,37 +384,37 @@
   <piece position="left_edge" draw_ops="draw_frame"/>
   <piece position="right_edge" draw_ops="draw_frame"/>
   <piece position="bottom_edge" draw_ops="bottom_edge"/>
-  <button function="left_left_background" state="normal" draw_ops="left_left_background_focused_normal"/>
-  <button function="left_middle_background" state="normal" draw_ops="left_middle_background_focused_normal"/>
-  <button function="left_right_background" state="normal" draw_ops="left_right_background_focused_normal"/>
-  <button function="left_left_background" state="prelight" draw_ops="left_left_background_focused_normal"/>
-  <button function="left_middle_background" state="prelight" draw_ops="left_middle_background_focused_normal"/>
-  <button function="left_right_background" state="prelight" draw_ops="left_right_background_focused_normal"/>
-  <button function="left_left_background" state="pressed" draw_ops="left_left_background_focused_pressed"/>
-  <button function="left_middle_background" state="pressed" draw_ops="left_middle_background_focused_pressed"/>
-  <button function="left_right_background" state="pressed" draw_ops="left_right_background_focused_pressed"/>
-  <button function="right_left_background" state="normal" draw_ops="right_left_background_focused_normal"/>
-  <button function="right_middle_background" state="normal" draw_ops="right_middle_background_focused_normal"/>
-  <button function="right_right_background" state="normal" draw_ops="right_right_background_focused_normal"/>
-  <button function="right_left_background" state="prelight" draw_ops="right_left_background_focused_normal"/>
-  <button function="right_middle_background" state="prelight" draw_ops="right_middle_background_focused_normal"/>
-  <button function="right_right_background" state="prelight" draw_ops="right_right_background_focused_normal"/>
-  <button function="right_left_background" state="pressed" draw_ops="right_left_background_focused_pressed"/>
-  <button function="right_middle_background" state="pressed" draw_ops="right_middle_background_focused_pressed"/>
-  <button function="right_right_background" state="pressed" draw_ops="right_right_background_focused_pressed"/>
-  <button function="menu" state="normal" draw_ops="menu_focused_normal"/>
-  <button function="menu" state="prelight" draw_ops="menu_focused_prelight"/>
-  <button function="menu" state="pressed" draw_ops="menu_focused_normal"/> 
-  <button function="minimize" state="normal" draw_ops="minimize_focused_normal"/>
-  <button function="minimize" state="prelight" draw_ops="minimize_focused_prelight"/>
-  <button function="minimize" state="pressed" draw_ops="minimize_focused_pressed"/>
-  <button function="maximize" state="normal" draw_ops="maximize_focused_normal"/>
-  <button function="maximize" state="prelight" draw_ops="maximize_focused_prelight"/>
-  <button function="maximize" state="pressed" draw_ops="maximize_focused_pressed"/>
-  <button function="close" state="normal" draw_ops="close_focused_normal"/>
-  <button function="close" state="prelight" draw_ops="close_focused_prelight"/>
-  <button function="close" state="pressed" draw_ops="close_focused_pressed"/>
-  <shadow radius="8.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
+  <button function="left_left_background" state="normal" draw_ops="left_left_background_unfocused_normal"/>
+  <button function="left_middle_background" state="normal" draw_ops="left_middle_background_unfocused_normal"/>
+  <button function="left_right_background" state="normal" draw_ops="left_right_background_unfocused_normal"/>
+  <button function="left_left_background" state="prelight" draw_ops="left_left_background_unfocused_normal"/>
+  <button function="left_middle_background" state="prelight" draw_ops="left_middle_background_unfocused_normal"/>
+  <button function="left_right_background" state="prelight" draw_ops="left_right_background_unfocused_normal"/>
+  <button function="left_left_background" state="pressed" draw_ops="left_left_background_unfocused_pressed"/>
+  <button function="left_middle_background" state="pressed" draw_ops="left_middle_background_unfocused_pressed"/>
+  <button function="left_right_background" state="pressed" draw_ops="left_right_background_unfocused_pressed"/>
+  <button function="right_left_background" state="normal" draw_ops="right_left_background_unfocused_normal"/>
+  <button function="right_middle_background" state="normal" draw_ops="right_middle_background_unfocused_normal"/>
+  <button function="right_right_background" state="normal" draw_ops="right_right_background_unfocused_normal"/>
+  <button function="right_left_background" state="prelight" draw_ops="right_left_background_unfocused_normal"/>
+  <button function="right_middle_background" state="prelight" draw_ops="right_middle_background_unfocused_normal"/>
+  <button function="right_right_background" state="prelight" draw_ops="right_right_background_unfocused_normal"/>
+  <button function="right_left_background" state="pressed" draw_ops="right_left_background_unfocused_pressed"/>
+  <button function="right_middle_background" state="pressed" draw_ops="right_middle_background_unfocused_pressed"/>
+  <button function="right_right_background" state="pressed" draw_ops="right_right_background_unfocused_pressed"/>
+  <button function="menu" state="normal" draw_ops="menu_unfocused_normal"/>
+  <button function="menu" state="prelight" draw_ops="menu_unfocused_prelight"/>
+  <button function="menu" state="pressed" draw_ops="menu_unfocused_normal"/> 
+  <button function="minimize" state="normal" draw_ops="minimize_unfocused_normal"/>
+  <button function="minimize" state="prelight" draw_ops="minimize_unfocused_prelight"/>
+  <button function="minimize" state="pressed" draw_ops="minimize_unfocused_pressed"/>
+  <button function="maximize" state="normal" draw_ops="maximize_unfocused_normal"/>
+  <button function="maximize" state="prelight" draw_ops="maximize_unfocused_prelight"/>
+  <button function="maximize" state="pressed" draw_ops="maximize_unfocused_pressed"/>
+  <button function="close" state="normal" draw_ops="close_unfocused_normal"/>
+  <button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
+  <button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
+  <shadow radius="8.0" opacity="0.5" color="#abde4f" x_offset="1" y_offset="4"/>
   <padding left="7" right="7" bottom="7"/>
 </frame_style>
 
