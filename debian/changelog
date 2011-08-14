@@ -1,3 +1,11 @@
+light-themes (0.1.8.22) UNRELEASED; urgency=low
+
+  [ James Schriver ]
+  * Ambiance/Radiance/gtk-3.0/gtk-widgets.css  (LP: #818541)
+    - Theme spinner to @selected_bg color
+
+ -- James Schriver <jws141@gmail.com>  Sun, 14 Aug 2011 12:28:00 -0400
+
 light-themes (0.1.8.21) oneiric; urgency=low
 
   * New snapshot

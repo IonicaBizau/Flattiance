@@ -1393,6 +1393,14 @@ GtkScrolledWindow.frame {
     color: @fg_color;
 }
 
+/***********
+ * spinner *
+ ***********/
+
+GtkSpinner {
+    color: @selected_bg_color;
+}
+
 /*************
  * statusbar *
  *************/
