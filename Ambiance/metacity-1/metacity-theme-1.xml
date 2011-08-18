@@ -10,7 +10,7 @@
 </info>
 
 <!-- general window layout -->
-<frame_geometry name="frame_geometry_normal" title_scale="medium" rounded_top_left="true" rounded_top_right="true"  rounded_bottom_left="false" rounded_bottom_right="false">
+<frame_geometry name="frame_geometry_normal" title_scale="medium" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="false" rounded_bottom_right="false">
   <distance name="left_width" value="1"/>
   <distance name="right_width" value="1"/>
   <distance name="bottom_height" value="1"/>
@@ -72,7 +72,7 @@
   <title color="#dfdbd2" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
-<draw_ops name="draw_title_text_inactive">
+<draw_ops name="draw_title_text_unfocused">
   <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
   <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/>
   <title color="#333" x="9" y="(((height - title_height) / 2) `max` 0)"/>
@@ -90,15 +90,16 @@
   <line color="shade/#3c3b37/1.2" x1="0" x2="width" y1="0" y2="0"/>
   <line color="shade/#5c5b56/1.1" x1="0" x2="width" y1="1" y2="1"/>
   <!-- darkening of the left arch -->
-  <line color="shade/#3c3b37/1.2" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="1" y1="4" y2="4"/>
+  <arc color="shade/#5c5b56/1.12" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="shade/#3c3b37/1.16" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" />
   <!-- darkening of the right arch -->
-  <line color="shade/#3c3b37/1.2" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="shade/#3c3b37/1.2" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="4" y2="4"/>
+  <arc color="shade/#5c5b56/1.12" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="shade/#3c3b37/1.16" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" />
+</draw_ops>
+
+<draw_ops name="draw_title_utility">
+  <include name="draw_title" />
+  <line color="shade/#3c3b37/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
@@ -111,19 +112,16 @@
   <line color="shade/#3c3b37/1.16" x1="0" x2="width" y1="0" y2="0"/>
   <line color="shade/#494844/1.14" x1="0" x2="width" y1="1" y2="1"/>
   <!-- darkening of the left arch -->
-  <line color="shade/#3c3b37/1.2" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="shade/#3c3b37/1.2" x1="0" x2="1" y1="4" y2="4"/>
+  <arc color="shade/#494844/1.16" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="shade/#3c3b37/1.12" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" />
   <!-- darkening of the right arch -->
-  <line color="shade/#3c3b37/1.2" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="shade/#3c3b37/1.2" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="shade/#3c3b37/1.2" x1="width-2" x2="width" y1="4" y2="4"/>
+  <arc color="shade/#494844/1.16" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="shade/#3c3b37/1.12" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" />
 </draw_ops>
 
-<draw_ops name="draw_title_inactive">
+<draw_ops name="draw_title_utility_unfocused">
   <include name="draw_title_unfocused" />
+  <line color="shade/#3c3b37/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized">
@@ -146,19 +144,19 @@
   <line color="shade/#494844/1.1" x1="0" x2="width" y1="0" y2="0"/>
 </draw_ops>
 
-<draw_ops name="draw_title_maximized_inactive">
-  <include name="draw_title_maximized_unfocused" />
-</draw_ops>
-
 <!-- window frames -->
 
 <draw_ops name="draw_frame">
-  <rectangle color="shade/gtk:bg[NORMAL]/0.7" filled="false" x="0" y="0" width="width" height="height"/>
+  <rectangle color="shade/gtk:bg[NORMAL]/0.7" filled="true" x="0" y="0" width="width" height="height"/>
   <gradient type="vertical" x="0" y="0" width="width" height="80">
-    <color value="shade/#3c3b37/0.86" />
-    <color value="shade/#3c3b37/0.86" />
+    <color value="shade/#3c3b37/1.2" />
+    <color value="shade/#3c3b37/1.2" />
     <color value="shade/gtk:bg[NORMAL]/0.7" />
   </gradient>
+</draw_ops>
+
+<draw_ops name="draw_frame_utility">
+  <rectangle color="shade/gtk:bg[NORMAL]/0.7" filled="true" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="bottom_edge">
@@ -374,13 +372,13 @@
   <button function="close" state="normal" draw_ops="close_focused_normal"/>
   <button function="close" state="prelight" draw_ops="close_focused_prelight"/>
   <button function="close" state="pressed" draw_ops="close_focused_pressed"/>
-  <shadow radius="8.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
+  <shadow radius="0.0" opacity="0.75" color="#abde4f" x_offset="1" y_offset="4"/>
   <padding left="7" right="7" bottom="7"/>
 </frame_style>
 
 <frame_style name="normal_unfocused" geometry="frame_geometry_normal">
-  <piece position="title" draw_ops="draw_title_text_inactive"/>
-  <piece position="titlebar" draw_ops="draw_title_inactive"/>
+  <piece position="title" draw_ops="draw_title_text_unfocused"/>
+  <piece position="titlebar" draw_ops="draw_title_unfocused"/>
   <piece position="left_edge" draw_ops="draw_frame"/>
   <piece position="right_edge" draw_ops="draw_frame"/>
   <piece position="bottom_edge" draw_ops="bottom_edge"/>
@@ -429,8 +427,8 @@
 </frame_style>
 
 <frame_style name="maximized_unfocused" geometry="geometry_maximized" parent="normal_unfocused">
-  <piece position="title" draw_ops="draw_title_text_inactive"/>
-  <piece position="titlebar" draw_ops="draw_title_maximized_inactive"/>
+  <piece position="title" draw_ops="draw_title_text_unfocused"/>
+  <piece position="titlebar" draw_ops="draw_title_maximized_unfocused"/>
   <button function="maximize" state="normal" draw_ops="unmaximize_unfocused_normal"/>
   <button function="maximize" state="prelight" draw_ops="unmaximize_unfocused_prelight"/>
   <button function="maximize" state="pressed" draw_ops="unmaximize_unfocused_pressed"/>
@@ -440,7 +438,9 @@
 
 <frame_style name="utility_focused" parent="normal_focused">
   <piece position="title" draw_ops="draw_title_text_normal"/>
-  <piece position="titlebar" draw_ops="draw_title"/>
+  <piece position="titlebar" draw_ops="draw_title_utility"/>
+  <piece position="left_edge" draw_ops="draw_frame_utility"/>
+  <piece position="right_edge" draw_ops="draw_frame_utility"/>
   <button function="menu" state="normal" draw_ops="menu_focused_normal"/>
   <button function="menu" state="prelight" draw_ops="menu_focused_prelight"/>
   <button function="menu" state="pressed" draw_ops="menu_focused_normal"/>
@@ -452,8 +452,10 @@
 </frame_style>
 
 <frame_style name="utility_unfocused" parent="normal_unfocused">
-  <piece position="title" draw_ops="draw_title_text_inactive"/>
-  <piece position="titlebar" draw_ops="draw_title_inactive"/>
+  <piece position="title" draw_ops="draw_title_text_unfocused"/>
+  <piece position="titlebar" draw_ops="draw_title_utility_unfocused"/>
+  <piece position="left_edge" draw_ops="draw_frame_utility"/>
+  <piece position="right_edge" draw_ops="draw_frame_utility"/>
   <button function="menu" state="normal" draw_ops="menu_unfocused_normal"/>
   <button function="menu" state="prelight" draw_ops="menu_unfocused_prelight"/>
   <button function="menu" state="pressed" draw_ops="menu_focused_normal"/>
@@ -466,7 +468,7 @@
 
 <frame_style name="border" geometry="border" parent="normal_focused">
   <piece position="title" draw_ops="draw_title"/>
-  <piece position="titlebar" draw_ops="draw_title_inactive"/>
+  <piece position="titlebar" draw_ops="draw_title_unfocused"/>
 </frame_style>
 
 <!-- style set -->
