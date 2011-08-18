@@ -31,10 +31,18 @@ PanelApplet .button {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));    
-    border-radius: 0;
-    border-width:0;
 
     text-shadow: none;
+    
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.9);
+    border-left-color: shade (@dark_bg_color, 0.9);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 PanelApplet .button:prelight:active,
@@ -42,12 +50,33 @@ PanelApplet .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.7)),
                                      to (shade (@dark_bg_color, 0.8))); 
+                                     
+                                     
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.9);
+    border-left-color: shade (@dark_bg_color, 0.9);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 PanelApplet .button:prelight {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.0))); 
+                                     
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.9);
+    border-left-color: shade (@dark_bg_color, 0.9);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 ClockBox {

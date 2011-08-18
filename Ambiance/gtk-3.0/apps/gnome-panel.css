@@ -30,11 +30,19 @@ PanelAppletFrame {
 PanelApplet .button {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));    
-    border-radius: 0;
-    border-width:0;
-
+                                     to (shade (@dark_bg_color, 1.05)));
+                                     
     text-shadow: none;
+        
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.78);
+    border-left-color: shade (@dark_bg_color, 0.78);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 PanelApplet .button:prelight:active,
@@ -42,12 +50,32 @@ PanelApplet .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.85)),
                                      to (shade (@dark_bg_color, 1.0))); 
+                                    
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.78);
+    border-left-color: shade (@dark_bg_color, 0.78);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 PanelApplet .button:prelight {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.7)),
-                                     to (shade (@dark_bg_color, 1.25))); 
+                                     to (shade (@dark_bg_color, 1.25)));
+                                     
+    border-radius: 0;
+    border-width: 0 1 0 1;
+    border-right-color: shade (@dark_bg_color, 0.78);
+    border-left-color: shade (@dark_bg_color, 0.78);
+        
+    -unico-border-gradient: none;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0; 
+    -unico-glow-radius: 0;
 }
 
 ClockBox {
