@@ -1,3 +1,10 @@
+light-themes (0.1.8.21) oneiric; urgency=low
+
+  * New snapshot
+    - Fix for Ambiance unfocused metacity
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 10 Aug 2011 21:40:22 -0400
+
 light-themes (0.1.8.20) oneiric; urgency=low
 
   * New snapshot
