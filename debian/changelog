@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.31) UNRELEASED; urgency=low
+ubuntu-mono (0.0.31) oneiric; urgency=low
 
   [Daniel Foré]
   * Add 'system-devices-panel{,-alert}' icons
@@ -6,7 +6,7 @@ ubuntu-mono (0.0.31) UNRELEASED; urgency=low
   [Paul Sladen]
   * Recolour and re-crop system-devices-panel* for {22,24}-{dark,light}
 
- -- Paul Sladen <sladen@canonical.com>  Fri, 19 Aug 2011 09:40:33 +0100
+ -- Paul Sladen <sladen@canonical.com>  Fri, 19 Aug 2011 15:07:14 +0100
 
 ubuntu-mono (0.0.30) natty; urgency=low
 
