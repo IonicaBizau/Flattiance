@@ -199,7 +199,7 @@ GtkAssistant .sidebar {
 .button {
     -unico-focus-border-color: alpha (@selected_bg_color, 0.7);
     -unico-focus-fill-color: @transparent;
-    -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.3);
+    -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.2);
 }
 
 GtkComboBox,
@@ -398,16 +398,16 @@ GtkComboBox.combobox-entry .button:insensitive,
 
     text-shadow: 0 1 alpha (shade (@selected_bg_color, 1.26), 0.4);
 
-    -unico-focus-border-color: alpha (@selected_bg_color, 0.0);
+    -unico-focus-border-color: alpha (mix (shade (@selected_bg_color, 0.6), @bg_color, 0.3), 0.7);
     -unico-focus-fill-color: alpha (@selected_bg_color, 0.0);
-    -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.2);
+    -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.3);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (mix (shade (@selected_bg_color, 0.7), @bg_color, 0.3)),
                                            to (mix (shade (@selected_bg_color, 0.7), @bg_color, 0.3)));
     -unico-glow-color: shade (mix (@selected_bg_color, @bg_color, 0.3), 1.16);
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (mix (shade (@selected_bg_color, 1.18), @bg_color, 0.3)),
+                                                 from (mix (shade (@selected_bg_color, 1.2), @bg_color, 0.3)),
                                                  to (mix (shade (@selected_bg_color, 1.06), @bg_color, 0.3)));
 }
 
@@ -421,7 +421,7 @@ GtkComboBox.combobox-entry .button:insensitive,
                                            to (mix (shade (@selected_bg_color, 0.73), @bg_color, 0.3)));
     -unico-glow-color: shade (mix (@selected_bg_color, @bg_color, 0.3), 1.22);
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (mix (shade (@selected_bg_color, 1.24), @bg_color, 0.3)),
+                                                 from (mix (shade (@selected_bg_color, 1.26), @bg_color, 0.3)),
                                                  to (mix (shade (@selected_bg_color, 1.1), @bg_color, 0.3)));
 }
 
