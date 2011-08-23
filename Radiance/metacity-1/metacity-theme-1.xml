@@ -90,16 +90,24 @@
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/#edebe6/1.1" />
-    <color value="shade/#edebe6/1.4" />
-    <color value="shade/#edebe6/1.1" />
+    <color value="shade/#edebe6/1.04" />
+    <color value="shade/#edebe6/1.14" />
+    <color value="shade/#edebe6/1.04" />
   </gradient>
   <!-- left arch -->
-  <arc color="shade/#edebe6/1.08" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="shade/#dfd7cf/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" />
+  <!-- <arc color="shade/#edebe6/1.08" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="shade/#dfd7cf/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <arc color="shade/#edebe6/1.08" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="shade/#dfd7cf/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" />
+  <!-- <arc color="shade/#edebe6/1.08" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="shade/#dfd7cf/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="shade/#dfd7cf/0.8" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility">
@@ -121,11 +129,19 @@
   <!-- top line -->
   <line color="shade/#edebe6/1.02" x1="0" x2="width" y1="1" y2="1"/>
   <!-- left arch -->
-  <arc color="shade/#edebe6/1.02" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="shade/#dfd7cf/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" />
+  <!-- <arc color="shade/#edebe6/1.02" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="shade/#dfd7cf/0.8" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="shade/#dfd7cf/0.8" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <arc color="shade/#edebe6/1.02" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="shade/#dfd7cf/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" />
+  <!-- <arc color="shade/#edebe6/1.02" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="shade/#dfd7cf/0.8" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="shade/#dfd7cf/0.8" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="shade/#dfd7cf/0.8" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility_unfocused">
@@ -181,7 +197,6 @@
   <rectangle color="shade/gtk:bg[NORMAL]/0.7" x="0" y="0" width="width" height="height" filled="true"/>
 </draw_ops>
 
-<!-- bottom border -->
 <draw_ops name="bottom_edge">
   <line color="shade/gtk:bg[NORMAL]/0.7" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
