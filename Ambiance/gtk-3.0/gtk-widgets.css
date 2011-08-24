@@ -1452,7 +1452,8 @@ GtkScrolledWindow.frame {
  * spinner *
  ***********/
 .menu.spinner,
-.primary-toolbar .spinner {
+.primary-toolbar .toolbar .spinner,
+.primary-toolbar.toolbar .spinner {
     color: @selected_bg_color;
 }
 
@@ -1579,6 +1580,8 @@ GtkSwitch.slider:insensitive {
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
 }
 
+.primary-toolbar .toolbar GtkComboBox,
+.primary-toolbar.toolbar GtkComboBox,
 .primary-toolbar .toolbar .button,
 .primary-toolbar.toolbar .button {
     background-color: @transparent;
@@ -1764,7 +1767,9 @@ GtkSwitch.slider:insensitive {
 .primary-toolbar .toolbar GtkSeparatorToolItem,
 .primary-toolbar.toolbar GtkSeparatorToolItem,
 .primary-toolbar .toolbar .separator,
-.primary-toolbar.toolbar .separator {
+.primary-toolbar.toolbar .separator,
+.primary-toolbar .toolbar .separator:insensitive,
+.primary-toolbar.toolbar .separator:insensitive {
     border-color: alpha (shade (@dark_bg_color, 0.94), 0.5);
     border-style: solid;
 

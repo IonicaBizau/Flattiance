@@ -1590,6 +1590,8 @@ GtkSwitch.slider:insensitive {
     text-shadow: 0 1 shade (@dark_bg_color, 1.1);
 }
 
+.primary-toolbar .toolbar GtkComboBox,
+.primary-toolbar.toolbar GtkComboBox,
 .primary-toolbar .toolbar .button,
 .primary-toolbar.toolbar .button {
     background-color: @transparent;
@@ -1770,7 +1772,9 @@ GtkSwitch.slider:insensitive {
 .primary-toolbar .toolbar GtkSeparatorToolItem,
 .primary-toolbar.toolbar GtkSeparatorToolItem,
 .primary-toolbar .toolbar .separator,
-.primary-toolbar.toolbar .separator {
+.primary-toolbar.toolbar .separator,
+.primary-toolbar .toolbar .separator:insensitive,
+.primary-toolbar.toolbar .separator:insensitive {
     border-color: alpha (shade (@dark_bg_color, 0.9), 0.5);
     border-style: solid;
 
