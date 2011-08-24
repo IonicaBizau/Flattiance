@@ -1267,6 +1267,7 @@ GtkScale.slider.vertical:hover {
 .scrollbar {
     -GtkScrollbar-has-backward-stepper: 0;
     -GtkScrollbar-has-forward-stepper: 0;
+    -GtkRange-slider-width: 13;
 
     border-radius:  20;
 
@@ -1309,6 +1310,7 @@ GtkScale.slider.vertical:hover {
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@bg_color, 0.74)),
                                            to (shade (@bg_color, 0.74)));
+    -unico-centroid-texture:  url("assets/scrollbar_handle_vertical.png");
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, right top,
                                                  from (shade (@bg_color, 1.2)),
                                                  to (shade (@bg_color, 1.0)));
@@ -1325,6 +1327,7 @@ GtkScale.slider.vertical:hover {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.74)),
                                            to (shade (@bg_color, 0.74)));
+    -unico-centroid-texture:  url("assets/scrollbar_handle.png");
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@bg_color, 1.16)),
                                                  to (shade (@bg_color, 1.0)));
