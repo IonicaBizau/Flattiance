@@ -1458,6 +1458,10 @@ GtkStatusbar {
 GtkSwitch {
     border-radius: 4;
     padding: 0;
+
+    -unico-focus-border-radius: 4;
+    -unico-focus-border-color: alpha (@selected_bg_color, 0.3);
+    -unico-focus-fill-color: @transparent;
 }
 
 GtkSwitch.trough {
@@ -1493,6 +1497,22 @@ GtkSwitch.trough:active {
                                                  to (shade (@selected_bg_color, 0.94)));
 }
 
+GtkSwitch.trough:insensitive {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@bg_color, 0.93)),
+                                     to (shade (@bg_color, 0.99)));
+
+    color: shade (@bg_color, 0.625);
+    text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.5);
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@bg_color, 0.7)),
+                                           to (shade (@bg_color, 0.75)));
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@bg_color, 0.88)),
+                                                 to (shade (@bg_color, 0.965)));
+}
+
 GtkSwitch.slider {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 1.1)),
@@ -1506,6 +1526,12 @@ GtkSwitch.slider {
                                                  to (shade (@bg_color, 0.96)));
     -unico-inner-stroke-width: 1;
     -unico-outer-stroke-width: 0;  
+}
+
+GtkSwitch.slider:insensitive {
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@bg_color, 0.7)),
+                                           to (shade (@bg_color, 0.75)));
 }
 
 /***********
