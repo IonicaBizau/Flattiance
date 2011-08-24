@@ -1371,7 +1371,7 @@ GtkScrolledWindow.frame {
  * separator *
  *************/
 .separator {
-    border-color: shade (@bg_color, 0.8);
+    border-color: shade (@bg_color, 0.86);
     border-style: solid;
 
     -unico-border-gradient: none;
@@ -1762,11 +1762,11 @@ GtkSwitch.slider:insensitive {
 .primary-toolbar.toolbar GtkSeparatorToolItem,
 .primary-toolbar .toolbar .separator,
 .primary-toolbar.toolbar .separator {
-    border-color: shade (@dark_bg_color, 0.9);
+    border-color: alpha (shade (@dark_bg_color, 0.9), 0.5);
     border-style: solid;
 
     -unico-border-gradient: none;
-    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.5);
+    -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.4);
     -unico-inner-stroke-gradient: none;
 }
 
