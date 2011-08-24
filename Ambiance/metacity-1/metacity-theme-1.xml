@@ -154,7 +154,7 @@
 
 <draw_ops name="draw_title_maximized">
   <!-- frame and gradient -->
-  <line color="#3c3b37" x1="0" x2="width" y1="1" y2="1"/>
+  <line color="#3c3b37" x1="0" x2="width" y1="0" y2="0"/>
   <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
     <color value="shade/#474642/0.98" />
     <color value="shade/#474642/0.98" />
