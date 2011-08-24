@@ -1261,6 +1261,10 @@ GtkScale.slider.vertical:hover {
     background-image: url("assets/slider_prelight_vertical.png");
 }
 
+GtkScale.mark {
+    border-color: shade (@bg_color, 0.8);
+}
+
 /*************
  * scrollbar *
  *************/
