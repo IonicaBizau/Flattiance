@@ -1502,7 +1502,7 @@ GtkSwitch.trough:insensitive {
                                      from (shade (@bg_color, 0.93)),
                                      to (shade (@bg_color, 0.99)));
 
-    color: shade (@bg_color, 0.625);
+    color: shade (@bg_color, 0.6);
     text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.5);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
