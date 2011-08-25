@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7),
                icon-naming-utils,
                python,
                python-scour
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
 
 Package: ubuntu-mono
