@@ -27,9 +27,6 @@
 @define-color dark_fg_color @fg_color;
 @define-color transparent rgba (0, 0, 0, 0);
 
-/* application specific colors */
-@define-color cluebar_color #f2f1f0;
-
 @import url("gtk-widgets.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
