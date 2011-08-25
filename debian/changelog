@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.32) UNRELEASED; urgency=low
+ubuntu-mono (0.0.32) oneiric; urgency=low
 
   [Xi Zhu]
   * Replace 'system-devices-panel{,-alert,-blue}'
@@ -8,7 +8,7 @@ ubuntu-mono (0.0.32) UNRELEASED; urgency=low
   [Paul Sladen]
   * Symlink 'avatar-default' -> 'stock_person-panel'
 
- -- Paul Sladen <sladen@canonical.com>  Thu, 25 Aug 2011 20:23:38 +0000
+ -- Paul Sladen <sladen@canonical.com>  Thu, 25 Aug 2011 20:49:00 +0000
 
 ubuntu-mono (0.0.31) oneiric; urgency=low
 
