@@ -1432,7 +1432,7 @@ GtkScrolledWindow.frame {
 .notebook .spinbutton.button:insensitive,
 .spinbutton.button,
 .notebook .spinbutton.button {
-    -unico-outer-stroke-width: 0;
+    -unico-outer-stroke-width: 1 1 1 0;
 }
 
 .spinbutton.button,
