@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.33) UNRELEASED; urgency=low
+ubuntu-mono (0.0.33) oneiric; urgency=low
 
   [Xi Zhu]
   * Ship 'user-desktop.svg' (LP: #838256)
