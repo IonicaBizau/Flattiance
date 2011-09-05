@@ -15,6 +15,7 @@ Depends: ${misc:Depends},
          humanity-icon-theme,
          gnome-icon-theme,
          hicolor-icon-theme
+Recommends: ubuntu-wallpapers
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful
 

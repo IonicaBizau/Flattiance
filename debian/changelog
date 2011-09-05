@@ -1,3 +1,14 @@
+ubuntu-mono (0.0.33) UNRELEASED; urgency=low
+
+  [Xi Zhu]
+  * Ship 'user-desktop.svg' (LP: #838256)
+
+  [Paul Sladen]
+  * Recommends: 'ubuntu-wallpapers' since 'user-desktop.svg' uses that.
+  * Symlink 'user-desktop.svg' -> 'desktop.svg'
+
+ -- Paul Sladen <sladen@canonical.com>  Mon, 05 Sep 2011 06:17:57 +0100
+
 ubuntu-mono (0.0.32) oneiric; urgency=low
 
   [Xi Zhu]

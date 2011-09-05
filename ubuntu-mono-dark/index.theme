@@ -6,7 +6,7 @@ Inherits=Humanity-Dark,gnome,hicolor
 Example=directory-x-normal
 
 #Directory list
-Directories=actions/16,actions/22,actions/24,animations/24,animations/24,apps/16,apps/22,apps/24,apps/48,categories/22,categories/24,mimes/16,mimes/22,mimes/24,places/16,places/22,places/24,places/32,places/48,places/64,status/16,status/22,status/24,stock/16,stock/22,stock/24,stock/32,stock/48,stock/64,stock/128
+Directories=actions/16,actions/22,actions/24,animations/24,animations/24,apps/16,apps/22,apps/24,apps/48,categories/22,categories/24,mimes/16,mimes/22,mimes/24,places/16,places/22,places/24,places/32,places/48,places/64,places/128,status/16,status/22,status/24,stock/16,stock/22,stock/24,stock/32,stock/48,stock/64,stock/128
 
 [actions/16]
 Size=16
@@ -105,6 +105,11 @@ Type=Scalable
 
 [places/64]
 Size=64
+Context=Places
+Type=Scalable
+
+[places/128]
+Size=128
 Context=Places
 Type=Scalable
 
