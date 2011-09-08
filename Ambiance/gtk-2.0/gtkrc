@@ -36,6 +36,7 @@ style "default" {
 	GtkScrollbar::min-slider-length = 31
 
 	GtkMenuBar::internal-padding = 0
+	GtkMenuBar::shadow-type = GTK_SHADOW_NONE
 	GtkExpander::expander-size = 11
 	GtkToolbar::internal-padding = 1
 	GtkToolbar::shadow-type = GTK_SHADOW_NONE
@@ -314,7 +315,7 @@ style "menubar" = "dark" {
 		textstyle = 2
 		text_shade = 0.33
 		gradient_shades = {1.0, 1.0, 1.0, 1.0}
-		lightborder_shade = 1.23
+		lightborder_shade = 1.0
 	}
 }
 

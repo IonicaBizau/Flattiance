@@ -170,7 +170,7 @@ GtkAssistant .sidebar .highlight {
 
 GtkAssistant .sidebar {
     background-color: shade (@bg_color, 0.97);
-    border-color: shade (@bg_color, 0.8);
+    border-right-color: shade (@bg_color, 0.8);
     border-radius: 0;
     border-style: solid;
     border-width: 0 1 0 0;
@@ -1117,8 +1117,7 @@ GtkIconView.view.cell:selected:focused {
                                      from (shade (@bg_color, 0.97)),
                                      color-stop (0.80, shade (@bg_color, 0.95)),
                                      to (shade (@bg_color, 0.92)));
-    padding-bottom: 0;
-    padding-top: 3;
+    padding: 2 1 0 1;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.86)),
