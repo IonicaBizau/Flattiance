@@ -323,6 +323,7 @@ style "toolbar" {
 	engine "murrine" {
 		textstyle = 1
 		text_shade = 1.32
+		lightborder_shade = 1.0
 	}
 }
 
