@@ -1,3 +1,9 @@
+light-themes (0.1.8.23) oneiric; urgency=low
+
+  * Some tweaks to follow changes in unico 1.0.1
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 01 Sep 2011 16:00:52 -0400
+
 light-themes (0.1.8.22) oneiric; urgency=low
 
   * New snapshot
