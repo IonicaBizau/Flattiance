@@ -12,57 +12,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
    height="16"
-   id="svg4383"
+   id="svg3038"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="show-desktop.svg">
+   sodipodi:docname="desktop-22x22.svg">
   <defs
-     id="defs4385">
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4228"
-       x="-0.043200001"
-       width="1.0864"
-       y="-0.43200001"
-       height="1.864">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.18"
-         id="feGaussianBlur4230" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4232">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.18"
-         id="feGaussianBlur4234" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4212"
-       x="-0.029999999"
-       width="1.0599999"
-       y="-0.23999999"
-       height="1.48">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.1"
-         id="feGaussianBlur4214" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4216">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.1"
-         id="feGaussianBlur4218" />
-    </filter>
-  </defs>
+     id="defs3040" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -70,12 +25,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16.078125"
-     inkscape:cx="10.080379"
-     inkscape:cy="8.3034278"
-     inkscape:document-units="px"
+     inkscape:zoom="32.15625"
+     inkscape:cx="11.172898"
+     inkscape:cy="10.573686"
      inkscape:current-layer="layer1"
      showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
      inkscape:window-width="1400"
      inkscape:window-height="1026"
      inkscape:window-x="0"
@@ -83,14 +39,14 @@
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
-       id="grid4635"
-       empspacing="5"
+       id="grid3055"
+       empspacing="1"
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
-     id="metadata4388">
+     id="metadata3043">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -102,40 +58,26 @@
     </rdf:RDF>
   </metadata>
   <g
+     id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-1036.3622)">
-    <g
-       id="g4996"
-       transform="translate(-20,-5)">
-      <image
-         y="1046.3622"
-         x="23.014404"
-         id="image4454"
-         xlink:href="file:///usr/share/backgrounds/warty-final-ubuntu.png"
-         height="6"
-         width="9.9855957" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4484"
-         d="M 33,1045.3622 H 23 c -0.553,0 -1,0.447 -1,1 v 6 c 0,0.553 0.447,1 1,1 h 10 c 0.552,0 1,-0.447 1,-1 v -6 c 0,-0.553 -0.448,-1 -1,-1 z m 0,7 H 23 v -6 h 10 v 6 z"
-         style="opacity:0.5;fill:#ffffff;filter:url(#filter4216)" />
-      <path
-         style="opacity:0.5;fill:#ffffff;filter:url(#filter4212)"
-         inkscape:connector-curvature="0"
-         id="path4486"
-         d="m 32,1048.3622 h -8 v -1 h 8 v 1 z" />
-      <path
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0"
-         d="M 33,1045.3622 H 23 c -0.553,0 -1,0.447 -1,1 v 6 c 0,0.553 0.447,1 1,1 h 10 c 0.552,0 1,-0.447 1,-1 v -6 c 0,-0.553 -0.448,-1 -1,-1 z m 0,7 H 23 v -6 h 10 v 6 z"
-         id="path4520" />
-      <path
-         d="m 32,1048.3622 h -8 v -1 h 8 v 1 z"
-         id="path4522"
-         inkscape:connector-curvature="0"
-         style="opacity:0.8;fill:#ffffff" />
-    </g>
+     transform="translate(0,-48)">
+    <image
+       y="51"
+       x="1"
+       id="image3127"
+       xlink:href="file:///usr/share/backgrounds/warty-final-ubuntu.png"
+       height="9"
+       width="14" />
+    <path
+       style="fill:#ffffff"
+       inkscape:connector-curvature="0"
+       d="M 15,50 H 1 c -0.553,0 -1,0.447 -1,1 v 9 c 0,0.553 0.447,1 1,1 h 14 c 0.552,0 1,-0.447 1,-1 v -9 c 0,-0.553 -0.448,-1 -1,-1 z m 0,10 H 1 v -9 h 14 v 9 z"
+       id="path73" />
+    <path
+       style="fill:#ffffff"
+       inkscape:connector-curvature="0"
+       d="M 14,53 H 2 v -1 h 12 v 1 z"
+       id="path75" />
   </g>
 </svg>
