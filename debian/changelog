@@ -7,6 +7,10 @@ ubuntu-mono (0.0.34) UNRELEASED; urgency=low
   [Xi Zhu/Paul Sladen]
   * Enlarge percent coverage for '*/user-desktop.svg' (LP: #841885)
 
+  [Paul Sladen]
+  * Try to workaround a bug in rsvg that leaves a black border, by
+    instead making the wallpaper element of 'user-desktop' larger.
+
  -- Paul Sladen <sladen@canonical.com>  Thu, 15 Sep 2011 08:40:41 +0100
 
 ubuntu-mono (0.0.33) oneiric; urgency=low
