@@ -1,3 +1,11 @@
+ubuntu-mono (0.0.34) UNRELEASED; urgency=low
+
+  [Christian Giordan/Xi Zhu]
+  * Revert "power-cog" to combined design (System-Devices indicator)
+    {dark,light}/…/system-devices-panel{,-alert,-warming} (LP: #844049)
+
+ -- Paul Sladen <sladen@canonical.com>  Thu, 15 Sep 2011 08:40:41 +0100
+
 ubuntu-mono (0.0.33) oneiric; urgency=low
 
   [Xi Zhu]
