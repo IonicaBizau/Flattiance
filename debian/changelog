@@ -1,3 +1,17 @@
+light-themes (0.1.8.25) oneiric; urgency=low
+
+  * New snapshot
+    - the text on desktop icons doesn't adapt to the background 
+      color  (LP: #854401)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 20 Sep 2011 09:04:00 -0700
+
+light-themes (0.1.8.24) oneiric; urgency=low
+
+  * New snapshot version
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 08 Sep 2011 21:16:25 +0200
+
 light-themes (0.1.8.23) oneiric; urgency=low
 
   * Some tweaks to follow changes in unico 1.0.1
