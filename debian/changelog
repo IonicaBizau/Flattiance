@@ -1,5 +1,7 @@
 ubuntu-mono (0.0.35) UNRELEASED; urgency=low
 
+  [Paul Sladen]
+  * Replace/provide 'input-keyboard' (LP: #827426)
 
  -- Paul Sladen <sladen@canonical.com>  Wed, 28 Sep 2011 02:32:49 +0100
 
