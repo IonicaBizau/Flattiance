@@ -1,3 +1,11 @@
+ubuntu-mono (0.0.36) oneiric; urgency=low
+
+  [Paul Sladen]
+  * FTBFS: Add 'libmagickcore3-extra' dependency as this appears to be
+    non-implicit for Imagemagick SVG handling.
+
+ -- Paul Sladen <sladen@canonical.com>  Wed, 28 Sep 2011 10:56:47 +0100
+
 ubuntu-mono (0.0.35) oneiric; urgency=low
 
   [Paul Sladen]
