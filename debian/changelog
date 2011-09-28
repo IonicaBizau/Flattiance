@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.35) UNRELEASED; urgency=low
+ubuntu-mono (0.0.35) oneiric; urgency=low
 
   [Paul Sladen]
   * Replace/provide 'input-keyboard' (LP: #827426)
