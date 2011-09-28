@@ -1,3 +1,10 @@
 #!/usr/bin/make -f
 %:
 	dh $@ --with scour
+
+override_dh_install:
+	dh_install
+	# Pre-cache slow-to-load SVG icons to PNG bitmaps, once, at package-build time
+	find debian/ -type f -name user-desktop.svg | sed -e 'p;s/svg$$/png/' | xargs -tn2 convert -background none
+	find debian/ -type l -name desktop.svg | sed -e 'sX^.*/usrXusrX;s/desktop.svg/user-desktop.png/;p;s/user-desktop.png/desktop.png/' | xargs -tn2 dh_link
+	find debian/ -type f -name user-desktop.svg -o -type l -name desktop.svg | xargs -t rm

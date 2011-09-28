@@ -2,6 +2,7 @@ ubuntu-mono (0.0.35) UNRELEASED; urgency=low
 
   [Paul Sladen]
   * Replace/provide 'input-keyboard' (LP: #827426)
+  * Pre-cache 'user-desktop' to PNGs for speed (LP: #856475)
 
  -- Paul Sladen <sladen@canonical.com>  Wed, 28 Sep 2011 02:32:49 +0100
 

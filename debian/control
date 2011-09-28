@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 Build-Depends: debhelper (>= 7),
                icon-naming-utils,
+	       ubuntu-wallpapers,
+	       imagemagick,
                python,
                python-scour
 Standards-Version: 3.9.2
@@ -15,7 +17,6 @@ Depends: ${misc:Depends},
          humanity-icon-theme,
          gnome-icon-theme,
          hicolor-icon-theme
-Recommends: ubuntu-wallpapers
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful
 
