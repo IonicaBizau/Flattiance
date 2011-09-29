@@ -1,3 +1,14 @@
+ubuntu-mono (0.0.37) UNRELEASED; urgency=low
+
+  [Paul Sladen]
+  * Pre-caching: buildd build fails to pick up underlying raster wallpaper
+    from 'ubuntu-wallpapers', leaving the icon empty unless highlighted.
+    Work-around by just including the .pngs that *do* get successfully
+    build locally and copying these in during debian/rules::install
+    (LP: #862040)
+
+ -- Paul Sladen <sladen@canonical.com>  Thu, 29 Sep 2011 19:38:48 +0100
+
 ubuntu-mono (0.0.36) oneiric; urgency=low
 
   [Paul Sladen]
