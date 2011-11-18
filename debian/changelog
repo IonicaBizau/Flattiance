@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.38) precise; urgency=low
+
+  * debian/control:
+    - Bump libmagickcore3-extra build dep to libmagickcore4-extra
+
+ -- Michael Terry <mterry@ubuntu.com>  Fri, 18 Nov 2011 13:09:34 -0500
+
 ubuntu-mono (0.0.37) oneiric; urgency=low
 
   [Paul Sladen]

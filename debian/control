@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7),
                icon-naming-utils,
 	       ubuntu-wallpapers,
 	       imagemagick,
-	       libmagickcore3-extra,
+	       libmagickcore4-extra,
                python,
                python-scour
 Standards-Version: 3.9.2
