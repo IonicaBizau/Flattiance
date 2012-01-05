@@ -1437,7 +1437,20 @@ GtkScrolledWindow.frame {
 .notebook .spinbutton.button:insensitive,
 .spinbutton.button,
 .notebook .spinbutton.button {
-    -unico-outer-stroke-width: 1 1 1 0;
+    border-radius: 0;
+    border-width: 1 0 1 1;
+
+    -unico-outer-stroke-width: 0;
+}
+
+.spinbutton.button:active:nth-child(last),
+.spinbutton.button:insensitive:nth-child(last),
+.notebook .spinbutton.button:active:nth-child(last),
+.notebook .spinbutton.button:insensitive:nth-child(last),
+.spinbutton.button:nth-child(last),
+.notebook .spinbutton.button:nth-child(last) {
+    border-radius: 0 3 3 0;
+    border-width: 1;
 }
 
 .spinbutton.button,
