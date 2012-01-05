@@ -1117,7 +1117,6 @@ GtkIconView.view.cell:selected:focused {
                                      from (shade (@bg_color, 0.97)),
                                      color-stop (0.80, shade (@bg_color, 0.95)),
                                      to (shade (@bg_color, 0.92)));
-    padding: 2 1 0 1;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.86)),
@@ -1128,6 +1127,38 @@ GtkIconView.view.cell:selected:focused {
     -unico-outer-stroke-color: @transparent;
     -unico-outer-stroke-gradient: none;
     -unico-outer-stroke-width: 1;
+}
+
+.notebook tab.top:active {
+    padding: 3 5 1 5;
+}
+
+.notebook tab.top {
+    padding: 2 4 0 4;
+}
+
+.notebook tab.right:active {
+    padding: 4 6 4 1;
+}
+
+.notebook tab.right {
+    padding: 3 4 3 0;
+}
+
+.notebook tab.bottom:active {
+    padding: 1 5 4 5;
+}
+
+.notebook tab.bottom {
+    padding: 0 4 3 4;
+}
+
+.notebook tab.left:active {
+    padding: 4 1 4 6;
+}
+
+.notebook tab.left {
+    padding: 3 0 3 4;
 }
 
 .notebook tab:active {
