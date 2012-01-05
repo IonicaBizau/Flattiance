@@ -18,7 +18,7 @@
     -GtkHTML-link-color: @link_color;
     -GtkIMHtml-hyperlink-color: @link_color;
     -GtkMenu-horizontal-padding: 0;
-    -GtkMenu-vertical-padding: 3;  
+    -GtkMenu-vertical-padding: 5;  
     -GtkMenuBar-internal-padding: 0;
     -GtkMenuItem-arrow-scaling: 0.5;
     -GtkNotebook-tab-overlap: 1;
@@ -1455,6 +1455,7 @@ GtkScrolledWindow.frame {
 
 .menuitem.separator {
     -GtkMenuItem-horizontal-padding: 0;
+    -GtkWidget-separator-height: 4;
 
     border-color: shade (@dark_bg_color, 0.96);
 
