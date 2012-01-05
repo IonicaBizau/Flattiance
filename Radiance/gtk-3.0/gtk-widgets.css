@@ -1165,9 +1165,10 @@ GtkScale,
 GtkProgressBar {
     border-radius: 8;
     border-width: 1;
-    padding: 0;
+    padding: 1;
 }
 
+.scale.highlight.left,
 .progressbar,
 .progressbar row,
 .progressbar row:hover,
@@ -1187,9 +1188,10 @@ GtkProgressBar {
     -unico-inner-stroke-width: 1;
     -unico-outer-stroke-color: @transparent;
     -unico-outer-stroke-gradient: none;
-    -unico-outer-stroke-width: 1;
+    -unico-outer-stroke-width: 0;
 }
 
+.scale.highlight.bottom,
 .progressbar.vertical {
     background-image: -gtk-gradient (linear, left top, right top,
                                     from (shade (@selected_bg_color, 1.13)),
@@ -1341,6 +1343,10 @@ GtkScale.mark {
 }
 
 /* overlay scrollbar */
+OsThumb {
+    color: shade (@fg_color, 1.6);
+}
+
 OsThumb:selected,
 OsScrollbar:selected {
     background-color: @selected_bg_color;
