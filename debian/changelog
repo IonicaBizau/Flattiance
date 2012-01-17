@@ -1,3 +1,14 @@
+light-themes (0.1.8.26) precise; urgency=low
+
+  * New snapshot
+    - Fixes for gtk 3.3.8
+    - Fixes separator padding/height in menuitem
+    - First set of fixes to notebook tab padding
+    - Updates for the spinbutton
+    - Updates for scale and overlay scrollbar
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 17 Jan 2012 10:35:10 -0500
+
 light-themes (0.1.8.25) oneiric; urgency=low
 
   * New snapshot
