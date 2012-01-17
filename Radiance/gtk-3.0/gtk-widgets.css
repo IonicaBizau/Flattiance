@@ -977,6 +977,11 @@ GtkIconView.view.cell:selected:focused {
 /************
  * menuitem *
  ************/
+.menuitem * {
+    color: @dark_fg_color;
+}
+
+
 .menuitem {
     border-radius: 0;
     border-style: solid;
