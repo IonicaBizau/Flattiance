@@ -1134,12 +1134,22 @@ GtkIconView.view.cell:selected:focused {
     -unico-outer-stroke-width: 1;
 }
 
+.notebook tab GtkLabel:active {
+    color: @fg_color;
+}
+
+.notebook tab GtkLabel {
+    color: shade (@bg_color, 0.48);
+}
+
 .notebook tab.top:active {
-    padding: 3 5 1 5;
+    padding: 3 7 1 7;
 }
 
 .notebook tab.top {
-    padding: 2 4 0 4;
+    padding: 2 5 0 5;
+
+    color: shade (@bg_color, 0.9);
 }
 
 .notebook tab.right:active {
@@ -1151,11 +1161,11 @@ GtkIconView.view.cell:selected:focused {
 }
 
 .notebook tab.bottom:active {
-    padding: 1 5 4 5;
+    padding: 1 7 4 7;
 }
 
 .notebook tab.bottom {
-    padding: 0 4 3 4;
+    padding: 0 5 3 5;
 }
 
 .notebook tab.left:active {
@@ -1165,7 +1175,6 @@ GtkIconView.view.cell:selected:focused {
 .notebook tab.left {
     padding: 3 0 3 4;
 }
-
 .notebook tab:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 1.1)),
@@ -1648,11 +1657,13 @@ GtkSwitch.slider:insensitive {
 }
 
 .primary-toolbar GtkComboBox,
-.primary-toolbar .button * {
+.primary-toolbar .button *,
+.primary-toolbar .button {
     background-color: @transparent;
     background-image: none;
+    border-color: @transparent;
     border-radius: 3;
-    border-width: 0;
+    border-width: 1;
 
     color: @dark_fg_color;
     text-shadow: 0 1 shade (@dark_bg_color, 1.1);
@@ -1664,6 +1675,8 @@ GtkSwitch.slider:insensitive {
     -unico-focus-fill-color: alpha (@selected_bg_color, 0.2);
     -unico-focus-outer-stroke-color: @transparent;
 
+    -unico-border-gradient: none;
+    -unico-glow-radius: 0;
     -unico-inner-stroke-width: 0;
     -unico-outer-stroke-width: 0;
 }
