@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.39) precise; urgency=low
+
+  * Add icons for gnome-control-center category headers (LP: #921061)
+
+ -- Aurélien Gâteau <aurelien.gateau@ubuntu.com>  Tue, 24 Jan 2012 17:34:16 +0100
+
 ubuntu-mono (0.0.38) precise; urgency=low
 
   * debian/control:
