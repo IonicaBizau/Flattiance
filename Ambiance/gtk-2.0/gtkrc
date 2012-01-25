@@ -101,7 +101,7 @@ style "default" {
 		glazestyle = 0
 		default_button_color = shade (1.1, @selected_bg_color)
 		gradient_shades = {1.1, 1.0, 1.0, 0.9}
-		roundness = 4
+		roundness = 3
 		lightborder_shade = 1.26
 		lightborderstyle = 1
 		listviewstyle = 2
@@ -122,26 +122,26 @@ style "default" {
 style "dark"
 {
 	color["bg_color_dark"] 	= "#3c3b37"
-  	color["fg_color_dark"] 	= "#dfdbd2"
-  	color["selected_fg_color_dark"] = "#ffffff"
+	color["fg_color_dark"] 	= "#dfdbd2"
+	color["selected_fg_color_dark"] = "#ffffff"
 
-  	fg[NORMAL]        = @fg_color_dark
+	fg[NORMAL]        = @fg_color_dark
 	fg[PRELIGHT]	  = shade (1.15, @fg_color_dark)
 	fg[ACTIVE]	  = @fg_color_dark
 	fg[SELECTED]	  = @selected_fg_color_dark
 	fg[INSENSITIVE]	  = shade (0.5, @fg_color_dark)
   
 	bg[NORMAL]        = @bg_color_dark
- 	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
-  	bg[SELECTED]      = @selected_bg_color
- 	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
-  	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
+	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
+	bg[SELECTED]      = @selected_bg_color
+	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
+	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
   	
 	text[NORMAL]      = @fg_color_dark
 	text[PRELIGHT]	  = shade (1.15, @fg_color_dark)
 	text[SELECTED]	  = @selected_fg_color_dark
-  	text[ACTIVE]      = @fg_color_dark
-  	text[INSENSITIVE] = mix (0.5, @bg_color, @bg_color_dark)
+	text[ACTIVE]      = @fg_color_dark
+	text[INSENSITIVE] = mix (0.5, @bg_color, @bg_color_dark)
 }
 
 style "wide" {
@@ -172,18 +172,20 @@ style "button" {
 	xthickness = 3
 	ythickness = 3
 
-	bg[NORMAL] = "#cdcdcd"
-	bg[PRELIGHT] = shade (1.04, "#cdcdcd")
-	bg[ACTIVE] = shade (0.96, "#cdcdcd")
+	bg[NORMAL] = shade (1.06, "#cdcdcd")
+	bg[PRELIGHT] = shade (1.08, "#cdcdcd")
+	bg[ACTIVE] = shade (1.0, "#cdcdcd")
 	bg[INSENSITIVE] = mix (0.25, @bg_color, "#e2e1e1")
 	fg[INSENSITIVE] = "#9c9c9c"
 
 	engine "murrine" {
 		#contrast = 1.0
-		border_shades = {1.0, 0.9}
+		border_shades = {1.0, 0.82}
+		reliefstyle = 5
+		shadow_shades = {1.02, 1.1}
 		textstyle = 1
 		glowstyle = 5
-		glow_shade = 1.1
+		glow_shade = 1.08
 		#text_shade = 1.04
 	}
 }
@@ -202,6 +204,8 @@ style "notebook_button" {
 		#contrast = 1.0
 		textstyle = 1
 		border_shades = {0.95, 0.88}
+		reliefstyle = 5
+		shadow_shades = {1.0, 1.1}
 		glowstyle = 5
 		glow_shade = 1.02
 		lightborder_shade = 1.32
