@@ -1907,7 +1907,10 @@ GtkSwitch.slider:insensitive {
  * tooltip *
  ***********/
 .tooltip {
+    background-image: none;
+    background-color: alpha (@tooltip_bg_color, 0.86);
     border-color: @tooltip_bg_color;
+    border-radius: 3;
 }
 
 /************
