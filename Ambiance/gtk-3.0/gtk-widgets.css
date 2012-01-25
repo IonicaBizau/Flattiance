@@ -20,7 +20,7 @@
     -GtkMenu-horizontal-padding: 0;
     -GtkMenu-vertical-padding: 5;  
     -GtkMenuBar-internal-padding: 0;
-    -GtkMenuItem-arrow-scaling: 0.5;
+    -GtkMenuItem-arrow-scaling: 0.6;
     -GtkNotebook-tab-overlap: 1;
     -GtkPaned-handle-size: 6;
     -GtkProgressBar-min-horizontal-bar-height: 14;
@@ -893,31 +893,47 @@ GtkIconView.view.cell:selected:focused {
  * menu *
  ********/
 .menu {
-    background-color: shade (@dark_bg_color, 1.08);
     background-image: none;
+    border-bottom-color: shade (@bg_color, 0.66);
+    border-left-color: shade (@bg_color, 0.7);
+    border-right-color: shade (@bg_color, 0.7);
+    border-top-color: shade (@bg_color, 0.8);
+    border-style: solid;
+    padding: 0;
+
+    color: @fg_color;
+
+    -unico-inner-stroke-gradient: none;
+    -unico-inner-stroke-width: 1 1 0 1;
+}
+
+.menubar .menu,
+.primary-toolbar .menu {
+    background-color: shade (@dark_bg_color, 1.08);
     border-bottom-color: shade (@dark_bg_color, 0.96);
     border-left-color: shade (@dark_bg_color, 0.8);
     border-right-color: shade (@dark_bg_color, 0.8);
     border-top-color: shade (@dark_bg_color, 0.96);
-    border-style: solid;
-    padding: 0;
 
     color: @dark_fg_color;
 
     -unico-inner-stroke-color: shade (@dark_bg_color, 1.18);
-    -unico-inner-stroke-gradient: none;
-    -unico-inner-stroke-width: 1 1 0 1;
 }
 
 .menu:selected {
     background-color: @selected_bg_color;
 }
 
-.menu.button:hover,
-.menu.button:active,
-.menu.button:active:insensitive,
-.menu.button:insensitive,
-.menu.button {
+.menubar .menu.button:hover,
+.menubar .menu.button:active,
+.menubar .menu.button:active:insensitive,
+.menubar .menu.button:insensitive,
+.menubar .menu.button,
+.primary-toolbar .menu.button:hover,
+.primary-toolbar .menu.button:active,
+.primary-toolbar .menu.button:active:insensitive,
+.primary-toolbar .menu.button:insensitive,
+.primary-toolbar .menu.button {
     background-color: shade (@dark_bg_color, 1.08);
     background-image: none;
     border-radius: 0;
@@ -977,6 +993,11 @@ GtkIconView.view.cell:selected:focused {
  * menuitem *
  ************/
 .menuitem * {
+    color: @fg_color;
+}
+
+.menubar .menuitem *,
+.primary-toolbar .menuitem * {
     color: @dark_fg_color;
 }
 
@@ -986,9 +1007,12 @@ GtkIconView.view.cell:selected:focused {
     border-width: 1;
     padding: 2;
 
-    color: @dark_fg_color;
-
     -unico-inner-stroke-width: 1;
+}
+
+.menubar .menuitem,
+.primary-toolbar .menuitem {
+    color: @dark_fg_color;
 }
 
 .menuitem:hover,
@@ -1011,14 +1035,32 @@ GtkIconView.view.cell:selected:focused {
                                                  to (shade (@selected_bg_color, 1.0)));
 }
 
+.menuitem.check:active,
+.menuitem.radio:active {
+    color: @fg_color;
+
+    -unico-bullet-color: @fg_color;
+}
+
+
 .menuitem:insensitive,
 .menuitem *:insensitive {
+    color: mix (@fg_color, @bg_color, 0.5);
+    text-shadow: 0 1 shade (@bg_color, 1.14);
+}
+
+.menubar .menuitem:insensitive,
+.menubar .menuitem *:insensitive,
+.primary-toolbar .menuitem:insensitive,
+.primary-toolbar .menuitem *:insensitive {
     color: mix (@dark_fg_color, @dark_bg_color, 0.5);
     text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
 }
 
-.menuitem.check:active,
-.menuitem.radio:active {
+.menubar .menuitem.check:active,
+.menubar .menuitem.radio:active,
+.primary-toolbar .menuitem.check:active,
+.primary-toolbar .menuitem.radio:active {
     color: @dark_fg_color;
 
     -unico-bullet-color: @dark_fg_color;
@@ -1031,10 +1073,14 @@ GtkIconView.view.cell:selected:focused {
     -unico-bullet-color: @selected_fg_color;
 }
 
-.menuitem GtkCalendar,
-.menuitem GtkCalendar.button,
-.menuitem GtkCalendar.header,
-.menuitem GtkCalendar.view {
+.menubar .menuitem GtkCalendar,
+.menubar .menuitem GtkCalendar.button,
+.menubar .menuitem GtkCalendar.header,
+.menubar .menuitem GtkCalendar.view,
+.primary-toolbar .menuitem GtkCalendar,
+.primary-toolbar .menuitem GtkCalendar.button,
+.primary-toolbar .menuitem GtkCalendar.header,
+.primary-toolbar .menuitem GtkCalendar.view {
     background-color: @dark_bg_color;
     background-image: none;
     border-radius: 0;
@@ -1045,12 +1091,14 @@ GtkIconView.view.cell:selected:focused {
     color: @dark_fg_color;
 }
 
-.menuitem GtkCalendar {
+.menubar .menuitem GtkCalendar,
+.primary-toolbar .menuitem GtkCalendar {
     background-color: shade (@dark_bg_color, 1.3);
     background-image: none;
 }
 
-.menuitem .entry {
+.menubar .menuitem .entry,
+.primary-toolbar .menuitem .entry {
     background-color: shade (@dark_bg_color, 1.3);
     background-image: none;
 
@@ -1064,7 +1112,8 @@ GtkIconView.view.cell:selected:focused {
                                                  to (shade (@dark_bg_color, 1.1)));;
 }
 
-.menuitem GtkScale.trough {
+.menubar .menuitem GtkScale.trough,
+.primary-toolbar .menuitem GtkScale.trough {
     background-color: @dark_bg_color;
     background-image: none;
 
@@ -1073,15 +1122,18 @@ GtkIconView.view.cell:selected:focused {
                                            to (shade (@dark_bg_color, 1.15)));
 }
 
-.menuitem .accelerator {
+.menubar .menuitem .accelerator,
+.primary-toolbar .menuitem .accelerator {
     color: alpha (@dark_fg_color, 0.5);
 }
 
-.menuitem .accelerator:hover {
+.menubar .menuitem .accelerator:hover,
+.primary-toolbar .menuitem .accelerator:hover {
     color: alpha (@selected_fg_color, 0.8);
 }
 
-.menuitem .accelerator:insensitive {
+.menubar .menuitem .accelerator:insensitive,
+.primary-toolbar .menuitem .accelerator:insensitive {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
 }
@@ -1453,7 +1505,10 @@ GtkScrolledWindow.frame {
 .menuitem.separator {
     -GtkMenuItem-horizontal-padding: 0;
     -GtkWidget-separator-height: 4;
+}
 
+.menubar .menuitem.separator,
+.primary-toolbar .menuitem.separator {
     border-color: shade (@dark_bg_color, 0.96);
 
     -unico-inner-stroke-color: alpha (shade (@dark_bg_color, 1.26), 0.5);
