@@ -172,20 +172,20 @@ style "button" {
 	xthickness = 3
 	ythickness = 3
 
-	bg[NORMAL] = shade (1.06, "#cdcdcd")
-	bg[PRELIGHT] = shade (1.08, "#cdcdcd")
+	bg[NORMAL] = shade (1.07, "#cdcdcd")
+	bg[PRELIGHT] = shade (1.09, "#cdcdcd")
 	bg[ACTIVE] = shade (1.0, "#cdcdcd")
 	bg[INSENSITIVE] = mix (0.25, @bg_color, "#e2e1e1")
 	fg[INSENSITIVE] = "#9c9c9c"
 
 	engine "murrine" {
 		#contrast = 1.0
-		border_shades = {1.0, 0.82}
+		border_shades = {1.04, 0.82}
 		reliefstyle = 5
 		shadow_shades = {1.02, 1.1}
 		textstyle = 1
 		glowstyle = 5
-		glow_shade = 1.08
+		glow_shade = 1.1
 		#text_shade = 1.04
 	}
 }
