@@ -203,7 +203,7 @@ style "notebook_button" {
 	engine "murrine" {
 		#contrast = 1.0
 		textstyle = 1
-		border_shades = {0.95, 0.88}
+		border_shades = {1.01, 0.8}
 		reliefstyle = 5
 		shadow_shades = {1.0, 1.1}
 		glowstyle = 5
