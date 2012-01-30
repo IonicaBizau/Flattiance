@@ -965,8 +965,7 @@ GtkIconView.view.cell:selected:focused {
 /***************
  * menubaritem *
  ***************/
-.menubar.menuitem,
-.menubar .menuitem {
+.menubar.menuitem {
     border-radius: 4 4 0 0;
     border-width: 1 1 0 1;
 }
@@ -1329,6 +1328,7 @@ GtkScale.slider {
     background-image: url("assets/slider.png");
 }
 
+.menubar .menuitem GtkScale.slider:hover,
 GtkScale.slider:hover {
     background-image: url("assets/slider_prelight.png");
 }
