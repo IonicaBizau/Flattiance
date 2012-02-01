@@ -11,7 +11,6 @@ style "default" {
 	#######################
 	# Style Properties
 	#######################
-	GtkWidget::new-tooltip-style = 1
 	GtkButton::child-displacement-x = 1
 	GtkButton::child-displacement-y = 1
 	GtkButton::default-border = { 0, 0, 0, 0 }
@@ -511,6 +510,7 @@ style "tooltips" {
 	bg[SELECTED]      = "#000000"
 
 	engine "murrine" {
+		border_colors = { mix (0.85, "#ffffff", "#000000"), mix (0.85, "#ffffff", "#000000") }
 		rgba = TRUE
 	}
 }
