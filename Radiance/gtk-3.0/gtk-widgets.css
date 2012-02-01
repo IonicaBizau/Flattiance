@@ -474,9 +474,6 @@ row:hover {
 row:insensitive {
 }
 
-row:selected:focused {
-}
-
 row:selected {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.06)),
@@ -484,6 +481,11 @@ row:selected {
     border-top-color: shade (@selected_bg_color, 0.88);
     border-style: solid;
     border-width: 1 0 0 0;
+
+    color: @selected_fg_color;
+}
+
+row:selected:focused {
 }
 
 /*******************

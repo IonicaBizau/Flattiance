@@ -562,7 +562,7 @@ style "text_is_fg_color_workaround" {
 
 # Workaround style for menus where the text color is used instead of the fg color.
 style "menuitem_text_is_fg_color_workaround" {
-	text[NORMAL]        = "#dfd8c8"
+	text[NORMAL]        = @fg_color
 	text[PRELIGHT]      = @selected_fg_color
 	text[SELECTED]      = @selected_fg_color
 	text[ACTIVE]        = @fg_color
