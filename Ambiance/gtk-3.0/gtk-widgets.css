@@ -707,6 +707,13 @@ GtkComboBox.combobox-entry .button:insensitive {
     border-left-color: shade (@bg_color, 0.76);
 }
 
+/****************
+ * drawing area *
+ ****************/
+GtkDrawingArea {
+    background-color: @transparent;
+}
+
 /*********
  * entry *
  *********/
@@ -814,6 +821,13 @@ GtkIconView.view.cell:selected:focused {
     border-radius: 0;
     border-style: solid;
     border-width: 1;
+}
+
+/*********
+ * image *
+ *********/
+GtkImage {
+    background-color: @transparent;
 }
 
 /***********
