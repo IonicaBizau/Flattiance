@@ -1,3 +1,11 @@
+light-themes (0.1.8.27) precise; urgency=low
+
+  * New snapshot
+    - Fix styling of bread crumbs (LP: #917830)
+    - Minor fixes for both gtk2 and gtk3 based themes
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 26 Jan 2012 10:10:44 -0500
+
 light-themes (0.1.8.26) precise; urgency=low
 
   * New snapshot
