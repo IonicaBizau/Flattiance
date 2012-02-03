@@ -108,7 +108,7 @@ style "default" {
 		colorize_scrollbar = FALSE
 		menubaritemstyle = 1
 		menubarstyle = 1
-		menustyle = 0
+		menustyle = 2
 		focusstyle = 3
 		handlestyle = 1
 		sliderstyle = 3
@@ -335,9 +335,13 @@ style "toolbar-button" = "notebook_button" {
 	}
 }
 
-style "menu" {
+style "menu" = "dark" {
 	xthickness = 0
 	ythickness = 0
+
+	bg[NORMAL] = "#43423f"
+	bg[INSENSITIVE] = "#43423f"
+	fg[INSENSITIVE]   = shade (0.54, "#43423f")
 
 	engine "murrine"
 	{
@@ -562,7 +566,7 @@ style "text_is_fg_color_workaround" {
 
 # Workaround style for menus where the text color is used instead of the fg color.
 style "menuitem_text_is_fg_color_workaround" {
-	text[NORMAL]        = @fg_color
+	text[NORMAL]        = "#dfd8c8"
 	text[PRELIGHT]      = @selected_fg_color
 	text[SELECTED]      = @selected_fg_color
 	text[ACTIVE]        = @fg_color

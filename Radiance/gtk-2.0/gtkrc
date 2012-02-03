@@ -108,7 +108,7 @@ style "default" {
 		colorize_scrollbar = FALSE
 		menubaritemstyle = 1
 		menubarstyle = 1
-		menustyle = 0
+		menustyle = 3
 		focusstyle = 3
 		handlestyle = 1
 		sliderstyle = 3
@@ -322,9 +322,12 @@ style "toolbar-button" = "notebook_button" {
 	}
 }
 
-style "menu" {
+style "menu" = "dark" {
 	xthickness = 0
 	ythickness = 0
+
+	bg[NORMAL] = "#ece7e2"
+#	fg[INSENSITIVE]   = shade (0.8, "#4D4C48")
 
 	engine "murrine"
 	{
