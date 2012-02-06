@@ -1,3 +1,11 @@
+light-themes (0.1.8.27.2) precise; urgency=low
+
+  * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
+    - gtk2 theme bugs in thunderbird have been resolved, so undoing the 
+      previous revert
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Mon, 06 Feb 2012 11:00:42 -0500
+
 light-themes (0.1.8.27.1) precise; urgency=low
 
   * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
