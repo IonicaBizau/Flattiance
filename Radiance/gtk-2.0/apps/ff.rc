@@ -4,6 +4,10 @@
 
 style "ff-default" {
 	GtkCheckButton::indicator-size = 14
+
+	engine "murrine" {
+		reliefstyle = 0
+	}
 }
 
 style	"ff-statusbar" {
@@ -11,7 +15,6 @@ style	"ff-statusbar" {
 
 #widget	"MozillaGtkWidget*Toolbar*"		style	"theme-toolbar"
 #widget	"MozillaGtkWidget*Statusbar*"	style	"ff-statusbar"
-
 
 widget	"MozillaGtkWidget*"	style	"ff-default"
 
