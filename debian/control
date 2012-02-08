@@ -1,0 +1,25 @@
+Source: light-themes
+Section: gnome
+Priority: optional
+Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
+XSBC-Original-Maintainer: Paul Sladen <sladen@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.2
+
+Package: light-themes
+Architecture: all
+Depends: ${misc:Depends},
+         ubuntu-mono,
+         gtk2-engines-murrine (>= 0.90.3+git20100810),
+         gtk3-engines-unico (>= 1.0.1-0ubuntu2),
+         humanity-icon-theme
+Conflicts: phase-themes
+Breaks: metacity (<< 1:2.30.3-0ubuntu2)
+Suggests: compiz-gnome (>= 1:0.9.2.1+glibmainloop4)
+Description: Light Themes (Ambiance and Radiance)
+ Includes matching Ambiance and Radiance themes
+ .
+ * Ambiance is a light-on-dark theme
+ * Radiance is a dark-on-light theme
+ .
+ Introduced as the default themes in Ubuntu 10.04 LTS.
