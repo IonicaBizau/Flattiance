@@ -997,6 +997,8 @@ GtkImage {
 .menubar.menuitem {
     border-radius: 4px 4px 0 0;
     border-width: 1px 1px 0 1px;
+
+    color: @dark_fg_color;
 }
 
 .menubar.menuitem:hover {
@@ -1019,13 +1021,8 @@ GtkImage {
 /************
  * menuitem *
  ************/
-.menuitem * {
+.menuitem {
     color: @fg_color;
-}
-
-.menubar .menuitem *,
-.primary-toolbar .menuitem * {
-    color: @dark_fg_color;
 }
 
 .menuitem {
@@ -1042,7 +1039,6 @@ GtkImage {
     color: @dark_fg_color;
 }
 
-.menuitem GtkLabel:hover,
 .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.1)),
@@ -1711,6 +1707,7 @@ GtkSwitch.slider:insensitive {
 }
 
 /* primary-toolbar */
+.primary-toolbar,
 .primary-toolbar .toolbar,
 .primary-toolbar.toolbar {
     -GtkWidget-window-dragging: true;
@@ -1722,7 +1719,7 @@ GtkSwitch.slider:insensitive {
     border-top-color: shade (@dark_bg_color, 1.02);
     border-style: solid;
     border-width: 1px 0 1px 0;
-    padding: 2px;
+    padding: 3px;
 
     color: @dark_fg_color;
     text-shadow: 0 1 shade (@dark_bg_color, 1.1);
@@ -2000,6 +1997,8 @@ GtkSwitch.slider:insensitive {
                                      to (alpha (@tooltip_bg_color, 0.86)));
     border-color: alpha (#ffffff, 0.2);
     border-radius: 5px;
+
+    color: white;
 }
 
 /************
