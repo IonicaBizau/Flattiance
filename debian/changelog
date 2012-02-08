@@ -1,3 +1,10 @@
+light-themes (0.1.8.28.1) precise; urgency=low
+
+  * Updated nautilus.css for Radiance to fix deprecations for gtk 3.3.14
+  * Fixed text selection and background for gedit 
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 08 Feb 2012 10:00:17 -0500
+
 light-themes (0.1.8.28) precise; urgency=low
 
   * Fixes to the menuitem label color when selected

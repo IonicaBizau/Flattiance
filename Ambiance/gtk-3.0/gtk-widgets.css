@@ -101,6 +101,9 @@ GtkWindow {
 }
 
 *:selected {
+    background-color: alpha (@selected_bg_color, 0.9);
+
+    color: @selected_fg_color;
 }
 
 *:selected:focused {
@@ -472,6 +475,7 @@ GtkComboBox.combobox-entry .button:insensitive,
  * cell and row *
  ****************/
 .cell {
+    background-color: @base_color;
     border-radius: 0;
     border-width: 0;
 }
@@ -839,7 +843,8 @@ GtkIconView.view.cell:selected:focused {
 /*********
  * image *
  *********/
-GtkImage {
+GtkImage,
+GtkImage:insensitive {
     background-color: @transparent;
 }
 
@@ -1689,6 +1694,13 @@ GtkSwitch.slider:insensitive {
                                            to (shade (@bg_color, 0.75)));
 }
 
+/************
+ * textview *
+ ************/
+GtkTextView {
+    background-color: @base_color;
+}
+
 /***********
  * toolbar *
  ***********/
@@ -1709,7 +1721,7 @@ GtkSwitch.slider:insensitive {
     border-top-color: shade (@dark_bg_color, 1.1);
     border-style: solid;
     border-width: 1px 0 1px 0;
-    padding: 3px;
+    padding: 2px;
 
     color: @dark_fg_color;
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
@@ -1719,7 +1731,6 @@ GtkSwitch.slider:insensitive {
     -unico-inner-stroke-top-color: shade (@dark_bg_color, 0.94);
     -unico-inner-stroke-width: 1px 0 0 0;
 }
-
 
 .primary-toolbar :insensitive {
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
@@ -1733,6 +1744,7 @@ GtkSwitch.slider:insensitive {
     border-color: @transparent;
     border-radius: 3px;
     border-width: 1px;
+    padding: 2px;
 
     color: @dark_fg_color;
     text-shadow: 0 -1 shade (@dark_bg_color, 0.7);
