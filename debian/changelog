@@ -1,3 +1,27 @@
+light-themes (0.1.8.28) UNRELEASED; urgency=low
+
+  * Fixes to the menuitem label color when selected
+  * Some theming for the unity greeter
+  * Fixes to menubar items and tweaks to Firefox/Thunderbird
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 07 Feb 2012 23:12:13 -0500
+
+light-themes (0.1.8.27.2) precise; urgency=low
+
+  * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
+    - gtk2 theme bugs in thunderbird have been resolved, so undoing the 
+      previous revert
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Mon, 06 Feb 2012 11:00:42 -0500
+
+light-themes (0.1.8.27.1) precise; urgency=low
+
+  * Ambiance/gtk-2.0/gtkrc, Radiance/gtk-2.0/gtkrc
+    - Revert gtk2 menu changes that caused issues in thunderbird until 
+      we can get that fixed properly
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 03 Feb 2012 09:17:02 -0500
+
 light-themes (0.1.8.27) precise; urgency=low
 
   * New snapshot
