@@ -101,6 +101,9 @@ GtkWindow {
 }
 
 *:selected {
+    background-color: alpha (@selected_bg_color, 0.9);
+
+    color: @selected_fg_color;
 }
 
 *:selected:focused {
@@ -472,6 +475,7 @@ GtkComboBox.combobox-entry .button:insensitive,
  * cell and row *
  ****************/
 .cell {
+    background-color: @base_color;
     border-radius: 0;
     border-width: 0;
 }
@@ -839,7 +843,8 @@ GtkIconView.view.cell:selected:focused {
 /*********
  * image *
  *********/
-GtkImage {
+GtkImage,
+GtkImage:insensitive {
     background-color: @transparent;
 }
 
