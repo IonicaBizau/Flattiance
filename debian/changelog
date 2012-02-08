@@ -1,3 +1,10 @@
+light-themes (0.1.8.28.2) UNRELEASED; urgency=low
+
+  * debian/control
+    - added Vcs
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 08 Feb 2012 10:17:13 -0500
+
 light-themes (0.1.8.28.1) precise; urgency=low
 
   * Updated nautilus.css for Radiance to fix deprecations for gtk 3.3.14
