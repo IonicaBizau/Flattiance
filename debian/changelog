@@ -1,10 +1,13 @@
-light-themes (0.1.8.28) UNRELEASED; urgency=low
+light-themes (0.1.8.28) precise; urgency=low
 
   * Fixes to the menuitem label color when selected
   * Some theming for the unity greeter
   * Fixes to menubar items and tweaks to Firefox/Thunderbird
+  * Updated to work with gtk 3.3.14, requires new unico
+  * debian/control
+    - bumped depends for gtk3-engines-unico to >= 1.0.1-0ubuntu2
 
- -- Ken VanDine <ken.vandine@canonical.com>  Tue, 07 Feb 2012 23:12:13 -0500
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 08 Feb 2012 09:20:09 -0500
 
 light-themes (0.1.8.27.2) precise; urgency=low
 
