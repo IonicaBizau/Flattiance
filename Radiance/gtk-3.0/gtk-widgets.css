@@ -101,13 +101,11 @@ GtkWindow {
 *:hover:insensitive {
 }
 
-*:selected {
+*:selected,
+*:selected:focused {
     background-color: alpha (@selected_bg_color, 0.9);
 
     color: @selected_fg_color;
-}
-
-*:selected:focused {
 }
 
 /******************
@@ -226,6 +224,7 @@ GtkScale.slider,
     border-radius: 3px;
     border-style: solid;
 
+    color: @fg_color;
     text-shadow: 0 1 alpha (shade (@button_bg_color, 1.25), 0.4);
 
     transition: 100ms ease-in-out;
@@ -744,6 +743,8 @@ GtkDrawingArea {
     border-left-color: shade (@bg_color, 0.76);
     border-radius: 3px;
     border-style: solid;
+
+    color: @text_color;
 
     -unico-border-gradient: none;
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
@@ -1357,7 +1358,7 @@ GtkProgressBar {
 
 GtkScale {
     -GtkRange-slider-width: 22;
-    -GtkRange-trough-border: 1;
+    -GtkRange-trough-border: 0;
     -GtkScale-slider-length: 14;
 
     -unico-glow-radius: 0;
@@ -1623,6 +1624,7 @@ GtkScrolledWindow.frame {
  * statusbar *
  *************/
 GtkStatusbar {
+    color: @fg_color;
 }
 
 /**********
