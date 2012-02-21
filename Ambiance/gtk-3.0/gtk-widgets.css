@@ -725,9 +725,11 @@ GtkComboBox.combobox-entry .button:insensitive {
 /****************
  * drawing area *
  ****************/
+/* comment this out to fix applications like shotwell (LP: #931630)
 GtkDrawingArea {
     background-color: @transparent;
 }
+*/
 
 /*********
  * entry *

@@ -1,3 +1,11 @@
+light-themes (0.1.8.29-0ubuntu1) precise; urgency=low
+
+  * {Ambiance,Radiance}/gtk-3.0/gtk-widgets.css
+    - Don't set GtkDrawingArea background-color to @transparent, it breaks 
+      applications like shotwell (LP: #931630)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 21 Feb 2012 11:53:31 -0500
+
 light-themes (0.1.8.29) precise; urgency=low
 
   * New upstream snapshot

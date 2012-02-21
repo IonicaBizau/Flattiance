@@ -726,9 +726,11 @@ GtkComboBox.combobox-entry .button:insensitive {
 /****************
  * drawing area *
  ****************/
+/*
 GtkDrawingArea {
     background-color: @transparent;
 }
+*/
 
 /*********
  * entry *
