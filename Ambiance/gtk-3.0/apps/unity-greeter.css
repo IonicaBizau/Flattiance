@@ -53,7 +53,6 @@
 .lightdm.entry:focused *,
 .lightdm.entry:selected *,
 .lightdm.entry:selected:focused * {
-    background-color: alpha (black, 0.6);
     border-color: alpha (white, 0.9);
 
     color: white;
