@@ -190,7 +190,7 @@
 
 <draw_ops name="draw_frame">
   <rectangle color="shade/gtk:bg[NORMAL]/0.7" filled="true" x="0" y="0" width="width" height="height"/>
-  <gradient type="vertical" x="0" y="0" width="width" height="80">
+  <gradient type="vertical" x="0" y="0" width="width" height="70">
     <color value="#3c3b37" />
     <color value="#3c3b37" />
     <color value="shade/gtk:bg[NORMAL]/0.7" />

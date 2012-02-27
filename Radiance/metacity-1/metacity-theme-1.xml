@@ -189,6 +189,7 @@
   <rectangle color="shade/gtk:bg[NORMAL]/0.7" x="0" y="0" width="width" height="height" filled="true"/>
   <gradient type="vertical" x="0" y="0" width="width" height="60">
     <color value="shade/#dfd7cf/0.8" />
+    <color value="shade/#dfd7cf/0.8" />
     <color value="shade/gtk:bg[NORMAL]/0.7" />
   </gradient>
 </draw_ops>
