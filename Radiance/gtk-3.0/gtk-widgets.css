@@ -1820,7 +1820,7 @@ GtkTextView {
     padding: 2px;
 
     color: @dark_fg_color;
-    text-shadow: 0 1 shade (@dark_bg_color, 1.1);
+    text-shadow: 0 1 alpha (shade (@dark_bg_color, 1.25), 0.32);
 
     transition: 0ms ease-in-out;
 

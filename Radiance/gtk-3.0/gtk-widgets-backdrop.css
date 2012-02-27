@@ -585,7 +585,7 @@ GtkIconView.view.cell:selected:focused:backdrop {
  ***********/
 .menubar:backdrop,
 .menubar .menuitem:backdrop {
-    color: #a39e9a; /* metacity unfocused color */
+    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
 }
 
 /************
@@ -936,7 +936,7 @@ GtkTextView:backdrop {
     border-width: 0 0 1px 0;
     padding: 2px;
 
-    color: #a39e9a; /* metacity unfocused color */
+    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
     text-shadow: 0 1 shade (@dark_bg_color, 1.06);
 
     -unico-border-gradient: none;
@@ -958,7 +958,7 @@ GtkTextView:backdrop {
     border-width: 1px;
     padding: 2px;
 
-    color: #a39e9a; /* metacity unfocused color */
+    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
     text-shadow: 0 1 shade (@dark_bg_color, 1.06);
 
     transition: 0ms ease-in-out;
@@ -975,7 +975,7 @@ GtkTextView:backdrop {
 }
 
 .primary-toolbar .button *:hover:backdrop {
-    color: shade (#a39e9a, 1.1);
+    color: shade (shade (#a39e9a, 0.86), 1.1);
 }
 
 .primary-toolbar .raised .button:backdrop,
