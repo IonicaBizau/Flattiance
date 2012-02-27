@@ -1941,8 +1941,6 @@ GtkTextView {
 .primary-toolbar .entry:focused {
     border-radius: 3px;
 
-    color: @text_color;
-
     -unico-outer-stroke-width: 1px;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@dark_bg_color, 1.08), 0.25)),
