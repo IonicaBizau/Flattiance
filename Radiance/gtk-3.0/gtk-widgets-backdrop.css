@@ -1028,7 +1028,7 @@ GtkTextView:backdrop {
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
 
-    text-shadow: 0 1 shade (@dark_bg_color, 1.01);
+    text-shadow: 0 1 shade (@dark_bg_color, 0.95);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.75)),
