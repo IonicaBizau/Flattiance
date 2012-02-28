@@ -1190,8 +1190,7 @@ DbusmenuGtkMenu .menuitem.radio:active,
                                                  to (shade (@dark_bg_color, 1.1)));;
 }
 
-.menubar .menuitem GtkScale.trough,
-.primary-toolbar .menuitem GtkScale.trough {
+.menubar .menuitem GtkScale.trough {
     background-color: @dark_bg_color;
     background-image: none;
 
@@ -1328,6 +1327,7 @@ GtkProgressBar {
     padding: 1px;
 }
 
+.menubar .menuitem .scale.highlight.left,
 .scale.highlight.left,
 .progressbar,
 .progressbar row,
