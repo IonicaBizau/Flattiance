@@ -238,9 +238,6 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 
 .button.default:insensitive:backdrop {
     -unico-glow-radius: 0;
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@button_insensitive_bg_color, 1.08)),
-                                                 to (shade (@button_insensitive_bg_color, 1.0)));
 }
 
 /****************
