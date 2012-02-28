@@ -962,6 +962,8 @@ GtkImage {
     -unico-inner-stroke-width: 1px 1px 0 1px;
 }
 
+Genericmenuitem .menu,
+DbusmenuGtkMenu .menu,
 .menubar .menu,
 .primary-toolbar .menu {
     background-color: shade (@dark_bg_color, 1.08);
@@ -1060,6 +1062,8 @@ GtkImage {
     -unico-inner-stroke-width: 1px;
 }
 
+Genericmenuitem .menuitem,
+DbusmenuGtkMenu .menuitem,
 .menubar .menuitem,
 .primary-toolbar .menuitem {
     color: @dark_fg_color;
@@ -1115,6 +1119,10 @@ GtkImage {
     text-shadow: 0 1 shade (@bg_color, 1.14);
 }
 
+Genericmenuitem .menuitem:insensitive,
+Genericmenuitem .menuitem *:insensitive,
+DbusmenuGtkMenu .menuitem:insensitive,
+DbusmenuGtkMenu .menuitem *:insensitive,
 .menubar .menuitem:insensitive,
 .menubar .menuitem *:insensitive,
 .primary-toolbar .menuitem:insensitive,
@@ -1123,6 +1131,10 @@ GtkImage {
     text-shadow: 0 1 shade (@bg_color, 1.1);
 }
 
+Genericmenuitem .menuitem.check:active,
+Genericmenuitem .menuitem.radio:active,
+DbusmenuGtkMenu .menuitem.check:active,
+DbusmenuGtkMenu .menuitem.radio:active,
 .menubar .menuitem.check:active,
 .menubar .menuitem.radio:active,
 .primary-toolbar .menuitem.check:active,
@@ -1188,16 +1200,22 @@ GtkImage {
                                            to (shade (@dark_bg_color, 1.15)));
 }
 
+Genericmenuitem .menuitem .accelerator,
+DbusmenuGtkMenu .menuitem .accelerator,
 .menubar .menuitem .accelerator,
 .primary-toolbar .menuitem .accelerator {
     color: alpha (@dark_fg_color, 0.6);
 }
 
+Genericmenuitem .menuitem .accelerator:hover,
+DbusmenuGtkMenu .menuitem .accelerator:hover.
 .menubar .menuitem .accelerator:hover,
 .primary-toolbar .menuitem .accelerator:hover {
     color: alpha (@selected_fg_color, 0.8);
 }
 
+Genericmenuitem .menuitem .accelerator:insensitive,
+DbusmenuGtkMenu .menuitem .accelerator:insensitive,
 .menubar .menuitem .accelerator:insensitive,
 .primary-toolbar .menuitem .accelerator:insensitive {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.6);
@@ -1608,6 +1626,8 @@ GtkScrolledWindow.frame {
     -GtkWidget-separator-height: 4;
 }
 
+Genericmenuitem .menuitem.separator,
+DbusmenuGtkMenu .menuitem.separator,
 .menubar .menuitem.separator,
 .primary-toolbar .menuitem.separator {
     border-color: shade (@dark_bg_color, 0.96);
