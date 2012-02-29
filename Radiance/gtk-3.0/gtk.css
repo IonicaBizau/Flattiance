@@ -26,8 +26,11 @@
 @define-color dark_bg_color #dfd7cf;
 @define-color dark_fg_color @fg_color;
 @define-color transparent rgba (0, 0, 0, 0);
+@define-color backdrop_selected_bg_color shade (@bg_color, 0.92);
+@define-color backdrop_selected_fg_color @fg_color;
 
 @import url("gtk-widgets.css");
+@import url("gtk-widgets-backdrop.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
 @import url("apps/nautilus.css");

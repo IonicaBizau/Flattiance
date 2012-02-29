@@ -1,3 +1,10 @@
+light-themes (0.1.8.30-0ubuntu1) UNRELEASED; urgency=low
+
+  * New snapshot
+    - Added unfocused theme (LP: #940190)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 29 Feb 2012 16:44:24 -0500
+
 light-themes (0.1.8.29-0ubuntu1) precise; urgency=low
 
   * {Ambiance,Radiance}/gtk-3.0/gtk-widgets.css

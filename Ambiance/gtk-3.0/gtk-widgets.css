@@ -51,7 +51,8 @@
     -GtkWidget-focus-line-width: 1px;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
-    -GtkWindow-resize-grip-default: false;
+    -GtkWindow-resize-grip-width: 0;
+    -GtkWindow-resize-grip-height: 0; 
     -WnckTasklist-fade-overlay-rect: 0;
 
     border-width: 1px;
@@ -114,6 +115,8 @@ GtkWindow {
 .button,
 .frame,
 .notebook {
+    border-style: solid;
+
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.8)),
                                            to (shade (@bg_color, 0.76)));
@@ -215,7 +218,6 @@ GtkAssistant .sidebar {
 }
 
 GtkComboBox,
-GtkScale.slider,
 .button {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@button_bg_color, 1.1)),
@@ -239,7 +241,6 @@ GtkScale.slider,
     -unico-inner-stroke-width: 1px;
 }
 
-GtkScale.slider:hover,
 .button:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@button_bg_color, 1.16)),
@@ -465,9 +466,6 @@ GtkComboBox.combobox-entry .button:insensitive,
 
 .button.default:insensitive {
     -unico-glow-radius: 0;
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@button_insensitive_bg_color, 1.08)),
-                                                 to (shade (@button_insensitive_bg_color, 1.0)));
 }
 
 /****************
@@ -538,6 +536,7 @@ row:selected:focused {
     border-radius: 10px;
 }
 
+/* FIXME (Cimi) this is horrible */
 .check:active,
 .check row:selected:active,
 .check row:selected:focused:active,
@@ -545,7 +544,15 @@ row:selected:focused {
 .notebook .radio:active,
 .radio:active,
 .radio row:selected:active,
-.radio row:selected:focused:active {
+.radio row:selected:focused:active,
+.check:inconsistent,
+.check row:selected:inconsistent,
+.check row:selected:focused:inconsistent,
+.notebook .check:inconsistent,
+.notebook .radio:inconsistent,
+.radio:inconsistent,
+.radio row:selected:inconsistent,
+.radio row:selected:focused:inconsistent {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.2)),
                                      color-stop (0.5, shade (@selected_bg_color, 1.0)),
@@ -566,6 +573,7 @@ row:selected:focused {
     -unico-outer-stroke-width: 1px;
 }
 
+/* FIXME (Cimi) this is horrible */
 .check:active:hover,
 .check row:selected:active:hover,
 .check row:selected:focused:active:hover,
@@ -573,7 +581,15 @@ row:selected:focused {
 .notebook .radio:active:hover,
 .radio:active:hover,
 .radio row:selected:active:hover,
-.radio row:selected:focused:active:hover {
+.radio row:selected:focused:active:hover,
+.check:active:hover:inconsistent,
+.check row:selected:active:hover:inconsistent,
+.check row:selected:focused:active:hover:inconsistent,
+.notebook .check:active:hover:inconsistent,
+.notebook .radio:active:hover:inconsistent,
+.radio:active:hover:inconsistent,
+.radio row:selected:active:hover:inconsistent,
+.radio row:selected:focused:active:hover:inconsistent {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.26)),
                                      color-stop (0.5, shade (@selected_bg_color, 1.05)),
@@ -609,7 +625,9 @@ row:selected:focused {
 }
 
 .check:insensitive:active,
-.radio:insensitive:active {
+.radio:insensitive:active,
+.check:insensitive:inconsistent,
+.radio:insensitive:inconsistent {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 0.96)),
                                      to (shade (@bg_color, 0.9)));
@@ -773,6 +791,8 @@ GtkDrawingArea {
 .entry:insensitive {
     background-color: shade (@bg_color, 0.96);
     background-image: none;
+
+    color: mix (@text_color, @base_color, 0.4);
 
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@bg_color, 0.05), 0.04)),
@@ -944,6 +964,8 @@ GtkImage:insensitive {
     -unico-inner-stroke-width: 1px 1px 0 1px;
 }
 
+Genericmenuitem .menu,
+DbusmenuGtkMenu .menu,
 .menubar .menu,
 .primary-toolbar .menu {
     background-color: shade (@dark_bg_color, 1.08);
@@ -1007,7 +1029,8 @@ GtkImage:insensitive {
     border-width: 1px 1px 0 1px;
 }
 
-.menubar.menuitem:hover {
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.38)),
                                      to (shade (@dark_bg_color, 1.11)));
@@ -1035,17 +1058,20 @@ GtkImage:insensitive {
     border-radius: 0;
     border-style: solid;
     border-width: 1px;
-    padding: 2px;
+    padding: 3px 2px 3px 2px;
 
     -unico-inner-stroke-width: 1px;
 }
 
+Genericmenuitem .menuitem,
+DbusmenuGtkMenu .menuitem,
 .menubar .menuitem,
 .primary-toolbar .menuitem {
     color: @dark_fg_color;
 }
 
-.menuitem:hover {
+.menuitem:hover,
+.menu .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.1)),
                                      to (shade (@selected_bg_color, 0.9)));
@@ -1078,6 +1104,10 @@ GtkImage:insensitive {
     text-shadow: 0 1 shade (@bg_color, 1.14);
 }
 
+Genericmenuitem .menuitem:insensitive,
+Genericmenuitem .menuitem *:insensitive,
+DbusmenuGtkMenu .menuitem:insensitive,
+DbusmenuGtkMenu .menuitem *:insensitive,
 .menubar .menuitem:insensitive,
 .menubar .menuitem *:insensitive,
 .primary-toolbar .menuitem:insensitive,
@@ -1086,6 +1116,10 @@ GtkImage:insensitive {
     text-shadow: 0 -1 shade (@dark_bg_color, 0.6);
 }
 
+Genericmenuitem .menuitem.check:active,
+Genericmenuitem .menuitem.radio:active,
+DbusmenuGtkMenu .menuitem.check:active,
+DbusmenuGtkMenu .menuitem.radio:active,
 .menubar .menuitem.check:active,
 .menubar .menuitem.radio:active,
 .primary-toolbar .menuitem.check:active,
@@ -1141,8 +1175,7 @@ GtkImage:insensitive {
                                                  to (shade (@dark_bg_color, 1.1)));;
 }
 
-.menubar .menuitem GtkScale.trough,
-.primary-toolbar .menuitem GtkScale.trough {
+.menubar .menuitem GtkScale.trough {
     background-color: @dark_bg_color;
     background-image: none;
 
@@ -1151,16 +1184,22 @@ GtkImage:insensitive {
                                            to (shade (@dark_bg_color, 1.15)));
 }
 
+Genericmenuitem .menuitem .accelerator,
+DbusmenuGtkMenu .menuitem .accelerator,
 .menubar .menuitem .accelerator,
 .primary-toolbar .menuitem .accelerator {
     color: alpha (@dark_fg_color, 0.5);
 }
 
+Genericmenuitem .menuitem .accelerator:hover,
+DbusmenuGtkMenu .menuitem .accelerator:hover,
 .menubar .menuitem .accelerator:hover,
 .primary-toolbar .menuitem .accelerator:hover {
     color: alpha (@selected_fg_color, 0.8);
 }
 
+Genericmenuitem .menuitem .accelerator:insensitive,
+DbusmenuGtkMenu .menuitem .accelerator:insensitive,
 .menubar .menuitem .accelerator:insensitive,
 .primary-toolbar .menuitem .accelerator:insensitive {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
@@ -1182,14 +1221,14 @@ GtkImage:insensitive {
 
 .notebook tab {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@bg_color, 0.97)),
-                                     color-stop (0.80, shade (@bg_color, 0.95)),
+                                     from (shade (@bg_color, 0.98)),
+                                     color-stop (0.80, shade (@bg_color, 0.96)),
                                      to (shade (@bg_color, 0.92)));
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@bg_color, 0.86)),
-                                           to (shade (@bg_color, 0.84)));
-    -unico-inner-stroke-color: alpha (shade (@bg_color, 1.26), 0.34);
+                                           from (shade (@bg_color, 0.89)),
+                                           to (shade (@bg_color, 0.86)));
+    -unico-inner-stroke-color: alpha (shade (@bg_color, 1.26), 0.3);
     -unico-inner-stroke-gradient: none;
     -unico-inner-stroke-width: 1px;
     -unico-outer-stroke-color: @transparent;
@@ -1197,11 +1236,11 @@ GtkImage:insensitive {
     -unico-outer-stroke-width: 1px;
 }
 
-.notebook tab GtkLabel:active {
+.notebook tab:active {
     color: @fg_color;
 }
 
-.notebook tab GtkLabel {
+.notebook tab {
     color: shade (@bg_color, 0.48);
 }
 
@@ -1211,8 +1250,6 @@ GtkImage:insensitive {
 
 .notebook tab.top {
     padding: 2px 5px 0 5px;
-
-    color: shade (@bg_color, 0.9);
 }
 
 .notebook tab.right:active {
@@ -1277,6 +1314,7 @@ GtkProgressBar {
     padding: 1px;
 }
 
+.menubar .menuitem .scale.highlight.left,
 .scale.highlight.left,
 .progressbar,
 .progressbar row,
@@ -1286,6 +1324,7 @@ GtkProgressBar {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.13)),
                                      to (shade (@selected_bg_color, 0.9)));
+    border-style: solid;
     border-width: 1px;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
@@ -1305,6 +1344,8 @@ GtkProgressBar {
     background-image: -gtk-gradient (linear, left top, right top,
                                     from (shade (@selected_bg_color, 1.13)),
                                     to (shade (@selected_bg_color, 0.9)));
+    border-style: solid;
+    border-width: 1px;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@selected_bg_color, 0.75)),
@@ -1312,6 +1353,32 @@ GtkProgressBar {
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, right top,
                                                  from (shade (@selected_bg_color, 1.22)),
                                                  to (shade (@selected_bg_color, 1.0)));
+}
+
+.scale.highlight.left:insensitive {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@bg_color, 0.95)),
+                                     to (shade (@bg_color, 0.85)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (shade (@bg_color, 0.75)),
+                                           to (shade (@bg_color, 0.75)));
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (shade (@bg_color, 0.97)),
+                                                 to (shade (@bg_color, 0.865)));
+}
+
+.scale.highlight.bottom:insensitive {
+    background-image: -gtk-gradient (linear, left top, right top,
+                                     from (shade (@bg_color, 0.95)),
+                                     to (shade (@bg_color, 0.85)));
+
+    -unico-border-gradient: -gtk-gradient (linear, left top, right top,
+                                           from (shade (@bg_color, 0.75)),
+                                           to (shade (@bg_color, 0.75)));
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, right top,
+                                                 from (shade (@bg_color, 0.97)),
+                                                 to (shade (@bg_color, 0.865)));
 }
 
 .trough,
@@ -1322,6 +1389,7 @@ GtkProgressBar {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 0.92)),
                                      to (shade (@bg_color, 0.96)));
+    border-style: solid;
     border-width: 1px;
 
     color: @text_color;
@@ -1363,12 +1431,20 @@ GtkScale.slider:hover {
     background-image: url("assets/slider_prelight.png");
 }
 
+GtkScale.slider:insensitive {
+    background-image: url("assets/slider_insensitive.png");
+}
+
 GtkScale.slider.vertical {
     background-image: url("assets/slider_vertical.png");
 }
 
 GtkScale.slider.vertical:hover {
     background-image: url("assets/slider_prelight_vertical.png");
+}
+
+GtkScale.slider.vertical:insensitive {
+    background-image: url("assets/slider_vertical_insensitive.png");
 }
 
 GtkScale.mark {
@@ -1508,14 +1584,6 @@ GtkScrolledWindow.frame {
     -unico-inner-stroke-gradient: none;
 }
 
-.notebook .button .separator,
-.notebook .button.separator {
-    border-color: shade (@bg_color, 0.9);
-
-    -unico-inner-stroke-color: alpha (shade (@bg_color, 1.26), 0.6);
-    -unico-inner-stroke-gradient: none;
-}
-
 .button .separator:insensitive,
 .button.separator:insensitive {
     border-color: shade (@button_insensitive_bg_color, 0.9);
@@ -1532,11 +1600,21 @@ GtkScrolledWindow.frame {
     -unico-inner-stroke-gradient: none;
 }
 
+.notebook .button .separator:insensitive,
+.notebook .button.separator:insensitive {
+    border-color: shade (@bg_color, 0.9);
+
+    -unico-inner-stroke-color: alpha (shade (@bg_color, 1.26), 0.6);
+    -unico-inner-stroke-gradient: none;
+}
+
 .menuitem.separator {
     -GtkMenuItem-horizontal-padding: 0;
     -GtkWidget-separator-height: 4;
 }
 
+Genericmenuitem .menuitem.separator,
+DbusmenuGtkMenu .menuitem.separator,
 .menubar .menuitem.separator,
 .primary-toolbar .menuitem.separator {
     border-color: shade (@dark_bg_color, 0.96);
@@ -1589,10 +1667,12 @@ GtkScrolledWindow.frame {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 1.1)),
                                      to (shade (@bg_color, 0.9)));
+    border-top-color: shade (@bg_color, 0.64);
+    border-right-color: shade (@bg_color, 0.76);
+    border-bottom-color: shade (@bg_color, 0.82);
+    border-left-color: shade (@bg_color, 0.76);
 
-    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@bg_color, 0.65)),
-                                           to (shade (@bg_color, 0.7)));
+    -unico-border-gradient: none;
 }
 
 .spinbutton,
@@ -1613,7 +1693,6 @@ GtkScrolledWindow.frame {
  * statusbar *
  *************/
 GtkStatusbar {
-    color: @fg_color;
 }
 
 /**********
@@ -1681,6 +1760,7 @@ GtkSwitch.slider {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@bg_color, 1.1)),
                                      to (shade (@bg_color, 0.9)));
+    border-style: solid;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.65)),
@@ -1722,7 +1802,7 @@ GtkTextView {
                                      from (shade (@dark_bg_color, 0.96)),
                                      to (shade (@dark_bg_color, 1.4)));
     border-bottom-color: shade (@dark_bg_color, 1.1);
-    border-top-color: shade (@dark_bg_color, 1.1);
+    border-top-color: shade (@dark_bg_color, 1.09);
     border-style: solid;
     border-width: 1px 0 1px 0;
     padding: 2px;
@@ -1776,7 +1856,7 @@ GtkTextView {
     transition: 0ms ease-in-out;
 
     -unico-focus-border-radius: 3;
-    -unico-focus-fill-color: @transparent;
+    -unico-focus-fill-color: alpha (@selected_bg_color, 0.15);
     -unico-focus-border-color: @transparent;
     -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.5);
 
@@ -1877,8 +1957,6 @@ GtkTextView {
 .primary-toolbar .entry:focused {
     border-radius: 3px;
 
-    color: @text_color;
-
     -unico-outer-stroke-width: 1px;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (alpha (shade (@dark_bg_color, 1.2), 0.25)),
@@ -1956,6 +2034,9 @@ GtkTextView {
                                                  from (shade (@bg_color, 1.16)),
                                                  to (shade (@bg_color, 0.98)));
     -unico-outer-stroke-width: 1px 0 1px 0;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (shade (@bg_color, 0.05), 0.015)),
+                                                 to (alpha (shade (@bg_color, 0.05), 0.04)));
 }
 
 .inline-toolbar.toolbar .button *:active,
@@ -1964,8 +2045,8 @@ GtkTextView {
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
     -unico-outer-stroke-width: 1px 0 1px 0;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (alpha (shade (@bg_color, 0.05), 0.02)),
-                                                 to (alpha (shade (@bg_color, 0.05), 0.06)));
+                                                 from (alpha (shade (@bg_color, 0.05), 0.01)),
+                                                 to (alpha (shade (@bg_color, 0.05), 0.03)));
 }
 
 .inline-toolbar.toolbar .button *:insensitive,
