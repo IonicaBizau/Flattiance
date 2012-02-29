@@ -1029,7 +1029,8 @@ DbusmenuGtkMenu .menu,
     color: @dark_fg_color;
 }
 
-.menubar.menuitem:hover {
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.16)),
                                      to (shade (@dark_bg_color, 1.02)));
@@ -1069,7 +1070,8 @@ DbusmenuGtkMenu .menuitem,
     color: @dark_fg_color;
 }
 
-.menuitem:hover {
+.menuitem:hover,
+.menu .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.1)),
                                      to (shade (@selected_bg_color, 0.9)));
@@ -1088,30 +1090,12 @@ DbusmenuGtkMenu .menuitem,
                                                  to (shade (@selected_bg_color, 1.0)));
 }
 
-.menubar.menuitem:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.16)),
-                                     to (shade (@dark_bg_color, 1.02)));
-
-    color: @selected_fg_color;
-
-    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@dark_bg_color, 0.88)),
-                                           to (shade (@dark_bg_color, 0.9)));
-    -unico-glow-radius: 0;
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@dark_bg_color, 1.3)),
-                                                 to (shade (@dark_bg_color, 1.06)));
-    -unico-inner-stroke-width: 1px;
-}
-
 .menuitem.check:active,
 .menuitem.radio:active {
     color: @fg_color;
 
     -unico-bullet-color: @fg_color;
 }
-
 
 .menuitem:insensitive,
 .menuitem *:insensitive {
