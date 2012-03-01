@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.40) UNRELEASED; urgency=low
+
+  * indicator-appmenu-menu-panel: add for LIM
+    (Locally Integrated Menu) support (LP: #931245)
+
+ -- Paul Sladen <sladen@canonical.com>  Thu, 01 Mar 2012 02:26:56 +0000
+
 ubuntu-mono (0.0.39) precise; urgency=low
 
   * Add icons for gnome-control-center category headers (LP: #921061)
