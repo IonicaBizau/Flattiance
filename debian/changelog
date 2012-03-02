@@ -1,7 +1,8 @@
-light-themes (0.1.8.30-0ubuntu1) UNRELEASED; urgency=low
+light-themes (0.1.8.30-0ubuntu1) precise; urgency=low
 
   * New snapshot
     - Added unfocused theme (LP: #940190)
+    - Selected Text Should Be White on Nautilus Location Bar (LP: #931091)
 
  -- Ken VanDine <ken.vandine@canonical.com>  Wed, 29 Feb 2012 16:44:24 -0500
 
