@@ -1,3 +1,10 @@
+light-themes (0.1.8.30-0ubuntu2) precise; urgency=low
+
+  * {Ambiance,Radiance}/gtk-3.0/gtk-widgets.css
+    - fix the broken animation in the spinner
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 02 Mar 2012 13:19:42 -0500
+
 light-themes (0.1.8.30-0ubuntu1) precise; urgency=low
 
   * New snapshot
