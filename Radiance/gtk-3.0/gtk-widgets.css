@@ -2095,3 +2095,10 @@ GtkViewport.frame {
 
     -unico-inner-stroke-width: 0;
 }
+
+/*****************
+* spinner *
+*****************/
+.spinner:active {
+     transition: 750ms linear loop;
+}
