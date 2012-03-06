@@ -44,6 +44,7 @@ PanelApplet .button {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
+    color: @dark_fg_color;
     border-color: shade (@dark_bg_color, 0.78);
     border-radius: 0;
     border-width: 0 1px 0 1px;
