@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7),
 	       libmagickcore4-extra,
                python,
                python-scour
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
 
 Package: ubuntu-mono
