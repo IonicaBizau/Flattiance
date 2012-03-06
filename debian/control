@@ -8,7 +8,8 @@ Build-Depends: debhelper (>= 7),
 	       imagemagick,
 	       libmagickcore4-extra,
                python,
-               python-scour
+               python-scour,
+               python-rsvg
 Standards-Version: 3.9.3
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-mono/trunk
 

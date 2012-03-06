@@ -1,10 +1,16 @@
-ubuntu-mono (0.0.40) UNRELEASED; urgency=low
+ubuntu-mono (0.0.41) UNRELEASED; urgency=low
 
   * indicator-appmenu-menu-panel: add for LIM
     (Locally Integrated Menu) support (LP: #931245)
   * FTBFS: comment out the background-rebuilding for the moment
 
  -- Paul Sladen <sladen@canonical.com>  Thu, 01 Mar 2012 02:26:56 +0000
+
+ubuntu-mono (0.0.40) precise; urgency=low
+
+  * debian/control: added python-rsvg as explicit dep (LP: #927606)
+
+ -- Nathan Williams <nathan@nathanewilliams.com>  Wed, 29 Feb 2012 23:30:09 -0800
 
 ubuntu-mono (0.0.39) precise; urgency=low
 
