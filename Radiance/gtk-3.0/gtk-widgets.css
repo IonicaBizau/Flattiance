@@ -1672,6 +1672,21 @@ DbusmenuGtkMenu .menuitem.separator,
     -unico-border-gradient: none;
 }
 
+.spinbutton.button:insensitive,
+.notebook .spinbutton.button:insensitive {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@bg_color, 1.02)),
+                                     to (shade (@bg_color, 0.98)));
+    border-top-color: shade (@bg_color, 0.64);
+    border-right-color: shade (@bg_color, 0.76);
+    border-bottom-color: shade (@bg_color, 0.82);
+    border-left-color: shade (@bg_color, 0.76);
+
+    color: shade (@bg_color, 0.66);
+
+    -unico-border-gradient: none;
+}
+
 .spinbutton,
 .spinbutton:hover {
     color: @fg_color;
