@@ -1687,6 +1687,10 @@ DbusmenuGtkMenu .menuitem.separator,
     color: @selected_bg_color;
 }
 
+.spinner:active {
+     transition: 750ms linear loop;
+}
+
 /*************
  * statusbar *
  *************/

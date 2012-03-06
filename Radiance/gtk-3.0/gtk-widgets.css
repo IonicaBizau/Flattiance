@@ -1683,6 +1683,10 @@ DbusmenuGtkMenu .menuitem.separator,
 .spinner {
 }
 
+.spinner:active {
+     transition: 750ms linear loop;
+}
+
 /*************
  * statusbar *
  *************/
