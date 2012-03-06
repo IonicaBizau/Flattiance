@@ -10,6 +10,19 @@ PanelToplevel {
     color: @dark_fg_color;
 }
 
+PanelApplet {
+    border-width: 0;
+}
+
+PanelSeparator {
+    border-width: 0;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.15)),
+                                     to (shade (@dark_bg_color, 0.95)));
+
+    color: @dark_fg_color;
+}
+
 .gnome-panel-menu-bar,
 PanelApplet > GtkMenuBar.menubar,
 PanelApplet > GtkMenuBar.menubar.menuitem,
@@ -25,9 +38,12 @@ PanelAppletFrame {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));
+    border-width: 0;
 }
 
 PanelApplet .button {
+    -GtkButton-inner-border: 2;
+
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));    
