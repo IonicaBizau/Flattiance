@@ -253,9 +253,10 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar .linked .button:insensitive:backdrop {
     border-width: 1px;
     border-right-width: 0;
-    border-left-width: 0;
 
     border-radius: 0;
+
+    -unico-outer-stroke-width: 1px 0 1px 0;
 }
 
 /* Leftmost button */
