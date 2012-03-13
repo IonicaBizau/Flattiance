@@ -469,6 +469,82 @@ GtkComboBox.combobox-entry .button:insensitive,
     -unico-glow-radius: 0;
 }
 
+/* Middle button */
+.linked .entry,
+.linked .button,
+.linked .button:active,
+.linked .button:active:hover,
+.linked .button:insensitive,
+.primary-toolbar .linked .entry,
+.primary-toolbar .linked .button,
+.primary-toolbar .linked .button:active,
+.primary-toolbar .linked .button:active:hover,
+.primary-toolbar .linked .button:insensitive {
+    border-right-width: 0;
+    border-left-width: 0;
+
+    border-radius: 0;
+}
+
+/* Leftmost button */
+.linked .entry:first-child,
+.linked .button:first-child,
+.linked .button:active:first-child,
+.linked .button:active:hover:first-child,
+.linked .button:insensitive:first-child,
+.primary-toolbar .linked .entry:first-child,
+.primary-toolbar .linked .button:first-child,
+.primary-toolbar .linked .button:active:first-child,
+.primary-toolbar .linked .button:active:hover:first-child,
+.primary-toolbar .linked .button:insensitive:first-child {
+    border-width: 1px;
+    border-right-width: 0;
+
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+
+    -unico-outer-stroke-width: 1px 0 1px 1px;
+}
+
+/* Rightmost button */
+.linked .entry:last-child,
+.linked .button:last-child,
+.linked .button:active:last-child,
+.linked .button:active:hover:last-child,
+.linked .button:insensitive:last-child,
+.primary-toolbar .linked .entry:last-child,
+.primary-toolbar .linked .button:last-child,
+.primary-toolbar .linked .button:active:last-child,
+.primary-toolbar .linked .button:active:hover:last-child,
+.primary-toolbar .linked .button:insensitive:last-child {
+    border-width: 1px;
+
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+    -unico-outer-stroke-width: 1px 1px 1px 0;
+}
+
+/* Linked single button */
+.linked .entry:only-child,
+.linked .button:only-child,
+.linked .button:active:only-child,
+.linked .button:active:hover:only-child,
+.linked .button:insensitive:only-child,
+.primary-toolbar .linked .entry:only-child,
+.primary-toolbar .linked .button:only-child,
+.primary-toolbar .linked .button:active:only-child,
+.primary-toolbar .linked .button:active:hover:only-child,
+.primary-toolbar .linked .button:insensitive:only-child {
+    border-width: 1px;
+
+    border-radius: 3px;
+
+    -unico-outer-stroke-width: 1px;
+}
+
 /****************
  * cell and row *
  ****************/
@@ -1844,8 +1920,8 @@ GtkTextView {
 
     transition: 0ms ease-in-out;
 
-    -unico-focus-border-radius: 4;
-    -unico-focus-border-color: alpha (@selected_bg_color, 0.5);
+    -unico-focus-border-radius: 1;
+    -unico-focus-border-color: alpha (@selected_bg_color, 0.1);
     -unico-focus-fill-color: alpha (@selected_bg_color, 0.2);
     -unico-focus-outer-stroke-color: @transparent;
 
@@ -1869,6 +1945,16 @@ GtkTextView {
                                                  from (alpha (shade (@dark_bg_color, 1.08), 0.25)),
                                                  to (alpha (shade (@dark_bg_color, 1.08), 0.75)));
     -unico-outer-stroke-width: 1px;
+}
+
+.primary-toolbar .raised .button:focus,
+.primary-toolbar .raised.button:focus,
+.primary-toolbar .button:hover:focus,
+.primary-toolbar .button:active:focus,
+.primary-toolbar .button:insensitive:focus {
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (mix (@selected_bg_color, alpha (shade (@dark_bg_color, 1.2), 0.25), 0.6)),
+                                                 to (mix (@selected_bg_color, alpha (shade (@dark_bg_color, 1.4), 0.75), 0.6)));
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .button {
