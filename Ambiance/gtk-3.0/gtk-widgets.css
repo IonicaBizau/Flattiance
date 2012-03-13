@@ -468,6 +468,162 @@ GtkComboBox.combobox-entry .button:insensitive,
     -unico-glow-radius: 0;
 }
 
+/******************
+ * linked buttons *
+ ******************/
+/* Set up shadows and hilights for button visual separation */
+.linked .button,
+.toolbar .button.raised.linked,
+.toolbar .raised.linked .button,
+.inline-toolbar.toolbar .button,
+.inline-toolbar.toolbar GtkToolButton .button {
+    box-shadow: 1 0 inset @inset_light_color, -1 0 inset @inset_dark_color;
+}
+
+.linked .button:first-child,
+.toolbar .button.raised.linked:first-child,
+.toolbar .raised.linked .button:first-child,
+.inline-toolbar.toolbar .button:first-child,
+.inline-toolbar.toolbar GtkToolButton:first-child .button {
+    box-shadow: -1 0 inset @inset_dark_color;
+}
+
+.linked .button:last-child,
+.toolbar .button.raised.linked:last-child,
+.toolbar .raised.linked .button:last-child,
+.inline-toolbar.toolbar .button:last-child,
+.inline-toolbar.toolbar GtkToolButton:last-child .button {
+    box-shadow: 1 0 inset @inset_light_color;
+}
+
+.linked .button:active,
+.toolbar .button.raised.linked:active,
+.toolbar .raised.linked .button:active,
+.inline-toolbar.toolbar .button:active,
+.inline-toolbar.toolbar GtkToolButton .button:active {
+    box-shadow: 1 0 inset @inset_dark_color;
+}
+
+.linked .button:insensitive,
+.toolbar .button.raised.linked:insensitive,
+.toolbar .raised.linked .button:insensitive,
+.inline-toolbar.toolbar .button:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive {
+    box-shadow: -1 0 inset @inset_dark_color;
+}
+
+.linked .button:backdrop,
+.toolbar .button.raised.linked:backdrop,
+.toolbar .raised.linked .button:backdrop,
+.inline-toolbar.toolbar .button:backdrop,
+.inline-toolbar.toolbar GtkToolButton .button:backdrop {
+    box-shadow: -1 0 inset @unfocused_borders;
+}
+
+.linked .button:insensitive:backdrop,
+.toolbar .button.raised.linked:insensitive:backdrop,
+.toolbar .raised.linked .button:insensitive:backdrop,
+.inline-toolbar.toolbar .button:insensitive:backdrop,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive:backdrop {
+    box-shadow: -1 0 inset @unfocused_insensitive_borders;
+}
+
+.linked .button:insensitive:last-child:backdrop,
+.toolbar .button.raised.linked:insensitive:last-child:backdrop,
+.toolbar .raised.linked .button:insensitive:last-child:backdrop,
+.inline-toolbar.toolbar .button:insensitive:last-child:backdrop,
+.inline-toolbar.toolbar GtkToolButton:last-child .button:insensitive:backdrop {
+    box-shadow: none;
+}
+
+/* remove box shadow from last-child and only-child */
+.linked .button:only-child,
+.inline-toolbar.toolbar .button:only-child,
+.inline-toolbar.toolbar GtkToolButton:only-child .button,
+.linked .button:backdrop:last-child,
+.linked .button:insensitive:last-child,
+.toolbar .button.raised.linked:insensitive:last-child,
+.toolbar .raised.linked .button:insensitive:last-child,
+.inline-toolbar.toolbar .button:insensitive:last-child,
+.inline-toolbar.toolbar GtkToolButton:last-child .button:insensitive,
+.toolbar .button.raised.linked:backdrop:last-child,
+.toolbar .raised.linked .button:backdrop:last-child,
+.inline-toolbar.toolbar .button:backdrop:last-child,
+.inline-toolbar.toolbar GtkToolButton:last-child .button:backdrop,
+.linked .button:insensitive:backdrop:last-child,
+.toolbar .button.raised.linked:insensitive:backdrop:last-child,
+.toolbar .raised.linked .button:insensitive:backdrop:last-child,
+.inline-toolbar.toolbar .button:insensitive:backdrop:last-child,
+.inline-toolbar.toolbar GtkToolButton:last-child .button:insensitive:backdrop,
+.linked .button:backdrop:only-child,
+.toolbar .button.raised.linked:backdrop:only-child,
+.toolbar .raised.linked .button:backdrop:only-child,
+.inline-toolbar.toolbar .button:backdrop:only-child,
+.inline-toolbar.toolbar GtkToolButton:only-child .button:backdrop,
+.linked .button:backdrop:insensitive:only-child,
+.toolbar .button.raised.linked:backdrop:insensitive:only-child,
+.toolbar .raised.linked .button:backdrop:insensitive:only-child,
+.inline-toolbar.toolbar .button:backdrop:insensitive:only-child,
+.inline-toolbar.toolbar GtkToolButton:only-child .button:insensitive:backdrop {
+    box-shadow: none; 
+}
+
+/* Middle button */
+.linked .entry,
+.linked .button,
+.linked .button:active,
+.linked .button:active:hover,
+.linked .button:focus,
+.linked .button:focus:active,
+.linked .button:insensitive {
+    border-right-width: 0;
+    border-left-width: 0;
+    border-image-width: 3 0 4 0;
+    border-radius: 0;
+}
+
+/* Leftmost button */
+.linked .entry:first-child,
+.linked .button:first-child,
+.linked .button:active:first-child,
+.linked .button:active:hover:first-child,
+.linked .button:focus:first-child,
+.linked .button:focus:active:first-child,
+.linked .button:insensitive:first-child {
+    border-right-width: 0;
+    border-image-width: 3 0 4 3;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Rightmost button */
+.linked .entry:last-child,
+.linked .button:last-child,
+.linked .button:active:last-child,
+.linked .button:active:hover:last-child,
+.linked .button:focus:last-child,
+.linked .button:focus:active:last-child,
+.linked .button:insensitive:last-child {
+    border-left-width: 0;
+    border-image-width: 3 3 4 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* Linked single button */
+.linked .entry:only-child,
+.linked .button:only-child,
+.linked .button:active:only-child,
+.linked .button:active:hover:only-child,
+.linked .button:focus:only-child,
+.linked .button:focus:active:only-child,
+.linked .button:insensitive:only-child {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-image-width: 3 3 4 3;
+    border-radius: 3px;
+}
+
 /****************
  * cell and row *
  ****************/
