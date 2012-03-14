@@ -1,3 +1,18 @@
+light-themes (0.1.8.31-0ubuntu1) precise; urgency=low
+
+  * New upstream snapshot 
+    - Set the background-color for the GtkDrawingArea for notebook (LP: #922516)
+    - contact info tooltips not readable in empathy  (LP: #929651)
+    - Ambiance/Radiance Nautilus Sidepane Invisible Drag & Drop File 
+      Selection (LP: #945014)
+    - gnome-panel: fixed low-contrast labels in window list (LP: #828392)
+    - gnome-panel: fixed gradient range for Ambiance
+    - gnome-panel: fix cropped icons in bottom panel (LP: #926487)
+    - gnome-panel: fix border artifact around applet frames (LP: #920843)
+    - gnome-panel: theming for separator (LP: #945644)
+    
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 14 Mar 2012 16:08:44 -0400
+
 light-themes (0.1.8.30-0ubuntu2) precise; urgency=low
 
   * {Ambiance,Radiance}/gtk-3.0/gtk-widgets.css
