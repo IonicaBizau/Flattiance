@@ -1366,6 +1366,10 @@ DbusmenuGtkMenu .menuitem .accelerator:insensitive,
     padding: 0;
 }
 
+.notebook GtkDrawingArea {
+        background-color: shade (@bg_color, 1.02);
+}
+
 /******************
  * pane separator *
  ******************/
