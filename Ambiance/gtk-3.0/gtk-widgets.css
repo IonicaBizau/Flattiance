@@ -2200,6 +2200,16 @@ GtkTextView {
 /************
  * treeview *
  ************/
+GtkTreeView.dnd {
+    border-color: shade (@selected_bg_color, 1.12);
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+
+    -unico-outer-stroke-color: @transparent;
+    -unico-outer-stroke-width: 1px;
+}
+
 GtkTreeView .entry {
     background-image: none;
     border-radius: 0;
