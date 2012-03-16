@@ -2210,6 +2210,16 @@ GtkTreeView .entry {
     -unico-inner-stroke-width: 1px;
 }
 
+GtkTreeView row:nthchild(even),
+GtkTreeView row:nth-child(even):hover {
+    background-color: @base_color;
+}
+
+GtkTreeView row:nth-child(odd),
+GtkTreeView row:nth-child(odd):hover {
+    background-color: @treeview_odd;
+}
+
 /************
  * viewport *
  ************/
