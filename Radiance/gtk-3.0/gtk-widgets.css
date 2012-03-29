@@ -1150,6 +1150,14 @@ DbusmenuGtkMenu .menuitem,
     color: @dark_fg_color;
 }
 
+/* Workaround for lp:949368 */
+GtkComboBox .menuitem * {
+    color: @fg_color;
+}
+GtkComboBox .menuitem *:hover {
+    color: @selected_fg_color;
+}
+
 .menuitem:hover,
 .menu .menuitem:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -1158,7 +1166,7 @@ DbusmenuGtkMenu .menuitem,
 
     color: @selected_fg_color;
 
-    -unico-bullet-color: @dark_fg_color;
+    -unico-bullet-color: @selected_fg_color;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@selected_bg_color, 0.8)),
