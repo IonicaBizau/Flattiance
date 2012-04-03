@@ -1579,6 +1579,8 @@ GtkScale.mark {
     background-image: -gtk-gradient (linear, left top, right top,
                                      from (shade (@bg_color, 1.08)),
                                      to (shade (@bg_color, 0.92)));
+    border-style: solid;
+    border-width: 1px;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@bg_color, 0.74)),
