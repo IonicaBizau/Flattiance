@@ -1,3 +1,11 @@
+light-themes (0.1.8.32-0ubuntu2) precise; urgency=low
+
+  * debian/control
+    - depend on gtk2-engines-pixbuf, which was inadvertently dropped 
+      in a previous upload 
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 05 Apr 2012 09:06:08 -0400
+
 light-themes (0.1.8.32-0ubuntu1) precise; urgency=low
 
   * New upstream snapshot

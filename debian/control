@@ -13,6 +13,7 @@ Architecture: all
 Depends: ${misc:Depends},
          ubuntu-mono,
          gtk2-engines-murrine (>= 0.90.3+git20100810),
+         gtk2-engines-pixbuf,
          gtk3-engines-unico (>= 1.0.1-0ubuntu2),
          humanity-icon-theme
 Conflicts: phase-themes
