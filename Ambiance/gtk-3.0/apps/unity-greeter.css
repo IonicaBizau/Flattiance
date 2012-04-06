@@ -45,6 +45,7 @@
     -unico-outer-stroke-color: alpha (white, 0.1);
     -unico-outer-stroke-gradient: none;
     -unico-outer-stroke-width: 1px;
+    -unico-focus-border-color: alpha (white, 0.5);
 }
 
 .lightdm.button:focused *,

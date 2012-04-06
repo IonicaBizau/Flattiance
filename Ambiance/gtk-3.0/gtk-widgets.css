@@ -1586,6 +1586,8 @@ GtkScale.mark {
     background-image: -gtk-gradient (linear, left top, right top,
                                      from (shade (@bg_color, 1.08)),
                                      to (shade (@bg_color, 0.92)));
+    border-style: solid;
+    border-width: 1px;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, right top,
                                            from (shade (@bg_color, 0.74)),
@@ -2230,6 +2232,14 @@ GtkTreeView .entry {
 
     -unico-inner-stroke-gradient: none;
     -unico-inner-stroke-width: 1px;
+}
+
+GtkTreeView row:nth-child(even){
+    background-color: @base_color;
+}
+
+GtkTreeView row:nth-child(odd) {
+    background-color: shade (@base_color, 0.965);
 }
 
 /************

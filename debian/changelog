@@ -1,3 +1,14 @@
+light-themes (0.1.9-0ubuntu1) precise; urgency=low
+
+  * New upstream snapshot
+    - unity-greeter: fixes for buttons/entries
+    - Fixes native scrollbars
+    - GtkTreeview tweaks
+  * debian/control
+    - bump standards version to 3.9.3
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 06 Apr 2012 11:14:33 -0400
+
 light-themes (0.1.8.32-0ubuntu2) precise; urgency=low
 
   * debian/control
