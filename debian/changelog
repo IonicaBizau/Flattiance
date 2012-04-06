@@ -9,6 +9,15 @@ light-themes (0.1.9-0ubuntu1) precise; urgency=low
 
  -- Ken VanDine <ken.vandine@canonical.com>  Fri, 06 Apr 2012 11:14:33 -0400
 
+light-themes (0.1.8.32-0ubuntu3) precise; urgency=low
+
+  * debian/patches/greeter-white-border.patch:
+    - Make a design-team-requested minor tweak to the greeter.
+      Makes focus glow around buttons white instead of orange.
+      Patch taken from upstream.  (UIFe, LP: #975153)
+
+ -- Michael Terry <mterry@ubuntu.com>  Fri, 06 Apr 2012 10:08:20 -0400
+
 light-themes (0.1.8.32-0ubuntu2) precise; urgency=low
 
   * debian/control
