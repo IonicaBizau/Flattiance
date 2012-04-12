@@ -1,3 +1,13 @@
+light-themes (0.1.9.1-0ubuntu1) precise; urgency=low
+
+  * New upstream snapshot
+    - Remove the need for gtk2-engines-pixbuf in the gtk2 theme, 
+      saves some CD space
+  * debian/control
+    - Dropped depends for gtk2-engines-pixbuf
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 12 Apr 2012 09:31:04 -0400
+
 light-themes (0.1.9-0ubuntu1) precise; urgency=low
 
   * New upstream snapshot

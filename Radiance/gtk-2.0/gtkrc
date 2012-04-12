@@ -684,7 +684,5 @@ widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" st
 #include "apps/banshee.rc"
 include "apps/chromium.rc"
 include "apps/ff.rc"
-#include "apps/gedit.rc"
-include "apps/gnome-panel.rc"
 include "apps/gnome-terminal.rc"
 include "apps/nautilus.rc"

@@ -36,5 +36,5 @@ UnityPanelWidget,
                                            to (shade (@dark_bg_color, 0.98)));
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@dark_bg_color, 1.8)),
-                                                 to (shade (@dark_bg_color, 1.2)));
+                                                 to (shade (@dark_bg_color, 1.16)));
 }
