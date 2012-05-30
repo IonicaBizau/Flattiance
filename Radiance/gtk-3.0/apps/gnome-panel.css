@@ -1,4 +1,7 @@
 /* Fallback Mode Panel */
+PanelWidget :backdrop,
+PanelApplet :backdrop,
+PanelToplevel :backdrop,
 PanelWidget,
 PanelApplet,
 PanelToplevel {
@@ -14,6 +17,7 @@ PanelApplet {
     border-width: 0;
 }
 
+PanelSeparator:backdrop,
 PanelSeparator {
     border-width: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -28,6 +32,7 @@ PanelApplet > GtkMenuBar.menubar,
 PanelApplet > GtkMenuBar.menubar.menuitem,
 PanelMenuBar.menubar,
 PanelMenuBar.menubar.menuitem {
+    -PanelMenuBar-icon-visible: true;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));
@@ -41,13 +46,15 @@ PanelAppletFrame {
     border-width: 0;
 }
 
+PanelApplet .button:backdrop,
 PanelApplet .button {
     -GtkButton-inner-border: 2;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));    
-    border-color: shade (@dark_bg_color, 0.9);
+    border-color: alpha (shade (@dark_bg_color, 0.9), 0.6);
+    border-left-color: alpha (shade (@dark_bg_color, 1.2), 0.6);
     border-radius: 0;
     border-width: 0 1px 0 1px;
 
@@ -59,33 +66,23 @@ PanelApplet .button {
     -unico-outer-stroke-width: 0px;
 }
 
-PanelApplet .button:prelight:active,
-PanelApplet .button:active {
+PanelApplet .button:active:prelight:backdrop,
+PanelApplet .button:active:prelight,
+PanelApplet .button:active:backdrop,
+PanelApplet .button:active  {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.7)),
                                      to (shade (@dark_bg_color, 0.8))); 
-    border-color: shade (@dark_bg_color, 0.9);
-    border-radius: 0;
-    border-width: 0 1px 0 1px;
-
-    -unico-border-gradient: none;
-    -unico-glow-radius: 0;
-    -unico-inner-stroke-width: 0;
-    -unico-outer-stroke-width: 0;
+    border-color: shade (@dark_bg_color, 0.7);
 }
 
+PanelApplet .button:prelight:backdrop,
 PanelApplet .button:prelight {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.2)),
-                                     to (shade (@dark_bg_color, 1.0))); 
-    border-color: shade (@dark_bg_color, 0.9);
-    border-radius: 0;
-    border-width: 0 1px 0 1px;
-
-    -unico-border-gradient: none;
-    -unico-glow-radius: 0;
-    -unico-inner-stroke-width: 0;
-    -unico-outer-stroke-width: 0;
+                                     from (shade (@dark_bg_color, 1.3)),
+                                     to (shade (@dark_bg_color, 1.1))); 
+    border-color: alpha (shade (@dark_bg_color, 0.9), 0.6);
+    border-left-color: alpha (shade (@dark_bg_color, 1.2), 0.8);
 }
 
 ClockBox {

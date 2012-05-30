@@ -1,3 +1,12 @@
+light-themes (0.1.9.2-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+    - Add backdrop option, fixes Ambiance theming for menu bar & window 
+      list (LP: #955376, LP: #981289)
+    - Enable the Ubuntu icon for the Applications menu (LP: #986988)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 30 May 2012 14:51:05 -0400
+
 light-themes (0.1.9.1-0ubuntu1) precise; urgency=low
 
   * New upstream snapshot
