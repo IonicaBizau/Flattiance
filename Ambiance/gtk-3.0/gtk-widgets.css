@@ -1022,6 +1022,14 @@ GtkImage:insensitive {
     -unico-inner-stroke-width: 1px;
 }
 
+/*********
+ * label *
+ *********/
+GtkLabel,
+GtkLabel:insensitive {
+    background-color: transparent;
+}
+
 /********
  * menu *
  ********/
