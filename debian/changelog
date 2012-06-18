@@ -1,3 +1,10 @@
+light-themes (0.1.10-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+    - Updates to work with gtk 3.5.4 (LP: #1000545)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Mon, 18 Jun 2012 10:41:59 -0400
+
 light-themes (0.1.9.2-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot
