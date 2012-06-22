@@ -228,7 +228,8 @@ GtkComboBox,
     color: @fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
 
-    transition: 100ms ease-in-out;
+    /* This breaks Gtk+ 3.5.x, lp #1015497. */
+    /* transition: 100ms ease-in-out; */
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@button_bg_color, 0.85)),
@@ -1952,7 +1953,8 @@ GtkTextView {
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 
-    transition: 0ms ease-in-out;
+    /* This breaks Gtk+ 3.5.x, lp #1015497. */
+    /* transition: 0ms ease-in-out; */
 
     -unico-focus-border-radius: 1;
     -unico-focus-border-color: alpha (@selected_bg_color, 0.05);
@@ -1972,7 +1974,8 @@ GtkTextView {
 .primary-toolbar .button:insensitive {
     border-width: 1px;
 
-    transition: 0ms ease-in-out;
+    /* This breaks Gtk+ 3.5.x, lp #1015497. */
+    /* transition: 0ms ease-in-out; */
 
     -unico-inner-stroke-width: 1px;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,

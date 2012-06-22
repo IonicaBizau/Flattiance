@@ -1,3 +1,11 @@
+light-themes (0.1.11-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+    - work around GtkComboBox bug triggered by transition in the theme 
+      CSS (LP: #1015497)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 22 Jun 2012 10:20:19 -0400
+
 light-themes (0.1.10-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot
