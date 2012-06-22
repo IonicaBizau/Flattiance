@@ -1036,7 +1036,8 @@ GtkTextView:backdrop {
     color: #807d78; /* metacity unfocused color */
     text-shadow: 0 -1px shade (@dark_bg_color, 0.82);
 
-    transition: 0ms ease-in-out;
+    /* This breaks Gtk+ 3.5.x, lp #1015497. */
+    /* transition: 0ms ease-in-out; */
 
     -unico-focus-border-radius: 4;
     -unico-focus-border-color: alpha (@backdrop_selected_bg_color, 0.5);
@@ -1060,7 +1061,8 @@ GtkTextView:backdrop {
 .primary-toolbar .button:insensitive:backdrop {
     border-width: 1px;
 
-    transition: 0ms ease-in-out;
+    /* This breaks Gtk+ 3.5.x, lp #1015497. */
+    /* transition: 0ms ease-in-out; */
 
     -unico-focus-border-radius: 0;
     -unico-focus-fill-color: @transparent;
