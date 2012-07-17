@@ -1,4 +1,4 @@
-ubuntu-mono (0.0.41) UNRELEASED; urgency=low
+ubuntu-mono (0.0.41) quantal; urgency=low
 
   [ Paul Sladen ]
   * indicator-appmenu-menu-panel: add for LIM
@@ -8,7 +8,7 @@ ubuntu-mono (0.0.41) UNRELEASED; urgency=low
   [ Michael Terry ]
   * debian/control: Switch to imagemagick5 instead of 4
 
- -- Paul Sladen <sladen@canonical.com>  Thu, 01 Mar 2012 02:26:56 +0000
+ -- Michael Terry <mterry@ubuntu.com>  Tue, 17 Jul 2012 11:37:52 -0400
 
 ubuntu-mono (0.0.40) precise; urgency=low
 
