@@ -100,7 +100,7 @@ style "default" {
 		glazestyle = 0
 		default_button_color = shade (1.1, @selected_bg_color)
 		gradient_shades = {1.1, 1.0, 1.0, 0.9}
-		roundness = 3
+		roundness = 4
 		lightborder_shade = 1.26
 		lightborderstyle = 1
 		listviewstyle = 2
@@ -167,43 +167,44 @@ style "vscale" {
 style "hscale" {
 }
 
+#style "button" {
+#	xthickness = 3
+#	ythickness = 3
+#
+#	bg[NORMAL] = shade (1.07, "#cdcdcd")
+#	bg[PRELIGHT] = shade (1.09, "#cdcdcd")
+#	bg[ACTIVE] = shade (1.0, "#cdcdcd")
+#	bg[INSENSITIVE] = mix (0.25, @bg_color, "#e2e1e1")
+#	fg[INSENSITIVE] = "#9c9c9c"
+#
+#	engine "murrine" {
+#		#contrast = 1.0
+#		border_shades = {1.04, 0.82}
+#		reliefstyle = 5
+#		shadow_shades = {1.02, 1.1}
+#		textstyle = 1
+#		glowstyle = 5
+#		glow_shade = 1.1
+#		#text_shade = 1.04
+#	}
+#}
+
 style "button" {
-	xthickness = 3
-	ythickness = 3
-
-	bg[NORMAL] = shade (1.07, "#cdcdcd")
-	bg[PRELIGHT] = shade (1.09, "#cdcdcd")
-	bg[ACTIVE] = shade (1.0, "#cdcdcd")
-	bg[INSENSITIVE] = mix (0.25, @bg_color, "#e2e1e1")
-	fg[INSENSITIVE] = "#9c9c9c"
-
-	engine "murrine" {
-		#contrast = 1.0
-		border_shades = {1.04, 0.82}
-		reliefstyle = 5
-		shadow_shades = {1.02, 1.1}
-		textstyle = 1
-		glowstyle = 5
-		glow_shade = 1.1
-		#text_shade = 1.04
-	}
-}
-
-style "notebook_button" {
 
 	xthickness = 3
 	ythickness = 3
 
-	bg[NORMAL] = @bg_color
-	bg[PRELIGHT] = shade (1.04, @bg_color)
+	bg[NORMAL] = shade (1.03, @bg_color)
+	bg[PRELIGHT] = shade (1.06, @bg_color)
 	bg[ACTIVE] = shade (0.96, @bg_color)
 	bg[INSENSITIVE] = @bg_color
+	fg[INSENSITIVE] = "#9c9c9c"
 
 	engine "murrine" {
 		#contrast = 1.0
 		textstyle = 1
 		border_shades = {1.01, 0.8}
-		reliefstyle = 5
+		reliefstyle = 0
 		shadow_shades = {1.0, 1.1}
 		glowstyle = 5
 		glow_shade = 1.02
@@ -211,6 +212,9 @@ style "notebook_button" {
 #		lightborderstyle = 0
 		#text_shade = 1.04
 	}
+}
+
+style "notebook_button" = "button" {
 }
 
 style "spinbutton" = "notebook_button" {

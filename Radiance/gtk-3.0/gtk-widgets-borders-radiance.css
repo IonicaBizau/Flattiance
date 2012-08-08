@@ -1,0 +1,36 @@
+.primary-toolbar .button {
+    border-image: url("assets/radiance-button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .button:focused {
+    border-image: url("assets/radiance-button-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .button:active {
+    border-image: url("assets/radiance-button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .button:active:focused {
+    border-image: url("assets/radiance-button-toolbar-active-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .button:backdrop {
+    border-image: url("assets/radiance-backdrop-button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .button:active:backdrop {
+    border-image: url("assets/radiance-backdrop-button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .entry {
+    border-image: url("assets/radiance-entry-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar .entry:focus {
+    border-image: url("assets/radiance-entry-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
+    border-image: url("assets/radiance-menubaritem.png") 8 10 1 10 / 8px 10px 1px 10px stretch;
+}

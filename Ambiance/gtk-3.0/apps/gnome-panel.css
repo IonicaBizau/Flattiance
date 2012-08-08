@@ -5,6 +5,7 @@ PanelToplevel :backdrop,
 PanelWidget,
 PanelApplet,
 PanelToplevel {
+    border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
@@ -50,6 +51,7 @@ PanelApplet .button:backdrop,
 PanelApplet .button {
     -GtkButton-inner-border: 2;
 
+    border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
@@ -60,17 +62,13 @@ PanelApplet .button {
 
     color: @dark_fg_color;
     text-shadow: none;
-
-    -unico-border-gradient: none;
-    -unico-glow-radius: 0;
-    -unico-inner-stroke-width: 0px;
-    -unico-outer-stroke-width: 0px;
 }
 
 PanelApplet .button:active:prelight:backdrop,
 PanelApplet .button:active:prelight,
 PanelApplet .button:active:backdrop,
 PanelApplet .button:active {
+    border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.85)),
                                      to (shade (@dark_bg_color, 1.0))); 
@@ -79,6 +77,7 @@ PanelApplet .button:active {
 
 PanelApplet .button:prelight:backdrop,
 PanelApplet .button:prelight {
+    border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.7)),
                                      to (shade (@dark_bg_color, 1.25)));
