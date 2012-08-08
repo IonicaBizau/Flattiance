@@ -1,3 +1,9 @@
+light-themes (0.1.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 08 Aug 2012 14:49:16 -0400
+
 light-themes (0.1.11-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot

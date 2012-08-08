@@ -8,8 +8,6 @@ UnityPanelWidget,
     border-width: 1px 0 0 0;
 
     color: @dark_fg_color;
-
-    -unico-border-gradient: none;
 }
 
 .unity-panel.menubar,
@@ -25,16 +23,15 @@ UnityPanelWidget,
 
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
+    border-radius: 7px 7px 0 0;
+    border-width: 1px 1px 0 1px;
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.7)),
-                                     to (shade (@dark_bg_color, 1.12)));
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.11)));
+    border-image: url("../assets/menubaritem.png") 8 10 1 10 / 8px 10px 1px 10px stretch;
+    /*box-shadow: inset 0 -1px shade (@dark_bg_color, 0.95);*/
+    box-shadow: none;
 
     color: shade (@dark_fg_color, 1.1);
-
-    -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
-                                           from (shade (@dark_bg_color, 1.08)),
-                                           to (shade (@dark_bg_color, 0.98)));
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@dark_bg_color, 1.8)),
-                                                 to (shade (@dark_bg_color, 1.16)));
+    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }

@@ -6,20 +6,12 @@
     padding: 1px;
 
     color: white;
-
-    -unico-border-gradient: none;
-    -unico-inner-stroke-width: 0;
-    -unico-glow-radius: 0;
-    -unico-outer-stroke-width: 0;
-    -unico-outer-stroke-width: 0;
 }
 
 .lightdm.menu .menuitem *,
 .lightdm.menu .menuitem.check:active,
 .lightdm.menu .menuitem.radio:active {
     color: white;
-
-    -unico-bullet-color: white;
 }
 
 .lightdm.menubar {
@@ -37,15 +29,6 @@
 
     color: white;
     text-shadow: none;
-
-    -unico-border-gradient: none;
-    -unico-inner-stroke-gradient: none;
-    -unico-inner-stroke-width: 0;
-    -unico-glow-radius: 0;
-    -unico-outer-stroke-color: alpha (white, 0.1);
-    -unico-outer-stroke-gradient: none;
-    -unico-outer-stroke-width: 1px;
-    -unico-focus-border-color: alpha (white, 0.5);
 }
 
 .lightdm.button:focused *,
@@ -57,6 +40,4 @@
     border-color: alpha (white, 0.9);
 
     color: white;
-
-    -unico-outer-stroke-color: alpha (white, 0.15);
 }

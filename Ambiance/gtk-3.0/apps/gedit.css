@@ -32,3 +32,9 @@ GeditPanel .notebook tab,
 GeditWindow .notebook tab {
     border-radius: 3px;
 }
+
+GeditFloatingSlider .not-found {
+    color: @error_fg_color;
+    background-image: none;
+    background-color: @error_bg_color;
+}

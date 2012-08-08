@@ -1,0 +1,15 @@
+.menu .check {
+    background-image: url("assets/check-menuitem-unselected-dark.png");
+}
+
+.menu .radio {
+    background-image: url("assets/check-menuitem-unselected-dark.png");
+}
+
+.menu .check:active {
+    background-image: url("assets/check-menuitem-dark.png");
+}
+
+.menu .radio:active {
+    background-image: url("assets/radio-menuitem-dark.png");
+}

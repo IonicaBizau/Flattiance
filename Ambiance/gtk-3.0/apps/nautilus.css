@@ -48,10 +48,10 @@ NautilusQueryEditor.info {
     border-style: solid;
     border-width: 0px 0px 1px 0px;
 
-    -unico-border-gradient: none;
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@cluebar_color, 1.04)),
-                                                 to (shade (@cluebar_color, 1.01)));
+    box-shadow: inset -1px 0px shade (@cluebar_color, 1.02),
+                inset 1px 0px shade (@cluebar_color, 1.02),
+                inset 0 1px shade (@cluebar_color, 1.04),
+                inset 0 -1px shade (@cluebar_color, 1.01);
 }
 
 NautilusTrashBar.info:backdrop,
@@ -64,9 +64,10 @@ NautilusQueryEditor.info:backdrop {
     background-color: @cluebar_color;
     border-bottom-color: shade (@cluebar_color, 0.92);
 
-    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
-                                                 from (shade (@cluebar_color, 1.02)),
-                                                 to (shade (@cluebar_color, 1.0)));
+    box-shadow: inset -1px 0px shade (@cluebar_color, 1.01),
+                inset 1px 0px shade (@cluebar_color, 1.01),
+                inset 0 1px shade (@cluebar_color, 1.02),
+                inset 0 -1px shade (@cluebar_color, 1.0);
 }
 
 NautilusSearchBar .entry {
@@ -93,8 +94,6 @@ NautilusFloatingBar {
     border-style: solid;
     border-width: 1px;
     border-color: darker (@info_bg_color);
-
-    -unico-border-gradient: none;
 }
 
 NautilusFloatingBar .button {
@@ -107,8 +106,17 @@ NautilusWindow .sidebar,
 NautilusWindow .sidebar .view {
     background-color: shade (@bg_color, 0.95);
 
+    /*background-color: @bg_color;*/
+
     color: @fg_color;
     text-shadow: 0 1px shade (shade (@bg_color, 0.95), 1.04); 
+}
+
+NautilusWindow .sidebar .frame {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: shade (@bg_color, 0.86);
+    border-radius: 0;
 }
 
 NautilusWindow .sidebar:backdrop,
@@ -132,17 +140,12 @@ NautilusWindow .sidebar row:selected:backdrop {
     text-shadow: 0 1px shade (shade (@bg_color, 0.95), 0.96); 
 }
 
-NautilusWindow .sidebar .frame {
-}
-
 NautilusWindow .pane-separator {
     background-color: shade (shade (@bg_color, 0.95), 0.94);
     border-color: @dark_bg_color;
     border-style: solid;
     border-width: 0;
-
-    -unico-border-gradient: none;
-    -unico-inner-stroke-width: 0;
+    box-shadow: none;
 }
 
 NautilusWindow .pane-separator:backdrop {
