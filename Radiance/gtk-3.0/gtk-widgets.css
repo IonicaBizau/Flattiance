@@ -1520,7 +1520,7 @@ GtkSwitch.trough:active {
                                      to (shade (@selected_bg_color, 0.99)));
 
     color: @selected_fg_color;
-    text-shadow: 0 -1px shade (@selected_bg_color, 0.7);
+    text-shadow: 0 1px shade (@selected_bg_color, 0.7);
 }
 
 /* XXX temporary */

@@ -1,9 +1,9 @@
 .menu .check {
-    background-image: url("assets/check-menuitem-unselected-dark.png");
+    background-image: url("assets/check-menuitem-unselected.png");
 }
 
 .menu .radio {
-    background-image: url("assets/check-menuitem-unselected-dark.png");
+    background-image: url("assets/check-menuitem-unselected.png");
 }
 
 .menu .check:active {
