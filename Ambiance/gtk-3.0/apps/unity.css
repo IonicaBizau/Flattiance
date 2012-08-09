@@ -8,6 +8,7 @@ UnityPanelWidget,
     border-width: 1px 0 0 0;
 
     color: @dark_fg_color;
+    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
 .unity-panel.menubar,
