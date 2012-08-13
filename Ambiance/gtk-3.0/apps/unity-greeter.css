@@ -8,6 +8,14 @@
     color: white;
 }
 
+.lightdm-combo .menu {
+    background-color: alpha (black, 0.6);
+    border-radius: 0px;
+    padding: 0px;
+
+    color: white;
+}
+
 .lightdm.menu .menuitem *,
 .lightdm.menu .menuitem.check:active,
 .lightdm.menu .menuitem.radio:active {
@@ -19,6 +27,10 @@
     background-color: alpha (black, 0.5);
 }
 
+.lightdm-combo.combobox-entry .button,
+.lightdm-combo .cell,
+.lightdm-combo .button,
+.lightdm-combo .entry,
 .lightdm.button,
 .lightdm.entry {
     background-image: none;
