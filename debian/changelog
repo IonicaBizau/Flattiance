@@ -1,3 +1,13 @@
+light-themes (0.1.91-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+    - New checkbuttons and radio, with hover states
+    - Restore the panel text shadow
+    - Merge GtkLevel block theming
+    - unity-greeter: theme new combo boxes
+
+ -- Michael Terry <mterry@ubuntu.com>  Tue, 28 Aug 2012 13:19:14 -0400
+
 light-themes (0.1.90-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot
