@@ -1164,6 +1164,9 @@ GtkProgressBar {
 .progressbar row:hover,
 .progressbar row:selected,
 .progressbar row:selected:focused {
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: none;
     background-color: #db6a3c;
     border-style: solid;
 }
@@ -1175,6 +1178,9 @@ GtkProgressBar {
 .progressbar row:selected:focused:backdrop,
 .scale.highlight.bottom:backdrop,
 .progressbar.vertical:backdrop {
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: none;
     background-color: #b0b0b0;
 }
 
@@ -2000,15 +2006,15 @@ GtkTreeView.dnd {
 
 GtkTreeView .entry {
     background-image: none;
-    border-radius: 0;
+    /*border-radius: 0;*/
 }
 
 GtkTreeView row:nth-child(even){
-    background-color: @base_color;
+    /*background-color: @base_color;*/
 }
 
 GtkTreeView row:nth-child(odd) {
-    background-color: shade (@base_color, 0.965);
+    /*background-color: shade (@base_color, 0.965);*/
 }
 
 /************
