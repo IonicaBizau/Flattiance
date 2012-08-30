@@ -1,3 +1,14 @@
+light-themes (0.1.92-0ubuntu1) quantal; urgency=low
+
+  * New upstream snapshot
+    - Some fixes for ubuntu online accounts
+    - Theme the switch in the primary toolbar
+    - Some fixes for unity greeter
+    - Some tweaks to baobab
+    - Fix progressbar in cell renderer
+
+ -- Michael Terry <mterry@ubuntu.com>  Thu, 30 Aug 2012 15:23:54 -0400
+
 light-themes (0.1.91-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot

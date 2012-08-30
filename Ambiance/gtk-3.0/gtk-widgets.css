@@ -581,6 +581,60 @@ column-header:nth-child(last) .button {
 }
 
 /****************
+ * Content view *
+ ****************/
+.content-view.view {
+    background-color: shade (@bg_color, 1.01);
+}
+
+.content-view.view:prelight {
+    background-color: shade (@bg_color, 1.03);
+}
+
+.content-view.view:selected,
+.content-view.view:active {
+    /*background-color: @selected_bg_color;*/
+}
+
+.content-view.view:insensitive {
+    background-color: @bg_color;
+}
+
+.content-view.view:backdrop {
+    background-color: @bg_color;
+}
+
+.content-view.view:selected:backdrop {
+    background-color: @backdrop_selected_bg_color;
+}
+
+GdMainIconView.content-view {
+    -GdMainIconView-icon-size: 40;
+}
+
+GtkIconView.content-view.check {
+    /*background-image: url("assets/grid-selection-unchecked.svg");*/
+    background-color: transparent;
+}
+
+GtkIconView.content-view.check:active {
+    /*background-image: url("assets/grid-selection-checked.svg");*/
+    background-color: transparent;
+}
+
+.content-view.view.check,
+.content-view.view.check:active {
+    background-color: transparent;
+}
+
+GtkIconView.content-view.check:prelight,
+GtkIconView.content-view.check:insensitive,
+GtkIconView.content-view.check:backdrop,
+GtkIconView.content-view.check:selected {
+    background-color: transparent;
+}
+
+/****************
  * drawing area *
  ****************/
 /* comment this out to fix applications like shotwell (LP: #931630)
@@ -882,7 +936,7 @@ GtkComboBox .menu {
  ***************/
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border-radius: 7px 7px 0 0;
+    border-radius: 4px 4px 0 0;
     border-width: 1px 1px 0 1px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.38)),
@@ -1170,6 +1224,9 @@ GtkProgressBar {
 .progressbar row:hover,
 .progressbar row:selected,
 .progressbar row:selected:focused {
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: none;
     background-color: #db6a3c;
     border-style: solid;
 }
@@ -1181,6 +1238,9 @@ GtkProgressBar {
 .progressbar row:selected:focused:backdrop,
 .scale.highlight.bottom:backdrop,
 .progressbar.vertical:backdrop {
+    border-radius: 8px;
+    border-width: 0px;
+    background-image: none;
     background-color: #b0b0b0;
 }
 
@@ -1439,6 +1499,7 @@ GtkScrollbar:insensitive {
 /*******************
  * scrolled window *
  *******************/
+.ubuntu-online-accounts.frame,
 GtkScrolledWindow.frame {
     border-top-color: shade (@bg_color, 0.84);
     border-right-color: shade (@bg_color, 0.76);
@@ -1446,6 +1507,10 @@ GtkScrolledWindow.frame {
     border-left-color: shade (@bg_color, 0.76);
     border-radius: 0;
     border-style: solid;
+}
+
+.ubuntu-online-accounts.frame {
+    border-top-width: 0;
 }
 
 /*************
@@ -2006,15 +2071,15 @@ GtkTreeView.dnd {
 
 GtkTreeView .entry {
     background-image: none;
-    border-radius: 0;
+    /*border-radius: 0;*/
 }
 
 GtkTreeView row:nth-child(even){
-    background-color: @base_color;
+    /*background-color: @base_color;*/
 }
 
 GtkTreeView row:nth-child(odd) {
-    background-color: shade (@base_color, 0.965);
+    /*background-color: shade (@base_color, 0.965);*/
 }
 
 /************

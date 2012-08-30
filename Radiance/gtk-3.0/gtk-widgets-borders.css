@@ -398,6 +398,14 @@ GtkSwitch.trough:active {
     border-image: url("assets/switch-trough-on.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
+.primary-toolbar GtkSwitch.trough {
+    border-image: url("assets/switch-trough-toolbar-off.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
+.primary-toolbar GtkSwitch.trough:active {
+    border-image: url("assets/switch-trough-toolbar-on.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+}
+
 /* XXX temporary */
 GtkSwitch.trough:backdrop,
 GtkSwitch.trough:active:backdrop,
