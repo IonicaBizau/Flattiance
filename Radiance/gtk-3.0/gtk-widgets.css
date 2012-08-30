@@ -934,7 +934,7 @@ GtkComboBox .menu {
  ***************/
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border-radius: 7px 7px 0 0;
+    border-radius: 4px 4px 0 0;
     border-width: 1px 1px 0 1px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.38)),
