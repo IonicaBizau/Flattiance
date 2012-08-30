@@ -581,6 +581,60 @@ column-header:nth-child(last) .button {
 }
 
 /****************
+ * Content view *
+ ****************/
+.content-view.view {
+    background-color: shade (@bg_color, 1.01);
+}
+
+.content-view.view:prelight {
+    background-color: shade (@bg_color, 1.03);
+}
+
+.content-view.view:selected,
+.content-view.view:active {
+    /*background-color: @selected_bg_color;*/
+}
+
+.content-view.view:insensitive {
+    background-color: @bg_color;
+}
+
+.content-view.view:backdrop {
+    background-color: @bg_color;
+}
+
+.content-view.view:selected:backdrop {
+    background-color: @backdrop_selected_bg_color;
+}
+
+GdMainIconView.content-view {
+    -GdMainIconView-icon-size: 40;
+}
+
+GtkIconView.content-view.check {
+    /*background-image: url("assets/grid-selection-unchecked.svg");*/
+    background-color: transparent;
+}
+
+GtkIconView.content-view.check:active {
+    /*background-image: url("assets/grid-selection-checked.svg");*/
+    background-color: transparent;
+}
+
+.content-view.view.check,
+.content-view.view.check:active {
+    background-color: transparent;
+}
+
+GtkIconView.content-view.check:prelight,
+GtkIconView.content-view.check:insensitive,
+GtkIconView.content-view.check:backdrop,
+GtkIconView.content-view.check:selected {
+    background-color: transparent;
+}
+
+/****************
  * drawing area *
  ****************/
 GtkDrawingArea {
