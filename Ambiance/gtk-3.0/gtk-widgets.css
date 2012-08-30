@@ -1493,6 +1493,7 @@ GtkScrollbar:insensitive {
 /*******************
  * scrolled window *
  *******************/
+.ubuntu-online-accounts.frame,
 GtkScrolledWindow.frame {
     border-top-color: shade (@bg_color, 0.84);
     border-right-color: shade (@bg_color, 0.76);
@@ -1500,6 +1501,10 @@ GtkScrolledWindow.frame {
     border-left-color: shade (@bg_color, 0.76);
     border-radius: 0;
     border-style: solid;
+}
+
+.ubuntu-online-accounts.frame {
+    border-top-width: 0;
 }
 
 /*************
