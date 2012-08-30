@@ -1,8 +1,8 @@
-ubuntu-mono (0.0.42) UNRELEASED; urgency=low
+ubuntu-mono (0.0.42) quantal; urgency=low
 
   * Add new indicator-messages icons, thanks Xi Zhu and Lars Uebernickel
 
- -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 30 Aug 2012 17:42:25 +0200
+ -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 30 Aug 2012 17:58:11 +0200
 
 ubuntu-mono (0.0.41) quantal; urgency=low
 
