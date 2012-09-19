@@ -1,10 +1,10 @@
-ubuntu-mono (0.0.44) UNRELEASED; urgency=low
+ubuntu-mono (0.0.44) quantal; urgency=low
 
   * Add missing nm-stage03-connecting03.svg animation frames; should stop
     having a spinner appear through the network connection animation.
     (LP: #1052958) 
 
- -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 19 Sep 2012 13:16:32 -0400
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 19 Sep 2012 13:16:57 -0400
 
 ubuntu-mono (0.0.43) quantal; urgency=low
 
