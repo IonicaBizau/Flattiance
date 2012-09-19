@@ -1,8 +1,8 @@
-ubuntu-mono (0.0.43) UNRELEASED; urgency=low
+ubuntu-mono (0.0.43) quantal; urgency=low
 
   * Rename the icons to work with latest gtk3. Thanks Charles
 
- -- Didier Roche <didrocks@ubuntu.com>  Wed, 19 Sep 2012 17:48:33 +0200
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 19 Sep 2012 18:12:24 +0200
 
 ubuntu-mono (0.0.42) quantal; urgency=low
 
