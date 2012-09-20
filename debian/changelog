@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.45) UNRELEASED; urgency=low
+
+  * Fix a symlink issue showing the wrong icon in indicator-power. Thanks Lars
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 20 Sep 2012 11:01:10 +0200
+
 ubuntu-mono (0.0.44) quantal; urgency=low
 
   * Add missing nm-stage03-connecting03.svg animation frames; should stop
