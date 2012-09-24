@@ -1386,7 +1386,7 @@ GtkScale.vertical {
 .scale.trough.highlight {
     background-color: #df784e;
     background-image: none;
-    /*background-clip: padding-box;*/
+    background-clip: content-box;
 }
 
 .scale.trough.highlight:insensitive {
