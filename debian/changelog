@@ -1,9 +1,9 @@
-ubuntu-mono (0.0.46) UNRELEASED; urgency=low
+ubuntu-mono (0.0.46) quantal-proposed; urgency=low
 
   * New ubuntuone-client-paused icons for use by the sync indicator 
     (lp: #1043379)
 
- -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 25 Sep 2012 19:16:36 +0200
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 25 Sep 2012 19:18:28 +0200
 
 ubuntu-mono (0.0.45) quantal; urgency=low
 
