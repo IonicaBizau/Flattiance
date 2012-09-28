@@ -7,11 +7,16 @@ PanelApplet,
 PanelToplevel {
     padding: 0;
     border-image: none;
+
+    color: @dark_fg_color;
+}
+
+PanelWidget,
+PanelApplet,
+PanelToplevel {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 0.95)));
-
-    color: @dark_fg_color;
 }
 
 PanelApplet {

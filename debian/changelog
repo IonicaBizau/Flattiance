@@ -1,3 +1,10 @@
+light-themes (0.1.93) quantal; urgency=low
+
+  * New upstream snapshot with a few bug fixes including one to make the 
+    GtkSpinners widget spin correctly (lp: #1051851)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 28 Sep 2012 18:40:49 +0200
+
 light-themes (0.1.92-0ubuntu1) quantal; urgency=low
 
   * New upstream snapshot

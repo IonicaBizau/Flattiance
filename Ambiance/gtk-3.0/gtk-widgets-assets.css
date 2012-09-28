@@ -92,6 +92,12 @@
     background-image: url("assets/check-selected-alt.png");
 }
 
+.check row:active:hover,
+.check row:selected:active:hover,
+.check row:selected:active:focus:hover {
+    background-image: url("assets/check-selected-hover-alt.png");
+}
+
 .check:active:insensitive {
     background-image: url("assets/check-selected-disabled.png");
 }
