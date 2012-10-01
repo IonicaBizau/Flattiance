@@ -1,9 +1,9 @@
-ubuntu-mono (0.0.47) UNRELEASED; urgency=low
+ubuntu-mono (0.0.47) quantal; urgency=low
 
   * Indicator-messages panel icons are blurry at 26px width	(LP: #1059440).
     Thanks David
 
- -- Didier Roche <didrocks@ubuntu.com>  Mon, 01 Oct 2012 16:04:00 +0200
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 01 Oct 2012 16:47:26 +0200
 
 ubuntu-mono (0.0.46) quantal-proposed; urgency=low
 
