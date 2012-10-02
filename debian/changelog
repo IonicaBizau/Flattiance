@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.48) UNRELEASED; urgency=low
+
+  * Improved indicator-messages icons, 
+    thanks Matthieu James and Lars Uebernickel (lp: #1056488)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 02 Oct 2012 20:43:25 +0200
+
 ubuntu-mono (0.0.47) quantal; urgency=low
 
   * Indicator-messages panel icons are blurry at 26px width	(LP: #1059440).
