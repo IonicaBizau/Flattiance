@@ -1,8 +1,8 @@
-ubuntu-mono (0.0.49) UNRELEASED; urgency=low
+ubuntu-mono (0.0.49) quantal; urgency=low
 
   * Revert indicator-messages icons to the precise ones (lp: #1056488)
 
- -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 03 Oct 2012 15:29:17 +0200
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 03 Oct 2012 15:44:18 +0200
 
 ubuntu-mono (0.0.48) quantal; urgency=low
 
