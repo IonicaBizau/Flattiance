@@ -399,11 +399,25 @@
     background-image: url("assets/check-menuitem.png");
 }
 
+.primary-toolbar .menu .check:active:insensitive,
+.toolbar .menu .check:active:hover:insensitive,
+.menu .check:active:insensitive,
+.menu .check:active:hover:insensitive {
+    background-image: url("assets/check-menuitem-insensitive.png");
+}
+
 .primary-toolbar .menu .radio:active,
 .toolbar .menu .radio:active:hover,
 .menu .radio:active,
 .menu .radio:active:hover {
     background-image: url("assets/radio-menuitem.png");
+}
+
+.primary-toolbar .menu .radio:active:insensitive,
+.toolbar .menu .radio:active:hover:insensitive,
+.menu .radio:active:insensitive,
+.menu .radio:active:hover:insensitive {
+    background-image: url("assets/radio-menuitem-insensitive.png");
 }
 
 .toolbar .menu .check {
@@ -418,8 +432,16 @@
     background-image: url("assets/check-menuitem-dark.png");
 }
 
+.toolbar .menu .check:active:insensitive {
+    background-image: url("assets/check-menuitem-insensitive-dark.png");
+}
+
 .toolbar .menu .radio:active {
     background-image: url("assets/radio-menuitem-dark.png");
+}
+
+.toolbar .menu .radio:active:insensitive {
+    background-image: url("assets/radio-menuitem-insensitive-dark.png");
 }
 
 /*********************

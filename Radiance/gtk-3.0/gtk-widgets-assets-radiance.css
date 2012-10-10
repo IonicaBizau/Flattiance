@@ -10,6 +10,14 @@
     background-image: url("assets/check-menuitem-dark.png");
 }
 
+.menu .check:active:insensitive {
+    background-image: url("assets/check-menuitem-insensitive-dark.png");
+}
+
 .menu .radio:active {
     background-image: url("assets/radio-menuitem-dark.png");
+}
+
+.menu .radio:active:insensitive {
+    background-image: url("assets/radio-menuitem-insensitive-dark.png");
 }
