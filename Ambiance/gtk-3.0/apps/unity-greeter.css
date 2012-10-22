@@ -57,6 +57,7 @@
 
 .lightdm.button:focused,
 .lightdm.entry:focused {
+    -unico-focus-border-color: alpha (white, 0.9);
     border-color: alpha (white, 0.9);
     border-width: 1px;
     border-style: solid;
