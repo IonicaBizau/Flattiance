@@ -1,3 +1,9 @@
+ubuntu-mono (0.0.49ubuntu1) UNRELEASED; urgency=low
+
+  * Add missing weather icons for sunny days (LP: #748861)
+
+ -- Felix Lawrence <felix.lawrence@gmx.com>  Tue, 16 Oct 2012 22:12:43 +1100
+
 ubuntu-mono (0.0.49) quantal; urgency=low
 
   * Revert indicator-messages icons to the precise ones (lp: #1056488)
