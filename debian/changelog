@@ -1,3 +1,10 @@
+ubuntu-mono (0.0.51) UNRELEASED; urgency=low
+
+  * Remove user-desktop.icon, we no longer use it in window switcher
+    and it looks uglier than its humanity equivalent.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 02 Dec 2012 20:05:10 +0400
+
 ubuntu-mono (0.0.50) raring; urgency=low
 
   * Add missing weather icons for sunny days (LP: #748861)
