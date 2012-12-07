@@ -5,6 +5,9 @@ ubuntu-mono (0.0.51) UNRELEASED; urgency=low
     - Update style to use trailing commas at the end of dependency lists.
     - Update Vcs-Bzr, Vcs-Browser and add a notice to uploaders.
   * debian/compat: bump to compat level 9.
+  * debian/rules:
+    - Clean up -- remove commented lines, add some whitespace for clarity.
+    - Use dh_install with --fail-missing.
 
  -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 07 Dec 2012 16:07:16 -0500
 
