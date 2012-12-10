@@ -1,13 +1,10 @@
 #!/usr/bin/make -f
 
-DEBIAN_DIR=$(CURDIR)
-
 %:
 	dh $@ --with scour
 
 override_dh_install:
 	dh_install --fail-missing
-	# Pre-cache slow-to-load SVG icons to PNG bitmaps, once, at package-build time
 
-	# Go on! Give up; admit defeat by the buildd.  Just copy in those locally build copies...
+	# We ship pre-built copies of the user-desktop icon
 	for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p places ; done
