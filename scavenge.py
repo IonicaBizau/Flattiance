@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright 2011 Canonical Ltd.  Distributed under the terms of the GNU GPLv3 or later.
+# Copyright 2011 Canonical Ltd.  Distributed under the terms of the GNU GPLv3.
 # Combines multiple SVG files into a single SVG in batch mode
 # 2011-01-04 Mathieu Trudel-Lapierre <mathieu.trudel-lapierre@canonical.com>
 # 2011-01-05 Paul Sladen <sladen@canonica.com>

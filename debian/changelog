@@ -8,6 +8,9 @@ ubuntu-mono (0.0.51) UNRELEASED; urgency=low
   * debian/rules:
     - Clean up -- remove commented lines, add some whitespace for clarity.
     - Use dh_install with --fail-missing.
+  * debian/copyright: update to DEP-8 format; fix copyright instances to make
+    sure they are properly listed as GPL-3 where appropriate (instead of 3+),
+    and CC-BY-SA-3.0.
   * Move built copies of the desktop icons from debian/places to places/ where
     it belongs; adjust path in debian/rules accordingly.
 
