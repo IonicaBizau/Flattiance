@@ -10,4 +10,4 @@ override_dh_install:
 	# Pre-cache slow-to-load SVG icons to PNG bitmaps, once, at package-build time
 
 	# Go on! Give up; admit defeat by the buildd.  Just copy in those locally build copies...
-	for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p debian/places ; done
+	for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p places ; done
