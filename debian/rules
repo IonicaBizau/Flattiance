@@ -2,6 +2,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+DEB_VERSION := $(shell dpkg-parsechangelog | egrep '^Version:' | cut -f 2 -d ' ')
+
 %:
 	dh $@ --with scour --parallel
 
@@ -10,3 +12,5 @@ override_dh_install:
 	# We ship pre-built copies of the user-desktop icon
 	for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p places ; done
 
+override_dh_gencontrol:
+	dh_gencontrol -pubuntu-artwork -- -v1:$(DEB_VERSION)
