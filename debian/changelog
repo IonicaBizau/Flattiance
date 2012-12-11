@@ -2,7 +2,8 @@ ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
 
   * Remove unapplied patch
   * Distro-patch is now inlined upstream
-  * rename light-themes to ubuntu-themes
+  * Rename light-themes to ubuntu-themes
+  * Remove now unsupported transition Breaks/Replaces/Conflits
 
  -- Didier Roche <didrocks@ubuntu.com>  Tue, 11 Dec 2012 10:22:44 +0100
 
