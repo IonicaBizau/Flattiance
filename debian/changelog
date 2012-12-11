@@ -1,4 +1,4 @@
-ubuntu-themes (13.04-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
 
   [ Didier Roche ]
   * Remove unapplied patch
@@ -13,6 +13,7 @@ ubuntu-themes (13.04-0ubuntu2) UNRELEASED; urgency=low
     - Integrating ubuntu-mono package and Mathieu's below work
   * Build in parallel, some minor packaging fixes
   * Add COPYING license and fix debian/copyright
+  * Automatic snapshot from revision 256 (bootstrap)
 
   [ Mathieu Trudel-Lapierre ]
   * debian/control:
@@ -30,7 +31,7 @@ ubuntu-themes (13.04-0ubuntu2) UNRELEASED; urgency=low
   * Move built copies of the desktop icons from debian/places to places/ where
     it belongs; adjust path in debian/rules accordingly.
 
- -- Didier Roche <didrocks@ubuntu.com>  Tue, 11 Dec 2012 11:10:28 +0100
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 11 Dec 2012 11:29:00 +0100
 
 light-themes (0.1.93) quantal; urgency=low
 
