@@ -11,6 +11,7 @@ ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
   * Add split mode
   * Rename light-themes to ubuntu-themes and merge other source packages:
     - Integrating ubuntu-mono package and Mathieu's below work
+    - Integrating ubuntu-artwork with the distro logo into this one as well
   * Build in parallel, some minor packaging fixes
   * Add COPYING license and fix debian/copyright
   * Automatic snapshot from revision 256 (bootstrap)

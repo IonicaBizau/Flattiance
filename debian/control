@@ -40,3 +40,14 @@ Depends: ${misc:Depends},
          hicolor-icon-theme,
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful.
+
+Package: ubuntu-artwork
+Architecture: all
+Depends: ${misc:Depends},
+         light-themes,
+         ubuntu-mono,
+         ubuntu-wallpapers,
+         adium-theme-ubuntu,
+Description: Ubuntu themes and artwork
+ This package contains the Distributor Logo and pulls in all the
+ other components via Depends.
