@@ -1,4 +1,4 @@
-ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
+ubuntu-themes (13.04daily12.12.11-0ubuntu1) raring; urgency=low
 
   [ Didier Roche ]
   * Remove unapplied patch
@@ -33,7 +33,10 @@ ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
   * Move built copies of the desktop icons from debian/places to places/ where
     it belongs; adjust path in debian/rules accordingly.
 
- -- Didier Roche <didrocks@ubuntu.com>  Tue, 11 Dec 2012 11:29:00 +0100
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 265
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Tue, 11 Dec 2012 11:48:54 +0000
 
 light-themes (0.1.93) quantal; urgency=low
 
