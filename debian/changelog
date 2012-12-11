@@ -1,5 +1,6 @@
 ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Didier Roche ]
   * Remove unapplied patch
   * Distro-patch is now inlined upstream
   * Remove now unsupported transition Breaks/Replaces/Conflits
@@ -10,6 +11,7 @@ ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
   * Add split mode
   * Rename light-themes to ubuntu-themes and merge other source packages:
     - Integrating ubuntu-mono package and Mathieu's below work
+  * Build in parallel, some minor packaging fixes
 
   [ Mathieu Trudel-Lapierre ]
   * debian/control:
