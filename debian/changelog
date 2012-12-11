@@ -4,6 +4,7 @@ ubuntu-themes (13.04-0ubuntu1) UNRELEASED; urgency=low
   * Distro-patch is now inlined upstream
   * Rename light-themes to ubuntu-themes
   * Remove now unsupported transition Breaks/Replaces/Conflits
+  * Add Vcs-Bzr add notice
 
  -- Didier Roche <didrocks@ubuntu.com>  Tue, 11 Dec 2012 10:22:44 +0100
 
