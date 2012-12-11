@@ -4,8 +4,6 @@ Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9),
                icon-naming-utils,
-               ubuntu-wallpapers,
-               imagemagick,
                libmagickcore5-extra,
                python,
                python-scour,
