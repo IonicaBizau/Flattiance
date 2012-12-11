@@ -637,9 +637,11 @@ GtkIconView.content-view.check:selected {
 /****************
  * drawing area *
  ****************/
+/* comment this out to fix applications like shotwell (LP: #931630)
 GtkDrawingArea {
     background-color: transparent;
 }
+*/
 
 /*********
  * entry *
@@ -1183,6 +1185,10 @@ GtkComboBox .menu .menuitem *:insensitive {
 
 .notebook tab .button {
     padding: 0;
+}
+
+.notebook GtkDrawingArea {
+        background-color: shade (@bg_color, 1.02);
 }
 
 /******************

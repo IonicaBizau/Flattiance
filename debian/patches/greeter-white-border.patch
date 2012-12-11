@@ -1,0 +1,12 @@
+Index: light-themes-0.1.8.32/Ambiance/gtk-3.0/apps/unity-greeter.css
+===================================================================
+--- light-themes-0.1.8.32.orig/Ambiance/gtk-3.0/apps/unity-greeter.css	2012-02-29 16:43:33.000000000 -0500
++++ light-themes-0.1.8.32/Ambiance/gtk-3.0/apps/unity-greeter.css	2012-04-06 10:08:12.692148074 -0400
+@@ -45,6 +45,7 @@
+     -unico-outer-stroke-color: alpha (white, 0.1);
+     -unico-outer-stroke-gradient: none;
+     -unico-outer-stroke-width: 1px;
++    -unico-focus-border-color: alpha (white, 0.5);
+ }
+ 
+ .lightdm.button:focused *,
