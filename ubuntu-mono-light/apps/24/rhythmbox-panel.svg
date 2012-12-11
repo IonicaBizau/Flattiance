@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="24"
+   height="24"
+   id="svg3215"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="rhythmbox-panel.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="13.227273"
+     inkscape:cx="11"
+     inkscape:cy="11.793814"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3215" />
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3217" />
+  <path
+     d="M 8.5,5 C 7.669,5 7,5.669 7,6.5 l 0,13 C 7,20.331 7.669,21 8.5,21 l 8,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-13 C 18,5.669 17.331,5 16.5,5 l -8,0 z m 4,2 c 1.933374,0 3.500462,1.5671386 3.5,3.5 4.62e-4,1.932862 -1.566626,3.5 -3.5,3.5 C 10.566626,14 8.999538,12.432862 9,10.5 8.9995376,8.5671389 10.566626,7 12.5,7 z m 0,2 C 11.671573,9 11,9.671573 11,10.5 11,11.328427 11.671573,12 12.5,12 13.328427,12 14,11.328427 14,10.5 14,9.671573 13.328427,9 12.5,9 z M 10,17 c 0.552428,0 1.000202,0.447775 1,1 2.02e-4,0.552225 -0.447572,1 -1,1 -0.5524278,0 -1.000202,-0.447775 -1,-1 -2.019e-4,-0.552225 0.4475726,-1 1,-1 z m 5,0 c 0.552428,0 1.000202,0.447775 1,1 2.02e-4,0.552225 -0.447572,1 -1,1 -0.552428,0 -1.000202,-0.447775 -1,-1 -2.02e-4,-0.552225 0.447572,-1 1,-1 z"
+     id="rect2406-8"
+     style="opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 8.5,4 C 7.669,4 7,4.669 7,5.5 l 0,13 C 7,19.331 7.669,20 8.5,20 l 8,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-13 C 18,4.669 17.331,4 16.5,4 l -8,0 z m 4,2 C 14.433374,6 16.000462,7.5671386 16,9.5 16.000462,11.432862 14.433374,13 12.5,13 10.566626,13 8.999538,11.432862 9,9.5 8.9995376,7.5671389 10.566626,6 12.5,6 z m 0,2 C 11.671573,8 11,8.6715729 11,9.5 11,10.328427 11.671573,11 12.5,11 13.328427,11 14,10.328427 14,9.5 14,8.6715729 13.328427,8 12.5,8 z M 10,16 c 0.552428,0 1.000202,0.447775 1,1 2.02e-4,0.552225 -0.447572,1 -1,1 -0.5524278,0 -1.000202,-0.447775 -1,-1 -2.019e-4,-0.552225 0.4475726,-1 1,-1 z m 5,0 c 0.552428,0 1.000202,0.447775 1,1 2.02e-4,0.552225 -0.447572,1 -1,1 -0.552428,0 -1.000202,-0.447775 -1,-1 -2.02e-4,-0.552225 0.447572,-1 1,-1 z"
+     id="rect2406"
+     style="fill:#3c3c3c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 15.75,9.5 c 0,1.794925 -1.455074,3.250001 -3.25,3.250001 -1.794925,0 -3.2499999,-1.455076 -3.2499999,-3.250001 0,-1.7949254 1.4550749,-3.2500001 3.2499999,-3.2500001 1.794926,0 3.25,1.4550747 3.25,3.2500001 l 0,0 z"
+     id="path3201"
+     style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="22"
+   height="22"
+   id="svg2816"
+   style="display:inline"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="applications-microblogging-panel.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="13.227273"
+     inkscape:cx="-0.49140893"
+     inkscape:cy="11.793814"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2816" />
+  <defs
+     id="defs2818" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 10.500145,5 C 8.6405679,5 6.9361724,5.6905051 5.6251447,6.8125 5.004479,6.5122059 3.649263,5.9599973 2.0001447,6 c 0,0 1.2425537,2.4851074 1.6875,3.375 C 3.570379,9.629114 3.4638458,9.8877778 3.3751447,10.15625 2.4852521,10.378723 1.4466754e-4,11 1.4466754e-4,11 c 0,0 1.46725223246,2 3.00000003246,2 0,0 0.02455,-0.0042 0.03125,0 0.2543004,3.910326 3.4944989,7 7.4687503,7 1.964788,0 3.756106,-0.76222 5.09375,-2 l 5.40625,0 -3.34375,-3.34375 c 0.207942,-0.687617 0.34375,-1.401066 0.34375,-2.15625 0,-4.14 -3.36,-7.4999999 -7.5,-7.5 z M 7.0001447,8 c 0.5524885,-1.329e-4 1,0.4477767 1,1 0,0.5523553 -0.4476534,1 -1,1 -0.5522331,0 -1,-0.4477782 -1,-1 0,-0.5522233 0.4479088,-1 1,-1 z m 3.1250003,3 c 0.995082,-0.0042 1.990546,0.365824 2.75,1.125 1.012304,1.012381 1.3443,2.459413 1,3.75 -1.29037,0.344379 -2.737546,0.01253 -3.75,-1 C 9.1127617,13.862471 8.7808438,12.415292 9.1251447,11.125 9.4477547,11.03889 9.7934507,11.001396 10.125145,11 z"
+     id="path2396-6"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.3" />
+  <path
+     d="M 10.500145,4 C 8.6405679,4 6.9361724,4.6905051 5.6251447,5.8125 C 5.004479,5.5122059 3.649263,4.9599973 2.0001447,5 C 2.0001447,5 3.2426984,7.4851074 3.6876447,8.375 C 3.570379,8.629114 3.4638458,8.8877778 3.3751447,9.15625 C 2.4852521,9.378723 0.00014466754,10 0.00014466754,10 C 0.00014466754,10 1.4673969,12 3.0001447,12 C 3.0001447,12 3.024695,11.995771 3.0313947,12 C 3.2856951,15.910326 6.5258936,19 10.500145,19 C 12.464933,19 14.256251,18.23778 15.593895,17 L 21.000145,17 L 17.656395,13.65625 C 17.864337,12.968633 18.000145,12.255184 18.000145,11.5 C 18.000145,7.36 14.640145,4.0000001 10.500145,4 z M 7.0001447,7 C 7.5526332,6.9998671 8.0001447,7.4477767 8.0001447,8 C 8.0001447,8.5523553 7.5524913,9 7.0001447,9 C 6.4479116,9 6.0001447,8.5522218 6.0001447,8 C 6.0001447,7.4477767 6.4480535,7 7.0001447,7 z M 10.125145,10 C 11.120227,9.995811 12.115691,10.365824 12.875145,11.125 C 13.887449,12.137381 14.219445,13.584413 13.875145,14.875 C 12.584775,15.219379 11.137599,14.88753 10.125145,13.875 C 9.1127617,12.862471 8.7808438,11.415292 9.1251447,10.125 C 9.4477547,10.038887 9.7934507,10.001396 10.125145,10 z"
+     id="path2396"
+     style="fill:#dfdbd2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</svg>

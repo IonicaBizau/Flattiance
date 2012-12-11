@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="24"
+   height="24"
+   id="svg7739"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="krb-expiring-ticket.svg">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="4.6765472"
+     inkscape:cx="-0.49140893"
+     inkscape:cy="11.793814"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7739" />
+  <defs
+     id="defs7741" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.3;color:#ffffff;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path7793-6"
+     d="M 12.025626,3.9998014 C 9.70253,3.98013 7.5169322,5.7347871 7.0881262,7.9373015 6.6593202,10.139816 7.822079,12.205032 9.9943762,12.999802 l 0,6 c 0,2 1.1300768,3.016519 1.9999998,3 0.869923,-0.01652 2,-1 2,-3 l 2,-1 -3,-1 3,-2 -2,-1 0,-1 c 2.186422,-0.757861 3.326169,-2.759314 2.9375,-4.9687505 -0.388669,-2.2094366 -2.583154,-4.011579 -4.90625,-4.0312501 z m 0,2.9687501 c 0.584746,0 1.03125,0.4465016 1.03125,1.03125 0,0.5847484 -0.446504,1.03125 -1.03125,1.03125 -0.584746,0 -1.03125,-0.4465016 -1.03125,-1.03125 0,-0.5847484 0.446504,-1.03125 1.03125,-1.03125 z m 0,1 c 0.02182,0 -0.03125,0.053071 -0.03125,0.03125 0,-0.021821 0.05307,0.03125 0.03125,0.03125 -0.02182,0 0.03125,-0.053071 0.03125,-0.03125 0,0.021821 -0.05307,-0.03125 -0.03125,-0.03125 z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="color:#ffffff;fill:#df382c;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path7793"
+     d="M 12.025626,2.9999999 C 9.70253,2.9803285 7.5169322,4.7349855 7.0881262,6.9374999 6.6593202,9.1400142 7.822079,11.20523 9.9943762,12 l 0,6 c 0,2 1.1300768,3.016519 1.9999998,3 0.869923,-0.01652 2,-1 2,-3 l 2,-1 -3,-1 3,-2 -2,-1 0,-1 c 2.186422,-0.757861 3.326169,-2.7593136 2.9375,-4.9687501 -0.388669,-2.2094366 -2.583154,-4.011579 -4.90625,-4.03125 z m 0,2.96875 c 0.584746,0 1.03125,0.4465016 1.03125,1.03125 0,0.5847484 -0.446504,1.03125 -1.03125,1.03125 -0.584746,0 -1.03125,-0.4465016 -1.03125,-1.03125 0,-0.5847484 0.446504,-1.03125 1.03125,-1.03125 z m 0,1 c 0.02182,0 -0.03125,0.053071 -0.03125,0.03125 0,-0.021821 0.05307,0.03125 0.03125,0.03125 -0.02182,0 0.03125,-0.053071 0.03125,-0.03125 0,0.021821 -0.05307,-0.03125 -0.03125,-0.03125 z" />
+</svg>
