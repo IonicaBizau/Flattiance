@@ -1,7 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-themes
 Upstream-Contact: Andrea Cimitan <andrea.cimitan@canonical.com>,
-                  Kenneth Wimer <kwwii@ubuntu.com>
+                  Kenneth Wimer <kwwii@ubuntu.com>,
+                  Daniel Fore <Daniel.P.Fore@gmail.com>,
+                  K.Vishnoo Charan Reddy<vish@ubuntu.com>,
+                  Otto Greenslade <otto@canonical.com>
 
 Files: *
 Copyright: 2004-2012, Canonical Ltd
@@ -280,3 +283,10 @@ License: CC-BY-SA-3.0
  available upon request from time to time.
  . 
  Creative Commons may be contacted at http://creativecommons.org/
+
+Files: scavenge.py Makefile
+Copyright: Copyright 2011 Canonical Ltd.
+License: GPL-3
+ On Debian systems, the full text of the GNU General Public
+ License version 3 can be found in /usr/share/common-licenses/GPL-3
+

@@ -2,7 +2,14 @@ Source: ubuntu-themes
 Section: gnome
 Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9),
+               icon-naming-utils,
+               ubuntu-wallpapers,
+               imagemagick,
+               libmagickcore5-extra,
+               python,
+               python-scour,
+               python-rsvg,
 Standards-Version: 3.9.3
 Homepage: https://launchpad.net/ubuntu-themes
 # If you aren't a member of ~ubuntu-art-pkg but need to upload
@@ -24,3 +31,12 @@ Description: Light Themes (Ambiance and Radiance)
  * Radiance is a dark-on-light theme
  .
  Introduced as the default themes in Ubuntu 10.04 LTS.
+
+Package: ubuntu-mono
+Architecture: all
+Depends: ${misc:Depends},
+         humanity-icon-theme,
+         gnome-icon-theme,
+         hicolor-icon-theme,
+Description: Ubuntu Mono Icon theme
+ Dark and Light panel icons to make your desktop beautiful.

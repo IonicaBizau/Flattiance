@@ -1,5 +1,11 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --with scour
+
+override_dh_install:
+	dh_install --fail-missing
+
+    # We ship pre-built copies of the user-desktop icon
+    for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p places ; done
 
