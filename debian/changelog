@@ -2,8 +2,11 @@ ubuntu-themes (13.04daily12.12.11-0ubuntu2) UNRELEASED; urgency=low
 
   * Remove user-desktop.icon, we no longer use it in window switcher
     and it looks uglier than its humanity equivalent.
+    + Remove no longer needed build-dependencies on ubuntu-wallpapers
+      and imagemagick.
+    + Remove no longer needed code in debian/rules.
 
- -- Dmitry Shachnev <mitya57@ubuntu.com>  Tue, 11 Dec 2012 20:45:50 +0400
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 17 Dec 2012 14:47:12 +0400
 
 ubuntu-themes (13.04daily12.12.11-0ubuntu1) raring; urgency=low
 
