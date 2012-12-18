@@ -9,8 +9,6 @@ DEB_VERSION := $(shell dpkg-parsechangelog | egrep '^Version:' | cut -f 2 -d ' '
 
 override_dh_install:
 	dh_install --fail-missing
-	# We ship pre-built copies of the user-desktop icon
-	for p in debian/ubuntu-mono/usr/share/icons/ubuntu-mono-* ; do cp -avt $$p places ; done
 
 override_dh_gencontrol:
 	dh_gencontrol -pubuntu-artwork -- -v1:$(DEB_VERSION)
