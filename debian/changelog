@@ -1,4 +1,4 @@
-ubuntu-themes (13.04daily12.12.18-0ubuntu1) UNRELEASED; urgency=low
+ubuntu-themes (13.04daily13.01.10-0ubuntu1) raring; urgency=low
 
   [ Dmitry Shachnev ]
   * Remove user-desktop.icon, we no longer use it in window switcher
@@ -10,7 +10,10 @@ ubuntu-themes (13.04daily12.12.18-0ubuntu1) UNRELEASED; urgency=low
   [ Iain Lane ]
   * Increase 'upstream' version. 
 
- -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 17 Dec 2012 14:47:12 +0400
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 269
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Thu, 10 Jan 2013 16:12:20 +0000
 
 ubuntu-themes (13.04daily12.12.11-0ubuntu1) raring; urgency=low
 
