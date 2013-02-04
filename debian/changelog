@@ -1,3 +1,14 @@
+ubuntu-themes (13.04daily13.02.04-0ubuntu1) raring; urgency=low
+
+  [ Michael Terry ]
+  * Unity Greeter - Text highlight in password field should be white
+    (LP: #1056944)
+
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 271
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Mon, 04 Feb 2013 00:00:56 +0000
+
 ubuntu-themes (13.04daily13.01.10-0ubuntu1) raring; urgency=low
 
   [ Dmitry Shachnev ]
