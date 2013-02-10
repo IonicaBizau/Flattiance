@@ -1053,6 +1053,10 @@ GtkComboBox .menu .menuitem *:insensitive {
     background-image: none;
 }
 
+.menuitem GtkCalendar:inconsistent {
+    color: shade (@bg_color, 0.6);
+}
+
 .menuitem .entry {
     background-color: shade (@dark_bg_color, 1.3);
     background-image: none;
