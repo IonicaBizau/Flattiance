@@ -1,3 +1,14 @@
+ubuntu-themes (13.04daily13.02.14-0ubuntu1) raring; urgency=low
+
+  [ Adolfo Jayme Barrientos ]
+  * calendar applet no longer grays out days for months other than
+    current (LP: #876167)
+
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 273
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Thu, 14 Feb 2013 00:01:53 +0000
+
 ubuntu-themes (13.04daily13.02.04-0ubuntu1) raring; urgency=low
 
   [ Michael Terry ]
