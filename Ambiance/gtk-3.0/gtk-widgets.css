@@ -956,9 +956,8 @@ GtkComboBox .menu {
 }*/
 
 .menuitem {
+    background: transparent;
     border-radius: 0;
-    border-style: solid;
-    border-width: 1px;
     padding: 3px 2px 3px 2px;
 
     text-shadow: none;
