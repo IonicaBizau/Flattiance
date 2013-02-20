@@ -1,3 +1,13 @@
+ubuntu-themes (13.04daily13.02.20-0ubuntu1) raring; urgency=low
+
+  [ Ryan Lortie ]
+  * ubuntu-themes don't work with gtk 3.7 (LP: #1130183)
+
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 275
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Wed, 20 Feb 2013 00:01:27 +0000
+
 ubuntu-themes (13.04daily13.02.14-0ubuntu1) raring; urgency=low
 
   [ Adolfo Jayme Barrientos ]
