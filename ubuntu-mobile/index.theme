@@ -1,0 +1,39 @@
+[Icon Theme]
+Name=Ubuntu-Mobile
+Comment=Ubuntu mobile icon theme
+Inherits=hicolor
+
+#Directory list
+#remove svg icons qt is crashing
+#Directories=status/48,status/scalable,app/144,app/scalable
+Directories=app/36,status/48,app/144
+
+[app/36]
+Size=36
+Context=app
+Type=Fixed
+
+[app/144]
+Size=144
+Context=app
+Type=Fixed
+
+[app/scalable]
+MinSize=9
+Size=256
+MaxSize=256
+Context=app
+Type=Scalable
+
+[status/48]
+Size=48
+Context=Status
+Type=Fixed
+
+[status/scalable]
+MinSize=9
+Size=256
+MaxSize=256
+Context=status
+Type=Scalable
+
