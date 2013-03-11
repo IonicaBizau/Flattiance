@@ -1,3 +1,9 @@
+ubuntu-themes (13.04daily13.03.05-0ubuntu2) UNRELEASED; urgency=low
+
+  * Adding ubuntu-mobile package (LP: #1150011)
+
+ -- Renato Araujo Oliveira Filho <renato@canonical.com>  Mon, 11 Mar 2013 10:03:18 -0300
+
 ubuntu-themes (13.04daily13.03.05-0ubuntu1) raring; urgency=low
 
   * Automatic snapshot from revision 277
