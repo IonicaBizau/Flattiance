@@ -53,6 +53,6 @@ Description: Ubuntu themes and artwork
 Package: ubuntu-mobile
 Architecture: all
 Depends: ${misc:Depends},
-         hicolor-icon-theme
+         hicolor-icon-theme,
 Description: Ubuntu Mobile Icon theme
  Ubuntu mobile icons used for phone and tablet applications and shell.
