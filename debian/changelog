@@ -1,8 +1,19 @@
-ubuntu-themes (13.04daily13.03.05-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04daily13.03.12-0ubuntu2) UNRELEASED; urgency=low
 
   * Adding ubuntu-mobile-icons package
 
  -- Renato Araujo Oliveira Filho <renato@canonical.com>  Mon, 11 Mar 2013 10:03:18 -0300
+
+ubuntu-themes (13.04daily13.03.12-0ubuntu1) raring; urgency=low
+
+  [ Sebastien Bacher ]
+  * Launcher - Update the icons used for the Software Centre, Nautilus,
+    and Software Updater (LP: #1081691)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 279
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 12 Mar 2013 00:02:05 +0000
 
 ubuntu-themes (13.04daily13.03.05-0ubuntu1) raring; urgency=low
 
