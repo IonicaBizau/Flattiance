@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg3289"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="indicator_bluetooth-on_48x48px.svg">
+  <defs
+     id="defs3291">
+    <linearGradient
+       id="linearGradient3992">
+      <stop
+         style="stop-color:#b5b5b5;stop-opacity:1"
+         offset="0"
+         id="stop3994" />
+      <stop
+         style="stop-color:#dbdbdb;stop-opacity:1"
+         offset="1"
+         id="stop3996" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3992"
+       id="linearGradient3845"
+       gradientUnits="userSpaceOnUse"
+       x1="300"
+       y1="994.36218"
+       x2="300"
+       y2="978.36218"
+       gradientTransform="translate(8,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3992"
+       id="linearGradient3847"
+       gradientUnits="userSpaceOnUse"
+       x1="300"
+       y1="994.36218"
+       x2="300"
+       y2="984.36218"
+       gradientTransform="translate(-1,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3992"
+       id="linearGradient3851"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(17,0)"
+       x1="300"
+       y1="994.36218"
+       x2="300"
+       y2="972.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3992"
+       id="linearGradient3855"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(27,0)"
+       x1="298"
+       y1="966.36218"
+       x2="298"
+       y2="994.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3992"
+       id="linearGradient3835"
+       x1="76"
+       y1="41"
+       x2="76"
+       y2="7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(779,400)" />
+    <linearGradient
+       id="linearGradient3992-4">
+      <stop
+         style="stop-color:#b5b5b5;stop-opacity:1"
+         offset="0"
+         id="stop3994-98" />
+      <stop
+         style="stop-color:#dbdbdb;stop-opacity:1"
+         offset="1"
+         id="stop3996-8" />
+    </linearGradient>
+    <linearGradient
+       y2="7"
+       x2="76"
+       y1="41"
+       x1="76"
+       gradientTransform="translate(799.5,548)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3852"
+       xlink:href="#linearGradient3992-4"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.543122"
+     inkscape:cx="37.910658"
+     inkscape:cy="19.680731"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3000"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3061"
+       empspacing="8"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1004.3622)">
+    <g
+       style="display:inline"
+       transform="translate(-789,604.3622)"
+       id="g4451">
+      <g
+         id="indicator-bluetooth"
+         transform="translate(-59,-148)"
+         inkscape:label="#g4928">
+        <g
+           id="g3000">
+          <path
+             style="color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 19,9 c -6,0 -6,2 -6,9 l 0,12 c 0,7 0,9 6,9 l 10,0 c 6,0 6,-2 6,-9 l 0,-12 c 0,-7 0,-9 -6,-9 z m 4,2.09375 1.71875,1.6875 5,5 0.6875,0.71875 -0.6875,0.71875 L 25,23.9375 l 0,0.125 4.71875,4.71875 0.6875,0.71875 -0.6875,0.71875 -5,5 L 23,36.90625 23,34.5 23,25.9375 18.71875,30.21875 17.28125,28.78125 22.0625,24 17.28125,19.21875 18.71875,17.78125 23,22.0625 23,13.5 z m 2,4.84375 0,5.125 2.5625,-2.5625 z m 0,11 0,5.125 2.5625,-2.5625 z"
+             transform="translate(848,548)"
+             id="rect3013"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ssssssssscccccccccccccccccccccccccccccc" />
+          <rect
+             style="fill:none;stroke:none"
+             id="rect4926"
+             width="48"
+             height="48"
+             x="848"
+             y="548" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

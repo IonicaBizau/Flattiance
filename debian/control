@@ -49,3 +49,13 @@ Depends: ${misc:Depends},
 Description: Ubuntu themes and artwork
  This package contains the Distributor Logo and pulls in all the
  other components via Depends.
+
+Package: ubuntu-mobile-icons
+Architecture: all
+Depends: ${misc:Depends},
+         hicolor-icon-theme,
+Provides: ubuntu-mobile
+Conflicts: ubuntu-mobile
+Replaces: ubuntu-mobile
+Description: Ubuntu Mobile Icon theme
+ Ubuntu mobile icons used for phone and tablet applications and shell.
