@@ -1,8 +1,15 @@
-ubuntu-themes (13.04daily13.03.12-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04daily13.03.13.1-0ubuntu1) raring; urgency=low
 
+  [ Renato Araujo Oliveira Filho ]
   * Adding ubuntu-mobile-icons package
+  * [FFe] New ubuntu-mobile-icons package (LP: #1154047)
+  * integrate touch icon theme into normal ubuntu icon theme project
+    (LP: #1150011)
 
- -- Renato Araujo Oliveira Filho <renato@canonical.com>  Mon, 11 Mar 2013 10:03:18 -0300
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 281
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 13 Mar 2013 08:07:55 +0000
 
 ubuntu-themes (13.04daily13.03.12-0ubuntu1) raring; urgency=low
 
