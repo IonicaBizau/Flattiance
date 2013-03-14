@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="48"
-   height="48"
+   width="90"
+   height="90"
    id="svg3289"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="audio-volume-muted@18.svg">
+   sodipodi:docname="audio-volume-muted@30.svg">
   <defs
      id="defs3291">
     <linearGradient
@@ -58,9 +58,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.434498"
-     inkscape:cx="21.142793"
-     inkscape:cy="24.838156"
+     inkscape:zoom="24.28613"
+     inkscape:cx="33.963832"
+     inkscape:cy="44.686"
      inkscape:document-units="px"
      inkscape:current-layer="g4451"
      showgrid="true"
@@ -68,14 +68,20 @@
      inkscape:window-height="1029"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
        id="grid3785"
-       empspacing="8"
+       empspacing="6"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="0px"
+       originy="0px" />
   </sodipodi:namedview>
   <metadata
      id="metadata3294">
@@ -85,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -93,39 +99,38 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1004.3622)">
+     transform="translate(0,-962.3622)">
     <g
        style="display:inline"
        transform="translate(-789,604.3622)"
        id="g4451">
       <rect
-         y="400"
+         y="358"
          x="789"
-         height="48"
-         width="48"
+         height="90"
+         width="90"
          id="rect4453"
          style="fill:none;stroke:none" />
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
          id="path4455"
-         d="m 807,414 -5,5 0,10 5,5 z"
-         style="fill:#cccccc;fill-opacity:1;stroke:none;opacity:0.5" />
+         d="m 823,384 -10,10 0,18 10,10 z"
+         style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline" />
       <path
          sodipodi:nodetypes="ssssccs"
          inkscape:connector-curvature="0"
          id="path4457"
-         d="M 799.1875,419 C 797.1561,419 797,420.13692 797,422.54166 l 0,2.5 c 0,2.40478 0.20584,3.95834 2.1875,3.95834 l 1.8125,0 0,-10 z"
-         style="fill:#cccccc;fill-opacity:1;stroke:none;opacity:0.5" />
+         d="M 808.37501,394 C 804.31221,394 804,395.54974 804,400.18748 l 0,4.82143 c 0,4.6378 0.4117,6.99111 4.37501,6.99111 l 2.62499,0 L 811,394 z"
+         style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline" />
       <path
-         style="color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.25"
-         d="m 801,419 1,0 0,10 -1,0 z"
+         style="opacity:0.25;color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 811,394 2,0 0,18.00002 -2,0 z"
          id="rect4459"
          inkscape:connector-curvature="0" />
       <path
          style="opacity:0.5;color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="M 26,16.875 23.875,19 l 5,5 -5,5 2.125,2.125 5,-5 5,5 2.125,-2.125 -5,-5 5,-5 -2.125,-2.125 -5,5 z"
-         transform="translate(789,400)"
+         d="M 841.8772,390 838,393.8772 847.12281,403.00001 838,412.12282 841.8772,416 851,406.8772 860.12281,416 864,412.12282 854.87719,403.00001 864,393.8772 860.12281,390 851,399.12281 z"
          id="rect3019"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccccccc" />
