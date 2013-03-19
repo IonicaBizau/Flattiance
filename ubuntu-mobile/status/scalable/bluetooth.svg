@@ -14,8 +14,8 @@
    height="90"
    id="svg3289"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="bluetooth@30.svg">
+   inkscape:version="0.48+devel r12221"
+   sodipodi:docname="bluetooth.svg">
   <defs
      id="defs3291">
     <linearGradient
@@ -106,11 +106,11 @@
     </linearGradient>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath3824">
+       id="clipPath3824-3">
       <path
          style="opacity:0.58108108;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 205,183.36218 0,33 27,0 0,-33 -27,0 z m 12.5625,4.40625 1.60937,1.57812 4.6875,4.6875 0.64063,0.67188 -0.64063,0.67187 -4.42187,4.42188 0,0.125 4.42187,4.42187 0.64063,0.67188 -0.64063,0.67187 -4.6875,4.6875 -1.60937,1.57813 0,-2.25 0,-8.03125 -4.01563,4.01562 -1.34375,-1.34375 4.48438,-4.48437 -4.48438,-4.48438 1.34375,-1.34375 4.01563,4.01563 0,-8.03125 0,-2.25 z m 1.875,4.53125 0,4.8125 2.40625,-2.40625 -2.40625,-2.40625 z m 0,10.3125 0,4.8125 2.40625,-2.40625 -2.40625,-2.40625 z"
-         id="path3826"
+         d="m 205,183.36218 0,33 27,0 0,-33 L 205,183.36218 z m 12.5625,4.40625 1.60937,1.57812 4.6875,4.6875 0.64063,0.67188 -0.64063,0.67187 -4.42187,4.42188 0,0.125 4.42187,4.42187 0.64063,0.67188 -0.64063,0.67187 -4.6875,4.6875 -1.60937,1.57813 0,-2.25 0,-8.03125 -4.01563,4.01562 -1.34375,-1.34375 4.48438,-4.48437 -4.48438,-4.48438 1.34375,-1.34375 4.01563,4.01563 0,-8.03125 L 217.5625,187.76843 z m 1.875,4.53125 0,4.8125 2.40625,-2.40625 L 219.4375,192.29968 z m 0,10.3125 0,4.8125 2.40625,-2.40625 L 219.4375,202.61218 Z"
+         id="path3826-8"
          inkscape:connector-curvature="0" />
     </clipPath>
   </defs>
@@ -122,7 +122,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9580788"
-     inkscape:cx="50.596385"
+     inkscape:cx="31.684785"
      inkscape:cy="34.2545"
      inkscape:document-units="px"
      inkscape:current-layer="g4507"
@@ -181,12 +181,26 @@
            y="177.36218" />
         <path
            style="fill:#cccccc;fill-opacity:1;stroke:none"
-           d="m 218,184.86218 c -9,0 -10,0 -10,6 l 0,18 c 0,6 1,6 10,6 l 1,0 c 9,0 10,0 10,-6 l 0,-18 c 0,-6 -1,-6 -10,-6 z"
-           id="path3011"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccccccc"
-           clip-path="url(#clipPath3824)" />
+           clip-path="none"
+           d="M 44 15 C 26 15 24 15 24 27 L 24 63 C 24 75 26 75 44 75 L 46 75 C 64 75 66 75 66 63 L 66 27 C 66 15 64 15 46 15 L 44 15 z M 43.125 20.8125 L 46.34375 23.96875 L 55.71875 33.34375 L 57 34.6875 L 55.71875 36.03125 L 46.875 44.875 L 46.875 45.125 L 55.71875 53.96875 L 57 55.3125 L 55.71875 56.65625 L 46.34375 66.03125 L 43.125 69.1875 L 43.125 64.6875 L 43.125 48.625 L 35.09375 56.65625 L 32.40625 53.96875 L 41.375 45 L 32.40625 36.03125 L 35.09375 33.34375 L 43.125 41.375 L 43.125 25.3125 L 43.125 20.8125 z M 46.875 29.875 L 46.875 39.5 L 51.6875 34.6875 L 46.875 29.875 z M 46.875 50.5 L 46.875 60.125 L 51.6875 55.3125 L 46.875 50.5 z "
+           transform="matrix(0.5,0,0,0.5,196,177.36218)"
+           id="path3011" />
       </g>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Clips"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       transform="matrix(2,0,0,2,-392,-354.72436)"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline"
+       d="m 218,184.86218 c -9,0 -10,0 -10,6 l 0,18 c 0,6 1,6 10,6 l 1,0 c 9,0 10,0 10,-6 l 0,-18 C 229,184.86218 228,184.86218 219,184.86218 Z"
+       id="path3011-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       clip-path="url(#clipPath3824-3)" />
   </g>
 </svg>

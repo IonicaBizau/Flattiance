@@ -13,17 +13,17 @@
    height="89.999916"
    id="svg3140"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="browser-tabs@30.svg">
+   inkscape:version="0.48+devel r12221"
+   sodipodi:docname="browser-tabs.svg">
   <defs
      id="defs3142">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath2991">
+       id="clipPath2991-6">
       <path
          inkscape:connector-curvature="0"
-         id="path2993"
-         d="m 0,968.36224 0,83.99996 16.375,0 c -1.525081,-1.7576 -2.659363,-3.8737 -3.25,-6 -0.996189,-3.5863 -1.09375,-7.3341 -1.09375,-12 l 0,-35.99996 c 0,-4.66586 0.09756,-8.41372 1.09375,-12 0.996189,-3.58628 3.508218,-7.14653 6.90625,-9 C 26.827314,973.6553 34.5,974.39349 48,974.39349 l 6,0 c 10.951245,0 18.075349,-0.45164 24,1.34375 l 0,-7.375 z"
+         id="path2993-6"
+         d="m 0,968.36224 0,83.99996 16.375,0 c -1.525081,-1.7576 -2.659363,-3.8737 -3.25,-6 -0.996189,-3.5863 -1.09375,-7.3341 -1.09375,-12 l 0,-35.99996 c 0,-4.66586 0.09756,-8.41372 1.09375,-12 0.996189,-3.58628 3.508218,-7.14653 6.90625,-9 C 26.827314,973.6553 34.5,974.39349 48,974.39349 l 6,0 c 10.951245,0 18.075349,-0.45164 24,1.34375 L 78,968.36224 Z"
          style="color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:nodetypes="cccsssssssccc" />
     </clipPath>
@@ -36,7 +36,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9580785"
-     inkscape:cx="59.405042"
+     inkscape:cx="40.493442"
      inkscape:cy="46.041185"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -93,12 +93,31 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssssccccccccccc" />
     <path
+       style="fill:#808080;fill-opacity:1"
+       clip-path="none"
+       d="M 36 3 C 9 3 6 3 6 21 L 6 57 C 6 66.832056 6.912396 71.287967 12.125 73.3125 C 12.0753 71.948724 12.03125 70.535715 12.03125 69 L 12.03125 59 C 12.025251 58.336328 12 57.755904 12 57 L 12 21 C 12 9.2125951 12.128106 9.0036997 34.875 9 C 35.23445 8.9931669 35.629659 9.0037773 36 9 C 37.799144 8.9816497 39.909956 8.9816947 42 9 C 43.926219 9.0168704 45.780847 9.03125 48 9.03125 C 48.600427 9.0345189 49.376854 9.0255291 49.9375 9.03125 L 54 9.03125 C 60.798988 9.03125 66.116256 8.8586229 70.59375 9.15625 C 68.001835 3.0075081 60.874191 3 42 3 L 36 3 z "
+       transform="translate(0,962.36224)"
+       id="path3762" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Clips"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       d="m 18,32.99994 0,35.99992 c 0,18 3,18 30,18 l 6,0 c 27,0 30,0 30,-18 l 0,-35.99992 c 0,-18 -3,-18 -30,-18 l -6,0 C 21,14.99994 18,14.99994 18,32.99994 z m 30,-12 6,0 c 24,0 24,0 24,12 l 0,35.99992 c 0,12 0,12 -24,12 l -6,0 c -24,0 -24,0 -24,-12 L 24,32.99994 C 24,20.99994 24,20.99994 48,20.99994 Z"
+       id="path3759-8"
+       style="fill:#808080;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssssccccccccccc" />
+    <path
        sodipodi:nodetypes="cssssssccccccccccc"
        inkscape:connector-curvature="0"
        style="fill:#808080;fill-opacity:1"
-       id="path3762"
-       d="m 6,986.36218 0,35.99992 c 0,18 3,18 30,18 l 6,0 c 27,0 30,0 30,-18 l 0,-35.99992 c 0,-18 -3,-18 -30,-18 l -6,0 c -27,0 -30,0 -30,18 z m 30,-12 6,0 c 24,0 24,0 24,12 l 0,35.99992 c 0,12 0,12 -24,12 l -6,0 c -24,0 -24,0 -24,-12 l 0,-35.99992 c 0,-12 0,-12 24,-12 z"
-       clip-path="url(#clipPath2991)"
-       transform="translate(0,-3)" />
+       id="path3762-0"
+       d="m 6,986.36218 0,35.99992 c 0,18 3,18 30,18 l 6,0 c 27,0 30,0 30,-18 l 0,-35.99992 c 0,-18 -3,-18 -30,-18 l -6,0 C 9,968.36218 6,968.36218 6,986.36218 z m 30,-12 6,0 c 24,0 24,0 24,12 l 0,35.99992 c 0,12 0,12 -24,12 l -6,0 c -24,0 -24,0 -24,-12 l 0,-35.99992 C 12,974.36218 12,974.36218 36,974.36218 Z"
+       clip-path="url(#clipPath2991-6)"
+       transform="translate(0,-965.36224)" />
   </g>
 </svg>
