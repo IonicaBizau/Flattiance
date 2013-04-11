@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="90"
+   id="svg3140"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="edit@30.svg">
+  <defs
+     id="defs3142" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.259629"
+     inkscape:cx="90.378383"
+     inkscape:cy="40.541369"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3178"
+       empspacing="6"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="0px"
+       originy="-1.7382813e-05px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3145">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-962.36218)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#808080;stroke:none"
+       d="m 14.942852,1010.6204 a 2.6452116,2.6344441 45 0 0 -4.192087,1.2857 l -10.61999287,31.9717 a 2.6452116,2.6344441 45 0 0 3.35369047,3.3535 l 31.9717214,-10.6198 a 2.6452116,2.6344441 45 0 0 1.061987,-4.4158 l -0.726628,-0.7266 -21.854793,7.3222 -5.365894,-5.366 7.322214,-21.8547 -0.726628,-0.7267 a 2.6452116,2.6344441 45 0 0 -0.223537,-0.223 z"
+       id="path4157" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#808080;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 72.011262,968.08465 c -7.654068,-7.40964 -10.005134,-7.76937 -17.830386,0.0558 l -42.927073,42.92698 3.577254,3.5775 c 2.96359,-2.9637 6.567073,-4.1647 8.048841,-2.683 1.481768,1.4816 0.280643,5.0852 -2.682947,8.0489 2.96359,-2.9637 6.967448,-3.7643 8.943148,-1.7887 1.975673,1.9757 1.174949,5.9797 -1.78864,8.9432 2.963589,-2.9635 6.567046,-4.1649 8.048841,-2.683 1.481768,1.4817 0.280616,5.0854 -2.682946,8.0487 l 3.577253,3.5773 42.927073,-42.92696 c 8.943149,-8.94307 7.154508,-10.7319 -3.577254,-21.46352 -1.341487,-1.34149 -2.539294,-2.57519 -3.633164,-3.63314 z"
+       id="rect4148" />
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4198"
+       width="89.999954"
+       height="89.999954"
+       x="0"
+       y="962.36218" />
+    <rect
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3972-1"
+       width="21"
+       height="5.9999852"
+       x="69"
+       y="1016.3622" />
+    <rect
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3974-0"
+       width="36"
+       height="5.9999852"
+       x="54"
+       y="1031.3622" />
+    <rect
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3976-5"
+       width="51"
+       height="5.9999771"
+       x="39"
+       y="1046.3622" />
+  </g>
+</svg>
