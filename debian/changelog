@@ -1,3 +1,9 @@
+ubuntu-themes (13.04daily13.04.12-0ubuntu1) raring; urgency=low
+
+  * Automatic snapshot from revision 283
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 12 Apr 2013 00:02:22 +0000
+
 ubuntu-themes (13.04daily13.03.13.1-0ubuntu1) raring; urgency=low
 
   [ Renato Araujo Oliveira Filho ]
