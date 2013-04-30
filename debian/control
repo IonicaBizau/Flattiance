@@ -6,22 +6,23 @@ Build-Depends: debhelper (>= 9),
                icon-naming-utils,
                libmagickcore5-extra,
                python,
-               python-scour,
                python-rsvg,
+               python-scour,
 Standards-Version: 3.9.3
 Homepage: https://launchpad.net/ubuntu-themes
 # If you aren't a member of ~ubuntu-art-pkg but need to upload
 # packaging changes, just go ahead. ~ubuntu-art-pkg will notice
 # and sync up the code again.
 Vcs-Bzr: https://code.launchpad.net/~ubuntu-art-pkg/ubuntu-themes/trunk
+Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-themes/trunk
 
 Package: light-themes
 Architecture: all
-Depends: ${misc:Depends},
-         ubuntu-mono,
-         gtk2-engines-murrine (>= 0.90.3+git20100810),
+Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          gtk3-engines-unico (>= 1.0.1-0ubuntu2),
-         humanity-icon-theme
+         humanity-icon-theme,
+         ubuntu-mono,
+         ${misc:Depends},
 Description: Light Themes (Ambiance and Radiance)
  Includes matching Ambiance and Radiance themes
  .
@@ -32,30 +33,30 @@ Description: Light Themes (Ambiance and Radiance)
 
 Package: ubuntu-mono
 Architecture: all
-Depends: ${misc:Depends},
-         humanity-icon-theme,
-         gnome-icon-theme,
+Depends: gnome-icon-theme,
          hicolor-icon-theme,
+         humanity-icon-theme,
+         ${misc:Depends},
 Description: Ubuntu Mono Icon theme
  Dark and Light panel icons to make your desktop beautiful.
 
 Package: ubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends},
+Depends: adium-theme-ubuntu,
          light-themes,
          ubuntu-mono,
          ubuntu-wallpapers,
-         adium-theme-ubuntu,
+         ${misc:Depends},
 Description: Ubuntu themes and artwork
  This package contains the Distributor Logo and pulls in all the
  other components via Depends.
 
 Package: ubuntu-mobile-icons
 Architecture: all
-Depends: ${misc:Depends},
-         hicolor-icon-theme,
-Provides: ubuntu-mobile
-Conflicts: ubuntu-mobile
-Replaces: ubuntu-mobile
+Depends: hicolor-icon-theme,
+         ${misc:Depends},
+Provides: ubuntu-mobile,
+Conflicts: ubuntu-mobile,
+Replaces: ubuntu-mobile,
 Description: Ubuntu Mobile Icon theme
  Ubuntu mobile icons used for phone and tablet applications and shell.
