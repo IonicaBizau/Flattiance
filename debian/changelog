@@ -1,9 +1,15 @@
 ubuntu-themes (13.04daily13.04.12-0ubuntu2) UNRELEASED; urgency=low
 
+  [ Łukasz 'sil2100' Zemczak ]
   * debian/control, debian/rules:
     - Changes related to compliance to our packaging standards
 
- -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Tue, 30 Apr 2013 21:11:22 +0200
+  [ William Hua ]
+  * Ambiance/gtk-3.0/gtk-widgets.css:
+  * Radiance/gtk-3.0/gtk-widgets.css:
+    - Fix spacing in GtkModelMenuItem between icon and label.
+
+ -- William Hua <william.hua@canonical.com>  Wed, 08 May 2013 16:40:52 -0400
 
 ubuntu-themes (13.04daily13.04.12-0ubuntu1) raring; urgency=low
 
