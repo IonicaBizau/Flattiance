@@ -1,9 +1,13 @@
-ubuntu-themes (13.04daily13.04.12-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04daily13.05.20ubuntu.unity.next-0ubuntu1) raring; urgency=low
 
+  [ Łukasz 'sil2100' Zemczak ]
   * debian/control, debian/rules:
     - Changes related to compliance to our packaging standards
 
- -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Tue, 30 Apr 2013 21:11:22 +0200
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 285 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 20 May 2013 00:01:00 +0000
 
 ubuntu-themes (13.04daily13.04.12-0ubuntu1) raring; urgency=low
 
