@@ -4,6 +4,10 @@ NautilusWindow * {
     -GtkPaned-handle-size: 1;
 }
 
+NautilusDesktopWindow GtkWidget {
+    background-color: @transparent;
+}
+
 .nautilus-canvas-item {
     border-radius: 4px;
 }
