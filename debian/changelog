@@ -1,3 +1,9 @@
+ubuntu-themes (13.04daily13.05.30-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 287
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 30 May 2013 00:24:33 +0000
+
 ubuntu-themes (13.04daily13.05.29ubuntu.unity.next-0ubuntu1) saucy; urgency=low
 
   * Automatic snapshot from revision 286 (ubuntu-unity/next)
