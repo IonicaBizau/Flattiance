@@ -1,3 +1,13 @@
+ubuntu-themes (13.04daily13.05.31-0ubuntu1) saucy; urgency=low
+
+  [ Alexandre Belloni ]
+  * Fix desktop background not showing (LP: #1159430). (LP: #1159430)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 289
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 31 May 2013 00:03:23 +0000
+
 ubuntu-themes (13.04daily13.05.30-0ubuntu1) saucy; urgency=low
 
   * Automatic snapshot from revision 287
