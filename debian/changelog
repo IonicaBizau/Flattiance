@@ -1,3 +1,10 @@
+ubuntu-themes (13.04daily13.05.31-0ubuntu2) UNRELEASED; urgency=low
+
+  [ Xi Zhu ]
+  * Change GtkInfobar Error foreground & background colors to make them more readable. (LP: #1144611)
+
+ -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Tue, 04 Jun 2013 23:41:22 +0100
+
 ubuntu-themes (13.04daily13.05.31-0ubuntu1) saucy; urgency=low
 
   [ Alexandre Belloni ]
