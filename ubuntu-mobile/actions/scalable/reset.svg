@@ -14,7 +14,7 @@
    id="svg3140"
    version="1.1"
    inkscape:version="0.48+devel r12323"
-   sodipodi:docname="reload.svg">
+   sodipodi:docname="reset.svg">
   <defs
      id="defs3142">
     <clipPath
@@ -41,11 +41,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9580787"
-     inkscape:cx="31.358072"
-     inkscape:cy="50.590073"
+     inkscape:zoom="6.366463"
+     inkscape:cx="27.110816"
+     inkscape:cy="49.745013"
      inkscape:document-units="px"
-     inkscape:current-layer="g4978"
+     inkscape:current-layer="g3800"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -107,12 +107,12 @@
        id="g4978"
        transform="translate(-60,548.00002)">
       <g
-         id="g3800-3"
-         transform="matrix(-1.1111111,0,0,1.1111111,217.07643,-57.611595)">
+         id="g3800"
+         transform="matrix(1.1111111,0,0,1.1111111,-7.0764279,-57.611595)">
         <path
-           inkscape:transform-center-x="20.108997"
-           inkscape:transform-center-y="-14.607911"
-           transform="matrix(2.0991375,-2.0991375,2.1814876,2.1814876,-540.0134,303.38867)"
+           inkscape:transform-center-x="-14.503406"
+           inkscape:transform-center-y="-14.503404"
+           transform="matrix(1.8545001,-1.8545001,1.927253,1.927253,-470.04374,321.9407)"
            d="m 113.91548,179.14423 c -0.52479,0.30299 -8.74643,-4.44378 -8.74643,-5.04975 0,-0.60597 8.22164,-5.35273 8.74643,-5.04975 C 114.44026,169.34772 114.44026,178.84125 113.91548,179.14423 Z"
            inkscape:randomized="0"
            inkscape:rounded="0.06"
@@ -124,22 +124,32 @@
            sodipodi:cy="174.09448"
            sodipodi:cx="111"
            sodipodi:sides="3"
-           id="path4984-9"
+           id="path4984"
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            sodipodi:type="star" />
         <path
            style="font-size:xx-small;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:10.17391396;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
            d="m 98.43056,430.27049 c -11.246589,0.80167 -21.922015,6.99905 -27.964897,17.46563 l 7.016105,4.03053 c 7.479828,-12.95545 23.941312,-17.35712 36.896752,-9.87729 12.95544,7.47983 17.35711,23.94131 9.87728,36.89676 -7.47982,12.95544 -23.94131,17.35711 -36.896749,9.87728 -2.043449,-1.17979 -3.904608,-2.63574 -5.573077,-4.30421 l -5.747235,5.74724 c 2.168999,2.169 4.633313,4.03936 7.289783,5.57307 16.746528,9.66862 38.274778,3.88367 47.943388,-12.86286 9.66861,-16.74652 3.88367,-38.27477 -12.86286,-47.94338 C 112.1291,431.24753 105.17852,429.78949 98.43056,430.27049 Z"
-           id="path2992-4"
+           id="path2992"
            inkscape:connector-curvature="0" />
         <rect
            style="color:#000000;fill:none;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect3049-4"
+           id="rect3049"
            width="90"
            height="90"
            x="0"
            y="1.7382814e-05"
            transform="matrix(0.90000001,0,0,0.90000001,60.368786,424.77638)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path830"
+           sodipodi:cx="45"
+           sodipodi:cy="45.000019"
+           sodipodi:rx="8"
+           sodipodi:ry="8"
+           d="m 53,45.000019 a 8,8 0 1 1 -16,0 A 8,8 0 1 1 53,45.000019 Z"
+           transform="matrix(1.35,0,0,1.35,40.118785,404.52637)" />
       </g>
     </g>
   </g>
