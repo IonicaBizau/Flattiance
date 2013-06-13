@@ -1,3 +1,16 @@
+ubuntu-themes (13.04daily13.06.13-0ubuntu1) saucy; urgency=low
+
+  [ Matthieu James ]
+  * This update of the the mobile icon theme is focused on action icons:
+    along with a few new icons, some tweaks to improve the general look
+    and feel of the theme and make the icons compliant with the new
+    behavior of the search fields. .
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 293
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 13 Jun 2013 00:03:01 +0000
+
 ubuntu-themes (13.04daily13.06.12-0ubuntu1) saucy; urgency=low
 
   [ Xi Zhu ]
