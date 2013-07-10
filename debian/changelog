@@ -1,3 +1,9 @@
+ubuntu-themes (13.04daily13.06.13-0ubuntu2) UNRELEASED; urgency=low
+
+  * Restore padding between texts 'Applications' and 'Places' in gnome-panel, currently there is no space running gnome-session-fashback. 
+
+ -- Alberts Muktupavels <alberts.muktupavels@gmail.com>  Wed, 10 Jul 2013 19:35:48 +0300
+
 ubuntu-themes (13.04daily13.06.13-0ubuntu1) saucy; urgency=low
 
   [ Matthieu James ]
