@@ -1,10 +1,14 @@
-ubuntu-themes (13.04daily13.06.13-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04+13.10.20130712-0ubuntu1) saucy; urgency=low
 
+  [ Dmitrijs Ledkovs ]
   * Gtk+ 3 got fixed, and now actually started to honour link color, which
     was defined as light blue. But orange links have grown on us
     already. Thus defining link colour to be orange. (LP: #1187327)
 
- -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Thu, 11 Jul 2013 13:54:15 +0100
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 295
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 12 Jul 2013 00:02:31 +0000
 
 ubuntu-themes (13.04daily13.06.13-0ubuntu1) saucy; urgency=low
 
