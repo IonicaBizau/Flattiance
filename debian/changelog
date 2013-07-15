@@ -10,6 +10,12 @@ ubuntu-themes (13.04+13.10.20130712-0ubuntu1) saucy; urgency=low
 
  -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 12 Jul 2013 00:02:31 +0000
 
+ubuntu-themes (13.04daily13.06.13-0ubuntu2) UNRELEASED; urgency=low
+
+  * Add indicator-keyboard icons.
+
+ -- William Hua <william.hua@canonical.com>  Tue, 18 Jun 2013 13:24:35 -0400
+
 ubuntu-themes (13.04daily13.06.13-0ubuntu1) saucy; urgency=low
 
   [ Matthieu James ]
