@@ -383,16 +383,22 @@
 }*/
 
 .primary-toolbar .menu .check,
+.menubar.toolbar .menu .check,
+.header-bar .menu .check,
 .menu .check {
     background-image: url("assets/check-menuitem-unselected.png");
 }
 
 .primary-toolbar .menu .radio,
+.menubar.toolbar .menu .radio,
+.header-bar .menu .radio,
 .menu .radio {
     background-image: url("assets/check-menuitem-unselected.png");
 }
 
 .primary-toolbar .menu .check:active,
+.menubar.toolbar .menu .check:active,
+.header-bar .menu .check:active,
 .toolbar .menu .check:active:hover,
 .menu .check:active,
 .menu .check:active:hover {
@@ -400,6 +406,8 @@
 }
 
 .primary-toolbar .menu .check:active:insensitive,
+.menubar.toolbar .menu .check:active:insensitive,
+.header-bar .menu .check:active:insensitive,
 .toolbar .menu .check:active:hover:insensitive,
 .menu .check:active:insensitive,
 .menu .check:active:hover:insensitive {
@@ -407,6 +415,8 @@
 }
 
 .primary-toolbar .menu .radio:active,
+.menubar.toolbar .menu .radio:active,
+.header-bar .menu .radio:active,
 .toolbar .menu .radio:active:hover,
 .menu .radio:active,
 .menu .radio:active:hover {
@@ -414,6 +424,8 @@
 }
 
 .primary-toolbar .menu .radio:active:insensitive,
+.menubar.toolbar .menu .radio:active:insensitive,
+.header-bar .menu .radio:active:insensitive,
 .toolbar .menu .radio:active:hover:insensitive,
 .menu .radio:active:insensitive,
 .menu .radio:active:hover:insensitive {

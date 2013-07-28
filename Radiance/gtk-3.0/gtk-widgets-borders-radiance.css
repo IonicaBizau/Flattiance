@@ -1,32 +1,48 @@
-.primary-toolbar .button {
+.primary-toolbar .button,
+.menubar.toolbar .button,
+.header-bar .button {
     border-image: url("assets/radiance-button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:focused {
+.primary-toolbar .button:focused,
+.menubar.toolbar .button:focused,
+.header-bar .button:focused {
     border-image: url("assets/radiance-button-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active {
+.primary-toolbar .button:active,
+.menubar.toolbar .button:active,
+.header-bar .button:active {
     border-image: url("assets/radiance-button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active:focused {
+.primary-toolbar .button:active:focused,
+.menubar.toolbar .button:active:focused,
+.header-bar .button:active:focused {
     border-image: url("assets/radiance-button-toolbar-active-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:backdrop {
+.primary-toolbar .button:backdrop,
+.menubar.toolbar .button:backdrop,
+.header-bar .button:backdrop {
     border-image: url("assets/radiance-backdrop-button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active:backdrop {
+.primary-toolbar .button:active:backdrop,
+.menubar.toolbar .button:active:backdrop,
+.header-bar .button:active:backdrop {
     border-image: url("assets/radiance-backdrop-button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .entry {
+.primary-toolbar .entry,
+.menubar.toolbar .entry,
+.header-bar .entry {
     border-image: url("assets/radiance-entry-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .entry:focus {
+.primary-toolbar .entry:focus,
+.menubar.toolbar .entry:focus,
+.header-bar .entry:focus {
     border-image: url("assets/radiance-entry-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
