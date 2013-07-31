@@ -1,15 +1,82 @@
-ubuntu-themes (13.04daily13.04.12-0ubuntu2) UNRELEASED; urgency=low
+ubuntu-themes (13.04+13.10.20130716-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 297
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 16 Jul 2013 00:02:01 +0000
+
+ubuntu-themes (13.04+13.10.20130712-0ubuntu1) saucy; urgency=low
+
+  [ Dmitrijs Ledkovs ]
+  * Gtk+ 3 got fixed, and now actually started to honour link color, which
+    was defined as light blue. But orange links have grown on us
+    already. Thus defining link colour to be orange. (LP: #1187327)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 295
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 12 Jul 2013 00:02:31 +0000
+
+ubuntu-themes (13.04daily13.06.13-0ubuntu2) UNRELEASED; urgency=low
+
+  * Add indicator-keyboard icons.
+
+ -- William Hua <william.hua@canonical.com>  Tue, 18 Jun 2013 13:24:35 -0400
+
+ubuntu-themes (13.04daily13.06.13-0ubuntu1) saucy; urgency=low
+
+  [ Matthieu James ]
+  * This update of the the mobile icon theme is focused on action icons:
+    along with a few new icons, some tweaks to improve the general look
+    and feel of the theme and make the icons compliant with the new
+    behavior of the search fields. .
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 293
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 13 Jun 2013 00:03:01 +0000
+
+ubuntu-themes (13.04daily13.06.12-0ubuntu1) saucy; urgency=low
+
+  [ Xi Zhu ]
+  * Change GtkInfobar Error foreground & background colors to make them more readable. (LP: #1144611)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 291
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 12 Jun 2013 00:02:55 +0000
+
+ubuntu-themes (13.04daily13.05.31-0ubuntu1) saucy; urgency=low
+
+  [ Alexandre Belloni ]
+  * Fix desktop background not showing (LP: #1159430). (LP: #1159430)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 289
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 31 May 2013 00:03:23 +0000
+
+ubuntu-themes (13.04daily13.05.30-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 287
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 30 May 2013 00:24:33 +0000
+
+ubuntu-themes (13.04daily13.05.29ubuntu.unity.next-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 286 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 29 May 2013 16:55:47 +0000
+
+ubuntu-themes (13.04daily13.05.20ubuntu.unity.next-0ubuntu1) raring; urgency=low
 
   [ Łukasz 'sil2100' Zemczak ]
   * debian/control, debian/rules:
     - Changes related to compliance to our packaging standards
 
-  [ William Hua ]
-  * Ambiance/gtk-3.0/gtk-widgets.css:
-  * Radiance/gtk-3.0/gtk-widgets.css:
-    - Fix spacing in GtkModelMenuItem between icon and label.
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 285 (ubuntu-unity/next)
 
- -- William Hua <william.hua@canonical.com>  Wed, 08 May 2013 16:40:52 -0400
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 20 May 2013 00:01:00 +0000
 
 ubuntu-themes (13.04daily13.04.12-0ubuntu1) raring; urgency=low
 
