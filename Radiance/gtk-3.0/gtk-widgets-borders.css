@@ -110,27 +110,39 @@ GtkSwitch.trough:active {
     border-image: url("assets/button-default-focused-hover.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button {
+.primary-toolbar .button,
+.menubar.toolbar .button,
+.header-bar .button {
     border-image: url("assets/button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:focused {
+.primary-toolbar .button:focused,
+.menubar.toolbar .button:focused,
+.header-bar .button:focused {
     border-image: url("assets/button-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active {
+.primary-toolbar .button:active,
+.menubar.toolbar .button:active,
+.header-bar .button:active {
     border-image: url("assets/button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active:focused {
+.primary-toolbar .button:active:focused,
+.menubar.toolbar .button:active:focused,
+.header-bar .button:active:focused {
     border-image: url("assets/button-toolbar-active-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:backdrop {
+.primary-toolbar .button:backdrop,
+.menubar.toolbar .button:backdrop,
+.header-bar .button:backdrop {
     border-image: url("assets/backdrop-button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .button:active:backdrop {
+.primary-toolbar .button:active:backdrop,
+.menubar.toolbar .button:active:backdrop,
+.header-bar .button:active:backdrop {
     border-image: url("assets/backdrop-button-toolbar-active.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
@@ -176,16 +188,24 @@ GtkSwitch.trough:active {
     border-image: url("assets/backdrop-entry-disabled.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .entry {
+.primary-toolbar .entry,
+.menubar.toolbar .entry,
+.header-bar .entry {
     border-image: url("assets/entry-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar .entry:focus {
+.primary-toolbar .entry:focus,
+.menubar.toolbar .entry:focus,
+.header-bar .entry:focus {
     border-image: url("assets/entry-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 .primary-toolbar .entry.progressbar,
 .primary-toolbar .entry.progressbar,
+.menubar.toolbar .entry.progressbar,
+.menubar.toolbar .entry.progressbar,
+.header-bar .entry.progressbar,
+.header-bar .entry.progressbar,
 .entry.progressbar {
     border-radius: 8px;
     border-width: 0;
@@ -233,14 +253,22 @@ GtkComboBox.combobox-entry .button:active:focus {
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .entry:first-child,
-.primary-toolbar GtkComboBox.combobox-entry .button:first-child {
+.primary-toolbar GtkComboBox.combobox-entry .button:first-child,
+.menubar.toolbar GtkComboBox.combobox-entry .entry:first-child,
+.menubar.toolbar GtkComboBox.combobox-entry .button:first-child,
+.header-bar GtkComboBox.combobox-entry .entry:first-child,
+.header-bar GtkComboBox.combobox-entry .button:first-child {
     border-image-width: 10px 0 10px 12px;
     border-radius: 8px 0 0 8px;
     border-right-width: 0;
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .entry:last-child,
-.primary-toolbar GtkComboBox.combobox-entry .button:last-child {
+.primary-toolbar GtkComboBox.combobox-entry .button:last-child,
+.menubar.toolbar GtkComboBox.combobox-entry .entry:last-child,
+.menubar.toolbar GtkComboBox.combobox-entry .button:last-child,
+.header-bar GtkComboBox.combobox-entry .entry:last-child,
+.header-bar GtkComboBox.combobox-entry .button:last-child {
     border-image-width: 10px 12px 10px 0;
     border-radius: 0 8px 8px 0;
     border-left-width: 0;
@@ -265,6 +293,22 @@ GtkComboBox.combobox-entry .button:active:focus {
 .primary-toolbar .raised .button:active,
 .primary-toolbar .button.raised:insensitive,
 .primary-toolbar .raised .button:insensitive,
+.menubar.toolbar .entry,
+.menubar.toolbar GtkComboBox.combobox-entry .entry,
+.menubar.toolbar GtkComboBox.combobox-entry .button,
+.menubar.toolbar .button:active,
+.menubar.toolbar .button.raised:active,
+.menubar.toolbar .raised .button:active,
+.menubar.toolbar .button.raised:insensitive,
+.menubar.toolbar .raised .button:insensitive,
+.header-bar .entry,
+.header-bar GtkComboBox.combobox-entry .entry,
+.header-bar GtkComboBox.combobox-entry .button,
+.header-bar .button:active,
+.header-bar .button.raised:active,
+.header-bar .raised .button:active,
+.header-bar .button.raised:insensitive,
+.header-bar .raised .button:insensitive,
 .inline-toolbar.toolbar .button:active,
 .inline-toolbar.toolbar .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton .button:active,
@@ -272,7 +316,15 @@ GtkComboBox.combobox-entry .button:active:focus {
 .primary-toolbar GtkSwitch.trough,
 .primary-toolbar GtkSwitch.trough:insensitive,
 .primary-toolbar GtkComboBox .button:active,
-.primary-toolbar GtkComboBox .button:insensitive {
+.primary-toolbar GtkComboBox .button:insensitive,
+.menubar.toolbar GtkSwitch.trough,
+.header-bar GtkSwitch.trough,
+.menubar.toolbar GtkSwitch.trough:insensitive,
+.header-bar GtkSwitch.trough:insensitive,
+.menubar.toolbar GtkComboBox .button:active,
+.header-bar GtkComboBox .button:active,
+.menubar.toolbar GtkComboBox .button:insensitive,
+.header-bar GtkComboBox .button:insensitive {
 }
 
 /* primary toolbar - focused element borders */
@@ -284,16 +336,40 @@ GtkComboBox.combobox-entry .button:active:focus {
 .primary-toolbar .raised .button:focus:active,
 .primary-toolbar .button.raised.default:active,
 .primary-toolbar .raised .button.default:active,
+.menubar.toolbar .entry:focus,
+.menubar.toolbar .button:active:focus,
+.menubar.toolbar GtkComboBox.combobox-entry .entry:focus,
+.menubar.toolbar GtkComboBox.combobox-entry .button:focus,
+.menubar.toolbar .button.raised:focus:active,
+.menubar.toolbar .raised .button:focus:active,
+.menubar.toolbar .button.raised.default:active,
+.menubar.toolbar .raised .button.default:active,
+.header-bar .entry:focus,
+.header-bar .button:active:focus,
+.header-bar GtkComboBox.combobox-entry .entry:focus,
+.header-bar GtkComboBox.combobox-entry .button:focus,
+.header-bar .button.raised:focus:active,
+.header-bar .raised .button:focus:active,
+.header-bar .button.raised.default:active,
+.header-bar .raised .button.default:active,
 .inline-toolbar.toolbar .button:focus:active,
 .inline-toolbar.toolbar .button.default:active,
-.primary-toolbar GtkComboBox .button:active:focus {
+.primary-toolbar GtkComboBox .button:active:focus,
+.menubar.toolbar GtkComboBox .button:active:focus,
+.header-bar GtkComboBox .button:active:focus {
 }
 
 /* primary toolbar - generic button borders */
 .primary-toolbar .button.raised,
 .primary-toolbar .raised .button,
+.menubar.toolbar .button.raised,
+.menubar.toolbar .raised .button,
+.header-bar .button.raised,
+.header-bar .raised .button,
 .inline-toolbar.toolbar .button,
-.primary-toolbar GtkComboBox .button {
+.primary-toolbar GtkComboBox .button,
+.menubar.toolbar GtkComboBox .button,
+.header-bar GtkComboBox .button {
 }
 
 /* primary toolbar - focused button borders */
@@ -301,9 +377,19 @@ GtkComboBox.combobox-entry .button:active:focus {
 .primary-toolbar .button.raised.default,
 .primary-toolbar .raised .button:focus,
 .primary-toolbar .raised .button.default,
+.menubar.toolbar .button.raised:focus,
+.menubar.toolbar .button.raised.default,
+.menubar.toolbar .raised .button:focus,
+.menubar.toolbar .raised .button.default,
+.header-bar .button.raised:focus,
+.header-bar .button.raised.default,
+.header-bar .raised .button:focus,
+.header-bar .raised .button.default,
 .inline-toolbar.toolbar .button:focus,
 .inline-toolbar.toolbar .button.default,
-.primary-toolbar GtkComboBox .button:focus {
+.primary-toolbar GtkComboBox .button:focus,
+.menubar.toolbar GtkComboBox .button:focus,
+.header-bar GtkComboBox .button:focus {
 }
 
 /* column-headers borders */
@@ -398,11 +484,15 @@ GtkSwitch.trough:active {
     border-image: url("assets/switch-trough-on.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar GtkSwitch.trough {
+.primary-toolbar GtkSwitch.trough,
+.menubar.toolbar GtkSwitch.trough,
+.header-bar GtkSwitch.trough {
     border-image: url("assets/switch-trough-toolbar-off.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar GtkSwitch.trough:active {
+.primary-toolbar GtkSwitch.trough:active,
+.menubar.toolbar GtkSwitch.trough:active,
+.header-bar GtkSwitch.trough:active {
     border-image: url("assets/switch-trough-toolbar-on.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 

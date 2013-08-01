@@ -250,7 +250,17 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar .linked .button:backdrop,
 .primary-toolbar .linked .button:active:backdrop,
 .primary-toolbar .linked .button:active:hover:backdrop,
-.primary-toolbar .linked .button:insensitive:backdrop {
+.primary-toolbar .linked .button:insensitive:backdrop,
+.menubar.toolbar .linked .entry:backdrop,
+.menubar.toolbar .linked .button:backdrop,
+.menubar.toolbar .linked .button:active:backdrop,
+.menubar.toolbar .linked .button:active:hover:backdrop,
+.menubar.toolbar .linked .button:insensitive:backdrop,
+.header-bar .linked .entry:backdrop,
+.header-bar .linked .button:backdrop,
+.header-bar .linked .button:active:backdrop,
+.header-bar .linked .button:active:hover:backdrop,
+.header-bar .linked .button:insensitive:backdrop {
     border-width: 1px;
     border-right-width: 0;
 
@@ -269,7 +279,17 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar .linked .button:first-child:backdrop,
 .primary-toolbar .linked .button:active:first-child:backdrop,
 .primary-toolbar .linked .button:active:hover:first-child:backdrop,
-.primary-toolbar .linked .button:insensitive:first-child:backdrop {
+.primary-toolbar .linked .button:insensitive:first-child:backdrop,
+.menubar.toolbar .linked .entry:first-child:backdrop,
+.menubar.toolbar .linked .button:first-child:backdrop,
+.menubar.toolbar .linked .button:active:first-child:backdrop,
+.menubar.toolbar .linked .button:active:hover:first-child:backdrop,
+.menubar.toolbar .linked .button:insensitive:first-child:backdrop,
+.header-bar .linked .entry:first-child:backdrop,
+.header-bar .linked .button:first-child:backdrop,
+.header-bar .linked .button:active:first-child:backdrop,
+.header-bar .linked .button:active:hover:first-child:backdrop,
+.header-bar .linked .button:insensitive:first-child:backdrop {
     border-width: 1px;
     border-right-width: 0;
 
@@ -290,7 +310,17 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar .linked .button:last-child:backdrop,
 .primary-toolbar .linked .button:active:last-child:backdrop,
 .primary-toolbar .linked .button:active:hover:last-child:backdrop,
-.primary-toolbar .linked .button:insensitive:last-child:backdrop {
+.primary-toolbar .linked .button:insensitive:last-child:backdrop,
+.menubar.toolbar .linked .entry:last-child:backdrop,
+.menubar.toolbar .linked .button:last-child:backdrop,
+.menubar.toolbar .linked .button:active:last-child:backdrop,
+.menubar.toolbar .linked .button:active:hover:last-child:backdrop,
+.menubar.toolbar .linked .button:insensitive:last-child:backdrop,
+.header-bar .linked .entry:last-child:backdrop,
+.header-bar .linked .button:last-child:backdrop,
+.header-bar .linked .button:active:last-child:backdrop,
+.header-bar .linked .button:active:hover:last-child:backdrop,
+.header-bar .linked .button:insensitive:last-child:backdrop {
     border-width: 1px;
 
     border-radius: 3px;
@@ -310,7 +340,17 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar .linked .button:only-child:backdrop,
 .primary-toolbar .linked .button:active:only-child:backdrop,
 .primary-toolbar .linked .button:active:hover:only-child:backdrop,
-.primary-toolbar .linked .button:insensitive:only-child:backdrop {
+.primary-toolbar .linked .button:insensitive:only-child:backdrop,
+.menubar.toolbar .linked .entry:only-child:backdrop,
+.menubar.toolbar .linked .button:only-child:backdrop,
+.menubar.toolbar .linked .button:active:only-child:backdrop,
+.menubar.toolbar .linked .button:active:hover:only-child:backdrop,
+.menubar.toolbar .linked .button:insensitive:only-child:backdrop,
+.header-bar .linked .entry:only-child:backdrop,
+.header-bar .linked .button:only-child:backdrop,
+.header-bar .linked .button:active:only-child:backdrop,
+.header-bar .linked .button:active:hover:only-child:backdrop,
+.header-bar .linked .button:insensitive:only-child:backdrop {
     border-width: 1px;
 
     border-radius: 3px;
@@ -592,6 +632,10 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop {
 
 .primary-toolbar .entry.progressbar:backdrop,
 .primary-toolbar .entry.progressbar:backdrop,
+.menubar.toolbar .entry.progressbar:backdrop,
+.menubar.toolbar .entry.progressbar:backdrop,
+.header-bar .entry.progressbar:backdrop,
+.header-bar .entry.progressbar:backdrop,
 .entry.progressbar:backdrop {
 }
 
@@ -839,7 +883,9 @@ GtkScrolledWindow.frame:backdrop {
 }
 
 .menubar .menuitem.separator:backdrop,
-.primary-toolbar .menuitem.separator:backdrop {
+.primary-toolbar .menuitem.separator:backdrop,
+.menubar.toolbar .menuitem.separator:backdrop,
+.header-bar .menuitem.separator:backdrop {
 }
 
 /***********
@@ -897,7 +943,11 @@ GtkScrolledWindow.frame:backdrop {
  ***********/
 .menu.spinner:backdrop,
 .primary-toolbar .spinner:backdrop,
-.primary-toolbar .spinner:backdrop {
+.primary-toolbar .spinner:backdrop,
+.menubar.toolbar .spinner:backdrop,
+.menubar.toolbar .spinner:backdrop,
+.header-bar .spinner:backdrop,
+.header-bar .spinner:backdrop {
     color: @backdrop_selected_bg_color;
 }
 
@@ -1003,7 +1053,11 @@ GtkTextView:backdrop {
 /* primary-toolbar */
 .primary-toolbar:backdrop,
 .primary-toolbar .toolbar:backdrop,
-.primary-toolbar.toolbar:backdrop {
+.primary-toolbar.toolbar:backdrop,
+.menubar.toolbar .toolbar:backdrop,
+.menubar.toolbar.toolbar:backdrop,
+.header-bar .toolbar:backdrop,
+.header-bar.toolbar:backdrop {
     background-color: @dark_bg_color;
     background-image: none;
     border-bottom-color: shade (@dark_bg_color, 0.94);
@@ -1019,13 +1073,21 @@ GtkTextView:backdrop {
     -unico-inner-stroke-width: 0;
 }
 
-.primary-toolbar :insensitive:backdrop {
+.primary-toolbar :insensitive:backdrop,
+.menubar.toolbar :insensitive:backdrop,
+.header-bar :insensitive:backdrop {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.82);
 }
 
 .primary-toolbar GtkComboBox:backdrop,
 .primary-toolbar .button *:backdrop,
-.primary-toolbar .button:backdrop {
+.primary-toolbar .button:backdrop,
+.menubar.toolbar GtkComboBox:backdrop,
+.menubar.toolbar .button *:backdrop,
+.menubar.toolbar .button:backdrop,
+.header-bar GtkComboBox:backdrop,
+.header-bar .button *:backdrop,
+.header-bar .button:backdrop {
     background-color: @transparent;
     background-image: none;
     border-color: @transparent;
@@ -1050,7 +1112,9 @@ GtkTextView:backdrop {
     -unico-outer-stroke-width: 0;
 }
 
-.primary-toolbar .button *:hover:backdrop {
+.primary-toolbar .button *:hover:backdrop,
+.menubar.toolbar .button *:hover:backdrop,
+.header-bar .button *:hover:backdrop {
     color: shade (shade (#a39e9a, 0.86), 1.1);
 }
 
@@ -1058,7 +1122,17 @@ GtkTextView:backdrop {
 .primary-toolbar .raised.button:backdrop,
 .primary-toolbar .button:hover:backdrop,
 .primary-toolbar .button:active:backdrop,
-.primary-toolbar .button:insensitive:backdrop {
+.primary-toolbar .button:insensitive:backdrop,
+.menubar.toolbar .raised .button:backdrop,
+.menubar.toolbar .raised.button:backdrop,
+.menubar.toolbar .button:hover:backdrop,
+.menubar.toolbar .button:active:backdrop,
+.menubar.toolbar .button:insensitive:backdrop,
+.header-bar .raised .button:backdrop,
+.header-bar .raised.button:backdrop,
+.header-bar .button:hover:backdrop,
+.header-bar .button:active:backdrop,
+.header-bar .button:insensitive:backdrop {
     border-width: 1px;
 
     /* This breaks Gtk+ 3.5.x, lp #1015497. */
@@ -1076,7 +1150,9 @@ GtkTextView:backdrop {
     -unico-outer-stroke-width: 1px;
 }
 
-.primary-toolbar GtkComboBox.combobox-entry .button:backdrop {
+.primary-toolbar GtkComboBox.combobox-entry .button:backdrop,
+.menubar.toolbar GtkComboBox.combobox-entry .button:backdrop,
+.header-bar GtkComboBox.combobox-entry .button:backdrop {
     -unico-inner-stroke-width: 1px;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@dark_bg_color, 1.01)),
@@ -1086,7 +1162,15 @@ GtkTextView:backdrop {
 .primary-toolbar GtkComboBox.combobox-entry .button:backdrop,
 .primary-toolbar .raised .button:backdrop,
 .primary-toolbar .raised.button:backdrop,
-.primary-toolbar .button:hover:backdrop {
+.primary-toolbar .button:hover:backdrop,
+.menubar.toolbar GtkComboBox.combobox-entry .button:backdrop,
+.menubar.toolbar .raised .button:backdrop,
+.menubar.toolbar .raised.button:backdrop,
+.menubar.toolbar .button:hover:backdrop,
+.header-bar GtkComboBox.combobox-entry .button:backdrop,
+.header-bar .raised .button:backdrop,
+.header-bar .raised.button:backdrop,
+.header-bar .button:hover:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.06)),
                                      to (shade (@dark_bg_color, 0.98)));
@@ -1100,7 +1184,9 @@ GtkTextView:backdrop {
                                                  to (shade (@dark_bg_color, 1.02)));
 }
 
-.primary-toolbar .button:active:backdrop {
+.primary-toolbar .button:active:backdrop,
+.menubar.toolbar .button:active:backdrop,
+.header-bar .button:active:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
@@ -1115,7 +1201,9 @@ GtkTextView:backdrop {
                                                  to (shade (@dark_bg_color, 0.93)))
 }
 
-.primary-toolbar .button:active:hover:backdrop {
+.primary-toolbar .button:active:hover:backdrop,
+.menubar.toolbar .button:active:hover:backdrop,
+.header-bar .button:active:hover:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.95)),
                                      to (shade (@dark_bg_color, 1.0)));
@@ -1129,7 +1217,11 @@ GtkTextView:backdrop {
 }
 
 .primary-toolbar .button:active:insensitive:backdrop,
-.primary-toolbar .button:insensitive:backdrop {
+.primary-toolbar .button:insensitive:backdrop,
+.menubar.toolbar .button:active:insensitive:backdrop,
+.menubar.toolbar .button:insensitive:backdrop,
+.header-bar .button:active:insensitive:backdrop,
+.header-bar .button:insensitive:backdrop {
     text-shadow: none;
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
@@ -1141,7 +1233,9 @@ GtkTextView:backdrop {
                                                  to (shade (@dark_bg_color, 1.06)));
 }
 
-.primary-toolbar .button:insensitive:backdrop {
+.primary-toolbar .button:insensitive:backdrop,
+.menubar.toolbar .button:insensitive:backdrop,
+.header-bar .button:insensitive:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.01)),
                                      to (shade (@dark_bg_color, 0.99)));
@@ -1151,7 +1245,9 @@ GtkTextView:backdrop {
                                                  to (shade (@dark_bg_color, 1.04)));
 }
 
-.primary-toolbar .button:active:insensitive:backdrop {
+.primary-toolbar .button:active:insensitive:backdrop,
+.menubar.toolbar .button:active:insensitive:backdrop,
+.header-bar .button:active:insensitive:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
@@ -1163,7 +1259,13 @@ GtkTextView:backdrop {
 
 .primary-toolbar .entry:backdrop,
 .primary-toolbar .entry:active:backdrop,
-.primary-toolbar .entry:focused:backdrop {
+.primary-toolbar .entry:focused:backdrop,
+.menubar.toolbar .entry:backdrop,
+.menubar.toolbar .entry:active:backdrop,
+.menubar.toolbar .entry:focused:backdrop,
+.header-bar .entry:backdrop,
+.header-bar .entry:active:backdrop,
+.header-bar .entry:focused:backdrop {
     border-radius: 3px;
 
     color: @text_color;
@@ -1174,7 +1276,9 @@ GtkTextView:backdrop {
                                                  to (shade (@dark_bg_color, 1.06)));
 }
 
-.primary-toolbar .entry:backdrop {
+.primary-toolbar .entry:backdrop,
+.menubar.toolbar .entry:backdrop,
+.header-bar .entry:backdrop {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.75)),
                                            to (shade (@dark_bg_color, 0.95)));
@@ -1183,14 +1287,18 @@ GtkTextView:backdrop {
                                                  to (alpha (shade (@bg_color, 0.05), 0.01)));
 }
 
-.primary-toolbar .entry:insensitive:backdrop {
+.primary-toolbar .entry:insensitive:backdrop,
+.menubar.toolbar .entry:insensitive:backdrop,
+.header-bar .entry:insensitive:backdrop {
     -unico-outer-stroke-width: 1px;
     -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@dark_bg_color, 1.01)),
                                                  to (shade (@dark_bg_color, 1.06)));
 }
 
-.primary-toolbar .entry:focused:backdrop {
+.primary-toolbar .entry:focused:backdrop,
+.menubar.toolbar .entry:focused:backdrop,
+.header-bar .entry:focused:backdrop {
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@backdrop_selected_bg_color, 0.75)),
                                            to (shade (@backdrop_selected_bg_color, 0.8)));
@@ -1200,7 +1308,13 @@ GtkTextView:backdrop {
 
 .primary-toolbar GtkSeparatorToolItem:backdrop,
 .primary-toolbar .separator:backdrop,
-.primary-toolbar .separator:insensitive:backdrop {
+.primary-toolbar .separator:insensitive:backdrop,
+.menubar.toolbar GtkSeparatorToolItem:backdrop,
+.menubar.toolbar .separator:backdrop,
+.menubar.toolbar .separator:insensitive:backdrop,
+.header-bar GtkSeparatorToolItem:backdrop,
+.header-bar .separator:backdrop,
+.header-bar .separator:insensitive:backdrop {
     border-color: shade (@dark_bg_color, 0.94);
     border-style: solid;
 
