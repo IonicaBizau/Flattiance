@@ -5,7 +5,6 @@ PanelToplevel :backdrop,
 PanelWidget,
 PanelApplet,
 PanelToplevel {
-    padding: 0;
     border-image: none;
 
     color: @dark_fg_color;

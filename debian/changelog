@@ -3,6 +3,11 @@ ubuntu-themes (13.04+13.10.20130716-0ubuntu2) UNRELEASED; urgency=low
   [ James Schriver ]
   * Fix regression, bring back dark toolbars in Gtk+3 apps. (LP: #1118838)
 
+  [ Alberts Muktupavels ]
+  * Restore padding between texts 'Applications' and 'Places' in
+    gnome-panel, currently there is no space running
+    gnome-session-fashback. (LP: #1154814)
+  
  -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Thu, 01 Aug 2013 22:20:45 +0100
 
 ubuntu-themes (13.04+13.10.20130716-0ubuntu1) saucy; urgency=low

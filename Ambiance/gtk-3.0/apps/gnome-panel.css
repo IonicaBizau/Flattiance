@@ -6,7 +6,6 @@ PanelWidget,
 PanelApplet,
 PanelToplevel {
     border-image: none;
-    padding: 0;
 
     color: @dark_fg_color;
 }
