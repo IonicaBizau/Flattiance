@@ -252,6 +252,27 @@ GtkComboBox.combobox-entry .button:active:focus {
     border-image: url("assets/combobox-button-pressed-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
+.primary-toolbar GtkComboBox.combobox-entry .button,
+.primary-toolbar GtkComboBox.combobox-entry .button:focus:insensitive,
+.menubar.toolbar GtkComboBox.combobox-entry .button,
+.menubar.toolbar GtkComboBox.combobox-entry .button:focus:insensitive,
+.header-bar GtkComboBox.combobox-entry .button,
+.header-bar GtkComboBox.combobox-entry .button:focus:insensitive {
+    border-image: url("assets/combobox-button-toolbar.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+}
+
+.primary-toolbar GtkComboBox.combobox-entry .button:focus,
+.menubar.toolbar GtkComboBox.combobox-entry .button:focus,
+.header-bar GtkComboBox.combobox-entry .button:focus {
+    border-image: url("assets/combobox-button-toolbar-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+}
+
+.primary-toolbar GtkComboBox.combobox-entry .button:focus:active:focus,
+.menubar.toolbar GtkComboBox.combobox-entry .button:focus:active:focus,
+.header-bar GtkComboBox.combobox-entry .button:focus:active:focus {
+    border-image: url("assets/combobox-button-toolbar-pressed-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+}
+
 .primary-toolbar GtkComboBox.combobox-entry .entry:first-child,
 .primary-toolbar GtkComboBox.combobox-entry .button:first-child,
 .menubar.toolbar GtkComboBox.combobox-entry .entry:first-child,
@@ -269,7 +290,7 @@ GtkComboBox.combobox-entry .button:active:focus {
 .menubar.toolbar GtkComboBox.combobox-entry .button:last-child,
 .header-bar GtkComboBox.combobox-entry .entry:last-child,
 .header-bar GtkComboBox.combobox-entry .button:last-child {
-    border-image-width: 10px 12px 10px 0;
+    border-image-width: 10px 12px 10px 1px;
     border-radius: 0 8px 8px 0;
     border-left-width: 0;
 }

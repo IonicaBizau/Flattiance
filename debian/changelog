@@ -1,7 +1,8 @@
 ubuntu-themes (13.04+13.10.20130716-0ubuntu2) UNRELEASED; urgency=low
 
-  [ James Schriver ]
+  [ James Schriver / Exalm ]
   * Fix regression, bring back dark toolbars in Gtk+3 apps. (LP: #1118838)
+  * Apply dark toolbar fixes for Evince.
 
   [ Alberts Muktupavels ]
   * Restore padding between texts 'Applications' and 'Places' in
