@@ -1,3 +1,9 @@
+ubuntu-themes (13.04+13.10.20130812-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 307
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 18:05:03 +0000
+
 ubuntu-themes (13.04+13.10.20130807-0ubuntu1) saucy; urgency=low
 
   [ Exalm ]
