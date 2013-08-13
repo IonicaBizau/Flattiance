@@ -1,3 +1,44 @@
+ubuntu-themes (13.04+13.10.20130812-0ubuntu1) saucy; urgency=low
+
+  * Automatic snapshot from revision 307
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 18:05:03 +0000
+
+ubuntu-themes (13.04+13.10.20130807-0ubuntu1) saucy; urgency=low
+
+  [ Exalm ]
+  * Add combobox button assets Ambiance/Radiance to fix Evince toolbar
+    (LP: #1118838) (LP: #1118838)
+
+  [ Matthieu James ]
+  * Added two new icons for Contacts and Messages applications since
+    Telephony has been split in three parts.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 305
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 07 Aug 2013 00:02:17 +0000
+
+ubuntu-themes (13.04+13.10.20130802-0ubuntu1) saucy; urgency=low
+
+  [ James Schriver / Exalm ]
+  * Fix regression, bring back dark toolbars in Gtk+3 apps. (LP: #1118838)
+  * Apply dark toolbar fixes for Evince.
+
+  [ Alberts Muktupavels ]
+  * Restore padding between texts 'Applications' and 'Places' in
+    gnome-panel, currently there is no space running
+    gnome-session-fashback. (LP: #1154814)
+  
+  [ Nick Dedekind ]
+  * Add missing battery icon links to ubuntu-mobile theme, needed for
+    indicator-power.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 302
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 02 Aug 2013 00:02:43 +0000
+
 ubuntu-themes (13.04+13.10.20130716-0ubuntu1) saucy; urgency=low
 
   * Automatic snapshot from revision 297
