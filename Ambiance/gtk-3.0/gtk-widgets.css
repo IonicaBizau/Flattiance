@@ -754,6 +754,11 @@ GtkComboBox.combobox-entry .button:insensitive,
     color: mix (@text_color, @base_color, 0.4);
 }
 
+.entry.readonly {
+    background-color: #f5f5f5;
+    background-image: none;
+}
+
 GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .primary-toolbar GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .menubar.toolbar GtkComboBox.combobox-entry .button:insensitive:backdrop,
