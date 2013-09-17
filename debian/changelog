@@ -1,3 +1,21 @@
+ubuntu-themes (13.04+13.10.20130917.1-0ubuntu1) saucy; urgency=low
+
+  [ Andrés G. Aragoneses ]
+  * Fix Ambiance's gtk3 appearance for readonly Entry widgets. (LP:
+    #1219205)
+  * Change CSS state pseudoclasses precedence. (LP: #1211831)
+
+  [ Matthieu James ]
+  * Various updates for the network and bluetooth indicators (new
+    bluetooth-paired icon, new icons for different types of cellular
+    network, some icons renamed with proper names, etc) and the network
+    menu. (LP: #1212184)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 311
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 17 Sep 2013 22:03:57 +0000
+
 ubuntu-themes (13.04+13.10.20130812-0ubuntu1) saucy; urgency=low
 
   * Automatic snapshot from revision 307
