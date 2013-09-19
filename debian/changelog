@@ -1,4 +1,4 @@
-ubuntu-themes (13.10.20130917.1) UNRELEASED; urgency=low
+ubuntu-themes (13.04+13.10.20130919.2-0ubuntu1) saucy; urgency=low
 
   [ William Hua ]
   * Add spacing between a GtkModelMenuItem's icon and its label.
@@ -13,10 +13,11 @@ ubuntu-themes (13.10.20130917.1) UNRELEASED; urgency=low
   [ Martin Pitt ]
   * Drop apport icons, we want to use the ones shipped by apport itself.
     (LP: #1079639)
-  * Change to a native version number as there is no orig.tar.gz nor a rule
-    how to make it. Also, sanitize the ridiculous version number.
 
- -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 19 Sep 2013 13:15:43 -0500
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 315
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 19 Sep 2013 14:05:04 +0000
 
 ubuntu-themes (13.04+13.10.20130917.1-0ubuntu1) saucy; urgency=low
 
