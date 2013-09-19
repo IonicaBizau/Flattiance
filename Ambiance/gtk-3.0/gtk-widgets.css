@@ -46,6 +46,7 @@
     -GtkTreeView-vertical-separator: 0;
     -GtkWidget-separator-width: 2;
     -GtkWidget-separator-height: 2;
+    -GtkWidget-wide-separators: true;
     -GtkWidget-focus-padding: 0;
     -GtkWidget-focus-line-width: 1px;
     -GtkWidget-link-color: @link_color;
@@ -1601,7 +1602,7 @@ GtkScrolledWindow.frame {
     border-image: none;
     border-color: shade (@bg_color, 0.92);
     border-bottom-color: alpha (shade (@bg_color, 1.26), 0.6);
-    border-right-color: alpha (shade (@bg_color, 1.26), 0.6);
+    border-right-color: alpha (shade (*v*, 1.26), 0.6);
 }
 
 GtkTreeView.view.separator,
