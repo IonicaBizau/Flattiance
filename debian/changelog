@@ -3,6 +3,10 @@ ubuntu-themes (13.04+13.10.20130917.1-0ubuntu2) UNRELEASED; urgency=low
   [ William Hua ]
   * Add spacing between a GtkModelMenuItem's icon and its label.
 
+  [ Jeremy Bicha ]
+  * Drop input-keyboard icons, now that we have a proper
+    indicator-keyboard. (LP: #862027)
+
  -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Thu, 19 Sep 2013 03:10:25 +0100
 
 ubuntu-themes (13.04+13.10.20130917.1-0ubuntu1) saucy; urgency=low
