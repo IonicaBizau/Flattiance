@@ -1163,6 +1163,10 @@ GtkComboBox .menu .menuitem *:insensitive {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
+.menuitem > GtkBox > GtkImage {
+    padding-right: 6px;
+}
+
 /************
  * notebook *
  ************/
