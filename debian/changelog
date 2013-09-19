@@ -10,6 +10,10 @@ ubuntu-themes (13.04+13.10.20130917.1-0ubuntu2) UNRELEASED; urgency=low
   [ James Schriver ]
   * Fix light toolbar separators in Ambiance (LP: #1181661)
 
+  [ Martin Pitt ]
+  * Drop apport icons, we want to use the ones shipped by apport itself.
+    (LP: #1079639)
+
  -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Thu, 19 Sep 2013 03:10:25 +0100
 
 ubuntu-themes (13.04+13.10.20130917.1-0ubuntu1) saucy; urgency=low
