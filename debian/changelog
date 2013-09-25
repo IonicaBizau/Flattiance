@@ -1,3 +1,16 @@
+ubuntu-themes (13.04+13.10.20130925-0ubuntu1) saucy; urgency=low
+
+  [ William Hua ]
+  * Revert a line from revision 315 which causes warnings and makes GTK+
+    tests fail. (LP #1228814). (LP: #1228814)
+  * Only add padding between GtkImages and GtkLabels in menu items. (LP
+    #1228809) Thanks Alberts Muktupāvels. (LP: #1228809)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 321
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 25 Sep 2013 12:54:51 +0000
+
 ubuntu-themes (13.04+13.10.20130919.3-0ubuntu1) saucy; urgency=low
 
   * Automatic snapshot from revision 318
