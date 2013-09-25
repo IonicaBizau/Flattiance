@@ -1602,7 +1602,7 @@ GtkScrolledWindow.frame {
     border-image: none;
     border-color: shade (@bg_color, 0.92);
     border-bottom-color: alpha (shade (@bg_color, 1.26), 0.6);
-    border-right-color: alpha (shade (*v*, 1.26), 0.6);
+    border-right-color: alpha (shade (@bg_color, 1.26), 0.6);
 }
 
 GtkTreeView.view.separator,
