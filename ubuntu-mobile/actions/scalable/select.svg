@@ -13,8 +13,8 @@
    height="90"
    id="svg3140"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="select@30.svg">
+   inkscape:version="0.48+devel r12667"
+   sodipodi:docname="select.svg">
   <defs
      id="defs3142" />
   <sodipodi:namedview
@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.3664629"
-     inkscape:cx="58.564702"
+     inkscape:cx="22.516428"
      inkscape:cy="35.600587"
      inkscape:document-units="px"
      inkscape:current-layer="g4978"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,11 +82,6 @@
          style="fill:#808080;fill-opacity:1"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cssssssccccccccccc" />
-      <path
-         d="m 129,438.36218 c -1.81558,1.00331 -17.17854,9.77155 -31.199968,26.97311 -5.649594,-6.92991 -11.585412,-12.5365 -16.799981,-16.8301 l 0,12.69783 c 4.481779,4.11207 9.314774,9.20798 13.874984,15.32741 l 2.324998,3.08039 0.599999,0.75134 0.599999,-0.75134 2.324999,-3.08039 C 111.29152,462.34939 123.25798,453.68525 129,450.00788 z"
-         id="path3921-8"
-         style="fill:#808080;fill-opacity:1"
-         inkscape:connector-curvature="0" />
       <rect
          style="color:#000000;fill:none;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect3045"
@@ -95,6 +90,11 @@
          x="0"
          y="1.7382814e-05"
          transform="translate(60,414.36216)" />
+      <path
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         d="m 128.00421,440.65904 -0.375,0.32812 -26.94727,23.60352 -15.796867,-13.55079 -4.775391,5.4004 20.576168,21.64843 31.30078,-32.9375 -3.98242,-4.49218 z"
+         id="path4041-9"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
