@@ -6,10 +6,15 @@ Inherits=hicolor
 #Directory list
 #remove svg icons qt is crashing
 #Directories=status/48,status/scalable,app/144,app/scalable
-Directories=apps/144,actions/scalable,apps/symbolic,status/scalable
+Directories=apps/144,apps/240,actions/scalable,apps/symbolic,status/scalable
 
 [apps/144]
 Size=144
+Context=Applications
+Type=Fixed
+
+[apps/240]
+Size=240
 Context=Applications
 Type=Fixed
 
