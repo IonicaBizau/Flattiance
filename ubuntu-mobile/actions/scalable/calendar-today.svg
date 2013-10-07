@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="89.999916"
+   id="svg3140"
+   version="1.1"
+   inkscape:version="0.48+devel r12648"
+   sodipodi:docname="calendar-today.svg">
+  <defs
+     id="defs3142" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0861625"
+     inkscape:cx="69.7309"
+     inkscape:cy="85.472641"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4083"
+       empspacing="6" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3145">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-962.36224)">
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4198"
+       width="90"
+       height="89.999916"
+       x="0"
+       y="962.36224" />
+    <path
+       style="fill:#808080;fill-opacity:1"
+       d="M 35.914062 6 L 35.914062 15 C 35.914062 19.83649 31.836488 23.914062 27 23.914062 C 22.163512 23.914062 18.085938 19.83649 18.085938 15 L 18.085938 6.453125 C 7.5592366 7.5299788 6 11.226273 6 24 L 6 66 C 6 84 9 84 36 84 L 54 84 C 81 84 84 84 84 66 L 84 24 C 84 11.226273 82.440763 7.5299788 71.914062 6.453125 L 71.914062 15 C 71.914062 19.83649 67.836488 23.914062 63 23.914062 C 58.163512 23.914062 54.085938 19.83649 54.085938 15 L 54.085938 6 C 54.053925 6 54.03208 6 54 6 L 36 6 C 35.96792 6 35.946075 6 35.914062 6 z M 36 30 L 54 30 C 78 30 78 29.99998 78 42 L 78 66 C 78 78 78 78 54 78 L 36 78 C 12 78 12 78 12 66 L 12 42 C 12 29.99998 12 30 36 30 z "
+       transform="translate(0,962.36224)"
+       id="path3759" />
+    <path
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       d="m 68.169693,998.36216 -0.360676,0.31559 -25.917969,22.70195 -15.193488,-13.0331 -4.592987,5.194 19.790231,20.8216 L 72,1002.6828 68.169693,998.36216 Z"
+       id="path4041-9"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4114"
+       width="6"
+       height="17.999973"
+       x="24"
+       y="962.36218"
+       ry="3" />
+    <rect
+       ry="3"
+       y="962.36218"
+       x="60"
+       height="17.999973"
+       width="6"
+       id="rect4122"
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+</svg>
