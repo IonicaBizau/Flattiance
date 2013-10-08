@@ -14,7 +14,7 @@
    height="476"
    id="svg3336"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48+devel r12669"
    sodipodi:docname="facebook.svg">
   <defs
      id="defs3338">
@@ -69,15 +69,6 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssssssss" />
     </clipPath>
-    <filter
-       color-interpolation-filters="sRGB"
-       id="filter4080-7-0"
-       inkscape:collect="always">
-      <feGaussianBlur
-         id="feGaussianBlur4082-6-2"
-         stdDeviation="2.4000005"
-         inkscape:collect="always" />
-    </filter>
     <linearGradient
        y2="960.21375"
        x2="44.236801"
@@ -126,7 +117,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.34999999"
-     inkscape:cx="764.5714"
+     inkscape:cx="353.14282"
      inkscape:cy="-40.714308"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -174,13 +165,16 @@
        inkscape:connector-curvature="0"
        id="path16"
        style="fill:#6d84b3;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 64,428 384,0 0,-64 -384,0 0,64 z" />
+       d="m 88.252632,404 335.494738,0 0,-55.91579 -335.494738,0 0,55.91579 z"
+       inkscape:transform-center-y="138.0421" />
     <path
        inkscape:connector-curvature="0"
        id="path18"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 288,428 0,-165 -43.55008,0 0,-59 L 288,204 c 0,0 0,-24.30016 0,-50.64992 0,-39.80128 25.72512,-76.35168 85.0016,-76.35168 24,0 41.7472,2.3008 41.7472,2.3008 l -1.3984,54.8768 c 0,0 -18.0992,-0.176 -37.8496,-0.176 C 354.1248,134 351,144.35008 351,160.70016 c 0,12.9248 0,-27.55136 0,43.29984 l 64.0496,0 -2.8,59 -61.2496,0 0,165 -63,0"
-       sodipodi:nodetypes="cccccssccsscccccc" />
+       d="m 283.95789,404 0,-144.15789 -38.04901,0 0,-51.54737 38.04901,0 c 0,0 0,-21.23067 0,-44.25204 0,-34.77375 22.47564,-66.70726 74.26456,-66.70726 20.96842,0 36.47387,2.010173 36.47387,2.010173 l -1.22176,47.944997 c 0,0 -15.81299,-0.15377 -33.0686,-0.15377 -18.67587,0 -21.40596,9.0427 -21.40596,23.32751 0,11.29219 0,-24.07119 0,37.83039 l 55.95912,0 -2.44631,51.54737 -53.51281,0 0,144.15789 -55.04211,0"
+       sodipodi:nodetypes="cccccssccsscccccc"
+       inkscape:transform-center-x="-64.434"
+       inkscape:transform-center-y="12.667722" />
   </g>
   <g
      inkscape:label="Masks"
