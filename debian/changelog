@@ -1,3 +1,15 @@
+ubuntu-themes (13.04+13.10.20131014-0ubuntu1) saucy; urgency=low
+
+  [ Matthieu James ]
+  * All the application icons are provided as PNGs in 240x225 pixels
+    (@30). New indicator and action icons. A few tweaks on existing
+    icons. (LP: #1212184)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 323
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 14 Oct 2013 07:56:21 +0000
+
 ubuntu-themes (13.04+13.10.20130925-0ubuntu1) saucy; urgency=low
 
   [ William Hua ]
