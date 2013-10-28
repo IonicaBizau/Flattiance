@@ -89,21 +89,6 @@ GtkWindow:backdrop {
     text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 }
 
-*:active {
-}
-
-*:active:hover:insensitive {
-}
-
-*:active:insensitive {
-}
-
-*:hover {
-}
-
-*:hover:insensitive {
-}
-
 *:selected,
 *:selected:focused {
     background-color: alpha (@selected_bg_color, 0.9);
@@ -526,15 +511,6 @@ GtkSwitch.slider:backdrop,
     border-width: 0;
 }
 
-.cell:selected {
-}
-
-row:hover {
-}
-
-row:insensitive {
-}
-
 row:selected {
     background-image: -gtk-gradient (linear, left bottom, left top,
                                      from (shade (@selected_bg_color, 1.06)),
@@ -545,9 +521,6 @@ row:selected {
 
     color: @selected_fg_color;
     /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
-}
-
-row:selected:focused {
 }
 
 row:selected:backdrop {
@@ -738,9 +711,6 @@ GtkComboBox.combobox-entry .button:backdrop,
     background-color: @selected_bg_color;
 
     color: @selected_fg_color;
-}
-
-.entry:focused {
 }
 
 GtkComboBox.combobox-entry .button:insensitive,
@@ -1549,9 +1519,6 @@ GtkScale.mark {
     border-color: shade (@bg_color, 0.8);
 }
 
-.scrollbar.trough.horizontal {
-}
-
 .scrollbar.slider,
 .scrollbar.slider:hover,
 .scrollbar.button,
@@ -1928,9 +1895,6 @@ GtkSwitch.slider {
     border-style: solid;
 }
 
-GtkSwitch.slider:insensitive {
-}
-
 /************
  * textview *
  ************/
@@ -2047,42 +2011,6 @@ GtkTextView {
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
     /*border-width: 1px;*/
-}
-
-.primary-toolbar .raised .button:focus,
-.primary-toolbar .raised.button:focus,
-.primary-toolbar .button:hover:focus,
-.primary-toolbar .button:active:focus,
-.primary-toolbar .button:insensitive:focus,
-.menubar.toolbar .raised .button:focus,
-.menubar.toolbar .raised.button:focus,
-.menubar.toolbar .button:hover:focus,
-.menubar.toolbar .button:active:focus,
-.menubar.toolbar .button:insensitive:focus,
-.header-bar .raised .button:focus,
-.header-bar .raised.button:focus,
-.header-bar .button:hover:focus,
-.header-bar .button:active:focus,
-.header-bar .button:insensitive:focus {
-}
-
-.primary-toolbar GtkComboBox.combobox-entry .button,
-.menubar.toolbar GtkComboBox.combobox-entry .button,
-.header-bar GtkComboBox.combobox-entry .button {
-}
-
-.primary-toolbar GtkComboBox.combobox-entry .button,
-.primary-toolbar .raised .button,
-.primary-toolbar .raised.button,
-.primary-toolbar .button:hover,
-.menubar.toolbar GtkComboBox.combobox-entry .button,
-.menubar.toolbar .raised .button,
-.menubar.toolbar .raised.button,
-.menubar.toolbar .button:hover,
-.header-bar GtkComboBox.combobox-entry .button,
-.header-bar .raised .button,
-.header-bar .raised.button,
-.header-bar .button:hover {
 }
 
 .primary-toolbar .button:active,

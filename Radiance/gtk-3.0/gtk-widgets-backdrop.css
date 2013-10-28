@@ -19,21 +19,6 @@ GtkWindow:backdrop {
     text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 }
 
-*:active:backdrop {
-}
-
-*:active:hover:insensitive:backdrop {
-}
-
-*:active:insensitive:backdrop {
-}
-
-*:hover:backdrop {
-}
-
-*:hover:insensitive:backdrop {
-}
-
 *:selected:backdrop,
 *:selected:focused:backdrop {
     background-color: @backdrop_selected_bg_color;
@@ -367,15 +352,6 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
     border-width: 0;
 }
 
-.cell:selected:backdrop {
-}
-
-row:hover:backdrop {
-}
-
-row:insensitive:backdrop {
-}
-
 row:selected:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@backdrop_selected_bg_color, 1.06)),
@@ -385,9 +361,6 @@ row:selected:backdrop {
     border-width: 1px 0 0 0;
 
     color: @backdrop_selected_fg_color;
-}
-
-row:selected:focused {
 }
 
 /*******************
@@ -630,15 +603,6 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop {
                                                  to (alpha (shade (@bg_color, 0.05), 0.01)));
 }
 
-.primary-toolbar .entry.progressbar:backdrop,
-.primary-toolbar .entry.progressbar:backdrop,
-.menubar.toolbar .entry.progressbar:backdrop,
-.menubar.toolbar .entry.progressbar:backdrop,
-.header-bar .entry.progressbar:backdrop,
-.header-bar .entry.progressbar:backdrop,
-.entry.progressbar:backdrop {
-}
-
 /************
  * expander *
  ************/
@@ -712,12 +676,6 @@ GtkIconView.view.cell:selected:focused:backdrop {
  ************/
 .notebook:backdrop {
     background-color: shade (@bg_color, 1.01);
-}
-
-.notebook tab:active:backdrop {
-}
-
-.notebook tab:backdrop {
 }
 
 /*************************
@@ -879,48 +837,16 @@ GtkScrolledWindow.frame:backdrop {
     -unico-inner-stroke-color: alpha (shade (@bg_color, 1.26), 0.6);
 }
 
-.menuitem.separator:backdrop {
-}
-
-.menubar .menuitem.separator:backdrop,
-.primary-toolbar .menuitem.separator:backdrop,
-.menubar.toolbar .menuitem.separator:backdrop,
-.header-bar .menuitem.separator:backdrop {
-}
-
 /***********
  * sidebar *
  ***********/
-.sidebar:backdrop,
-.sidebar .view:backdrop {
-}
-
 .sidebar row:selected:backdrop {
     text-shadow: 0 1px shade (@backdrop_selected_bg_color, 0.7);
-}
-
-.sidebar .frame:backdrop {
 }
 
 /**************
  * spinbutton *
  **************/
-.spinbutton.button:active:backdrop,
-.spinbutton.button:insensitive:backdrop,
-.notebook .spinbutton.button:active:backdrop,
-.notebook .spinbutton.button:insensitive:backdrop,
-.spinbutton.button:backdrop,
-.notebook .spinbutton.button:backdrop {
-}
-
-.spinbutton.button:active:nth-child(last):backdrop,
-.spinbutton.button:insensitive:nth-child(last):backdrop,
-.notebook .spinbutton.button:active:nth-child(last):backdrop,
-.notebook .spinbutton.button:insensitive:nth-child(last):backdrop,
-.spinbutton.button:nth-child(last):backdrop,
-.notebook .spinbutton.button:nth-child(last):backdrop {
-}
-
 .spinbutton.button:backdrop,
 .notebook .spinbutton.button:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -932,10 +858,6 @@ GtkScrolledWindow.frame:backdrop {
     border-left-color: shade (@bg_color, 0.82);
 
     -unico-border-gradient: none;
-}
-
-.spinbutton:backdrop,
-.spinbutton:hover:backdrop {
 }
 
 /***********
