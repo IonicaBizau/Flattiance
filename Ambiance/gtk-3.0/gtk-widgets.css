@@ -226,10 +226,8 @@ GtkSwitch.slider:backdrop,
                                      from (mix (shade (@selected_bg_color, 1.0), @bg_color, 0.3)),
                                      to (mix (shade (@selected_bg_color, 1.1), @bg_color, 0.3)));
 }
-
-.button.default:insensitive {
-}
 */
+
 /* Middle button */
 .primary-toolbar .linked .entry,
 .primary-toolbar .linked .button,
@@ -489,15 +487,6 @@ GtkSwitch.slider:backdrop,
     border-width: 0;
 }
 
-.cell:selected {
-}
-
-row:hover {
-}
-
-row:insensitive {
-}
-
 row:selected {
     background-image: -gtk-gradient (linear, left bottom, left top,
                                      from (shade (@selected_bg_color, 1.06)),
@@ -508,9 +497,6 @@ row:selected {
 
     color: @selected_fg_color;
     /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
-}
-
-row:selected:focused {
 }
 
 row:selected:backdrop {
@@ -701,9 +687,6 @@ GtkComboBox.combobox-entry .button:backdrop,
     background-color: @selected_bg_color;
 
     color: @selected_fg_color;
-}
-
-.entry:focused {
 }
 
 GtkComboBox.combobox-entry .button:insensitive,
@@ -1517,9 +1500,6 @@ GtkScale.mark {
     border-color: shade (@bg_color, 0.8);
 }
 
-.scrollbar.trough.horizontal {
-}
-
 .scrollbar.slider,
 .scrollbar.slider:hover,
 .scrollbar.button,
@@ -1550,10 +1530,6 @@ GtkScale.mark {
                 inset -1px 0 shade (@bg_color, 1.1),
                 inset 0 1px shade (@bg_color, 1.1),
                 inset 0 -1px shade (@bg_color, 1.01);
-}
-
-.scrollbar.button,
-.scrollbar.button:insensitive {
 }
 
 /* overlay scrollbar */
@@ -1670,10 +1646,6 @@ GtkComboBox .menuitem.separator {
 /***********
  * sidebar *
  ***********/
-.sidebar,
-.sidebar .view {
-}
-
 .sidebar row:selected {
     text-shadow: 0 1px shade (@selected_bg_color, 0.7);
 }
@@ -1896,9 +1868,6 @@ GtkSwitch.slider {
     border-style: solid;
 }
 
-GtkSwitch.slider:insensitive {
-}
-
 /************
  * textview *
  ************/
@@ -2017,37 +1986,6 @@ GtkTextView {
     /*border-width: 1px;*/
 }
 
-.primary-toolbar .raised .button:focus,
-.primary-toolbar .raised.button:focus,
-.primary-toolbar .button:hover:focus,
-.primary-toolbar .button:active:focus,
-.primary-toolbar .button:insensitive:focus,
-.menubar.toolbar .raised .button:focus,
-.menubar.toolbar .raised.button:focus,
-.menubar.toolbar .button:hover:focus,
-.menubar.toolbar .button:active:focus,
-.menubar.toolbar .button:insensitive:focus,
-.header-bar .raised .button:focus,
-.header-bar .raised.button:focus,
-.header-bar .button:hover:focus,
-.header-bar .button:active:focus,
-.header-bar .button:insensitive:focus {
-}
-
-.primary-toolbar GtkComboBox.combobox-entry .button,
-.primary-toolbar .raised .button,
-.primary-toolbar .raised.button,
-.primary-toolbar .button:hover,
-.menubar.toolbar GtkComboBox.combobox-entry .button,
-.menubar.toolbar .raised .button,
-.menubar.toolbar .raised.button,
-.menubar.toolbar .button:hover,
-.header-bar GtkComboBox.combobox-entry .button,
-.header-bar .raised .button,
-.header-bar .raised.button,
-.header-bar .button:hover {
-}
-
 .primary-toolbar .button:active,
 .menubar.toolbar .button:active,
 .header-bar .button:active {
@@ -2146,10 +2084,6 @@ GtkTextView {
     padding: 4px;
 
     icon-shadow: 0 1px shade (@bg_color, 1.16);
-}
-
-.inline-toolbar.toolbar .button *:insensitive,
-.inline-toolbar.toolbar GtkToolButton .button:insensitive {
 }
 
 /* Middle button */
@@ -2479,21 +2413,6 @@ GtkViewport.frame {
 *:insensitive {
     color: shade (@bg_color, 0.6);
     text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
-}
-
-*:active {
-}
-
-*:active:hover:insensitive {
-}
-
-*:active:insensitive {
-}
-
-*:hover {
-}
-
-*:hover:insensitive {
 }
 
 *:selected,
