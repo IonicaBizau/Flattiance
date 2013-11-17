@@ -81,29 +81,6 @@ GtkWindow:backdrop {
     color: @backdrop_fg_color;
 }
 
-/**********
- * states *
- **********/
-*:insensitive {
-    color: shade (@bg_color, 0.6);
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
-}
-
-*:selected,
-*:selected:focused {
-    background-color: alpha (@selected_bg_color, 0.9);
-
-    color: @selected_fg_color;
-}
-
-*:selected:backdrop,
-*:selected:focused:backdrop {
-    background-color: alpha (@backdrop_selected_bg_color, 0.9);
-
-    color: @backdrop_selected_fg_color;
-}
-
-
 /*********
  * arrow *
  *********/
@@ -2436,4 +2413,27 @@ GtkTreeView row:nth-child(odd) {
  ************/
 GtkViewport.frame {
     border-width: 0;
+}
+
+
+/*****************************************************************************
+ * states [please keep this section at the end of the file (CSS precedence)] *
+ *****************************************************************************/
+*:insensitive {
+    color: shade (@bg_color, 0.6);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+}
+
+*:selected,
+*:selected:focused {
+    background-color: alpha (@selected_bg_color, 0.9);
+
+    color: @selected_fg_color;
+}
+
+*:selected:backdrop,
+*:selected:focused:backdrop {
+    background-color: alpha (@backdrop_selected_bg_color, 0.9);
+
+    color: @backdrop_selected_fg_color;
 }

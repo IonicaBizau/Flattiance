@@ -11,21 +11,6 @@ GtkWindow:backdrop {
     background-color: @bg_color;
 }
 
-/**********
- * states *
- **********/
-*:insensitive:backdrop {
-    color: mix (shade (@bg_color, 0.6), @bg_color, 0.2);
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
-}
-
-*:selected:backdrop,
-*:selected:focused:backdrop {
-    background-color: @backdrop_selected_bg_color;
-
-    color: @backdrop_selected_fg_color;
-}
-
 /******************
  * common effects *
  ******************/
@@ -1335,4 +1320,19 @@ GtkTreeView .entry:backdrop {
  * viewport *
  ************/
 GtkViewport.frame:backdrop {
+}
+
+/*****************************************************************************
+ * states [please keep this section at the end of the file (CSS precedence)] *
+ *****************************************************************************/
+*:insensitive:backdrop {
+    color: mix (shade (@bg_color, 0.6), @bg_color, 0.2);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+}
+
+*:selected:backdrop,
+*:selected:focused:backdrop {
+    background-color: @backdrop_selected_bg_color;
+
+    color: @backdrop_selected_fg_color;
 }
