@@ -495,7 +495,6 @@ row:selected {
     border-style: solid;
     border-width: 1px 0 0 0;
 
-    color: @selected_fg_color;
     /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
 }
 
@@ -505,7 +504,6 @@ row:selected:backdrop {
                                      to (shade (@backdrop_selected_bg_color, 0.94)));
     border-top-color: shade (@backdrop_selected_bg_color, 0.9);
 
-    color: @backdrop_selected_fg_color;
     /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
 }
 
@@ -685,8 +683,6 @@ GtkComboBox.combobox-entry .button:backdrop,
 .entry:selected,
 .entry:selected:focused {
     background-color: @selected_bg_color;
-
-    color: @selected_fg_color;
 }
 
 GtkComboBox.combobox-entry .button:insensitive,
@@ -766,8 +762,6 @@ GtkIconView.view.cell:selected:focused {
     border-width: 1px;
     border-color: shade (@selected_bg_color, 0.8);
     border-bottom-color: shade (@selected_bg_color, 0.7);
-
-    color: @selected_fg_color;
 
     box-shadow: inset 1px 0 shade (@selected_bg_color, 1.05),
                 inset -1px 0 shade (@selected_bg_color, 1.05),
