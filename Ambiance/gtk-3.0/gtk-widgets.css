@@ -72,9 +72,7 @@ GtkWindow {
     color: @fg_color;
 }
 
-* {
-    /* inherit the color from parent by default */
-    color: inherit;
+GtkPaned {
     background-color: @bg_color;
 }
 
