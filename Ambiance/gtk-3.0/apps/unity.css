@@ -1,5 +1,6 @@
 UnityPanelWidget,
 .unity-panel {
+    background-color: transparent;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.04)));
@@ -22,10 +23,16 @@ UnityPanelWidget,
     icon-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
+.unity-panel.menubar:backdrop,
+.unity-panel .menubar *:backdrop {
+    color: @backdrop_dark_fg_color;
+}
+
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
     border-radius: 7px 7px 0 0;
     border-width: 1px 1px 0 1px;
+    background-color: transparent;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.11)));
@@ -35,4 +42,50 @@ UnityPanelWidget,
 
     color: shade (@dark_fg_color, 1.1);
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+}
+
+UnityDecoration {
+    -UnityDecoration-extents: 28px 1px 1px 1px;
+    -UnityDecoration-title-alignment: 0.3;
+}
+
+UnityDecoration.top {
+    -UnityDecoration-foo: 105px;
+    background-color: transparent;
+    background-clip: border-box;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (shade (@dark_bg_color, 1.04)));
+
+    border: 1px solid shade (@dark_bg_color, 1.04);
+    border-top-color: shade (@dark_bg_color, 1.6);
+    border-bottom-width: 0px;
+    border-radius: 8px 8px 0 0;
+
+    color: @dark_fg_color;
+    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+}
+
+UnityDecoration.top:backdrop {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (#474642, 0.9)),
+                                     to (darker (@dark_bg_color)));
+    border-top-color: lighter (@dark_bg_color);
+    border-color: darker (@dark_bg_color);
+    color: @backdrop_dark_fg_color;
+}
+
+UnityDecoration.left,
+UnityDecoration.right {
+    background-color: shade (@bg_color, 1.04);
+    background-size: 1px 70px;
+    background-repeat: repeat-x;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     color-stop (0, shade (@dark_bg_color, 1.04)),
+                                     color-stop (0.5, shade (@dark_bg_color, 1.04)),
+                                     color-stop (1, shade (@bg_color, 1.04)));
+}
+
+UnityDecoration.bottom {
+    background-color: shade (@bg_color, 1.04);
 }
