@@ -47,6 +47,7 @@ UnityPanelWidget,
 UnityDecoration {
     -UnityDecoration-extents: 28px 1px 1px 1px;
     -UnityDecoration-title-alignment: 0.3;
+    -UnityDecoration-foo: 55px;
 }
 
 UnityDecoration.top {
@@ -70,9 +71,9 @@ UnityDecoration.top {
 UnityDecoration.top:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#474642, 0.9)),
-                                     to (darker (@dark_bg_color)));
-    border-top-color: lighter (@dark_bg_color);
-    border-color: darker (@dark_bg_color);
+                                     to (@dark_bg_color));
+    box-shadow: inset 0 0 transparent, inset 0 0 transparent,
+                inset 0 1px shade (#474642, 0.96), inset 0 0 transparent;
     color: @backdrop_dark_fg_color;
 }
 
