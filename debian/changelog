@@ -1,3 +1,40 @@
+ubuntu-themes (13.04+14.04.20131211-0ubuntu1) trusty; urgency=low
+
+  [ William Hua ]
+  * Fix timestamp colours in gnome-system-log (LP: #1045602). (LP:
+    #1045602)
+
+  [ Andrés G. Aragoneses ]
+  * Cleanup gtk3 CSS files removing empty rules (Ambiance and Radiance
+    themes).
+  * Radiance-GTK3: Fix CSS state pseudoclasses precedence This fix is
+    the same one that was applied to Ambiance in Ubuntu Saucy:
+    http://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-
+    themes/trunk/revision/311 But this time for the Radiance theme. The
+    launchpad bug for Ambiance was:
+    https://bugs.launchpad.net/bugs/1211831. (LP: #1211831)
+  * Ambiance: remove redundant attributes Before revision 311 [1], the
+    attributes for states pseudoclasses were not being applied properly
+    (as by the rules of CSS precedence, these had the same specificity
+    as other class rules, so the last one to be specified won), so then
+    these attributes were being hardcoded in a duplicated manner in many
+    rules with pseudoclasses. Such was the case for the following
+    attributes: row:selected { color: @selected_fg_color; }
+    row:selected:backdrop { color: @backdrop_selected_fg_color; }
+    .entry:selected, .entry:selected:focused { color:
+    @selected_fg_color; } GtkIconView.view.cell:selected,
+    GtkIconView.view.cell:selected:focused { color: @selected_fg_color;
+    } But, as revision 311 [1] added the pseudoclasses at the end of the
+    CSS file, then these attributes finally took effect in all cases,
+    and therefore they become redundant, so it is safe to remove them.
+    [1] http://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-
+    themes/trunk/revision/311.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 328
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 11 Dec 2013 16:12:29 +0000
+
 ubuntu-themes (13.04+13.10.20131014-0ubuntu1) saucy; urgency=low
 
   [ Matthieu James ]
