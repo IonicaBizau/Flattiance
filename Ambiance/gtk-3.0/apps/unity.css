@@ -46,8 +46,9 @@ UnityPanelWidget,
 
 UnityDecoration {
     -UnityDecoration-extents: 28px 1px 1px 1px;
-    -UnityDecoration-title-alignment: 0.3;
-    -UnityDecoration-foo: 55px;
+    -UnityDecoration-input-extents: 10px;
+    -UnityDecoration-title-indent: 10px;
+    -UnityDecoration-title-alignment: 0.0;
 }
 
 UnityDecoration.top {
