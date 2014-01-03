@@ -1280,7 +1280,8 @@ GtkProgressBar {
 .progressbar row,
 .progressbar row:hover,
 .progressbar row:selected,
-.progressbar row:selected:focused {
+.progressbar row:selected:focused,
+.progressbar row:nth-child(odd) {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
@@ -2391,7 +2392,8 @@ GtkTreeView row:nth-child(even){
 }
 
 GtkTreeView row:nth-child(odd) {
-    /*background-color: shade (@base_color, 0.965);*/
+    /* zebra stripping, see LP#945430 */
+    background-color: shade (@base_color, 0.965);
 }
 
 /************
