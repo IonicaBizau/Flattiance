@@ -871,6 +871,15 @@ GtkLabel:insensitive {
     background-color: transparent;
 }
 
+/*********
+ * stack *
+ *********/
+
+GtkHeaderBar > GtkStack,
+GtkHeaderBar > GtkStack:insensitive {
+    background-color: transparent;
+}
+
 /********
  * menu *
  ********/
