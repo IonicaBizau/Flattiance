@@ -1,3 +1,18 @@
+ubuntu-themes (13.04+14.04.20140109-0ubuntu1) trusty; urgency=low
+
+  [ Sebastien Bacher ]
+  * copy upstream gedit tweaks it makes the background colored on error
+    .
+
+  [ Lars Uebernickel ]
+  * Use outline attributes for focus Unico is now looking at those to
+    find out how to render the focus ring.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 331
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 09 Jan 2014 07:10:56 +0000
+
 ubuntu-themes (13.04+14.04.20131211-0ubuntu1) trusty; urgency=low
 
   [ William Hua ]
