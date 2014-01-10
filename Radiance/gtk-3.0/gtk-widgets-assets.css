@@ -399,8 +399,11 @@
 .primary-toolbar .menu .check:active,
 .menubar.toolbar .menu .check:active,
 .header-bar .menu .check:active,
+.menu .check:active {
+    background-image: url("assets/check-menuitem-dark.png");
+}
+
 .toolbar .menu .check:active:hover,
-.menu .check:active,
 .menu .check:active:hover {
     background-image: url("assets/check-menuitem.png");
 }
@@ -414,12 +417,8 @@
     background-image: url("assets/check-menuitem-insensitive.png");
 }
 
-.primary-toolbar .menu .radio:active,
-.menubar.toolbar .menu .radio:active,
-.header-bar .menu .radio:active,
 .toolbar .menu .radio:active:hover,
-.menu .radio:active,
-.menu .radio:active:hover {
+.menu .radio:active {
     background-image: url("assets/radio-menuitem.png");
 }
 
