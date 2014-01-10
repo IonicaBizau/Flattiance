@@ -7,11 +7,6 @@ GeditWindow .pane-separator:hover {
 GeditPanel.title GtkLabel {
 }
 
-GeditPanel .toolbar {
-    border-style: none;
-    background-color: transparent;
-}
-
 GeditDocumentsPanel .view {
 }
 
@@ -24,7 +19,6 @@ GeditWindow .notebook {
 }
 
 GeditPanel .notebook {
-    padding: 3px;
     border-radius: 1px;
 }
 
@@ -51,4 +45,10 @@ GeditViewFrame .gedit-search-slider .not-found {
 GeditViewFrame .gedit-search-slider .not-found:selected {
     background-color: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
+}
+
+GeditFileBrowserWidget .toolbar  {
+    background-color: @theme_bg_color;
+    border: none;
+    padding-bottom: 3px;
 }
