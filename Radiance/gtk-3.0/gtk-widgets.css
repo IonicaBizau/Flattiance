@@ -952,6 +952,10 @@ GtkComboBox .menu {
     border-width: 1px;
 }
 
+.context-menu {
+    font: regular medium;
+}
+
 /***********
  * menubar *
  ***********/
