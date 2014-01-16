@@ -39,7 +39,10 @@ UnityDecoration {
     -UnityDecoration-extents: 28px 1px 1px 1px;
     -UnityDecoration-input-extents: 10px;
     -UnityDecoration-title-indent: 10px;
+    -UnityDecoration-title-fade: 35px;
     -UnityDecoration-title-alignment: 0.0;
+    -UnityDecoration-glow-size: 10px;
+    -UnityDecoration-glow-color: rgb (221, 72, 20);
 }
 
 UnityDecoration.top {
