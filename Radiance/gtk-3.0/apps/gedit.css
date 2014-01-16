@@ -52,3 +52,10 @@ GeditFileBrowserWidget .toolbar  {
     border: none;
     padding-bottom: 3px;
 }
+
+.gedit-search-entry-occurrences-tag {
+    background-color: transparent;
+    color: @backdrop_text_color;
+    margin: 2px;
+    padding: 2px;
+}
