@@ -1,3 +1,28 @@
+ubuntu-themes (13.04+14.04.20140117.1-0ubuntu1) trusty; urgency=low
+
+  [ Andrés G. Aragoneses ]
+  * Ambiance: support zebra striping for treeviews This is a rework of
+    Andrea's patch (committed in r220:
+    http://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-
+    themes/trunk/revision/220) that doesn't introduce a visual glitch on
+    progress bars inside treeviews (because of this visual glitch, the
+    r220 patch was reverted in r234:
+    http://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-
+    themes/trunk/revision/234 and bug LP#945430 had to be reopened), and
+    therefore allows us to have a theme that implements zebra striping
+    treeviews when applications choose to use them via
+    `self.treeview.set_rules_hint(True)` API. . (LP: #945430)
+
+  [ Lars Uebernickel ]
+  * Fix some theming issues in gedit (file browser toolbar and context
+    menu font). (LP: #1242984)
+  * gedit: make search occurences label readable.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 335
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 17 Jan 2014 19:27:58 +0000
+
 ubuntu-themes (13.04+14.04.20140109-0ubuntu1) trusty; urgency=low
 
   [ Sebastien Bacher ]
