@@ -69,5 +69,5 @@
 
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border-image: url("assets/radiance-menubaritem.png") 8 10 1 10 / 8px 10px 1px 10px stretch;
+    border-color: #b8ab9c;
 }
