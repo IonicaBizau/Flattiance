@@ -6,9 +6,9 @@ UnityDecoration {
 
     -UnityDecoration-shadow-offset-x: 1px;
     -UnityDecoration-shadow-offset-y: 1px;
-    -UnityDecoration-active-shadow-color: rgba (255, 0, 0, 0.647);
+    -UnityDecoration-active-shadow-color: rgba (0, 0, 0, 0.647);
     -UnityDecoration-active-shadow-radius: 8px;
-    -UnityDecoration-inactive-shadow-color: rgba (0, 255, 0, 0.647);
+    -UnityDecoration-inactive-shadow-color: rgba (0, 0, 0, 0.647);
     -UnityDecoration-inactive-shadow-radius: 5px;
 
     -UnityDecoration-glow-size: 10px;
