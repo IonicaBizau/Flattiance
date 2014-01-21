@@ -3,11 +3,20 @@
 UnityDecoration {
     -UnityDecoration-extents: 28px 1px 1px 1px;
     -UnityDecoration-input-extents: 10px;
+
+    -UnityDecoration-shadow-offset-x: 1px;
+    -UnityDecoration-shadow-offset-y: 1px;
+    -UnityDecoration-active-shadow-color: rgba (255, 0, 0, 0.647);
+    -UnityDecoration-active-shadow-radius: 8px;
+    -UnityDecoration-inactive-shadow-color: rgba (0, 255, 0, 0.647);
+    -UnityDecoration-inactive-shadow-radius: 5px;
+
+    -UnityDecoration-glow-size: 10px;
+    -UnityDecoration-glow-color: rgb (221, 72, 20);
+
     -UnityDecoration-title-indent: 10px;
     -UnityDecoration-title-fade: 35px;
     -UnityDecoration-title-alignment: 0.0;
-    -UnityDecoration-glow-size: 10px;
-    -UnityDecoration-glow-color: rgb (221, 72, 20);
 }
 
 UnityDecoration.top {
