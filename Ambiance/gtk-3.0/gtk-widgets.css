@@ -63,9 +63,11 @@
 
     /*-unico-arrow-texture: url("assets/combobox-arrow.png");*/
 
-    -unico-focus-border-color: alpha (@selected_bg_color, 0.5);
-    -unico-focus-border-radius: 5;
-    -unico-focus-fill-color: alpha (@selected_bg_color, 0.1);
+    /* To avoid using custom attributes, unico looks at the outline attributes
+     * to find out how to render the focus ring.
+     */
+    outline-color: alpha (@selected_bg_color, 0.5);
+    outline-offset: 5px;
 }
 
 GtkWindow {
@@ -948,6 +950,10 @@ GtkComboBox .menu {
     border-width: 1px;
 }
 
+.context-menu {
+    font: regular medium;
+}
+
 /***********
  * menubar *
  ***********/
@@ -1280,7 +1286,8 @@ GtkProgressBar {
 .progressbar row,
 .progressbar row:hover,
 .progressbar row:selected,
-.progressbar row:selected:focused {
+.progressbar row:selected:focused,
+.progressbar row:nth-child(odd) {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
@@ -2391,7 +2398,8 @@ GtkTreeView row:nth-child(even){
 }
 
 GtkTreeView row:nth-child(odd) {
-    /*background-color: shade (@base_color, 0.965);*/
+    /* zebra stripping, see LP#945430 */
+    background-color: shade (@base_color, 0.965);
 }
 
 /************

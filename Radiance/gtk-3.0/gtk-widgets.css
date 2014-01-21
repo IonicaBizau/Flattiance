@@ -62,9 +62,11 @@
 
     /*-unico-arrow-texture: url("assets/combobox-arrow.png");*/
 
-    -unico-focus-border-color: alpha (@selected_bg_color, 0.5);
-    -unico-focus-border-radius: 5;
-    -unico-focus-fill-color: alpha (@selected_bg_color, 0.1);
+    /* To avoid using custom attributes, unico looks at the outline attributes
+     * to find out how to render the focus ring.
+     */
+    outline-color: alpha (@selected_bg_color, 0.5);
+    outline-offset: 5px;
 }
 
 GtkWindow {
@@ -948,6 +950,10 @@ GtkComboBox .menu {
     border-radius: 0;
     border-style: none;
     border-width: 1px;
+}
+
+.context-menu {
+    font: regular medium;
 }
 
 /***********
