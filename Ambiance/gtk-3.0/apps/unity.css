@@ -1,3 +1,5 @@
+/* Panel Style */
+
 UnityPanelWidget,
 .unity-panel {
     background-color: transparent;
@@ -19,7 +21,6 @@ UnityPanelWidget,
 .unity-panel.menuitem,
 .unity-panel .menuitem {
     border-width: 1px 1px 0 1px;
-
     icon-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
@@ -34,6 +35,8 @@ UnityPanelWidget,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.11)));
 }
+
+/* Decorations */
 
 UnityDecoration {
     -UnityDecoration-extents: 28px 1px 1px 1px;
@@ -65,6 +68,8 @@ UnityDecoration.top {
 }
 
 UnityDecoration.top:backdrop {
+    border: 1px solid shade (@dark_bg_color, 1.04);
+    border-bottom-width: 0px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#474642, 0.9)),
                                      to (@dark_bg_color));
@@ -85,5 +90,6 @@ UnityDecoration.right {
 }
 
 UnityDecoration.bottom {
+    background-image: none;
     background-color: shade (@bg_color, 0.7);
 }
