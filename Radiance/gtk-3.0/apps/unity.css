@@ -12,7 +12,7 @@ UnityDecoration {
 
 UnityDecoration.top {
     border: 1px solid shade (@dark_bg_color, 0.8);
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
     border-radius: 8px 8px 0 0;
     padding: 1px 8px 0 8px;
 
@@ -31,7 +31,7 @@ UnityDecoration.top {
 
 UnityDecoration.top:backdrop {
     border: 1px solid shade (@dark_bg_color, 0.8);
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#edebe6, 0.96)),
                                      to (@dark_bg_color));
