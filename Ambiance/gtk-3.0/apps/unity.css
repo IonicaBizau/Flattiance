@@ -20,7 +20,7 @@ UnityDecoration {
 }
 
 UnityDecoration.top {
-    border: 1px solid shade (@dark_bg_color, 1.04);
+    border: 1px solid rgba (0, 1, 8, 0.3176); /* shade (@dark_bg_color, 1.04) - shade (@dark_bg_color, 1.5) */
     border-bottom-width: 0;
     border-radius: 8px 8px 0 0;
     padding: 1px 8px 0 8px;
@@ -39,8 +39,10 @@ UnityDecoration.top {
 }
 
 UnityDecoration.top:backdrop {
-    border: 1px solid @dark_bg_color;
+    border: 1px solid rgba (14, 13, 0, 0.098); /* @dark_bg_color - shade (#474642, 0.92) */;
     border-bottom-width: 0;
+    background-color: transparent;
+    background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#474642, 0.92)),
                                      to (@dark_bg_color));
@@ -54,17 +56,20 @@ UnityDecoration.right {
     background-color: shade (@bg_color, 0.7);
     background-size: 1px 70px;
     background-repeat: repeat-x;
+
+    /* start color: mix of the top border color and bg-image gradient end */
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, shade (@dark_bg_color, 1.04)),
-                                     color-stop (0.5, shade (@dark_bg_color, 1.04)),
+                                     color-stop (0, #343431),
+                                     color-stop (0.5, #343431),
                                      color-stop (1, shade (@bg_color, 0.7)));
 }
 
 UnityDecoration.left:backdrop,
 UnityDecoration.right:backdrop {
+    /* start color: mix of the top border color and bg-image gradient end */
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, @dark_bg_color),
-                                     color-stop (0.5, @dark_bg_color),
+                                     color-stop (0, #373632),
+                                     color-stop (0.5, #373632),
                                      color-stop (1, shade (@bg_color, 0.7)));
 }
 
