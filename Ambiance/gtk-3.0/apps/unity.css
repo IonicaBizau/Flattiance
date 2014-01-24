@@ -59,8 +59,8 @@ UnityDecoration.right {
 
     /* start color: mix of the top border color and bg-image gradient end */
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, #343431),
-                                     color-stop (0.5, #343431),
+                                     color-stop (0, #2b2a2a),
+                                     color-stop (0.5, #2b2a2a),
                                      color-stop (1, shade (@bg_color, 0.7)));
 }
 
