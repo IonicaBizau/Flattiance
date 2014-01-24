@@ -20,7 +20,7 @@ UnityDecoration {
 }
 
 UnityDecoration.top {
-    border: 1px solid shade (@dark_bg_color, 0.8);
+    border: 1px solid rgba (72, 33, 0, 0.3568); /* shade (@dark_bg_color, 0.8) - shade (#edebe6, 1.06) */
     border-bottom-width: 0;
     border-radius: 8px 8px 0 0;
     padding: 1px 8px 0 8px;
@@ -40,8 +40,10 @@ UnityDecoration.top {
 }
 
 UnityDecoration.top:backdrop {
-    border: 1px solid shade (@dark_bg_color, 0.8);
+    border: 1px solid rgba (74, 29, 0, 0.2784); /* shade (@dark_bg_color, 0.8) - shade (#edebe6, 0.96) */
     border-bottom-width: 0;
+    background-color: transparent;
+    background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#edebe6, 0.96)),
                                      to (@dark_bg_color));
@@ -57,9 +59,20 @@ UnityDecoration.right {
     background-color: shade (@bg_color, 0.7);
     background-size: 1px 70px;
     background-repeat: repeat-x;
+
+    /* start color: mix of the top border color and bg-image gradient end */
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, shade (@dark_bg_color, 0.8)),
-                                     color-stop (0.5, shade (@dark_bg_color, 0.8)),
+                                     color-stop (0, #a89686),
+                                     color-stop (0.5, #a89686),
+                                     color-stop (1, shade (@bg_color, 0.7)));
+}
+
+UnityDecoration.left:backdrop,
+UnityDecoration.right:backdrop {
+    /* start color: mix of the top border color and bg-image gradient end */
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     color-stop (0, #b5a395),
+                                     color-stop (0.5, #b5a395),
                                      color-stop (1, shade (@bg_color, 0.7)));
 }
 
