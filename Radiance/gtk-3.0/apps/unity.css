@@ -1,14 +1,100 @@
+/* Decorations */
+
+UnityDecoration {
+    -UnityDecoration-extents: 28px 1px 1px 1px;
+    -UnityDecoration-input-extents: 10px;
+
+    -UnityDecoration-shadow-offset-x: 1px;
+    -UnityDecoration-shadow-offset-y: 1px;
+    -UnityDecoration-active-shadow-color: rgba (0, 0, 0, 0.647);
+    -UnityDecoration-active-shadow-radius: 15px;
+    -UnityDecoration-inactive-shadow-color: rgba (0, 0, 0, 0.647);
+    -UnityDecoration-inactive-shadow-radius: 10px;
+
+    -UnityDecoration-glow-size: 10px;
+    -UnityDecoration-glow-color: rgb (221, 72, 20);
+
+    -UnityDecoration-title-indent: 10px;
+    -UnityDecoration-title-fade: 35px;
+    -UnityDecoration-title-alignment: 0.0;
+}
+
+UnityDecoration.top {
+    border: 1px solid rgba (72, 33, 0, 0.3568); /* shade (@dark_bg_color, 0.8) - shade (#edebe6, 1.06) */
+    border-bottom-width: 0;
+    border-radius: 8px 8px 0 0;
+    padding: 1px 8px 0 8px;
+
+    box-shadow: inset 0 0 transparent, inset 0 0 transparent,
+                inset 0 1px shade (#edebe6, 1.08), inset 0 0 transparent;
+
+    background-color: transparent;
+    background-clip: border-box;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (#edebe6, 1.06)),
+                                     to (@dark_bg_color));
+
+    color: shade (@dark_bg_color, 0.4);
+    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
+                 0 1px 1px shade (@dark_bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
+}
+
+UnityDecoration.top:backdrop {
+    border: 1px solid rgba (74, 29, 0, 0.2784); /* shade (@dark_bg_color, 0.8) - shade (#edebe6, 0.96) */
+    border-bottom-width: 0;
+    background-color: transparent;
+    background-clip: border-box;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (#edebe6, 0.96)),
+                                     to (@dark_bg_color));
+    box-shadow: inset 0 0 transparent, inset 0 0 transparent,
+                inset 0 1px shade (#edebe6, 0.98), inset 0 0 transparent;
+    color: #a39e9a;
+    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.08), -1px 0 1px shade (@dark_bg_color, 1.08),
+                 0 1px 1px shade (@dark_bg_color, 1.08), 0 -1px 1px shade (@dark_bg_color, 1.08);
+}
+
+UnityDecoration.left,
+UnityDecoration.right {
+    background-color: shade (@bg_color, 0.7);
+    background-size: 1px 70px;
+    background-repeat: repeat-x;
+
+    /* start color: mix of the top border color and bg-image gradient end */
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     color-stop (0, #a89686),
+                                     color-stop (0.5, #a89686),
+                                     color-stop (1, shade (@bg_color, 0.7)));
+}
+
+UnityDecoration.left:backdrop,
+UnityDecoration.right:backdrop {
+    /* start color: mix of the top border color and bg-image gradient end */
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     color-stop (0, #b5a395),
+                                     color-stop (0.5, #b5a395),
+                                     color-stop (1, shade (@bg_color, 0.7)));
+}
+
+UnityDecoration.bottom {
+    background-image: none;
+    background-color: shade (@bg_color, 0.7);
+}
+
+/* Panel Style */
+
 UnityPanelWidget,
 .unity-panel {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.3)),
-                                     to (shade (@dark_bg_color, 1.0)));
-    border-top-color: shade (@dark_bg_color, 1.4);
+                                     from (shade (#edebe6, 1.06)),
+                                     to (@dark_bg_color));
+    border-top-color: shade (#edebe6, 1.08);
     border-style: solid;
     border-width: 1px 0 0 0;
 
     color: @dark_fg_color;
-    text-shadow: 0 1px shade (@dark_bg_color, 1.1);
+    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
+                 0 1px 1px shade (@dark_bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
 }
 
 .unity-panel.menubar,
@@ -18,21 +104,12 @@ UnityPanelWidget,
 .unity-panel.menuitem,
 .unity-panel .menuitem {
     border-width: 1px 1px 0 1px;
-
-    icon-shadow: 0 1px shade (@dark_bg_color, 1.06);
+    icon-shadow: 0 -1px shade (@dark_bg_color, 1.06);
 }
 
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
-    border-radius: 7px 7px 0 0;
-    border-width: 1px 1px 0 1px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.02)));
-    border-image: url("../assets/radiance-menubaritem.png") 8 10 1 10 / 8px 10px 1px 10px stretch;
-    /*box-shadow: inset 0 -1px shade (@dark_bg_color, 0.95);*/
-    box-shadow: none;
-
-    color: @fg_color;
-    text-shadow: 0 1px shade (@dark_bg_color, 1.1);
 }

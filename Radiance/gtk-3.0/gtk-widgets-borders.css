@@ -148,7 +148,9 @@ GtkSwitch.trough:active {
 
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border-image: url("assets/menubaritem.png") 8 10 1 10 / 8px 10px 1px 10px stretch;
+    border: 1px solid #2e2e2c;
+    border-bottom-width: 0px;
+    border-radius: 4px 4px 0 0;
 }
 
 /*********
