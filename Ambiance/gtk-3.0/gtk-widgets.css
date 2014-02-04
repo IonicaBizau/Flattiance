@@ -2393,11 +2393,11 @@ GtkTreeView .entry {
     /*border-radius: 0;*/
 }
 
-GtkTreeView row:nth-child(even){
+.view row:nth-child(even){
     /*background-color: @base_color;*/
 }
 
-GtkTreeView row:nth-child(odd) {
+.view row:nth-child(odd) {
     /* zebra stripping, see LP#945430 */
     background-color: shade (@base_color, 0.965);
 }
