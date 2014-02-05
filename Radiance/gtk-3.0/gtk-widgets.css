@@ -745,10 +745,7 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
     border-style: solid;
     border-color: shade (@bg_color, 0.82);
     border-image: none;
-}
-
-.frame:backdrop {
-    border-color: shade (@bg_color, 0.88);
+    background: none;
 }
 
 /************
