@@ -1,3 +1,34 @@
+ubuntu-themes (13.04+14.04.20140206.1-0ubuntu1) trusty; urgency=low
+
+  [ Łukasz 'sil2100' Zemczak ]
+  * To work-around the bug of LP: #1251285, we actually need a manually
+    orange-colored caps/shift key. In the past we were doing that in
+    software, but it seems to cause some problems right now. (LP:
+    #1251285)
+
+  [ Andrés G. Aragoneses ]
+  * Ambiance: GtkTreeView enhancements to be less widget specific Rules
+    should aimed to be applied to classes rather than specific widgets.
+    For example a good way to start doing this is in the Treeview rules
+    that define zebra stripping: by making them target the .view class,
+    we make zebra stripping compatible with other Treeview-like widgets,
+    like Banshee's ListView. This also goes more in sync with GTK
+    upstream, i.e. you can take its default theme as an example:
+    https://github.com/GNOME/gtk/blob/3.10.7/gtk/gtk-default.css#L72 .
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance, Radiance: add UnityDecorations css to match previous
+    metacity themes.
+
+  [ Lars Uebernickel ]
+  * GtkFrame: don't draw a background. (LP: #1276098)
+  * Radiance: use dark checks and radio images in menu items.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 341
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 06 Feb 2014 10:07:12 +0000
+
 ubuntu-themes (13.04+14.04.20140117.1-0ubuntu1) trusty; urgency=low
 
   [ Andrés G. Aragoneses ]
