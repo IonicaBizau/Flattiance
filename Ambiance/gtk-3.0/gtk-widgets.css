@@ -51,6 +51,7 @@
     -GtkWidget-focus-line-width: 1px;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
+    -GtkWindow-decoration-button-layout: "close:";
     -GtkWindow-resize-grip-width: 0;
     -GtkWindow-resize-grip-height: 0;
     -WnckTasklist-fade-overlay-rect: 0;
@@ -864,6 +865,15 @@ GtkImage:insensitive {
  *********/
 GtkLabel,
 GtkLabel:insensitive {
+    background-color: transparent;
+}
+
+/*********
+ * stack *
+ *********/
+
+GtkHeaderBar > GtkStack,
+GtkHeaderBar > GtkStack:insensitive {
     background-color: transparent;
 }
 
