@@ -1626,7 +1626,7 @@ GtkComboBox .separator {
 
 .menuitem.separator {
     -GtkMenuItem-horizontal-padding: 0;
-    border: none;
+    border-width: 1px;
     color: @dark_bg_color;
 }
 
