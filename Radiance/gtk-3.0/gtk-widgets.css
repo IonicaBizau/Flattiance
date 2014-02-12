@@ -74,9 +74,7 @@ GtkWindow {
     color: @fg_color;
 }
 
-* {
-    /* inherit the color from parent by default */
-    color: inherit;
+GtkPaned {
     background-color: @bg_color;
 }
 
@@ -605,9 +603,11 @@ column-header:nth-child(last) .button {
     background-color: shade (@bg_color, 1.03);
 }
 
+.view:selected,
+.view:active,
 .content-view.view:selected,
 .content-view.view:active {
-    /*background-color: @selected_bg_color;*/
+    background-color: @selected_bg_color;
 }
 
 .content-view.view:insensitive {
