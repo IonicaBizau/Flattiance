@@ -1,3 +1,15 @@
+ubuntu-themes (13.04+14.04.20140217-0ubuntu1) trusty; urgency=low
+
+  [ Lars Uebernickel ]
+  * Set a background color for windows and entries Mainly to make
+    evolution's mail view work, as that uses the background color of
+    windows and entries.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 347
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 17 Feb 2014 14:06:21 +0000
+
 ubuntu-themes (13.04+14.04.20140213.2-0ubuntu1) trusty; urgency=low
 
   [ Dmitry Shachnev ]
