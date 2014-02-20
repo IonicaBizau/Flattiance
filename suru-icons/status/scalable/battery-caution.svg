@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105"
+   height="90"
+   id="svg6138"
+   version="1.1"
+   inkscape:version="0.48+devel r"
+   viewBox="0 0 105 90.000001"
+   sodipodi:docname="battery-caution.svg">
+  <defs
+     id="defs6140" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.0931703"
+     inkscape:cx="27.674317"
+     inkscape:cy="41.153147"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6219"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="false"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="90.000001,87.000004"
+       id="guide4064" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="89.000001,84.000004"
+       id="guide4066" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3.0000007,69.000004"
+       id="guide4068" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="6.0000007,60.000004"
+       id="guide4070" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="87.000001,58.000004"
+       id="guide4072" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="84.000001,47.000004"
+       id="guide4074" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="77.000001,3.000004"
+       id="guide4076" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="81.000001,6.000004"
+       id="guide4078" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="81.000001,25.000004"
+       id="guide4080" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="78.000001,9.000004"
+       id="guide4082" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="79.000001,81.000004"
+       id="guide4084" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="9.0000007,39.000004"
+       id="guide4086" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4078"
+       empspacing="6" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-283.57144,-358.79068)">
+    <g
+       transform="translate(169.57144,223.42822)"
+       id="g5937"
+       inkscape:export-filename="envelope02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="battery02.png"
+       id="g6219"
+       transform="translate(109.57145,223.42846)">
+      <g
+         style="fill:none"
+         transform="matrix(2.1875001,0,0,1.875,-456.00004,-1657.8169)"
+         id="g6223">
+        <rect
+           style="opacity:0.21171169;fill:none;stroke:none"
+           id="rect6225"
+           width="48"
+           height="48"
+           x="288"
+           y="152"
+           transform="translate(0,804.3622)" />
+      </g>
+      <path
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#df382c;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         d="M 86 15 L 10.84375 15.011719 C 3.0000001 15.000019 0 17 0 27 L 0 45 L 0 63 C 0 73 3.0000001 74.999981 10.84375 74.988281 L 86 75 C 93.84375 75.0117 97 72.63672 97 63 L 97 58.988281 L 105 58.988281 L 105 45 L 105 31.011719 L 97 31.011719 L 97 27 C 97 17.36328 93.84375 14.98828 86 15 z M 44.396484 24 L 53.603516 24 L 53.603516 34.320312 C 53.603516 37.390402 53.459278 40.199693 53.173828 42.751953 C 52.888398 45.304203 52.531686 47.875604 52.103516 50.464844 L 45.96875 50.464844 C 45.49302 47.875604 45.111612 45.304203 44.826172 42.751953 C 44.540722 40.162713 44.396484 37.353422 44.396484 34.320312 L 44.396484 24 z M 49 55.644531 C 50.46712 55.644531 51.696993 56.143868 52.689453 57.142578 C 53.681923 58.097868 54.177734 59.333746 54.177734 60.853516 C 54.177734 62.373296 53.681923 63.611126 52.689453 64.566406 C 51.696993 65.521686 50.46712 66 49 66 C 47.57603 66 46.346157 65.521686 45.310547 64.566406 C 44.318077 63.611126 43.822266 62.373296 43.822266 60.853516 C 43.822266 59.333746 44.318077 58.097868 45.310547 57.142578 C 46.346157 56.143868 47.57603 55.644531 49 55.644531 z "
+         transform="translate(173.99999,135.36222)"
+         id="path4080" />
+    </g>
+  </g>
+</svg>

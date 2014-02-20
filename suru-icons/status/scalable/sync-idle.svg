@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="90"
+   id="svg6138"
+   version="1.1"
+   inkscape:version="0.48+devel r"
+   viewBox="0 0 90 90.000001"
+   sodipodi:docname="sync-idle.svg">
+  <defs
+     id="defs6140" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9580786"
+     inkscape:cx="38.999363"
+     inkscape:cy="32.688792"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6253"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6700"
+       empspacing="6" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="62,87"
+       id="guide4084" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="63,84"
+       id="guide4086" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="63,81"
+       id="guide4088" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3,70"
+       id="guide4090" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="6,66"
+       id="guide4092" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="9,59"
+       id="guide4094" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="87,63"
+       id="guide4096" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="84,64"
+       id="guide4098" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="81,55"
+       id="guide4100" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="60,3"
+       id="guide4102" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="61,6"
+       id="guide4104" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="62,9"
+       id="guide4106" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-283.57144,-358.79068)">
+    <g
+       id="g6253"
+       inkscape:export-filename="planemode01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(-1,0,0,1,547.57143,-1341.5715)">
+      <rect
+         style="fill:none;stroke:none"
+         id="rect6257"
+         width="90"
+         height="90"
+         x="174"
+         y="1700.3622" />
+      <rect
+         ry="19.905495"
+         y="1735.3622"
+         x="-262"
+         height="40.000061"
+         width="86"
+         id="rect3045"
+         style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="scale(-1,1)" />
+      <ellipse
+         cy="1736.7908"
+         cx="-210.39996"
+         id="path3047"
+         style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="scale(-1,1)"
+         rx="21.5"
+         ry="21.428604" />
+      <ellipse
+         cy="1734.6478"
+         cx="-238.34999"
+         id="path3049"
+         style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="scale(-1,1)"
+         rx="10.75"
+         ry="10.714302" />
+    </g>
+  </g>
+</svg>
