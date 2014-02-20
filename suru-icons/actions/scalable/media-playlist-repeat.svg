@@ -13,7 +13,7 @@
    height="90"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
    sodipodi:docname="media-playlist-repeat.svg">
   <defs
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.3664629"
-     inkscape:cx="48.535583"
+     inkscape:cx="12.644382"
      inkscape:cy="47.239732"
      inkscape:document-units="px"
      inkscape:current-layer="g4978"
@@ -152,7 +152,7 @@
              inkscape:transform-center-x="-13.770195"
              inkscape:connector-curvature="0"
              id="path2194-83"
-             d="m 87.13746,452.42665 c 0,0 14.70065,-6.35858 27.55682,-15.51986 0,-0.003 0,-0.006 -0.005,-0.009 0,-0.003 -0.005,-0.007 -0.006,-0.01 0,-0.003 -0.005,-0.007 -0.006,-0.0101 0,-0.003 -0.005,-0.007 -0.005,-0.01 -13.56164,-9.45344 -27.53865,-15.46244 -27.53865,-15.46244 z"
+             d="m 87.13746,453.42665 c 0,0 14.70065,-6.35858 27.55682,-15.51986 0,-0.003 0,-0.006 -0.005,-0.009 0,-0.003 -0.005,-0.007 -0.006,-0.01 0,-0.003 -0.005,-0.007 -0.006,-0.0101 0,-0.003 -0.005,-0.007 -0.005,-0.01 -13.56164,-9.45344 -27.53865,-15.46244 -27.53865,-15.46244 z"
              style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
           <path
              style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
@@ -160,12 +160,6 @@
              id="path4229"
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="ssssssssccssssssssccccs" />
-          <path
-             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#0000ff;fill-opacity:0.5;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-             d="m 178,433.36218 12.70648,0 41.29352,0 c 10,0 15,0 15,11.62715 l 0,28.74569 c 0,11.62716 -5,11.62716 -15,11.62716 l -54,0 c -10,0 -15,0 -15,-11.62716 l 0,-28.74569 c 0,-11.62715 5,-11.62715 15,-11.62715 z"
-             id="path4237"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccccccccc" />
         </g>
       </g>
     </g>
