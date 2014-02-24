@@ -11,6 +11,7 @@ DEB_VERSION := $(shell dpkg-parsechangelog | egrep '^Version:' | cut -f 2 -d ' '
 
 override_dh_install:
 	dh_install --fail-missing
+	mv debian/suru-icon-theme/usr/share/icons/suru-icons debian/suru-icon-theme/usr/share/icons/suru
 
 override_dh_gencontrol:
 	dh_gencontrol -pubuntu-artwork -- -v1:$(DEB_VERSION)

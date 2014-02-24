@@ -1,3 +1,9 @@
+ubuntu-themes (14.04-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Install the new suru icon theme in its own binary package
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 24 Feb 2014 13:58:00 +0100
+
 ubuntu-themes (13.04+14.04.20140217-0ubuntu1) trusty; urgency=low
 
   [ Lars Uebernickel ]
