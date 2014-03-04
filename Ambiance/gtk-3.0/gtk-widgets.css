@@ -1896,7 +1896,6 @@ GtkTextView {
  ***********/
 .toolbar {
     border-style: none;
-    background-color: transparent;
     padding: 1px;
 
     color: @fg_color;
