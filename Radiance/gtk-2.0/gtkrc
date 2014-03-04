@@ -3,6 +3,7 @@ gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffff
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
 gtk-auto-mnemonics = 1
+gtk-alternative-sort-arrows = 1
 
 style "default" {
 	xthickness = 1
