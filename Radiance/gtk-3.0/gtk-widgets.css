@@ -2421,6 +2421,11 @@ GtkTreeView .entry {
     /*border-radius: 0;*/
 }
 
+.view {
+    background-color: @base_color;
+    color: @text_color;
+}
+
 GtkTreeView row:nth-child(even){
     /*background-color: @base_color;*/
 }
