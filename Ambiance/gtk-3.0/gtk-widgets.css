@@ -913,6 +913,8 @@ GtkMenuToolButton.menu,
                 inset 0 -1px shade (@dark_bg_color, 1.18),
                 inset -1px 0 shade (@dark_bg_color, 1.16),
                 inset 1px 0 shade (@dark_bg_color, 1.18);
+
+    margin: 1px;
 }
 
 .toolbar .menu,
