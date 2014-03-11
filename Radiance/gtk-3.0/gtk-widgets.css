@@ -319,7 +319,9 @@ GtkSwitch.slider:backdrop,
 .linked .button:active:hover:first-child,
 .linked .button:focus:first-child,
 .linked .button:focus:active:first-child,
-.linked .button:insensitive:first-child {
+.linked .button:insensitive:first-child,
+.linked .button:backdrop:first-child,
+.linked .button:active:backdrop:first-child {
     border-width: 1px;
     border-right-width: 0;
     border-image-width: 10px 0 10px 12px;
@@ -338,7 +340,9 @@ GtkSwitch.slider:backdrop,
 .linked .button:active:hover:last-child,
 .linked .button:focus:last-child,
 .linked .button:focus:active:last-child,
-.linked .button:insensitive:last-child {
+.linked .button:insensitive:last-child,
+.linked .button:backdrop:last-child,
+.linked .button:active:backdrop:last-child {
     border-width: 1px;
     border-left-width: 0;
     border-image-width: 10px 12px 10px 0;
@@ -357,7 +361,9 @@ GtkSwitch.slider:backdrop,
 .linked .button:active:hover:only-child,
 .linked .button:focus:only-child,
 .linked .button:focus:active:only-child,
-.linked .button:insensitive:only-child {
+.linked .button:insensitive:only-child,
+.linked .button:backdrop:only-child,
+.linked .button:active:backdrop:only-child {
     border-right-width: 1px;
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
