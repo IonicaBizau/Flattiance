@@ -1,3 +1,14 @@
+ubuntu-themes (14.04+14.04.20140311.1-0ubuntu1) trusty; urgency=low
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance, Radiance: use borderless decorations, different shadow
+    colors and opacity based on status (LP: #1281368)
+
+  [ Lars Uebernickel ]
+  * Fix styling of linked entries Needed for evince's page selector.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 18:50:51 +0000
+
 ubuntu-themes (14.04+14.04.20140311-0ubuntu1) trusty; urgency=medium
 
   [ Didier Roche ]
