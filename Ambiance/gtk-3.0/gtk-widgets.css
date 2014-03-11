@@ -290,6 +290,9 @@ GtkSwitch.slider:backdrop,
 
 /* Middle button */
 .linked .entry,
+.linked .entry:active,
+.linked .entry:focus,
+.linked .entry:focus:active,
 .linked .button,
 .linked .button:active,
 .linked .button:active:hover,
@@ -306,12 +309,17 @@ GtkSwitch.slider:backdrop,
 
 /* Leftmost button */
 .linked .entry:first-child,
+.linked .entry:active:first-child,
+.linked .entry:focus:first-child,
+.linked .entry:focus:active:first-child,
 .linked .button:first-child,
 .linked .button:active:first-child,
 .linked .button:active:hover:first-child,
 .linked .button:focus:first-child,
 .linked .button:focus:active:first-child,
-.linked .button:insensitive:first-child {
+.linked .button:insensitive:first-child,
+.linked .button:backdrop:first-child,
+.linked .button:active:backdrop:first-child {
     border-width: 1px;
     border-right-width: 0;
     border-image-width: 10px 0 10px 12px;
@@ -322,12 +330,17 @@ GtkSwitch.slider:backdrop,
 
 /* Rightmost button */
 .linked .entry:last-child,
+.linked .entry:active:last-child,
+.linked .entry:focus:last-child,
+.linked .entry:focus:active:last-child,
 .linked .button:last-child,
 .linked .button:active:last-child,
 .linked .button:active:hover:last-child,
 .linked .button:focus:last-child,
 .linked .button:focus:active:last-child,
-.linked .button:insensitive:last-child {
+.linked .button:insensitive:last-child,
+.linked .button:backdrop:last-child,
+.linked .button:active:backdrop:last-child {
     border-width: 1px;
     border-left-width: 0;
     border-image-width: 10px 12px 10px 0;
@@ -338,12 +351,17 @@ GtkSwitch.slider:backdrop,
 
 /* Linked single button */
 .linked .entry:only-child,
+.linked .entry:active:only-child,
+.linked .entry:focus:only-child,
+.linked .entry:focus:active:only-child,
 .linked .button:only-child,
 .linked .button:active:only-child,
 .linked .button:active:hover:only-child,
 .linked .button:focus:only-child,
 .linked .button:focus:active:only-child,
-.linked .button:insensitive:only-child {
+.linked .button:insensitive:only-child,
+.linked .button:backdrop:only-child,
+.linked .button:active:backdrop:only-child {
     border-right-width: 1px;
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
@@ -2029,23 +2047,6 @@ GtkTextView {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
-}
-
-.primary-toolbar .entry,
-.primary-toolbar .entry:active,
-.primary-toolbar .entry:focused,
-.menubar.toolbar .entry,
-.menubar.toolbar .entry:active,
-.menubar.toolbar .entry:focused,
-.header-bar .entry,
-.header-bar .entry:active,
-.header-bar .entry:focused {
-    border-radius: 9px;
-
-/*    background-color: @dark_bg_color;
-    background-image: none;
-
-    background-clip: border-box;*/
 }
 
 .primary-toolbar GtkSeparatorToolItem,
