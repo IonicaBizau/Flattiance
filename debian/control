@@ -60,3 +60,12 @@ Conflicts: ubuntu-mobile,
 Replaces: ubuntu-mobile,
 Description: Ubuntu Mobile Icon theme
  Ubuntu mobile icons used for phone and tablet applications and shell.
+
+Package: suru-icon-theme
+Architecture: all
+Depends: ubuntu-mobile-icons,
+         hicolor-icon-theme,
+         ${misc:Depends},
+Description: Ubuntu Suru Icon theme
+ Suru icon theme for Ubuntu Touch.
+
