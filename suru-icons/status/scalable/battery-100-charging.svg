@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105"
+   height="90"
+   id="svg6138"
+   version="1.1"
+   inkscape:version="0.48+devel r"
+   viewBox="0 0 105 90.000001"
+   sodipodi:docname="battery-100-charging.svg">
+  <defs
+     id="defs6140" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.3664629"
+     inkscape:cx="11.450629"
+     inkscape:cy="31.155445"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6219"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="false"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="90.000001,87.000004"
+       id="guide4064" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="89.000001,84.000004"
+       id="guide4066" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3.0000007,69.000004"
+       id="guide4068" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="6.0000007,60.000004"
+       id="guide4070" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="87.000001,58.000004"
+       id="guide4072" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="84.000001,47.000004"
+       id="guide4074" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="77.000001,3.000004"
+       id="guide4076" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="81.000001,6.000004"
+       id="guide4078" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="81.000001,25.000004"
+       id="guide4080" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="78.000001,9.000004"
+       id="guide4082" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="79.000001,81.000004"
+       id="guide4084" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="9.0000007,39.000004"
+       id="guide4086" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4078"
+       empspacing="6" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-283.57144,-358.79068)">
+    <g
+       transform="translate(169.57144,223.42822)"
+       id="g5937"
+       inkscape:export-filename="envelope02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="battery02.png"
+       id="g6219"
+       transform="translate(109.57145,223.42846)">
+      <g
+         style="fill:none"
+         transform="matrix(2.1875001,0,0,1.875,-456.00004,-1657.8169)"
+         id="g6223">
+        <rect
+           style="opacity:0.21171169;fill:none;stroke:none"
+           id="rect6225"
+           width="48"
+           height="48"
+           x="288"
+           y="152"
+           transform="translate(0,804.3622)" />
+      </g>
+      <path
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#38b44a;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         d="m 259.99999,150.36222 -75.15625,0.0117 c -1.77478,-0.003 -3.28967,0.10815 -4.58984,0.38086 -0.0837,0.0175 -0.17212,0.0318 -0.25391,0.0508 -4.26481,0.99037 -6,3.96489 -6,11.55664 l 0,18 0,18 c 0,7.59175 1.73519,10.56627 6,11.55664 0.0812,0.0189 0.16893,0.0334 0.25195,0.0508 1.30058,0.273 2.81618,0.38351 4.5918,0.38086 l 75.15625,0.0117 c 7.84375,0.0117 11,-2.36328 11,-12 l 0,-4.01172 8,0 0,-13.98828 0,-13.98828 -8,0 0,-4.01172 c 0,-9.63672 -3.15625,-12.01172 -11,-12 z"
+         id="path4079" />
+    </g>
+  </g>
+</svg>
