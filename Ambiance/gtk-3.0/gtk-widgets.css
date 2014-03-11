@@ -2190,6 +2190,7 @@ GtkTextView {
     border-style: solid;
     border-width: 1px;
 
+    background-color: transparent;
     color: @tooltip_fg_color;
 }
 
