@@ -1,8 +1,37 @@
-ubuntu-themes (14.04-0ubuntu1) UNRELEASED; urgency=medium
+ubuntu-themes (14.04+14.04.20140311-0ubuntu1) trusty; urgency=medium
 
+  [ Didier Roche ]
   * Install the new suru icon theme in its own binary package
+  * Bump standards-version
 
- -- Didier Roche <didrocks@ubuntu.com>  Mon, 24 Feb 2014 13:58:00 +0100
+  [ Lars Uebernickel ]
+  * Don't set toolbar's background to transparent Evolution uses the
+    toolbar's background color for the frame in its mail view. A
+    transparent background will make that appear black.
+  * Give the .view class a background Fixes black background in the dnd
+    widgets when dragging a GtkTreeView row.
+  * Set gtk-alternative-sort-arrows to true The triangles used by the
+    themes convey sort order better when flipped (pointing up is
+    ascending). (LP: #901703)
+  * Add margin to popup menus to prevent accidental clicks Gtk displaces
+    the menus based on the margin. A margin of 1px ensures that the
+    mouse pointer is not over the first (or last) menu item after right-
+    clicking. (LP: #1281617)
+  * Move .view class background further up So that the .rubberband rules
+    come after it.
+  * Fix black backgrounds in glade and baobab The black backgrounds only
+    appear when using overlay-scrollbars. These are hacks to work around
+    limitations in gtk 3.10.
+  * Fix linked button appearance The left-most buttons in primary
+    toolbars didn't have a left border and the middle buttons had
+    borders when the window was unfocussed. (LP: #1290501)
+
+  [ Matthieu James ]
+  * This is the new icon theme for Ubuntu Touch. It inherits Ubuntu-
+    Mobile to ensure that all the icons remain displayed despite some
+    names have changed.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 08:24:11 +0000
 
 ubuntu-themes (13.04+14.04.20140217-0ubuntu1) trusty; urgency=low
 
