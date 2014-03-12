@@ -368,7 +368,7 @@ GtkSwitch.slider:backdrop,
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
     border-radius: 8px;
-}f
+}
 
 /* Set up shadows and hilights for button visual separation */
 .primary-toolbar .linked .button,
