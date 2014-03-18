@@ -1,3 +1,14 @@
+ubuntu-themes (14.04+14.04.20140318-0ubuntu1) trusty; urgency=low
+
+  [ Matthieu James ]
+  * Added action icons for the Telephony app and symbolic icons for the
+    system settings menu (wallpaper, notifications, sounds, etc)
+
+  [ Lars Uebernickel ]
+  * Remove stray 'f' These render the next rule invalid.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 18 Mar 2014 09:43:32 +0000
+
 ubuntu-themes (14.04+14.04.20140311.1-0ubuntu1) trusty; urgency=low
 
   [ Marco Trevisan (Treviño) ]
