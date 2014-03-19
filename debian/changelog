@@ -1,3 +1,18 @@
+ubuntu-themes (14.04+14.04.20140319-0ubuntu1) trusty; urgency=low
+
+  [ Simon Steinbeiß ]
+  * Recolor the audio-volume-muted-blocking-panel icon to reflect the
+    SoundMenu spec (i.e. red icon over blue icon).
+  * Bring back input-keyboard to both -light and -dark themes to fix
+    broken symlinks to ibus-keyboard.svg and keyboard.svg Fix a few more
+    broken symlinks resulting from gpm-ac-adapter being dropped.
+
+  [ Marco Trevisan (Treviño) ]
+  * Radiance: use properly sized corner radius (matching Ambiance) (LP:
+    #1293742)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 19 Mar 2014 14:48:26 +0000
+
 ubuntu-themes (14.04+14.04.20140318-0ubuntu1) trusty; urgency=low
 
   [ Matthieu James ]
