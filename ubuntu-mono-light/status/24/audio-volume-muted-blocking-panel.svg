@@ -13,7 +13,7 @@
    width="24"
    height="24"
    id="svg3830"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="audio-volume-muted-blocking-panel.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="753"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
      id="namedview8"
      showgrid="false"
      inkscape:zoom="13.227273"
-     inkscape:cx="11"
+     inkscape:cx="-1.0962197"
      inkscape:cy="11.793814"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3830" />
   <defs
@@ -45,18 +45,21 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     inkscape:connector-curvature="0"
-     style="opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="path2396-0"
-     d="m 8.0023544,8 c -0.3052235,0 -0.5665273,0.127959 -0.75,0.34375 l -2.25,2.65625 -2,0 c -0.552,0 -1,0.448 -1,1 -0.00627,0.996071 0.00222,2.014549 0,3 0,0.552 0.4480001,1 1,1 l 2,0 2.15625,2.46875 C 7.3299628,18.773669 7.6279088,19 8.0023544,19 c 0.552,0 1.0000004,-0.448 1,-1 l 0,-9 c 0,-0.552 -0.4480003,-1 -1,-1 z m 9.6874996,2 -2.1875,2.25 -2.25,-2.21875 -1.25,1.28125 2.25,2.1875 -2.21875,2.25 1.28125,1.25 2.1875,-2.25 2.25,2.21875 1.25,-1.28125 -2.25,-2.1875 2.21875,-2.25 -1.28125,-1.25 z" />
-  <path
-     inkscape:connector-curvature="0"
-     style="fill:#19b6ee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999993;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="rect3180"
-     d="m 8.0023544,7 c -0.3052235,0 -0.5665273,0.127959 -0.75,0.34375 l -2.25,2.65625 -2,0 c -0.552,0 -1,0.448 -1,1 -0.00627,0.996071 0.00222,2.014549 0,3 0,0.552 0.4480001,1 1,1 l 2,0 2.15625,2.46875 C 7.3299628,17.773669 7.6279088,18 8.0023544,18 c 0.552,0 1.0000004,-0.448 1,-1 l 0,-9 c 0,-0.552 -0.4480003,-1 -1,-1 z m 9.6874996,2 -2.1875,2.25 -2.25,-2.21875 -1.25,1.28125 2.25,2.1875 -2.21875,2.25 1.28125,1.25 2.1875,-2.25 2.25,2.21875 1.25,-1.28125 -2.25,-2.1875 2.21875,-2.25 L 17.689854,9 z" />
+  <g
+     id="g3751">
+    <path
+       d="m 8.0023544,8 c -0.3052235,0 -0.5665273,0.127959 -0.75,0.34375 l -2.25,2.65625 -2,0 c -0.552,0 -1,0.448 -1,1 -0.00627,0.996071 0.00222,2.014549 0,3 0,0.552 0.4480001,1 1,1 l 2,0 2.15625,2.46875 C 7.3299628,18.773669 7.6279088,19 8.0023544,19 c 0.552,0 1.0000004,-0.448 1,-1 l 0,-9 c 0,-0.552 -0.4480003,-1 -1,-1 z m 9.6874996,2 -2.1875,2.25 -2.25,-2.21875 -1.25,1.28125 2.25,2.1875 -2.21875,2.25 1.28125,1.25 2.1875,-2.25 2.25,2.21875 1.25,-1.28125 -2.25,-2.1875 2.21875,-2.25 -1.28125,-1.25 z"
+       id="path2396-0"
+       style="opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 8.0023544,7 c -0.3052235,0 -0.5665273,0.127959 -0.75,0.34375 l -2.25,2.65625 -2,0 c -0.552,0 -1,0.448 -1,1 -0.00627,0.996071 0.00222,2.014549 0,3 0,0.552 0.4480001,1 1,1 l 2,0 2.15625,2.46875 C 7.3299628,17.773669 7.6279088,18 8.0023544,18 c 0.552,0 1.0000004,-0.448 1,-1 l 0,-9 c 0,-0.552 -0.4480003,-1 -1,-1 z m 9.6874996,2 -2.1875,2.25 -2.25,-2.21875 -1.25,1.28125 2.25,2.1875 -2.21875,2.25 1.28125,1.25 2.1875,-2.25 2.25,2.21875 1.25,-1.28125 -2.25,-2.1875 2.21875,-2.25 L 17.689854,9 z"
+       id="rect3180"
+       style="fill:#df382c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.69999992999999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>
