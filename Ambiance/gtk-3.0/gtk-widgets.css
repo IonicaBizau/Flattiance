@@ -1825,7 +1825,8 @@ GtkComboBox .menuitem.separator {
     background-repeat: no-repeat;
 }
 
-.menu.spinner,
+.menu .spinner,
+.menu .spinner:hover,
 .primary-toolbar .spinner,
 .primary-toolbar .spinner,
 .menubar.toolbar .spinner,
@@ -1833,6 +1834,8 @@ GtkComboBox .menuitem.separator {
 .header-bar .spinner,
 .header-bar .spinner {
     color: @selected_bg_color;
+    border: none;
+    box-shadow: none;
 }
 
 .spinner:active {
