@@ -95,6 +95,12 @@
     text-shadow: 0 1px shade (@bg_color, 1.14);
 }
 
+/* for the playback menu item in the sound menu */
+.menu .spinner,
+.menu .spinner:hover {
+    color: @selected_bg_color;
+}
+
 /* primary-toolbar */
 .primary-toolbar,
 .primary-toolbar .toolbar,
