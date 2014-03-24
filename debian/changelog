@@ -1,3 +1,17 @@
+ubuntu-themes (14.04+14.04.20140324-0ubuntu1) trusty; urgency=low
+
+  [ Simon Steinbeiß ]
+  * Drop input-keyboard as it overrides icon in other contexts (e.g.
+    settings managers)
+
+  [ Lars Uebernickel ]
+  * Sound menu: remove rectangle around play/pause when launching a
+    player Also set the foreground color for spinners in menus again in
+    gtk-widgets-radiance.css. That file overrides the color set in gtk-
+    widgets.css. (LP: #1231796)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 24 Mar 2014 18:05:01 +0000
+
 ubuntu-themes (14.04+14.04.20140319-0ubuntu1) trusty; urgency=low
 
   [ Simon Steinbeiß ]
