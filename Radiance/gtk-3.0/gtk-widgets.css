@@ -83,6 +83,10 @@ GtkWindow:backdrop {
     color: @backdrop_fg_color;
 }
 
+GtkEventBox {
+    background-color: @bg_color;
+}
+
 /*********
  * arrow *
  *********/
