@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+14.04.20140327-0ubuntu1) trusty; urgency=low
+
+  [ Lars Uebernickel ]
+  * Give event boxes a bg color To make deja-dup's assistant windows
+    work. Again, this is a temporary fix for gtk 3.10. (LP: #1295105)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 27 Mar 2014 18:21:00 +0000
+
 ubuntu-themes (14.04+14.04.20140324-0ubuntu1) trusty; urgency=low
 
   [ Simon Steinbeiß ]
