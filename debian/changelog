@@ -1,3 +1,62 @@
+ubuntu-themes (14.04+14.04.20140327-0ubuntu1) trusty; urgency=low
+
+  [ Lars Uebernickel ]
+  * Give event boxes a bg color To make deja-dup's assistant windows
+    work. Again, this is a temporary fix for gtk 3.10. (LP: #1295105)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 27 Mar 2014 18:21:00 +0000
+
+ubuntu-themes (14.04+14.04.20140324-0ubuntu1) trusty; urgency=low
+
+  [ Simon Steinbeiß ]
+  * Drop input-keyboard as it overrides icon in other contexts (e.g.
+    settings managers)
+
+  [ Lars Uebernickel ]
+  * Sound menu: remove rectangle around play/pause when launching a
+    player Also set the foreground color for spinners in menus again in
+    gtk-widgets-radiance.css. That file overrides the color set in gtk-
+    widgets.css. (LP: #1231796)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 24 Mar 2014 18:05:01 +0000
+
+ubuntu-themes (14.04+14.04.20140319-0ubuntu1) trusty; urgency=low
+
+  [ Simon Steinbeiß ]
+  * Recolor the audio-volume-muted-blocking-panel icon to reflect the
+    SoundMenu spec (i.e. red icon over blue icon).
+  * Bring back input-keyboard to both -light and -dark themes to fix
+    broken symlinks to ibus-keyboard.svg and keyboard.svg Fix a few more
+    broken symlinks resulting from gpm-ac-adapter being dropped.
+
+  [ Marco Trevisan (Treviño) ]
+  * Radiance: use properly sized corner radius (matching Ambiance) (LP:
+    #1293742)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 19 Mar 2014 14:48:26 +0000
+
+ubuntu-themes (14.04+14.04.20140318-0ubuntu1) trusty; urgency=low
+
+  [ Matthieu James ]
+  * Added action icons for the Telephony app and symbolic icons for the
+    system settings menu (wallpaper, notifications, sounds, etc)
+
+  [ Lars Uebernickel ]
+  * Remove stray 'f' These render the next rule invalid.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 18 Mar 2014 09:43:32 +0000
+
+ubuntu-themes (14.04+14.04.20140311.1-0ubuntu1) trusty; urgency=low
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance, Radiance: use borderless decorations, different shadow
+    colors and opacity based on status (LP: #1281368)
+
+  [ Lars Uebernickel ]
+  * Fix styling of linked entries Needed for evince's page selector.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Mar 2014 18:50:51 +0000
+
 ubuntu-themes (14.04+14.04.20140311-0ubuntu1) trusty; urgency=medium
 
   [ Didier Roche ]
