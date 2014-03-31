@@ -98,6 +98,11 @@ UnityPanelWidget,
                  0 1px shade (@dark_bg_color, 1.06), 0 -1px shade (@dark_bg_color, 1.06);
 }
 
+UnityPanelWidget:backdrop,
+.unity-panel:backdrop {
+    color: #a39e9a;
+}
+
 .unity-panel.menubar,
 .unity-panel .menubar {
 }
