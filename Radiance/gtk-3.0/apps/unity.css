@@ -35,8 +35,8 @@ UnityDecoration.top {
                                      to (@dark_bg_color));
 
     color: shade (@dark_bg_color, 0.4);
-    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
-                 0 1px 1px shade (@dark_bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
+    text-shadow: 1px 0 shade (@dark_bg_color, 1.06), -1px 0 shade (@dark_bg_color, 1.06),
+                 0 1px shade (@dark_bg_color, 1.06), 0 -1px shade (@dark_bg_color, 1.06);
 }
 
 UnityDecoration.top:backdrop {
@@ -94,8 +94,8 @@ UnityPanelWidget,
     border-width: 1px 0 0 0;
 
     color: @dark_fg_color;
-    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
-                 0 1px 1px shade (@dark_bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
+    text-shadow: 1px 0 shade (@dark_bg_color, 1.06), -1px 0 shade (@dark_bg_color, 1.06),
+                 0 1px shade (@dark_bg_color, 1.06), 0 -1px shade (@dark_bg_color, 1.06);
 }
 
 .unity-panel.menubar,
