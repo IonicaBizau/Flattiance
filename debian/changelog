@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+14.04.20140402-0ubuntu1) trusty; urgency=low
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance,Radiance: set the backdrop color for unity-panel widgets
+    (LP: #1296866)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 02 Apr 2014 11:14:22 +0000
+
 ubuntu-themes (14.04+14.04.20140327-0ubuntu1) trusty; urgency=low
 
   [ Lars Uebernickel ]
