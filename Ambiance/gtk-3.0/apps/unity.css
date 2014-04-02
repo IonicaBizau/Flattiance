@@ -94,6 +94,11 @@ UnityPanelWidget,
     text-shadow: 1px 0 #333, -1px 0 #333, 0 1px #333, 0 -1px #333;
 }
 
+UnityPanelWidget:backdrop,
+.unity-panel:backdrop {
+    color: #807d78;
+}
+
 .unity-panel.menubar,
 .unity-panel .menubar {
 }
