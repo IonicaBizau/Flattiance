@@ -1,0 +1,194 @@
+{
+	"theme" : [
+		{ 
+			"category" : "Applications",
+			"icons" : [
+					{ 
+						"name" : "address-book-app",
+						"alt_names" : [],
+						"file" : "apps/256/address-book-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "calculator-app",
+						"alt_names" : [],
+						"file" : "apps/256/calculator-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "calendar-app",
+						"alt_names" : [],
+						"file" : "apps/256/calendar-app.png",
+						"comment" : null
+					},
+					{ 
+						"name" : "camera-app",
+						"alt_names" : [],
+						"file" : "apps/256/camera-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "clock-app",
+						"alt_names" : [],
+						"file" : "apps/256/clock-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "dialer-app",
+						"alt_names" : [],
+						"file" : "apps/256/dialer-app.png",
+						"comment" : null
+					},
+					{ 
+						"name" : "gallery-app",
+						"alt_names" : [],
+						"file" : "apps/256/gallery-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "maps-app",
+						"alt_names" : [],
+						"file" : "apps/256/maps-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "mediaplayer-app",
+						"alt_names" : [],
+						"file" : "apps/256/mediaplayer-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "messaging-app",
+						"alt_names" : [],
+						"file" : "apps/256/messaging-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "music-app",
+						"alt_names" : [],
+						"file" : "apps/256/music-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "notes-app",
+						"alt_names" : [],
+						"file" : "apps/256/notes-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "rssreader-app",
+						"alt_names" : [],
+						"file" : "apps/256/rssreader-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "system-settings",
+						"alt_names" : [],
+						"file" : "apps/256/system-settings.png",
+						"comment" : null
+					},
+					{
+						"name" : "ubuntuone",
+						"alt_names" : [],
+						"file" : "apps/256/ubuntuone.png",
+						"comment" : null
+					},
+					{
+						"name" : "ubuntu-sdk",
+						"alt_names" : [],
+						"file" : "apps/256/ubuntu-sdk.png",
+						"comment" : null
+					},
+					{
+						"name" : "weather-app",
+						"alt_names" : [],
+						"file" : "apps/256/weather-app.png",
+						"comment" : null
+					},
+					{
+						"name" : "webbrowser-app",
+						"alt_names" : [],
+						"file" : "apps/256/webbrowser-app.png",
+						"comment" : null
+					}
+				]
+		},
+		{ 
+			"category" : "Actions",
+			"icons" : [
+					{ 
+						"name" : "add",
+						"alt_names" : [ "list-add" ],
+						"file" : "actions/scalable/add.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "call-end",
+						"alt_names" : [ "sall-stop" ],
+						"file" : "actions/scalable/call-end.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "call-start",
+						"alt_names" : [],
+						"file" : "actions/scalable/call-start.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "cancel",
+						"alt_names" : [ "stop" ],
+						"file" : "actions/scalable/cancel.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "clear-search",
+						"alt_names" : [],
+						"file" : "actions/scalable/clear-search.svg",
+						"comment" : "Must be used inside input fields only. In any other context, use edit-clear."
+					},
+					{ 
+						"name" : "close",
+						"alt_names" : [],
+						"file" : "actions/scalable/close.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "contact",
+						"alt_names" : [ "stock_contact" ],
+						"file" : "actions/scalable/contact.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "edit-clear",
+						"alt_names" : [],
+						"file" : "actions/scalable/edit-clear.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "email",
+						"alt_names" : [ "stock_email" ],
+						"file" : "actions/scalable/email.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "event",
+						"alt_names" : [ "appointment", "stock_event", "stock_appointment" ],
+						"file" : "actions/scalable/event.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "find",
+						"alt_names" : [ "edit-find" ],
+						"file" : "actions/scalable/find.svg",
+						"comment" : null
+					},
+					{ 
+						"name" : "search",
+						"alt_names" : [],
+						"file" : "actions/scalable/search.svg",
+						"comment" : "Must be used inside input fields only. In any other context, use find or edit-find."
+					}
+				]
+		}
+	]
+}
