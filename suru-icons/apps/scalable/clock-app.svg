@@ -719,11 +719,11 @@
        inkscape:collect="always"
        id="linearGradient4527">
       <stop
-         style="stop-color:#d81616;stop-opacity:1;"
+         style="stop-color:#ce2020;stop-opacity:1"
          offset="0"
          id="stop4529" />
       <stop
-         style="stop-color:#e95427;stop-opacity:1"
+         style="stop-color:#e24747;stop-opacity:1"
          offset="1"
          id="stop4531" />
     </linearGradient>
@@ -831,12 +831,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6077031"
-     inkscape:cx="410.03517"
-     inkscape:cy="409.78276"
+     inkscape:zoom="1.0681152"
+     inkscape:cx="7.5834473"
+     inkscape:cy="295.6533"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
-     showgrid="true"
+     inkscape:current-layer="layer4"
+     showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
      inkscape:window-x="0"
@@ -857,7 +857,7 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-grids="true"
      fit-margin-top="18"
@@ -1064,7 +1064,8 @@
      id="layer2"
      inkscape:label="Folds"
      style="display:inline"
-     transform="translate(0,18)">
+     transform="translate(0,18)"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        style="opacity:0.05;color:#000000;fill:url(#linearGradient4178-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1099,8 +1100,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Pictogram"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4606);enable-background:accumulate"
        d="m 387.32227,122.28516 c -1.41875,-0.005 -2.08204,0.74609 -2.08204,0.74609 L 255.67383,248.15625 182.22656,178.5 c 0,0 -2.76566,-2.89057 -8.6914,3.03516 -5.92576,5.92577 -3.03516,8.6914 -3.03516,8.6914 l 69.39258,73.16992 -19.73242,19.05664 c 0,0 -4.17481,4.30957 4.44922,12.9336 8.624,8.62401 12.93359,4.44922 12.93359,4.44922 l 18.62109,-19.28125 18.28516,19.27929 c 0,0 3.88535,3.91368 10.21289,0.22461 l 100.17187,98.03711 c 0,0 1.39356,1.43457 4.04493,-1.21679 2.70827,-2.70827 1.21679,-4.04493 1.21679,-4.04493 L 292.05859,292.66211 c 3.68906,-6.32754 -0.22461,-10.21289 -0.22461,-10.21289 l -19.57421,-18.5625 124.70507,-129.13086 c 0,0 2.9974,-2.65887 -3.03515,-8.69141 -3.01627,-3.01627 -5.18867,-3.77475 -6.60742,-3.77929 z"
@@ -1192,15 +1192,13 @@
        id="circle4337"
        cx="256"
        cy="257.63519"
-       r="6.2921987"
-       d="m 262.2922,257.63519 a 6.2921987,6.2921987 0 0 1 -6.2922,6.2922 6.2921987,6.2921987 0 0 1 -6.2922,-6.2922 6.2921987,6.2921987 0 0 1 6.2922,-6.2922 6.2921987,6.2921987 0 0 1 6.2922,6.2922 z" />
+       r="6.2921987" />
     <circle
        r="6.2921987"
        cy="256.63519"
        cx="256"
        id="circle4527"
-       style="color:#000000;fill:url(#radialGradient4333);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 262.2922,256.63519 a 6.2921987,6.2921987 0 0 1 -6.2922,6.2922 6.2921987,6.2921987 0 0 1 -6.2922,-6.2922 6.2921987,6.2921987 0 0 1 6.2922,-6.2922 6.2921987,6.2921987 0 0 1 6.2922,6.2922 z" />
+       style="color:#000000;fill:url(#radialGradient4333);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
   <g
      inkscape:label="Guides"

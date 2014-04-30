@@ -246,11 +246,11 @@
     <linearGradient
        id="linearGradient7537">
       <stop
-         style="stop-color:#f4b457;stop-opacity:0.99607843"
+         style="stop-color:#f4b457;stop-opacity:1"
          offset="0"
          id="stop7539" />
       <stop
-         style="stop-color:#e67626;stop-opacity:1"
+         style="stop-color:#f37e40;stop-opacity:1"
          offset="1"
          id="stop7541" />
     </linearGradient>
@@ -610,11 +610,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.335144"
-     inkscape:cx="261.99421"
-     inkscape:cy="300.11495"
+     inkscape:zoom="0.68359373"
+     inkscape:cx="309.32115"
+     inkscape:cy="332.79515"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -751,8 +751,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Background"
-     sodipodi:insensitive="true">
+     inkscape:label="Background">
     <rect
        style="color:#000000;fill:url(#linearGradient4912);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4158"
@@ -766,7 +765,8 @@
      id="layer5"
      inkscape:label="Texture"
      style="opacity:0.3;display:inline;filter:url(#filter4276)"
-     transform="translate(0,18)">
+     transform="translate(0,18)"
+     sodipodi:insensitive="true">
     <image
        y="-2"
        x="-2.3706055e-07"
