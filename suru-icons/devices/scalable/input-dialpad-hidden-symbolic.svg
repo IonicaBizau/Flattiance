@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="dialpad00-on.svg">
+   sodipodi:docname="dialpad00-off.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -141,10 +141,15 @@
         </g>
         <path
            style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;enable-background:accumulate"
-           d="m 159,974.3622 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m -44,21 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m -44,21 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m 22,0 0,15 16,0 0,-15 z m -22,21 0,15 16,0 0,-15 z"
-           id="rect4124"
+           d="M 15 12 L 15 27 L 31 27 L 31 12 L 15 12 z M 37 12 L 37 27 L 50.271484 27 L 53 24.271484 L 53 12 L 37 12 z M 59 12 L 59 18.271484 L 65.271484 12 L 59 12 z M 73.757812 12 L 59 26.757812 L 59 27 L 75 27 L 75 12 L 73.757812 12 z M 15 33 L 15 48 L 29.271484 48 L 31 46.271484 L 31 33 L 15 33 z M 37 33 L 37 40.271484 L 44.271484 33 L 37 33 z M 52.757812 33 L 37.757812 48 L 53 48 L 53 33 L 52.757812 33 z M 59 33 L 59 48 L 75 48 L 75 33 L 59 33 z M 15 54 L 15 62.271484 L 23.271484 54 L 15 54 z M 37 54 L 37 69 L 53 69 L 53 54 L 37 54 z M 59 54 L 59 69 L 75 69 L 75 54 L 59 54 z M 31 54.757812 L 16.757812 69 L 31 69 L 31 54.757812 z M 37 75 L 37 90 L 53 90 L 53 75 L 37 75 z "
+           transform="translate(144,962.3622)"
+           id="rect4124" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:currentColor;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           d="m 223.75755,968.36301 -73.75781,73.75589 4.24218,4.2441 73.75782,-73.7578 z"
+           id="path4137"
            inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccc" />
+           sodipodi:nodetypes="ccccc" />
       </g>
     </g>
   </g>

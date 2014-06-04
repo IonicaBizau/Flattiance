@@ -13,9 +13,9 @@
    height="90"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="microphone.svg">
+   sodipodi:docname="microphone-on02.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,12 +25,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.259629"
-     inkscape:cx="-58.733682"
-     inkscape:cy="41.262364"
+     inkscape:zoom="5.0931703"
+     inkscape:cx="8.4819443"
+     inkscape:cy="62.387468"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
+     inkscape:current-layer="g2006"
+     showgrid="false"
      showborder="true"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -48,7 +48,7 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
@@ -138,10 +138,9 @@
            id="rect2008"
            style="opacity:0.01000001;color:#000000;fill:none;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <path
-           inkscape:connector-curvature="0"
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="m 219,1040.375 c -6.77659,0 -12,3.9872 -12,12 l 0,16 0,5 0,12 c 0,8.0128 5.22341,12 12,12 6.77659,0 12,-4 12,-12 l 0,-12 0,-5 0,-16 c 0,-8 -5.22341,-12 -12,-12 z"
-           transform="translate(168,-689.00001)"
+           d="M 45 0 C 38.22341 0 33 3.9872001 33 12 L 33 28 L 33 33 L 33 45 C 33 53.0128 38.22341 57 45 57 C 51.77659 57 57 53 57 45 L 57 33 L 57 28 L 57 12 C 57 4.0000001 51.77659 0 45 0 z M 45 5.9863281 C 47.21043 5.9863281 48.616537 6.5969188 49.466797 7.3867188 C 50.317047 8.1766187 51.013672 9.3029 51.013672 12 L 51.013672 28 L 51.013672 33 L 51.013672 45 C 51.013672 47.6971 50.317047 48.823381 49.466797 49.613281 C 48.616537 50.403081 47.21043 51.013672 45 51.013672 C 42.7858 51.013672 41.37935 50.404387 40.53125 49.617188 C 39.68315 48.829988 38.986328 47.7056 38.986328 45 L 38.986328 33 L 38.986328 28 L 38.986328 12 C 38.986328 9.2944 39.68315 8.1700125 40.53125 7.3828125 C 41.37935 6.5956125 42.7858 5.9863281 45 5.9863281 z "
+           transform="translate(341.99995,351.37499)"
            id="path2010" />
         <rect
            y="411.36218"
