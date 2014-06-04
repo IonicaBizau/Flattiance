@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="media-player-app-symbolic.svg">
+   sodipodi:docname="mediaplayer-app-symbolic.svg">
   <defs
      id="defs4481" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.3664629"
-     inkscape:cx="70.133136"
+     inkscape:cx="31.728765"
      inkscape:cy="36.723687"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -114,16 +114,16 @@
        width="90"
        id="rect4616"
        style="fill:none;stroke:none" />
-    <circle
-       style="color:#000000;fill:none;stroke:#808080;stroke-width:9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:13.80000032;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="circle4620"
-       r="36.499989"
-       cy="740.93359"
-       cx="-788.57147" />
     <path
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m -801.97964,720.09333 0,41.67971 c 0,0 19.7523,-8.54392 37.0259,-20.85307 0,-0.0171 -0.016,-0.0171 -0.016,-0.0171 -0.018,-0.0171 -0.018,-0.0171 -0.018,-0.0171 -0.018,-0.0171 -0.018,-0.0171 -0.018,-0.0171 -0.016,-0.0171 -0.016,-0.0171 -0.016,-0.0171 -18.2204,-12.70155 -37.0006,-20.77489 -37.0006,-20.77489 z"
        id="path4622"
        inkscape:connector-curvature="0" />
+    <circle
+       style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4116"
+       cx="-788.57147"
+       cy="740.93359"
+       r="38" />
   </g>
 </svg>
