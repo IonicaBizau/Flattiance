@@ -13,7 +13,7 @@
    height="90"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
    sodipodi:docname="voicemail.svg">
   <defs
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.9475982"
-     inkscape:cx="34.425394"
-     inkscape:cy="42.899802"
+     inkscape:zoom="12.434498"
+     inkscape:cx="41.461263"
+     inkscape:cy="41.875434"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
      showgrid="true"
@@ -139,24 +139,24 @@
            x="0"
            y="962.36218" />
         <circle
-           r="15.000006"
+           r="16.49992"
            cy="1008.8621"
            cx="19.499998"
-           style="color:#000000;fill:none;stroke:#808080;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="path3012" />
         <circle
-           r="14.999933"
+           r="16.49992"
            cy="1008.8621"
            cx="70.499939"
            id="path3782"
-           style="color:#000000;fill:none;stroke:#808080;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <rect
            style="color:#000000;fill:#808080;stroke:none;stroke-width:9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="rect3784"
            width="50.999973"
-           height="9"
+           height="6.000104"
            x="19.500004"
-           y="1019.3623" />
+           y="1022.3622" />
       </g>
     </g>
   </g>

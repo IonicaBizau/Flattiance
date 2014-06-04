@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.3664629"
-     inkscape:cx="-4.7121931"
-     inkscape:cy="37.791785"
+     inkscape:zoom="4.0745363"
+     inkscape:cx="34.077497"
+     inkscape:cy="37.979782"
      inkscape:document-units="px"
      inkscape:current-layer="g1628"
      showgrid="true"
@@ -149,8 +149,8 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cccccc" />
         <path
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-           d="m 189,151.36222 c -10,0 -15,-2e-4 -15,11.62695 l 0,36.7461 c 0,11.62716 5,11.62695 15,11.62695 l 60,0 c 10,0 15,2.1e-4 15,-11.62695 l 0,-36.7461 c 0,-11.62715 -5,-11.62695 -15,-11.62695 z m 3,21 30,0 0,6 -30,0 z m 0,12 57,0 0,6 -57,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none"
+           d="m 191,151.36222 c -10,0 -15,-2e-4 -15,11.62695 l 0,36.7461 c 0,11.62716 5,11.62695 15,11.62695 l 56,0 c 10,0 15,2.1e-4 15,-11.62695 l 0,-36.37305 c 0,-12 -5,-12 -15,-12 z m 3,21 25,0 0,6 -25,0 z m 0,12 50,0 0,6 -50,0 z"
            id="path4237"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ssssssssscccccccccc" />

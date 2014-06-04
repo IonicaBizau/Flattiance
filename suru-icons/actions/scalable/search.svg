@@ -13,7 +13,7 @@
    height="90"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
    sodipodi:docname="search.svg">
   <defs
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931704"
-     inkscape:cx="10.523894"
-     inkscape:cy="51.677047"
+     inkscape:zoom="9.9475984"
+     inkscape:cx="51.53505"
+     inkscape:cy="42.658538"
      inkscape:document-units="px"
      inkscape:current-layer="g1726"
      showgrid="true"
@@ -145,18 +145,18 @@
              y="-503.36218"
              transform="scale(1,-1)" />
           <path
-             style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:12.00393677;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-             d="m 169.0067,475.36218 20.01313,20"
-             id="path1736"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12.00393677;marker:none;visibility:visible;display:inline;overflow:visible;isolation:auto;mix-blend-mode:normal;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             d="m 175.75185,474.61695 -7.48567,7.49023 17.0117,17 7.48372,-7.49023 z"
+             id="path1736-1"
              inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cc" />
+             sodipodi:nodetypes="ccccc" />
           <ellipse
-             ry="28.529242"
-             rx="28.489321"
-             cy="458.39276"
-             cx="151.99873"
-             style="color:#000000;fill:none;stroke:#808080;stroke-width:9.00294495;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-             id="path2995" />
+             style="color:#000000;fill:none;stroke:#808080;stroke-width:6.00196838;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path4116"
+             cx="152.02943"
+             cy="458.36395"
+             rx="30.020548"
+             ry="30.000891" />
         </g>
       </g>
     </g>

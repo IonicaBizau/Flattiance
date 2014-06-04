@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="settings02.svg">
+   sodipodi:docname="settings.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.259629"
-     inkscape:cx="88.016149"
-     inkscape:cy="2.2548557"
+     inkscape:zoom="5.0931703"
+     inkscape:cx="16.286514"
+     inkscape:cy="39.111198"
      inkscape:document-units="px"
      inkscape:current-layer="g5449"
      showgrid="true"
@@ -137,15 +137,15 @@
            y="174"
            transform="matrix(0,1,1,0,0,0)" />
         <ellipse
-           ry="27.618412"
-           rx="27.573217"
-           cy="-1772.2791"
+           ry="29.051676"
+           rx="29.004131"
+           cy="-1772.2792"
            cx="2632.804"
-           style="color:#000000;fill:none;stroke:#808080;stroke-width:15.00000286;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#808080;stroke-width:12.00000191;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
            id="path5417"
-           transform="matrix(-0.49964993,0.86622742,-0.86582317,-0.50035012,0,0)"
-           inkscape:transform-center-y="0.00032264737"
-           inkscape:transform-center-x="-0.00016659442" />
+           transform="matrix(-0.49964997,0.8662274,-0.8658232,-0.50035007,0,0)"
+           inkscape:transform-center-y="0.00024527103"
+           inkscape:transform-center-x="-0.00022172925" />
         <path
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            d="m 226,3124.3473 -13.99991,2.09 0,13.9535 13.99991,0 0,-16.043 z"
