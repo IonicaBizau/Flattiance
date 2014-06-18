@@ -70,17 +70,17 @@
     outline-offset: 5px;
 }
 
-GtkWindow {
+.background {
     color: @fg_color;
     background-color: @bg_color;
 }
 
-GtkPaned {
-    background-color: @bg_color;
+.background:backdrop {
+    color: @backdrop_fg_color;
 }
 
-GtkWindow:backdrop {
-    color: @backdrop_fg_color;
+GtkPaned {
+    background-color: @bg_color;
 }
 
 GtkEventBox {
@@ -2249,6 +2249,24 @@ GtkViewport.frame {
     border-width: 0;
 }
 
+
+/************
+ * popover  *
+ ************/
+.popover {
+    background-clip: border-box;
+
+    border-radius: 5px;
+    border: 1px solid darker(@bg_color);
+
+    box-shadow: 0 2px 3px @shadow_color;
+    margin: 10px;
+    padding: 2px;
+}
+
+.popover:backdrop {
+    box-shadow: none;
+}
 
 /*****************************************************************************
  * states [please keep this section at the end of the file (CSS precedence)] *
