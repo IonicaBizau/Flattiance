@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931703"
-     inkscape:cx="-20.920175"
-     inkscape:cy="27.664498"
+     inkscape:zoom="9.9475982"
+     inkscape:cx="-16.793"
+     inkscape:cy="51.082682"
      inkscape:document-units="px"
-     inkscape:current-layer="g4845"
+     inkscape:current-layer="g4309"
      showgrid="true"
      showborder="true"
      fit-margin-top="0"
@@ -175,25 +175,9 @@
            y="170.36218" />
         <path
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="m 478,61 c -6,0 -7,0 -7,6 l 0,9.000002 6,0 24,0 6,0 L 507,67 c 0,-6 -1,-6 -7,-6 z"
-           transform="translate(-360,52.362188)"
-           id="path4328"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ssccccsss" />
-        <circle
-           r="7"
-           cy="112.36219"
-           cx="129"
-           id="circle4330"
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="m 136,112.36219 a 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 7,7 0 0 1 7,7 z" />
-        <circle
-           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="circle4332"
-           cx="129"
-           cy="112.36219"
-           r="3"
-           d="m 132,112.36219 a 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 3,3 0 0 1 3,3 z" />
+           d="M 39 1 A 6.9999998 6.9999998 0 0 0 32 8 A 6.9999998 6.9999998 0 0 0 32.078125 9 L 28 9 C 22 9 21 9.0000002 21 15 L 21 24 L 27 24 L 51 24 L 57 24 L 57 15 C 57 9.0000002 56 9 50 9 L 45.919922 9 A 6.9999998 6.9999998 0 0 0 46 8 A 6.9999998 6.9999998 0 0 0 39 1 z M 39 5 A 3 3 0 0 1 42 8 A 3 3 0 0 1 39 11 A 3 3 0 0 1 36 8 A 3 3 0 0 1 39 5 z "
+           transform="translate(90.000003,104.36223)"
+           id="path4328" />
       </g>
     </g>
   </g>
