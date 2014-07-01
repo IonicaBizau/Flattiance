@@ -221,11 +221,11 @@
     <linearGradient
        id="linearGradient7537">
       <stop
-         style="stop-color:#f2834c;stop-opacity:0.99607843"
+         style="stop-color:#f37e40;stop-opacity:1"
          offset="0"
          id="stop7539" />
       <stop
-         style="stop-color:#ea5420;stop-opacity:0.99607843"
+         style="stop-color:#ea5420;stop-opacity:1"
          offset="1"
          id="stop7541" />
     </linearGradient>
@@ -504,10 +504,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.68359375"
-     inkscape:cx="302.81142"
-     inkscape:cy="212.46802"
+     inkscape:cx="163.76685"
+     inkscape:cy="300.16631"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -643,8 +643,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Background"
-     sodipodi:insensitive="true">
+     inkscape:label="Background">
     <rect
        style="color:#000000;fill:url(#linearGradient4912);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4158"
@@ -673,7 +672,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Folds"
-     transform="translate(0,18)">
+     transform="translate(0,18)"
+     sodipodi:insensitive="true">
     <path
        style="opacity:0.07999998;color:#000000;fill:url(#linearGradient4178-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m -2.1512605,-2 0,480 23.1381295,0 L 276.59743,-2 -2.1512605,-2 Z"

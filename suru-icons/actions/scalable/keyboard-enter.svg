@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.0931703"
-     inkscape:cx="21.519012"
-     inkscape:cy="32.877361"
+     inkscape:cx="50.057229"
+     inkscape:cy="35.05675"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
      showgrid="true"
@@ -140,17 +140,17 @@
            y="962.36218" />
         <path
            style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-           d="m 78.000004,974.3622 0,30 c 0,6 -2.007923,5.667 -9,6 l -35,0 0,12 41,0 c 10,0 15,10e-5 15,-11.627 l 0,-36.373 z"
+           d="m 81.000004,975.3622 0,30 c 0,6 -1.999998,6 -9,6 l -38,0 0,9 41,0 c 10,0 15,10e-5 15,-11.627 l 0,-33.373 z"
            id="path4229"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cssccsscc" />
         <path
            sodipodi:nodetypes="ccsssccc"
-           inkscape:transform-center-y="0.074024366"
-           inkscape:transform-center-x="-20.983259"
+           inkscape:transform-center-y="0.063462688"
+           inkscape:transform-center-x="-17.986051"
            inkscape:connector-curvature="0"
            id="path2194-83"
-           d="m 41.994245,1040.0931 c 0,0 -22.420433,-9.6977 -42.02778876,-23.6699 0,0 0,-0.016 0.0076354,-0.016 0,0 0.0076354,-0.016 0.0091,-0.016 0,0 0.00763539,-0.016 0.00910001,-0.016 0,0 0.0076353801,-0.016 0.0076353801,-0.016 C 20.683217,1001.9438 42.000004,992.77935 42.000004,992.77935 Z"
+           d="m 35.995067,1036.1424 c 0,0 -19.217941,-8.3125 -36.02462088,-20.289 0,0 0,-0.014 0.0065447,-0.014 0,0 0.0065448,-0.014 0.0078002,-0.014 0,0 0.00654476,-0.014 0.00780019,-0.014 0,0 0.006544751,-0.014 0.006544751,-0.014 C 17.728065,1003.4422 36.000004,995.58683 36.000004,995.58683 Z"
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       </g>
     </g>

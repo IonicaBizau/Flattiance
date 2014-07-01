@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.3664629"
-     inkscape:cx="40.831151"
-     inkscape:cy="39.315393"
+     inkscape:zoom="3.259629"
+     inkscape:cx="10.077836"
+     inkscape:cy="45.634025"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -134,27 +134,28 @@
     <path
        inkscape:connector-curvature="0"
        id="path4342"
-       d="m -821.57146,736.93359 7.00002,4.00002 -7.00002,4.00002 z"
+       d="m -828.57148,732.93357 14.00004,8.00004 -14.00004,8.00004 z"
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -755.57146,736.93359 -6.99998,4.00002 6.99998,4.00002 z"
+       d="m -748.57148,732.93357 -13.99996,8.00004 13.99996,8.00004 z"
        id="path4344"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path4346"
-       d="m -792.5714,707.93359 3.99996,7.00002 3.99996,-7.00002 z"
+       d="m -796.57136,700.93357 7.99992,14.00004 7.99992,-14.00004 z"
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -784.57148,773.93359 -3.99996,-6.99998 -3.99996,6.99998 z"
+       d="m -780.57152,780.93357 -7.99992,-13.99996 -7.99992,13.99996 z"
        id="path4348"
        inkscape:connector-curvature="0" />
-    <path
-       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -788.57144,699.93274 a 41.000022,41.000022 0 0 0 -41,41 41.000022,41.000022 0 0 0 41,41 41.000022,41.000022 0 0 0 41,-41 41.000022,41.000022 0 0 0 -41,-41 z m 0,9 a 31.999145,31.999145 0 0 1 32,32 31.999145,31.999145 0 0 1 -32,32 31.999145,31.999145 0 0 1 -32,-32 31.999145,31.999145 0 0 1 32,-32 z"
-       id="path4357"
-       inkscape:connector-curvature="0" />
+    <circle
+       style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4116"
+       cx="-788.57147"
+       cy="740.93359"
+       r="38" />
   </g>
 </svg>

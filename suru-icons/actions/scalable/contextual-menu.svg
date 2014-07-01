@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="contextual-menu02.svg">
+   sodipodi:docname="contextual-menu.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9580786"
-     inkscape:cx="26.180941"
-     inkscape:cy="47.071663"
+     inkscape:zoom="6.3664629"
+     inkscape:cx="-0.11780698"
+     inkscape:cy="56.0908"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
      showgrid="true"
@@ -138,24 +138,13 @@
            height="90"
            x="0"
            y="962.36218" />
-        <circle
-           style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="path4097"
-           cx="45.000004"
-           cy="1007.3622"
-           r="8" />
-        <circle
-           r="8"
-           cy="981.36218"
-           cx="45.000004"
-           id="circle4099"
-           style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-        <circle
-           r="8"
-           cy="1033.3622"
-           cx="45.000004"
-           id="circle4101"
-           style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.80000001;marker:none;enable-background:accumulate"
+           d="m 33,18 0,9 24,0 0,-9 z m 0,22 0,9 24,0 0,-9 z m 0,22 0,9 24,0 0,-9 z"
+           transform="translate(3.5e-6,962.3622)"
+           id="rect4067"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccc" />
       </g>
     </g>
   </g>

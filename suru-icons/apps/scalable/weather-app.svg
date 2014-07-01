@@ -241,11 +241,11 @@
        inkscape:collect="always"
        id="linearGradient4237">
       <stop
-         style="stop-color:#fd7900;stop-opacity:1"
+         style="stop-color:#f37e40;stop-opacity:1"
          offset="0"
          id="stop4239" />
       <stop
-         style="stop-color:#fbcc4f;stop-opacity:0.99607843"
+         style="stop-color:#fbcc4f;stop-opacity:1"
          offset="1"
          id="stop4241" />
     </linearGradient>
@@ -302,11 +302,11 @@
     <linearGradient
        id="linearGradient7537">
       <stop
-         style="stop-color:#247eca;stop-opacity:0.99607843"
+         style="stop-color:#247eca;stop-opacity:1"
          offset="0"
          id="stop7539" />
       <stop
-         style="stop-color:#a1d4e2;stop-opacity:0.99607843"
+         style="stop-color:#94d1eb;stop-opacity:1"
          offset="1"
          id="stop7541" />
     </linearGradient>
@@ -912,12 +912,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0681152"
-     inkscape:cx="189.27032"
-     inkscape:cy="268.8333"
+     inkscape:zoom="0.54687498"
+     inkscape:cx="-380.41143"
+     inkscape:cy="139.14502"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
-     showgrid="true"
+     inkscape:current-layer="layer4"
+     showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
      inkscape:window-x="0"
@@ -938,7 +938,7 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-grids="true"
      fit-margin-top="18"
@@ -1084,7 +1084,8 @@
      id="layer5"
      inkscape:label="Folds"
      style="opacity:0.75;display:inline"
-     transform="translate(0,18)">
+     transform="translate(0,18)"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        style="opacity:0.07000002;color:#000000;fill:url(#linearGradient4178-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1115,8 +1116,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Pictogram"
-     sodipodi:insensitive="true">
+     inkscape:label="Pictogram">
     <circle
        transform="matrix(0.83234804,0,0,0.83234804,42.959472,67.326179)"
        id="path4212"
@@ -1125,8 +1125,7 @@
        inkscape:transform-center-y="9.4250125"
        cx="256"
        cy="238"
-       r="144"
-       d="M 400,238 A 144,144 0 0 1 256,382 144,144 0 0 1 112,238 144,144 0 0 1 256,94 144,144 0 0 1 400,238 Z" />
+       r="144" />
     <circle
        style="opacity:0.3;color:#000000;fill:url(#linearGradient4331);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path4321"
@@ -1135,8 +1134,7 @@
        inkscape:transform-center-y="0.7167577"
        cx="256"
        cy="238"
-       r="144"
-       d="M 400,238 A 144,144 0 0 1 256,382 144,144 0 0 1 112,238 144,144 0 0 1 256,94 144,144 0 0 1 400,238 Z" />
+       r="144" />
     <circle
        style="opacity:0.5;color:#000000;fill:#373e48;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4250);enable-background:accumulate"
        id="path4304"
@@ -1145,8 +1143,7 @@
        inkscape:transform-center-y="2.8938175"
        cx="256"
        cy="238"
-       r="144"
-       d="M 400,238 A 144,144 0 0 1 256,382 144,144 0 0 1 112,238 144,144 0 0 1 256,94 144,144 0 0 1 400,238 Z" />
+       r="144" />
     <circle
        transform="matrix(0.83234804,0,0,0.83234804,42.959472,58.617918)"
        id="path4255"
@@ -1155,8 +1152,7 @@
        inkscape:transform-center-y="0.71675152"
        cx="256"
        cy="238"
-       r="144"
-       d="M 400,238 A 144,144 0 0 1 256,382 144,144 0 0 1 112,238 144,144 0 0 1 256,94 144,144 0 0 1 400,238 Z" />
+       r="144" />
     <circle
        style="color:#000000;fill:url(#radialGradient4204);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path4195"
@@ -1164,8 +1160,7 @@
        inkscape:transform-center-y="0.71675152"
        cx="256.04059"
        cy="256.71677"
-       r="119.85812"
-       d="M 375.89871,256.71677 A 119.85812,119.85812 0 0 1 256.04059,376.57489 119.85812,119.85812 0 0 1 136.18246,256.71677 119.85812,119.85812 0 0 1 256.04059,136.85864 119.85812,119.85812 0 0 1 375.89871,256.71677 Z" />
+       r="119.85812" />
     <path
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:url(#linearGradient4242);fill-opacity:1;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
        d="m 322.78267,274.75477 c -25.49684,0 -47.15473,15.73216 -57.44893,38.07322 -23.94503,1.74416 -42.82026,22.4321 -42.82026,47.47035 0,26.16121 20.54426,47.76123 46.01725,47.76123 l 54.25194,0 50.57055,0 c 19.48053,0 35.16687,-16.52544 35.16687,-36.42629 0,-15.09909 -9.08952,-27.84551 -21.99141,-33.32618 -1.59259,-35.14682 -29.31335,-63.55233 -63.74601,-63.55233 z"

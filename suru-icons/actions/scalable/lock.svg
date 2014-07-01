@@ -11,13 +11,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="90"
    height="90"
-   id="svg4874"
+   id="svg6138"
    version="1.1"
-   inkscape:version="0.48+devel r12845"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
-   sodipodi:docname="lock.svg">
+   sodipodi:docname="network-secure02.svg">
   <defs
-     id="defs4876" />
+     id="defs6140" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,86 +25,87 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.3664629"
-     inkscape:cx="22.13945"
-     inkscape:cy="52.446705"
+     inkscape:zoom="5.0931703"
+     inkscape:cx="6.4792651"
+     inkscape:cy="68.042094"
      inkscape:document-units="px"
      inkscape:current-layer="g5951"
      showgrid="true"
-     showborder="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
+     inkscape:snap-global="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
-       id="grid5451"
+       id="grid6700"
        empspacing="6" />
     <sodipodi:guide
-       orientation="1,0"
-       position="6,77"
-       id="guide4063" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="3,78"
-       id="guide4065" />
+       orientation="0,1"
+       position="90,87"
+       id="guide4064" />
     <sodipodi:guide
        orientation="0,1"
-       position="55,84"
-       id="guide4067" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="53,87"
-       id="guide4069" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="20,3"
-       id="guide4071" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="20,6"
-       id="guide4073" />
+       position="89,84"
+       id="guide4066" />
     <sodipodi:guide
        orientation="1,0"
-       position="87,7"
-       id="guide4075" />
+       position="3,69"
+       id="guide4068" />
     <sodipodi:guide
        orientation="1,0"
-       position="84,7"
-       id="guide4077" />
+       position="6,60"
+       id="guide4070" />
     <sodipodi:guide
-       orientation="0,1"
-       position="58,81"
+       orientation="1,0"
+       position="87,58"
+       id="guide4072" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="84,47"
        id="guide4074" />
     <sodipodi:guide
-       orientation="1,0"
-       position="9,74"
+       orientation="0,1"
+       position="77,3"
        id="guide4076" />
     <sodipodi:guide
        orientation="0,1"
-       position="21,9"
+       position="81,6"
        id="guide4078" />
     <sodipodi:guide
        orientation="1,0"
-       position="81,4"
+       position="81,25"
        id="guide4080" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="78,9"
+       id="guide4082" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="79,81"
+       id="guide4084" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="9,39"
+       id="guide4086" />
   </sodipodi:namedview>
   <metadata
-     id="metadata4879">
+     id="metadata6143">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -119,17 +120,22 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(67.857146,-84.50504)">
+     transform="translate(-283.57144,-358.79068)">
     <g
-       transform="matrix(0,-1,-1,0,373.50506,516.50504)"
-       id="g4845"
-       style="display:inline">
+       transform="translate(169.57144,223.42822)"
+       id="g5937"
+       inkscape:export-filename="envelope02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6442"
+       transform="translate(-753.45981,336.4283)">
       <g
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="envelope02.png"
          id="g5951"
-         transform="matrix(0,-1,-1,0,567.36222,555.36221)">
+         transform="translate(923.03125,-112.99984)">
         <g
            style="fill:none"
            transform="matrix(1.875,0,0,1.875,-426,-1657.8169)"
@@ -144,10 +150,18 @@
              transform="translate(0,804.3622)" />
         </g>
         <path
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-           d="M 45 3 C 28.36662 3 15 16.9747 15 34 L 15 40 L 15 56 L 15 87 L 45 87 L 75 87 L 75 56 L 75 40 L 75 34 C 75 16.9747 61.63338 3 45 3 z M 45 11 C 57.17462 11 67 21.1093 67 34 L 67 40 L 23 40 L 23 34 C 23 21.1093 32.82538 11 45 11 z M 45 48 C 49.9706 48 54 52.0294 54 57 C 54 59.6624 52.8376 62.047513 51 63.695312 L 51 78 L 39 78 L 39 63.695312 C 37.1627 62.047513 36 59.6622 36 57 C 36 52.0294 40.0294 48 45 48 z "
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none"
+           d="M 14.998047 42 L 14.998047 87 L 75 87 L 75 42 L 14.998047 42 z M 45 52 A 6.9999998 6.9999998 0 0 1 52 59 A 6.9999998 6.9999998 0 0 1 49 64.734375 L 49 75 L 41 75 L 41 64.742188 A 6.9999998 6.9999998 0 0 1 38 59 A 6.9999998 6.9999998 0 0 1 45 52 z "
            transform="translate(114,135.36222)"
-           id="path5957" />
+           id="path4124" />
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#808080;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect5981"
+           width="42"
+           height="71"
+           x="138"
+           y="144.36221"
+           ry="21" />
       </g>
     </g>
   </g>

@@ -1,0 +1,358 @@
+{
+	"theme" : [
+		{ 
+			"category" : "Actions",
+			"description" : "As a developer, this category of icons is the most interesting: action icons can be used in header, menus or buttons and they cover a wide set of generic concepts and interactions.",
+			"icons" : [
+					{ 
+						"name" : "add",
+						"alt_names" : [ "list-add" ],
+						"file" : "actions/scalable/add.svg",
+						"comment" : "",
+						"tags" : ["plus"]
+					},
+					{ 
+						"name" : "call-end",
+						"alt_names" : [ "sall-stop" ],
+						"file" : "actions/scalable/call-end.svg",
+						"comment" : "",
+						"tags" : ["phone"]
+					},
+					{ 
+						"name" : "call-start",
+						"alt_names" : [],
+						"file" : "actions/scalable/call-start.svg",
+						"comment" : "",
+						"tags" : ["phone"]
+					},
+					{ 
+						"name" : "cancel",
+						"alt_names" : [ "stop" ],
+						"file" : "actions/scalable/cancel.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{ 
+						"name" : "clear-search",
+						"alt_names" : [],
+						"file" : "actions/scalable/clear-search.svg",
+						"comment" : "Must be used inside input fields only. In any other context, use edit-clear.",
+						"tags" : []
+					},
+					{ 
+						"name" : "close",
+						"alt_names" : [],
+						"file" : "actions/scalable/close.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{ 
+						"name" : "contact",
+						"alt_names" : [ "stock_contact" ],
+						"file" : "actions/scalable/contact.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{ 
+						"name" : "edit-clear",
+						"alt_names" : [],
+						"file" : "actions/scalable/edit-clear.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{ 
+						"name" : "email",
+						"alt_names" : [ "stock_email" ],
+						"file" : "actions/scalable/email.svg",
+						"comment" : "",
+						"tags" : ["envelope"]
+					},
+					{ 
+						"name" : "event",
+						"alt_names" : [ "appointment", "stock_event", "stock_appointment" ],
+						"file" : "actions/scalable/event.svg",
+						"comment" : "",
+						"tags" : ["calendar", "agenda"]
+					},
+					{ 
+						"name" : "find",
+						"alt_names" : [ "edit-find" ],
+						"file" : "actions/scalable/find.svg",
+						"comment" : "",
+						"tags" : ["search", "magnifying glass"]
+					},
+					{ 
+						"name" : "search",
+						"alt_names" : [],
+						"file" : "actions/scalable/search.svg",
+						"comment" : "Must be used inside input fields only. In any other context, use find or edit-find.",
+						"tags" : []
+					}
+				]
+		},
+		{ 
+			"category" : "Applications",
+			"description" : "Core application icons are presented as a reference. When developing a new applications, you will not use directly those icons. However, you could need to display their symbolic counterpart as shortcuts (see below).",
+			"icons" : [
+					{ 
+						"name" : "address-book-app",
+						"alt_names" : [],
+						"file" : "apps/256/address-book-app.png",
+						"comment" : "",
+						"tags" : ["contact"]
+					},
+					{
+						"name" : "calculator-app",
+						"alt_names" : [],
+						"file" : "apps/256/calculator-app.png",
+						"comment" : "",
+						"tags" : ["math", "sum", "addition"]
+					},
+					{
+						"name" : "calendar-app",
+						"alt_names" : [],
+						"file" : "apps/256/calendar-app.png",
+						"comment" : "",
+						"tags" : ["agenda", "event"]
+					},
+					{ 
+						"name" : "camera-app",
+						"alt_names" : [],
+						"file" : "apps/256/camera-app.png",
+						"comment" : "",
+						"tags" : ["picture", "photo"]
+					},
+					{
+						"name" : "clock-app",
+						"alt_names" : [],
+						"file" : "apps/256/clock-app.png",
+						"comment" : "",
+						"tags" : ["hour", "alarm"]
+					},
+					{
+						"name" : "dialer-app",
+						"alt_names" : [],
+						"file" : "apps/256/dialer-app.png",
+						"comment" : "",
+						"tags" : ["phone", "telephony"]
+					},
+					{ 
+						"name" : "gallery-app",
+						"alt_names" : [],
+						"file" : "apps/256/gallery-app.png",
+						"comment" : "",
+						"tags" : ["picture"]
+					},
+					{
+						"name" : "maps-app",
+						"alt_names" : [],
+						"file" : "apps/256/maps-app.png",
+						"comment" : "",
+						"tags" : ["location"]
+					},
+					{
+						"name" : "mediaplayer-app",
+						"alt_names" : [],
+						"file" : "apps/256/mediaplayer-app.png",
+						"comment" : "",
+						"tags" : ["video", "movie", "cinema"]
+					},
+					{
+						"name" : "messaging-app",
+						"alt_names" : [],
+						"file" : "apps/256/messaging-app.png",
+						"comment" : "",
+						"tags" : ["sms", "chat"]
+					},
+					{
+						"name" : "music-app",
+						"alt_names" : [],
+						"file" : "apps/256/music-app.png",
+						"comment" : "",
+						"tags" : ["album", "artist", "song"]
+					},
+					{
+						"name" : "notes-app",
+						"alt_names" : [],
+						"file" : "apps/256/notes-app.png",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "rssreader-app",
+						"alt_names" : [],
+						"file" : "apps/256/rssreader-app.png",
+						"comment" : "",
+						"tags" : ["news"]
+					},
+					{
+						"name" : "system-settings",
+						"alt_names" : [],
+						"file" : "apps/256/system-settings.png",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "ubuntuone",
+						"alt_names" : [],
+						"file" : "apps/256/ubuntuone.png",
+						"comment" : "",
+						"tags" : ["u1"]
+					},
+					{
+						"name" : "ubuntu-sdk",
+						"alt_names" : [],
+						"file" : "apps/256/ubuntu-sdk.png",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "weather-app",
+						"alt_names" : [],
+						"file" : "apps/256/weather-app.png",
+						"comment" : "",
+						"tags" : ["forecast"]
+					},
+					{
+						"name" : "webbrowser-app",
+						"alt_names" : [],
+						"file" : "apps/256/webbrowser-app.png",
+						"comment" : "",
+						"tags" : ["internet"]
+					}
+				]
+		},
+		{ 
+			"category" : "Symbolic applications",
+			"description" : "Symbolic application icons are useful when you need to display a shortcut to an application in a context that only accepts monochromatic icons (a header, for example).",
+			"icons" : [
+					{ 
+						"name" : "address-book-app-symbolic",
+						"alt_names" : [],
+						"file" : "apps/scalable/address-book-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["contact"]
+					},
+					{
+						"name" : "calculator-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/calculator-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["math", "sum", "addition"]
+					},
+					{
+						"name" : "calendar-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/calendar-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["agenda", "event"]
+					},
+					{ 
+						"name" : "camera-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/camera-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["picture", "photo"]
+					},
+					{
+						"name" : "clock-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/clock-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["hour", "alarm"]
+					},
+					{
+						"name" : "dialer-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/dialer-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["phone", "telephony"]
+					},
+					{ 
+						"name" : "gallery-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/gallery-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["picture"]
+					},
+					{
+						"name" : "maps-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/maps-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["location"]
+					},
+					{
+						"name" : "mediaplayer-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/mediaplayer-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["video", "movie", "cinema"]
+					},
+					{
+						"name" : "messaging-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/messaging-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["sms", "chat"]
+					},
+					{
+						"name" : "music-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/music-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["album", "artist", "song"]
+					},
+					{
+						"name" : "notes-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/notes-app-symbolic.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "rssreader-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/rssreader-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["news"]
+					},
+					{
+						"name" : "system-settings",
+						"alt_names" : [],
+						"file" : "apps/scalable/system-settings-symbolic.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "ubuntuone",
+						"alt_names" : [],
+						"file" : "apps/scalable/ubuntuone-symbolic.svg",
+						"comment" : "",
+						"tags" : ["u1"]
+					},
+					{
+						"name" : "ubuntu-sdk",
+						"alt_names" : [],
+						"file" : "apps/scalable/ubuntu-sdk-symbolic.svg",
+						"comment" : "",
+						"tags" : []
+					},
+					{
+						"name" : "weather-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/weather-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["forecast"]
+					},
+					{
+						"name" : "webbrowser-app",
+						"alt_names" : [],
+						"file" : "apps/scalable/webbrowser-app-symbolic.svg",
+						"comment" : "",
+						"tags" : ["internet"]
+					}
+				]
+		}
+	]
+}

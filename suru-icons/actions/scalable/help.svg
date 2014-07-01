@@ -13,7 +13,7 @@
    height="90"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
+   inkscape:version="0.48+devel r"
    viewBox="0 0 90 90.000001"
    sodipodi:docname="help.svg">
   <defs
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.9475982"
-     inkscape:cx="27.363388"
+     inkscape:cx="-21.794207"
      inkscape:cy="39.71813"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
@@ -138,22 +138,24 @@
            height="90"
            x="0"
            y="962.36218" />
-        <path
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="M 45 4 C 22.356346 4 4 22.35634 4 45 C 4 67.6437 22.356346 86 45 86 C 67.643669 86 86 67.6437 86 45 C 86 22.35634 67.643669 4 45 4 z M 45 13 C 62.673141 13 77 27.32687 77 45 C 77 62.6732 62.673141 77 45 77 C 27.326871 77 13 62.6732 13 45 C 13 27.32687 27.326871 13 45 13 z "
-           transform="translate(3.5e-6,962.3622)"
-           id="path4110" />
         <text
            xml:space="preserve"
            style="font-size:69.25212097px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
-           x="47.071468"
+           x="46.071468"
            y="1031.4619"
            id="text4098"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan4100"
-             x="47.071468"
+             x="46.071468"
              y="1031.4619">?</tspan></text>
+        <circle
+           style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4116"
+           cx="45.000004"
+           cy="1007.3622"
+           r="38"
+           d="m 83.000004,1007.3622 a 38,38 0 0 1 -38,38 38,38 0 0 1 -38.0000002,-38 38,38 0 0 1 38.0000002,-38.00002 38,38 0 0 1 38,38.00002 z" />
       </g>
     </g>
   </g>

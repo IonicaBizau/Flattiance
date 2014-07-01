@@ -37,8 +37,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9580786"
-     inkscape:cx="26.086697"
-     inkscape:cy="56.401805"
+     inkscape:cx="45.054843"
+     inkscape:cy="44.495665"
      inkscape:document-units="px"
      inkscape:current-layer="g4122"
      showgrid="true"
@@ -165,11 +165,11 @@
          id="rect4120"
          style="opacity:0.02999998;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <circle
-         style="color:#000000;fill:none;stroke:#808080;stroke-width:9.00000095;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;fill:none;stroke:#808080;stroke-width:6.00000048;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="path4151"
-         cx="-22.857147"
+         cx="-22.857149"
          cy="129.50504"
-         r="34.499996" />
+         r="36" />
       <path
          inkscape:transform-center-y="-26.144998"
          sodipodi:nodetypes="zscccsz"

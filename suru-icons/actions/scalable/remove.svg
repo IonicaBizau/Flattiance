@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931703"
-     inkscape:cx="-65.784177"
-     inkscape:cy="27.664498"
+     inkscape:zoom="12.434498"
+     inkscape:cx="39.989551"
+     inkscape:cy="39.273802"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
      showgrid="true"
@@ -140,10 +140,10 @@
            y="962.36218" />
         <rect
            transform="matrix(0,1,-1,0,0,0)"
-           y="-84"
-           x="1001.3622"
-           height="77.999985"
-           width="11.999976"
+           y="-81.000008"
+           x="1002.8622"
+           height="71.999977"
+           width="9"
            id="rect1714"
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       </g>

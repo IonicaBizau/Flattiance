@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931703"
-     inkscape:cx="-2.6309765"
-     inkscape:cy="46.169671"
+     inkscape:zoom="4.0745362"
+     inkscape:cx="69.333041"
+     inkscape:cy="20.714013"
      inkscape:document-units="px"
      inkscape:current-layer="g1708"
      showgrid="true"
@@ -138,28 +138,29 @@
            height="90"
            x="0"
            y="962.36218" />
-        <path
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="M 45 4 C 22.356346 4 4 22.35634 4 45 C 4 67.6437 22.356346 86 45 86 C 67.643669 86 86 67.6437 86 45 C 86 22.35634 67.643669 4 45 4 z M 45 13 C 62.673141 13 77 27.32687 77 45 C 77 62.6732 62.673141 77 45 77 C 27.326871 77 13 62.6732 13 45 C 13 27.32687 27.326871 13 45 13 z "
-           transform="translate(3.5e-6,962.3622)"
-           id="path4110" />
         <rect
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="rect3011"
-           width="67.500038"
+           width="74.000015"
            height="5.9999948"
-           x="11.249981"
+           x="7.9999914"
            y="1004.3622" />
         <path
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#808080;fill-opacity:1;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;isolation:auto;mix-blend-mode:normal;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
-           d="m 42.769531,969.35547 c -19.064429,21.1827 -19.064429,54.83093 0,76.01363 l 4.460938,-4.0136 c -16.935571,-18.8173 -16.935571,-49.16906 0,-67.98636 l -4.460938,-4.01367 z"
+           d="m 42.769531,966.3622 c -19.064429,22.85097 -19.064429,59.1492 0,82.0002 l 4.460938,-4.3297 c -16.935571,-20.2993 -16.935571,-53.04145 0,-73.34073 l -4.460938,-4.32977 z"
            id="path832"
            inkscape:connector-curvature="0" />
         <path
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#808080;fill-opacity:1;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;isolation:auto;mix-blend-mode:normal;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
-           d="m 47.230469,969.35547 -4.460938,4.01367 c 16.935571,18.8173 16.935571,49.16906 0,67.98636 l 4.460938,4.0136 c 19.064429,-21.1827 19.064429,-54.83093 0,-76.01363 z"
+           d="m 47.230469,966.3622 -4.460938,4.32977 c 16.935571,20.29928 16.935571,53.04143 0,73.34073 l 4.460938,4.3297 c 19.064429,-22.851 19.064429,-59.14923 0,-82.0002 z"
            id="path836"
            inkscape:connector-curvature="0" />
+        <circle
+           style="color:#000000;fill:none;stroke:#808080;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4116"
+           cx="45.000004"
+           cy="1007.3622"
+           r="38" />
       </g>
     </g>
   </g>

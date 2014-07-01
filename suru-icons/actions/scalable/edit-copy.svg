@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931703"
-     inkscape:cx="-65.784177"
-     inkscape:cy="27.664498"
+     inkscape:zoom="6.3664629"
+     inkscape:cx="58.886699"
+     inkscape:cy="33.747154"
      inkscape:document-units="px"
-     inkscape:current-layer="g4845"
+     inkscape:current-layer="g4967"
      showgrid="true"
      showborder="true"
      fit-margin-top="0"
@@ -140,37 +140,23 @@
              transform="translate(0,804.3622)" />
         </g>
         <path
-           sodipodi:nodetypes="ssssssssssssssssss"
-           inkscape:connector-curvature="0"
-           id="path4098-9"
-           d="m 123,119.36219 c -10,0 -15,-2e-4 -15,11.62695 l 0,48.7461 c 0,11.62716 5,11.62695 15,11.62695 l 36,0 c 10,0 15,2.1e-4 15,-11.62695 l 0,-48.7461 c 0,-11.62715 -5,-11.62695 -15,-11.62695 z m 1.86719,6 32.26562,0 c 7.9327,0 10.86719,-6.4e-4 10.86719,8.19141 l 0,43.61718 c 0,8.19205 -2.93449,8.19141 -10.86719,8.19141 l -32.26562,0 c -7.9327,0 -10.86719,6.4e-4 -10.86719,-8.19141 l 0,-43.61718 c 0,-8.19205 2.93449,-8.19141 10.86719,-8.19141 z"
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" />
-        <path
-           id="path4097"
-           d="m 111,107.36219 c -10,0 -15,-2e-4 -15,11.62695 l 0,48.7461 c 0,7.34451 2.006558,10.04428 6,11.03906 l 0,-13.60352 0,-12.80859 0,-30.80859 c 0,-8.19205 2.93449,-8.19141 10.86719,-8.19141 l 13.13281,0 19.13281,0 16.25977,0 c -1.59258,-5.97685 -6.38427,-6 -14.39258,-6 l -36,0 z"
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-           inkscape:connector-curvature="0" />
-        <rect
            style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 123,134.36222 0,6 36,0 0,-6 z m 0,12 0,6 36,0 0,-6 z m 0,12 0,6 24,0 0,-6 z"
            id="rect4940"
-           width="42"
-           height="6"
-           x="120"
-           y="134.3622" />
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccc" />
         <rect
-           y="146.3622"
-           x="120"
-           height="6"
-           width="42"
-           id="rect4942"
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-        <rect
-           y="158.36218"
-           x="120"
-           height="6"
-           width="30.000002"
-           id="rect4946"
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:6.00000007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect4154"
+           width="54"
+           height="66"
+           x="114"
+           y="122.36222" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           d="M 9 3 L 9 9 L 9 75 L 15 75 L 15 9 L 69 9 L 69 3 L 15 3 L 9 3 z "
+           transform="translate(90.000003,104.36222)"
+           id="rect4156" />
       </g>
     </g>
   </g>

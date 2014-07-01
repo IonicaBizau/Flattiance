@@ -516,7 +516,7 @@
          offset="0"
          id="stop4526" />
       <stop
-         style="stop-color:#847784;stop-opacity:0.99607843"
+         style="stop-color:#847784;stop-opacity:1"
          offset="1"
          id="stop4528" />
     </linearGradient>
@@ -727,18 +727,18 @@
        xlink:href="#linearGradient7537-6-0"
        id="linearGradient4530"
        x1="352.29715"
-       y1="590"
+       y1="551.51666"
        x2="352.29715"
-       y2="260.00003"
+       y2="209.86694"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient7537-6-0">
       <stop
-         style="stop-color:#f4b457;stop-opacity:0.99607843"
+         style="stop-color:#f4b457;stop-opacity:1"
          offset="0"
          id="stop7539-6-1" />
       <stop
-         style="stop-color:#e67626;stop-opacity:1"
+         style="stop-color:#f37e40;stop-opacity:1"
          offset="1"
          id="stop7541-7-3" />
     </linearGradient>
@@ -773,10 +773,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0681152"
-     inkscape:cx="173.57678"
-     inkscape:cy="308.6848"
+     inkscape:cx="531.26292"
+     inkscape:cy="152.80274"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -931,7 +931,8 @@
      id="layer5"
      inkscape:label="Texture"
      style="opacity:0.3;display:inline;filter:url(#filter4223)"
-     transform="translate(0,36)">
+     transform="translate(0,36)"
+     sodipodi:insensitive="true">
     <image
        y="-20"
        x="-2.3706055e-07"
@@ -988,7 +989,7 @@
      id="layer4"
      inkscape:label="Pictogram"
      transform="translate(0,18)"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        transform="translate(-4.5121104e-6,-16.000004)"
        inkscape:groupmode="maskhelper"
