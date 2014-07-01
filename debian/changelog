@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+14.10.20140701-0ubuntu1) utopic; urgency=low
+
+  [ Matthieu James ]
+  * Added a sample JSON file to build lists of icons and modified app
+    icons according to the standardized colour palette. (LP: #1289465)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 01 Jul 2014 07:52:02 +0000
+
 ubuntu-themes (14.04+14.10.20140619-0ubuntu1) utopic; urgency=low
 
   [ Robert Ancell ]
