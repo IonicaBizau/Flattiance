@@ -117,14 +117,6 @@ GtkAssistant .sidebar {
     box-shadow: inset -1px 0 shade (@bg_color, 0.94);
 }
 
-/**************
- * background *
- **************/
-.background {
-    background-color: @bg_color;
-    border-width: 0;
-}
-
 /**********
  * button *
  **********/
