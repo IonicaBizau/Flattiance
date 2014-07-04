@@ -1178,99 +1178,64 @@ GtkComboBox .menu .menuitem *:insensitive {
 /************
  * notebook *
  ************/
-.notebook {
-    background-color: shade (@bg_color, 1.02);
-    background-image: none;
-    border-radius: 3px;
-    padding: 2px;
-    background-clip: border-box;
-    border-color: shade (@bg_color, 0.82);
-    border-width: 1px;
-    border-style: solid;
-    /*box-shadow: inset 0 1px shade (@bg_color, 1.1);*/
-    /*font-weight: 300;*/
+.notebook tab.top { padding: 4px 6px 2px 6px; }
+.notebook tab.top:active { padding-bottom: 3px; }
+.notebook tab.bottom { padding: 2px 6px 4px 6px; }
+.notebook tab.bottom:active { padding-top: 3px; }
+.notebook tab.left { padding: 2px 4px 2px 6px; }
+.notebook tab.left:active { padding-right: 5px; }
+.notebook tab.right { padding: 2px 6px 2px 4px; }
+.notebook tab.right:active { padding-left: 5px; }
+
+/* give active tab a background, as it might be dragged across of others when reordering */
+.notebook tab:active {
+    background-color: @bg_color;
 }
 
-.notebook tab {
-    background-image: none;
-    background-color: transparent;
+.notebook.header {
+    border-width: 0; /* set below depending on position of tab bar */
+    border-color: shade (@bg_color, 0.82);
     border-style: solid;
+}
+
+/* Draw a border between tabs and content ... */
+.notebook.header.top { border-bottom-width: 1px; }
+.notebook.header.right { border-left-width: 1px; }
+.notebook.header.left { border-right-width: 1px; }
+.notebook.header.bottom { border-top-width: 1px; }
+
+/* ... unless the content is in a frame (thus having a border itself */
+.notebook.header.frame.top { border: none; }
+.notebook.header.frame.right { border: none; }
+.notebook.header.frame.right { border: none; }
+.notebook.header.frame.bottom { border: none; }
+
+.notebook tab.top {
     border-image: -gtk-gradient (linear, left top, left bottom,
                                  from (alpha (shade (@bg_color, 0.9), 0.0)),
                                  to (shade (@bg_color, 0.9))) 1;
     border-image-width: 0 1px;
-    border-color: transparent;
-    border-width: 0;
-    box-shadow: none;
-    /*color: shade (@fg_color, 1.2);*/
-}
-
-.notebook tab:active {
-    border-color: shade (@bg_color, 0.82);
-    border-style: solid;
-    border-width: 1px;
-    background-color: shade (@bg_color, 1.02);
-    background-image: none;
-    /*box-shadow: inset 0 1px shade (@bg_color, 1.1);*/
-
-    color: @fg_color;
-}
-
-.notebook tab GtkLabel {
-    /*padding: 1px;*/
-    padding: 1px 1px 2px 1px;
-}
-
-.notebook tab {
-    color: shade (@bg_color, 0.48);
-}
-
-.notebook tab.top:active {
-    padding: 3px 7px 1px 7px;
-}
-
-.notebook tab.top {
-    padding: 2px 5px 0 5px;
-}
-
-.notebook tab.right:active {
-    padding: 4px 6px 4px 1px;
 }
 
 .notebook tab.right {
-    padding: 3px 4px 3px 0;
     border-image: -gtk-gradient (linear, right top, left top,
                                  from (alpha (shade (@bg_color, 0.9), 0.0)),
                                  to (shade (@bg_color, 0.9))) 1;
     border-image-width: 1px 0;
 }
 
-.notebook tab.bottom:active {
-    padding: 1px 7px 4px 7px;
-}
-
-.notebook tab.bottom {
-    padding: 0 5px 3px 5px;
-    border-image: -gtk-gradient (linear, left bottom, left top,
-                                 from (alpha (shade (@bg_color, 0.9), 0.0)),
-                                 to (shade (@bg_color, 0.9))) 1;
-    border-image-width: 0 1px;
-}
-
-.notebook tab.left:active {
-    padding: 4px 1px 4px 6px;
-}
-
 .notebook tab.left {
-    padding: 3px 0 3px 4px;
     border-image: -gtk-gradient (linear, left top, right top,
                                  from (alpha (shade (@bg_color, 0.9), 0.0)),
                                  to (shade (@bg_color, 0.9))) 1;
     border-image-width: 1px 0;
 }
 
-.notebook tab .button {
-    padding: 0;
+.notebook tab.bottom {
+    border-image: -gtk-gradient (linear, left bottom, left top,
+                                 from (alpha (shade (@bg_color, 0.9), 0.0)),
+                                 to (shade (@bg_color, 0.9))) 1;
+    border-image-width: 0 1px;
 }
 
 .notebook GtkDrawingArea {
