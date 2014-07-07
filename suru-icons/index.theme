@@ -3,7 +3,7 @@ Name=Suru
 Comment=Ubuntu Touch icon theme
 Inherits=Ubuntu-Mobile,hicolor
 
-Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,status/128,status/256,status/512,status/scalable
+Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,status/128,status/256,status/512,status/scalable
 
 [actions/scalable]
 MinSize=9
@@ -32,6 +32,20 @@ MinSize=9
 Size=90
 MaxSize=512
 Context=Applications
+Type=Scalable
+
+[devices/scalable]
+MinSize=9
+Size=90
+MaxSize=512
+Context=Devices
+Type=Scalable
+
+[mimetypes/scalable]
+MinSize=9
+Size=90
+MaxSize=512
+Context=Mimetypes
 Type=Scalable
 
 [status/128]
