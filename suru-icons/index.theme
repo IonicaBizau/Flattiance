@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Suru
 Comment=Ubuntu Touch icon theme
-Inherits=Ubuntu-Mobile,hicolor
+Inherits=ubuntu-mobile,hicolor
 
 Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,status/128,status/256,status/512,status/scalable
 
