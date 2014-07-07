@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+14.10.20140707-0ubuntu1) utopic; urgency=low
+
+  [ Matthieu James ]
+  * New icons for the messaging menu (the names remain the same). New
+    symbolic icons corresponding to different types of file (that can be
+    download from the browser). New generic website icon. Fix a
+    misspelled icon name (transfer indicator) (LP: #1289465)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 07 Jul 2014 21:06:26 +0000
+
 ubuntu-themes (14.04+14.10.20140701-0ubuntu1) utopic; urgency=low
 
   [ Matthieu James ]
