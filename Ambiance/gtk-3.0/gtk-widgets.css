@@ -1860,6 +1860,59 @@ GtkTextView {
     background-color: @base_color;
 }
 
+/*
+ * Header Bars
+ *
+ * The following rules only style header bars when they are used as a window's
+ * titlebar widget (i.e., they have .titlebar set as well).
+ *
+ * Some applications reuse their header bar as a primary toolbar on desktops
+ * that prefer showing traditional title bars. The rules for those are further
+ * down grouped with normal toolbars.
+ */
+.titlebar.header-bar {
+    padding: 2px;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.5)),
+                                     to (@dark_bg_color));
+    border-color: shade (@dark_bg_color, 1.5);
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-radius: 7px 7px 0 0;
+
+    color: @dark_fg_color;
+    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+
+    box-shadow: inset 0 1px shade (@dark_bg_color, 1.65);
+}
+
+.titlebar.header-bar .title {
+    font: bold;
+}
+
+.titlebar.header-bar:backdrop {
+    color: @backdrop_fg_color;
+    background-image: none;
+    background-color: @dark_bg_color;
+    border-top-color: @dark_bg_color;
+    box-shadow: inset 0 1px shade (@dark_bg_color, 1.2);
+}
+
+.maximized .titlebar.header-bar {
+    border-radius: 0;
+    border: none;
+}
+
+.titlebar.header-bar .button.titlebutton {
+    background-color: transparent;
+    border-image-width: 0;
+    box-shadow: none;
+}
+
+.titlebar.header-bar .button.titlebutton:hover {
+    border-image-width: 12px;
+}
+
 /***********
  * toolbar *
  ***********/
