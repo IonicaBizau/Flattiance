@@ -105,6 +105,10 @@ NautilusFloatingBar .button {
     -GtkButton-inner-border: 0;
 }
 
+NautilusWindow .header-bar .button {
+    padding: 9px;
+}
+
 /* sidebar */
 NautilusWindow .sidebar,
 NautilusWindow .sidebar .view {
