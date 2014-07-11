@@ -1,3 +1,22 @@
+ubuntu-themes (14.04+14.10.20140711-0ubuntu1) utopic; urgency=low
+
+  [ Michal Hruby ]
+  * Fixes issue where when using suru theme - icons present in ubuntu-
+    mobile aren't found when trying to use them on the desktop.
+
+  [ Michał Sawicz ]
+  * Mark packages Multi-Arch: foreign to fix cross-building.
+
+  [ Lars Uebernickel ]
+  * Fixes required by the 3.12 update Unify notebook borders and
+    paddings to get rid of the border around tab bars (on notebooks and
+    stand-alone, such as in gedit and gnome-terminal). Also, style
+    header bars similarly to window title bars, but take care that
+    header bars that are used as tool bars keep the same look as tool
+    bars.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 11 Jul 2014 09:12:11 +0000
+
 ubuntu-themes (14.04+14.10.20140707-0ubuntu1) utopic; urgency=low
 
   [ Matthieu James ]
