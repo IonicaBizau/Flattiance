@@ -10,3 +10,4 @@ MetacityTheme=Ambiance
 IconTheme=ubuntu-mono-dark
 CursorTheme=DMZ-White
 ButtonLayout=close,minimize,maximize:
+X-Ubuntu-UseOverlayScrollbars=true

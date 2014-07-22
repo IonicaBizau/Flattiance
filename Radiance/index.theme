@@ -10,3 +10,4 @@ MetacityTheme=Radiance
 IconTheme=ubuntu-mono-light
 CursorTheme=DMZ-White
 ButtonLayout=close,minimize,maximize:
+X-Ubuntu-UseOverlayScrollbars=true
