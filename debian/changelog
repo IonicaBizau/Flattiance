@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+14.10.20140806-0ubuntu1) utopic; urgency=low
+
+  [ Matthieu James ]
+  * Added new icons for bluetooth devices and collapse/expand view (LP:
+    #1289465)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 06 Aug 2014 19:47:59 +0000
+
 ubuntu-themes (14.04+14.10.20140721-0ubuntu1) utopic; urgency=low
 
   [ Matthieu James ]
