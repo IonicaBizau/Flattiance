@@ -15,7 +15,7 @@
    id="svg3336"
    version="1.1"
    inkscape:version="0.48+devel r"
-   sodipodi:docname="weather-clouds.svg"
+   sodipodi:docname="weather-clouds-night.svg"
    inkscape:export-filename="app_shape02.png"
    inkscape:export-xdpi="180"
    inkscape:export-ydpi="180"
@@ -228,7 +228,7 @@
          offset="0"
          id="stop4237" />
       <stop
-         style="stop-color:#dbe6f1;stop-opacity:1"
+         style="stop-color:#e6e1eb;stop-opacity:1"
          offset="1"
          id="stop4240" />
     </linearGradient>
@@ -744,16 +744,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif" />
     </clipPath>
     <linearGradient
-       gradientTransform="matrix(1,0,0,1.0756303,0,-37.361345)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7537-8-0"
-       id="linearGradient4912"
-       x1="256"
-       y1="18"
-       x2="256"
-       y2="494"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
        id="linearGradient7537-8-0">
       <stop
          style="stop-color:#c8d9ea;stop-opacity:1"
@@ -796,6 +786,27 @@
        x2="173.98332"
        y2="245.19922"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3806-5"
+       id="linearGradient4244"
+       x1="256"
+       y1="0"
+       x2="256"
+       y2="476"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0756303,0,-493.99999)" />
+    <linearGradient
+       id="linearGradient3806-5">
+      <stop
+         style="stop-color:#8a75a1;stop-opacity:1"
+         offset="0"
+         id="stop3808-0" />
+      <stop
+         style="stop-color:#433e6a;stop-opacity:1"
+         offset="1"
+         id="stop3810-4" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -805,10 +816,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.68359373"
-     inkscape:cx="-472.99658"
-     inkscape:cy="200.12746"
+     inkscape:cx="-119.424"
+     inkscape:cy="317.74118"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -936,12 +947,13 @@
      style="display:inline"
      transform="translate(0,18)">
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4912);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
-       id="rect4158"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4244);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;enable-background:accumulate"
+       id="rect4235"
        width="512"
-       height="512"
+       height="511.99997"
        x="0"
-       y="-18" />
+       y="-494"
+       transform="scale(1,-1)" />
   </g>
   <g
      inkscape:groupmode="layer"
