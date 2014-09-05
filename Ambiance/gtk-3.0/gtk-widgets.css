@@ -2266,6 +2266,39 @@ GtkViewport.frame {
     box-shadow: none;
 }
 
+/* Popover menuitems are actually buttons. The following rules reset most of
+ * the button styles for them.
+ */
+.popover .menuitem,
+.popover .menuitem:active,
+.popover .menuitem:hover,
+.popover .menuitem:hover:active,
+.popover .menuitem:insensitive,
+.popover .menuitem:backdrop {
+    border-image: none;
+    border: none;
+    text-shadow: none;
+    border-radius: 3px;
+}
+
+.menuitem:backdrop:hover {
+    border: none;
+    border-image: none;
+    background: transparent;
+    color: @fg_color;
+}
+
+.popover .menuitem:active:hover {
+    background-image: none;
+    border: none;
+}
+
+.popover .menuitem:insensitive,
+.popover .menuitem *:insensitive {
+    text-shadow: none;
+    background: none;
+}
+
 /*****************************************************************************
  * states [please keep this section at the end of the file (CSS precedence)] *
  *****************************************************************************/
