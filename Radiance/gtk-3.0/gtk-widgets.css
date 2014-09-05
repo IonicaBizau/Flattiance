@@ -83,7 +83,10 @@ GtkPaned {
     background-color: @bg_color;
 }
 
-GtkEventBox {
+/* Background hack to make DejaDup Assistant windows not turn black when
+ * overlay scrollbars are enabled.
+ */
+Assistant GtkEventBox {
     background-color: @bg_color;
 }
 
