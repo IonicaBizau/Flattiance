@@ -1041,6 +1041,7 @@ GtkComboBox .menuitem *:hover {
     color: @selected_fg_color;
 }
 
+.popover .menuitem:active:hover,
 .menuitem:hover,
 .menu .menuitem:hover {
     border-radius: 0;
@@ -2296,14 +2297,19 @@ GtkViewport.frame {
     border-radius: 3px;
 }
 
-.menuitem:backdrop:hover {
+.popover .menuitem:backdrop:hover {
     border: none;
     border-image: none;
     background: transparent;
     color: @fg_color;
 }
 
-.popover .menuitem:active:hover {
+
+.popover .menuitem:active,
+.popover .menuitem.check,
+.popover .menuitem.check:active,
+.popover .menuitem.radio,
+.popover .menuitem.radio:active {
     background-image: none;
     border: none;
 }
