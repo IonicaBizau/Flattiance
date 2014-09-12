@@ -1864,6 +1864,10 @@ GtkTextView {
     background-color: @base_color;
 }
 
+.header-bar {
+    padding: 2px;
+}
+
 /*
  * Header Bars
  *
@@ -1875,7 +1879,6 @@ GtkTextView {
  * down grouped with normal toolbars.
  */
 .titlebar.header-bar {
-    padding: 2px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (@dark_bg_color));
