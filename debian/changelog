@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+14.10.20140925-0ubuntu1) utopic; urgency=low
+
+  [ Charles Kerr ]
+  * Revert the suru theme's message indicators back to the earlier
+    'envelope' look. (LP: #1367817)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 25 Sep 2014 13:30:08 +0000
+
 ubuntu-themes (14.04+14.10.20140806-0ubuntu1) utopic; urgency=low
 
   [ Matthieu James ]
