@@ -83,7 +83,10 @@ GtkPaned {
     background-color: @bg_color;
 }
 
-GtkEventBox {
+/* Background hack to make DejaDup Assistant windows not turn black when
+ * overlay scrollbars are enabled.
+ */
+Assistant GtkEventBox {
     background-color: @bg_color;
 }
 
@@ -1038,6 +1041,7 @@ GtkComboBox .menuitem *:hover {
     color: @selected_fg_color;
 }
 
+.popover .menuitem:active:hover,
 .menuitem:hover,
 .menu .menuitem:hover {
     border-radius: 0;
@@ -1870,6 +1874,10 @@ GtkTextView {
     background-color: @base_color;
 }
 
+.header-bar {
+    padding: 2px;
+}
+
 /*
  * Header Bars
  *
@@ -1881,7 +1889,6 @@ GtkTextView {
  * down grouped with normal toolbars.
  */
 .titlebar.header-bar {
-    padding: 2px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (@dark_bg_color));
@@ -2276,6 +2283,44 @@ GtkViewport.frame {
 
 .popover:backdrop {
     box-shadow: none;
+}
+
+/* Popover menuitems are actually buttons. The following rules reset most of
+ * the button styles for them.
+ */
+.popover .menuitem,
+.popover .menuitem:active,
+.popover .menuitem:hover,
+.popover .menuitem:hover:active,
+.popover .menuitem:insensitive,
+.popover .menuitem:backdrop {
+    border-image: none;
+    border: none;
+    text-shadow: none;
+    border-radius: 3px;
+}
+
+.popover .menuitem:backdrop:hover {
+    border: none;
+    border-image: none;
+    background: transparent;
+    color: @fg_color;
+}
+
+
+.popover .menuitem:active,
+.popover .menuitem.check,
+.popover .menuitem.check:active,
+.popover .menuitem.radio,
+.popover .menuitem.radio:active {
+    background-image: none;
+    border: none;
+}
+
+.popover .menuitem:insensitive,
+.popover .menuitem *:insensitive {
+    text-shadow: none;
+    background: none;
 }
 
 /*****************************************************************************
