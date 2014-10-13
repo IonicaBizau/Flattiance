@@ -90,6 +90,11 @@ Assistant GtkEventBox {
     background-color: @bg_color;
 }
 
+/* ... and for Evolution's mail preferences window */
+EPreferencesWindow GtkNotebook GtkAlignment GtkVBox {
+    background-color: @bg_color;
+}
+
 /*********
  * arrow *
  *********/
