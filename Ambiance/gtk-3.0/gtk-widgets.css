@@ -673,13 +673,6 @@ GtkComboBox.combobox-entry .button,
     padding: 5px 7px;
 
     color: @text_color;
-
-    /* Evolution sets the background color of its mail window to the background
-     * color of entries, but cannot handle background images.  Setting the
-     * background color here doesn't effect real entries, because
-     * 'background-image' has precedence.
-     */
-    background-color: @base_color;
 }
 
 GtkComboBox.combobox-entry .button:backdrop,
