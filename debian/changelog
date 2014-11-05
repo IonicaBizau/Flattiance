@@ -1,3 +1,19 @@
+ubuntu-themes (14.04+15.04.20141105-0ubuntu1) vivid; urgency=low
+
+  [ Matthieu James ]
+  * Updated the designs of the web browser and system settings apps and
+    added an icon for the missed alarm notification. Moved all the
+    scalable colourful icons for apps and weather to new directories
+    called 'sources' in order to exclude them from the icon lookup
+    process. (LP: #1289465)
+  * Suru icons: All the indicator icons are now grey except the battery
+    ones. Added new transfer indicators to show upload or download.
+    Messages indicator turned back to the envelope. Added new symbolic
+    app icons for network and battery preferences (system settings
+    menu). .
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 05 Nov 2014 17:35:51 +0000
+
 ubuntu-themes (14.04+14.10.20141015-0ubuntu1) utopic; urgency=low
 
   [ Lars Uebernickel ]
