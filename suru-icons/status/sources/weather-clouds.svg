@@ -805,8 +805,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.68359373"
-     inkscape:cx="-107.28228"
-     inkscape:cy="209.63603"
+     inkscape:cx="-472.99658"
+     inkscape:cy="200.12746"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -933,10 +933,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Background"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,18)">
     <rect
-       style="color:#000000;fill:url(#linearGradient4912);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4912);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        id="rect4158"
        width="512"
        height="512"
