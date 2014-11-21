@@ -1,7 +1,3 @@
-/* NOTES to contributors:
- * use 4 spaces intends, and keep code ALIGNED and ORDERED */
-
-/* default */
 * {
     -GtkArrow-arrow-scaling: 0.6;
     -GtkButton-child-displacement-x: 1;
@@ -61,8 +57,6 @@
 
     engine: unico;
 
-    /*-unico-arrow-texture: url("assets/combobox-arrow.png");*/
-
     /* To avoid using custom attributes, unico looks at the outline attributes
      * to find out how to render the focus ring.
      */
@@ -94,13 +88,6 @@ Assistant GtkEventBox {
 EPreferencesWindow GtkNotebook GtkAlignment GtkVBox {
     background-color: @bg_color;
 }
-
-/*********
- * arrow *
- *********/
-/*.arrow * {
-    background-image: url("assets/combobox-arrow.png");
-}*/
 
 /*************
  * assistant *
@@ -203,39 +190,6 @@ GtkSwitch.slider:backdrop,
                                      to (mix (#f3f3f3, @bg_color, 0.5)));
 }
 
-/* default button */
-
-/*
-.button.default {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (mix (shade (@selected_bg_color, 1.16), @bg_color, 0.3)),
-                                     to (mix (shade (@selected_bg_color, 0.84), @bg_color, 0.3)));
-
-    text-shadow: 0 1px alpha (shade (@selected_bg_color, 1.26), 0.4);
-}
-
-.button.default:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (mix (shade (@selected_bg_color, 1.21), @bg_color, 0.3)),
-                                     to (mix (shade (@selected_bg_color, 0.89), @bg_color, 0.3)));
-}
-
-.button.default:active {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (mix (shade (@selected_bg_color, 0.95), @bg_color, 0.3)),
-                                     to (mix (shade (@selected_bg_color, 1.05), @bg_color, 0.3)));
-}
-
-.button.default:active:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (mix (shade (@selected_bg_color, 1.0), @bg_color, 0.3)),
-                                     to (mix (shade (@selected_bg_color, 1.1), @bg_color, 0.3)));
-}
-
-.button.default:insensitive {
-}
-*/
-
 /* Set up shadows and hilights for button visual separation */
 .linked .button,
 .toolbar .button.raised.linked,
@@ -253,22 +207,6 @@ GtkSwitch.slider:backdrop,
     box-shadow: inset -1px 0 shade (@bg_color, 0.84);
 }
 
-.linked .button:last-child,
-.toolbar .button.raised.linked:last-child,
-.toolbar .raised.linked .button:last-child,
-.inline-toolbar.toolbar .button:last-child,
-.inline-toolbar.toolbar GtkToolButton:last-child .button {
-    /*box-shadow: inset 1px 0 shade (@bg_color, 1.06);*/
-}
-
-.linked .button:active,
-.toolbar .button.raised.linked:active,
-.toolbar .raised.linked .button:active,
-.inline-toolbar.toolbar .button:active,
-.inline-toolbar.toolbar GtkToolButton .button:active {
-    /*box-shadow: inset 1px 0 shade (@bg_color, 0.76);*/
-}
-
 .linked .button:insensitive,
 .toolbar .button.raised.linked:insensitive,
 .toolbar .raised.linked .button:insensitive,
@@ -276,23 +214,6 @@ GtkSwitch.slider:backdrop,
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
     box-shadow: inset -1px 0 shade (@bg_color, 0.84);
 }
-
-.linked .button:backdrop,
-.toolbar .button.raised.linked:backdrop,
-.toolbar .raised.linked .button:backdrop,
-.inline-toolbar.toolbar .button:backdrop,
-.inline-toolbar.toolbar GtkToolButton .button:backdrop {
-    /*box-shadow: inset -1px 0 @unfocused_borders;*/
-}
-
-.linked .button:insensitive:backdrop,
-.toolbar .button.raised.linked:insensitive:backdrop,
-.toolbar .raised.linked .button:insensitive:backdrop,
-.inline-toolbar.toolbar .button:insensitive:backdrop,
-.inline-toolbar.toolbar GtkToolButton .button:insensitive:backdrop {
-    /*box-shadow: inset -1px 0 @unfocused_insensitive_borders;*/
-}
-
 
 /* Middle button */
 .linked .entry,
@@ -448,19 +369,6 @@ GtkSwitch.slider:backdrop,
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.2);
 }
 
-/*.primary-toolbar .linked .button:insensitive:backdrop,
-.primary-toolbar .button.raised.linked:insensitive:backdrop,
-.primary-toolbar .raised.linked .button:insensitive:backdrop,
-.menubar.toolbar .linked .button:insensitive:backdrop,
-.menubar.toolbar .button.raised.linked:insensitive:backdrop,
-.menubar.toolbar .raised.linked .button:insensitive:backdrop,
-.header-bar .linked .button:insensitive:backdrop,
-.header-bar .button.raised.linked:insensitive:backdrop,
-.header-bar .raised.linked .button:insensitive:backdrop {
-    box-shadow: inset -1px 0 @unfocused_insensitive_borders;
-}*/
-
-
 /* Linked single button */
 .primary-toolbar .linked .entry:only-child,
 .primary-toolbar .linked .button:only-child,
@@ -502,7 +410,6 @@ row:selected {
     border-width: 1px 0 0 0;
 
     color: @selected_fg_color;
-    /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
 }
 
 row:selected:backdrop {
@@ -512,7 +419,6 @@ row:selected:backdrop {
     border-top-color: shade (@backdrop_selected_bg_color, 0.9);
 
     color: @backdrop_selected_fg_color;
-    /*text-shadow: 0 -1px shade (@selected_bg_color, 0.7);*/
 }
 
 /*******************
@@ -631,12 +537,10 @@ GdMainIconView.content-view {
 }
 
 GtkIconView.content-view.check {
-    /*background-image: url("assets/grid-selection-unchecked.svg");*/
     background-color: transparent;
 }
 
 GtkIconView.content-view.check:active {
-    /*background-image: url("assets/grid-selection-checked.svg");*/
     background-color: transparent;
 }
 
@@ -651,15 +555,6 @@ GtkIconView.content-view.check:backdrop,
 GtkIconView.content-view.check:selected {
     background-color: transparent;
 }
-
-/****************
- * drawing area *
- ****************/
-/*
-GtkDrawingArea {
-    background-color: transparent;
-}
-*/
 
 /*********
  * entry *
@@ -947,21 +842,6 @@ GtkComboBox .menu {
 .menu.button:active:insensitive,
 .menu.button:insensitive,
 .menu.button
-/*.primary-toolbar .menu.button:hover,
-.primary-toolbar .menu.button:active,
-.primary-toolbar .menu.button:active:insensitive,
-.primary-toolbar .menu.button:insensitive,
-.primary-toolbar .menu.button,
-.menubar.toolbar .menu.button:hover,
-.menubar.toolbar .menu.button:active,
-.menubar.toolbar .menu.button:active:insensitive,
-.menubar.toolbar .menu.button:insensitive,
-.menubar.toolbar .menu.button,
-.header-bar .menu.button:hover,
-.header-bar .menu.button:active,
-.header-bar .menu.button:active:insensitive,
-.header-bar .menu.button:insensitive,
-.header-bar .menu.button */
 {
     background-color: shade (@dark_bg_color, 1.08);
     background-image: none;
@@ -1013,10 +893,6 @@ GtkComboBox .menu {
 /************
  * menuitem *
  ************/
-/*.menuitem {
-    color: @fg_color;
-}*/
-
 .menuitem {
     -GtkMenuItem-horizontal-padding: 0;
     background: transparent;
@@ -1024,10 +900,6 @@ GtkComboBox .menu {
     padding: 3px 5px 3px 5px;
 
     text-shadow: none;
-}
-
-.menuitem {
-    /*color: @dark_fg_color;*/
 }
 
 /* Workaround for lp:949368 */
@@ -1069,12 +941,6 @@ GtkComboBox .menuitem *:hover {
     box-shadow: none;
 }
 
-/*.menuitem:insensitive,
-.menuitem *:insensitive {
-    color: mix (@fg_color, @bg_color, 0.5);
-    text-shadow: 0 1px shade (@bg_color, 1.14);
-}
-*/
 GtkTreeMenu.menu .menuitem:insensitive,
 GtkTreeMenu.menu .menuitem *:insensitive,
 .toolbar .primary-toolbar .menu .menuitem:insensitive,
@@ -1371,28 +1237,6 @@ GtkLevelBar.vertical {
     margin: 1px 0;
 }
 
-/* discrete indicator border rounding,
-   uncomment when :nth-child will be working
-   on the widget
-
-.level-bar.indicator-discrete.fill-block.horizontal:first-child {
-    border-radius: 2px 0 0 2px;
-}
-
-.level-bar.indicator-discrete.fill-block.horizontal:last-child {
-    border-radius: 0 2px 2px 0;
-}
-
-.level-bar.indicator-discrete.fill-block.vertical:first-child {
-    border-radius: 2px 2px 0 0;
-}
-
-.level-bar.indicator-discrete.fill-block.vertical:last-child {
-    border-radius: 0 0 2px 2px;
-}
-
-*/
-
 .level-bar.fill-block.level-high {
     border-color: shade(@success_color, 0.85);
     background-image: linear-gradient(to bottom,
@@ -1455,9 +1299,7 @@ GtkScale.vertical {
 .scale.trough.highlight:backdrop {
     background-color: #dcdcdc;
     background-image: none;
-    /*background-clip: padding-box;*/
 }
-
 
 .scale.trough.highlight.bottom {
     margin: 0 7px 0 7px;
@@ -1942,11 +1784,6 @@ GtkTextView {
     color: @backdrop_fg_color;
 }
 
-.toolbar .button {
-    /*padding: 1px;*/
-    /*padding: 6px 8px;*/
-}
-
 /* primary-toolbar */
 .primary-toolbar,
 .primary-toolbar .toolbar,
@@ -1999,10 +1836,6 @@ GtkTextView {
     background-color: transparent;
     background-image: none;
     border-color: transparent;
-    /*border-radius: 3px;*/
-    /*border-width: 1px;*/
-    /*padding: 3px;*/
-
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
@@ -2035,7 +1868,6 @@ GtkTextView {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
-    /*border-width: 1px;*/
 }
 
 .primary-toolbar .button:active,
@@ -2190,7 +2022,6 @@ GtkTextView {
     border-radius: 8px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    /*box-shadow: inset 1px 0 shade (@bg_color, 0.84);*/
 }
 
 /* Single button */
@@ -2212,7 +2043,6 @@ GtkTextView {
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
     border-radius: 8px;
-    /*box-shadow: none;*/
 }
 
 /***********
@@ -2246,15 +2076,6 @@ GtkTreeView.dnd {
 
 GtkTreeView .entry {
     background-image: none;
-    /*border-radius: 0;*/
-}
-
-GtkTreeView row:nth-child(even){
-    /*background-color: @base_color;*/
-}
-
-GtkTreeView row:nth-child(odd) {
-    /*background-color: shade (@base_color, 0.965);*/
 }
 
 /************
