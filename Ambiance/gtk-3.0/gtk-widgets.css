@@ -533,9 +533,6 @@ GtkIconView.content-view.check:selected {
 /*********
  * entry *
  *********/
-GtkComboBox.combobox-entry .button,
-.primary-toolbar GtkComboBox.combobox-entry .button,
-.header-bar GtkComboBox.combobox-entry .button,
 .entry {
     -GtkWidget-focus-line-width: 0;
 
@@ -547,9 +544,6 @@ GtkComboBox.combobox-entry .button,
     color: @text_color;
 }
 
-GtkComboBox.combobox-entry .button:backdrop,
-.primary-toolbar GtkComboBox.combobox-entry .button:backdrop,
-.header-bar GtkComboBox.combobox-entry .button:backdrop,
 .entry:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (shade (@base_color, 0.96), @bg_color, 0.5)),
@@ -562,9 +556,6 @@ GtkComboBox.combobox-entry .button:backdrop,
     background-color: @selected_bg_color;
 }
 
-GtkComboBox.combobox-entry .button:insensitive,
-.primary-toolbar GtkComboBox.combobox-entry .button:insensitive,
-.header-bar GtkComboBox.combobox-entry .button:insensitive,
 .entry:insensitive {
     background-color: #f5f5f5;
     background-image: none;
@@ -577,9 +568,6 @@ GtkComboBox.combobox-entry .button:insensitive,
     background-image: none;
 }
 
-GtkComboBox.combobox-entry .button:insensitive:backdrop,
-.primary-toolbar GtkComboBox.combobox-entry .button:insensitive:backdrop,
-.header-bar GtkComboBox.combobox-entry .button:insensitive:backdrop,
 .entry:insensitive:backdrop {
     background-color: mix (#f5f5f5, @bg_color, 0.5);
 
@@ -1770,9 +1758,7 @@ GtkTextView {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
-.primary-toolbar GtkComboBox,
 .primary-toolbar .button,
-.header-bar GtkComboBox,
 .header-bar .button {
     background-color: transparent;
     background-image: none;
@@ -1782,9 +1768,7 @@ GtkTextView {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
-.primary-toolbar GtkComboBox:backdrop,
 .primary-toolbar .button:backdrop,
-.header-bar GtkComboBox:backdrop,
 .header-bar .button:backdrop {
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
