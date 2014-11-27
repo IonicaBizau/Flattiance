@@ -268,82 +268,29 @@ GtkAssistant .sidebar {
     box-shadow: inset -1px 0 shade (@bg_color, 0.84);
 }
 
-/* Middle button */
+/******************
+ * Linked Widgets *
+ *****************/
 .linked .entry,
-.linked .entry:active,
-.linked .entry:focus,
-.linked .entry:focus:active,
-.linked .button,
-.linked .button:active,
-.linked .button:active:hover,
-.linked .button:focus,
-.linked .button:focus:active,
-.linked .button:insensitive,
-.linked .button:backdrop,
-.linked .button:active:backdrop {
-    border-right-width: 0;
-    border-left-width: 0;
-    border-image-width: 10px 0 10px 0;
+.linked .button {
     border-radius: 0;
+    border-image-width: 10px 0 10px 0;
 }
 
-/* Leftmost button */
 .linked .entry:first-child,
-.linked .entry:active:first-child,
-.linked .entry:focus:first-child,
-.linked .entry:focus:active:first-child,
-.linked .button:first-child,
-.linked .button:active:first-child,
-.linked .button:active:hover:first-child,
-.linked .button:focus:first-child,
-.linked .button:focus:active:first-child,
-.linked .button:insensitive:first-child,
-.linked .button:backdrop:first-child,
-.linked .button:active:backdrop:first-child {
-    border-width: 1px;
-    border-right-width: 0;
+.linked .button:first-child {
     border-image-width: 10px 0 10px 12px;
-    border-radius: 8px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 8px 0 0 8px;
 }
 
-/* Rightmost button */
 .linked .entry:last-child,
-.linked .entry:active:last-child,
-.linked .entry:focus:last-child,
-.linked .entry:focus:active:last-child,
-.linked .button:last-child,
-.linked .button:active:last-child,
-.linked .button:active:hover:last-child,
-.linked .button:focus:last-child,
-.linked .button:focus:active:last-child,
-.linked .button:insensitive:last-child,
-.linked .button:backdrop:last-child,
-.linked .button:active:backdrop:last-child {
-    border-width: 1px;
-    border-left-width: 0;
+.linked .button:last-child {
     border-image-width: 10px 12px 10px 0;
-    border-radius: 8px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
+    border-radius: 0 8px 8px 0;
 }
 
-/* Linked single button */
 .linked .entry:only-child,
-.linked .entry:active:only-child,
-.linked .entry:focus:only-child,
-.linked .entry:focus:active:only-child,
-.linked .button:only-child,
-.linked .button:active:only-child,
-.linked .button:active:hover:only-child,
-.linked .button:focus:only-child,
-.linked .button:focus:active:only-child,
-.linked .button:insensitive:only-child,
-.linked .button:backdrop:only-child,
-.linked .button:active:backdrop:only-child {
-    border-right-width: 1px;
-    border-left-width: 1px;
+.linked .button:only-child {
     border-image-width: 10px 12px 10px 12px;
     border-radius: 8px;
 }
@@ -402,21 +349,6 @@ GtkAssistant .sidebar {
 .header-bar .button.raised.linked:backdrop:last-child,
 .header-bar .raised.linked .button:backdrop:last-child {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.2);
-}
-
-/* Linked single button */
-.primary-toolbar .linked .entry:only-child,
-.primary-toolbar .linked .button:only-child,
-.primary-toolbar .linked .button:active:only-child,
-.primary-toolbar .linked .button:active:hover:only-child,
-.primary-toolbar .linked .button:insensitive:only-child,
-.header-bar .linked .entry:only-child,
-.header-bar .linked .button:only-child,
-.header-bar .linked .button:active:only-child,
-.header-bar .linked .button:active:hover:only-child,
-.header-bar .linked .button:insensitive:only-child {
-    border-radius: 8px;
-    box-shadow: none;
 }
 
 /****************
