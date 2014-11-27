@@ -119,10 +119,7 @@ GtkAssistant .sidebar {
     -GtkWidget-focus-line-width: 0;
 
     padding: 5px 6px;
-}
 
-GtkSwitch.slider,
-.button {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@button_bg_color, 1.08)),
                                      color-stop (0.5, @button_bg_color),
@@ -130,15 +127,28 @@ GtkSwitch.slider,
 
     color: @fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
+
+    border-radius: 8px;
+    border-image-source: url("assets/button.png");
+
+    /* all button border images have the same size and are sliced in the same way */
+    border-image-width: 10px 12px 10px 12px;
+    border-image-slice: 10 12 10 12;
+    border-image-repeat: stretch;
 }
 
-GtkSwitch.slider:backdrop,
 .button:backdrop {
     background-image: none;
     background-color: @bg_color;
 
     color: @backdrop_fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
+
+    border-image-source: url("assets/backdrop-button.png");
+}
+
+.button:focus {
+    border-image-source: url("assets/button-focused.png");
 }
 
 .button:hover {
@@ -146,11 +156,17 @@ GtkSwitch.slider:backdrop,
                                      from (shade (@button_bg_color, 1.12)),
                                      color-stop (0.5, @button_bg_color),
                                      to (shade (@button_bg_color, 0.96)));
+    border-image-source: url("assets/button-hover.png");
 }
 
 .button:hover:backdrop {
     background-image: none;
     background-color: shade (@bg_color, 1.04);
+    border-image-source: url("assets/backdrop-button-hover.png");
+}
+
+.button:hover:focus {
+    border-image-source: url("assets/button-focused-hover.png");
 }
 
 .button:insensitive {
@@ -158,6 +174,7 @@ GtkSwitch.slider:backdrop,
     background-color: mix (#ebebeb, @bg_color, 0.5);
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
+    border-image-source: url("assets/button-disabled.png");
 }
 
 .button:insensitive:backdrop {
@@ -165,30 +182,67 @@ GtkSwitch.slider:backdrop,
     background-color: #ebebeb;
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
+    border-image-source: url("assets/backdrop-button-disabled.png");
 }
 
 .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#cecece),
                                      to (#e8e8e8));
+    border-image-source: url("assets/button-active.png");
+}
+
+.button:active:focus {
+    border-image-source: url("assets/button-active-focused.png");
 }
 
 .button:active:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#dcdcdc),
                                      to (#f3f3f3));
+    border-image-source: url("assets/button-active-hover.png");
+}
+
+.button:active:hover:focus {
+    border-image-source: url("assets/button-active-focused-hover.png");
 }
 
 .button:active:insensitive {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#e3e3e3),
                                      to (#f3f3f3));
+    border-image-source: url("assets/button-active-disabled.png");
+}
+
+.button:active:backdrop {
+    border-image-source: url("assets/backdrop-button-active.png");
+}
+
+.button:active:hover:backdrop {
+    border-image-source: url("assets/backdrop-button-active-hover.png");
 }
 
 .button:active:insensitive:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (#e3e3e3, @bg_color, 0.5)),
                                      to (mix (#f3f3f3, @bg_color, 0.5)));
+    border-image-source: url("assets/backdrop-button-active-disabled.png");
+}
+
+.button.default {
+    border-image-source: url("assets/button-default.png");
+}
+
+.button.default:hover {
+    border-image-source: url("assets/button-default-hover.png");
+}
+
+.button.default:focus {
+    border-image-source: url("assets/button-default-focused.png");
+}
+
+.button.default:focus:hover {
+    border-image-source: url("assets/button-default-focused-hover.png");
 }
 
 /* Set up shadows and hilights for button visual separation */
@@ -1640,6 +1694,22 @@ GtkSwitch.slider {
     padding: 1px;
     border-radius: 6px;
     border-style: solid;
+
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@button_bg_color, 1.08)),
+                                     color-stop (0.5, @button_bg_color),
+                                     to (shade (@button_bg_color, 0.94)));
+
+    color: @fg_color;
+    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
+}
+
+GtkSwitch.slider:backdrop {
+    background-image: none;
+    background-color: @bg_color;
+
+    color: @backdrop_fg_color;
+    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
 }
 
 /************
@@ -1759,31 +1829,49 @@ GtkTextView {
 }
 
 .primary-toolbar .button,
-.header-bar .button {
-    background-color: transparent;
-    background-image: none;
-    border-color: transparent;
-
+.header-bar .button,
+.primary-toolbar .button.flat:hover {
+    background: transparent;
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    border-image-source: url("assets/button-toolbar.png");
+}
+
+.primary-toolbar .button:focused,
+.header-bar .button:focused {
+    border-image-source: url("assets/button-toolbar-focused.png");
+}
+
+.primary-toolbar .button:active,
+.header-bar .button:active {
+    border-image-source: url("assets/button-toolbar-active.png");
+}
+
+.primary-toolbar .button:active:focused,
+.header-bar .button:active:focused {
+    border-image-source: url("assets/button-toolbar-active-focused.png");
 }
 
 .primary-toolbar .button:backdrop,
 .header-bar .button:backdrop {
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
+    border-image-source: url("assets/backdrop-button-toolbar.png");
+}
+
+.primary-toolbar .button:active:backdrop,
+.header-bar .button:active:backdrop {
+    border-image-source: url("assets/backdrop-button-toolbar-active.png");
 }
 
 .primary-toolbar .raised .button,
 .primary-toolbar .raised.button,
 .primary-toolbar .button:hover,
 .primary-toolbar .button:active,
-.primary-toolbar .button:insensitive,
 .header-bar .raised .button,
 .header-bar .raised.button,
 .header-bar .button:hover,
-.header-bar .button:active,
-.header-bar .button:insensitive {
+.header-bar .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
@@ -1824,6 +1912,11 @@ GtkTextView {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
+}
+
+.primary-toolbar .button.flat {
+    border: none;
+    background: transparent;
 }
 
 .primary-toolbar GtkSeparatorToolItem,
