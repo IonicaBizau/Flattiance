@@ -1744,6 +1744,7 @@ GtkTextView {
 
 .primary-toolbar .button:backdrop,
 .header-bar .button:backdrop {
+    background-color: transparent;
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
     border-image-source: url("assets/radiance-backdrop-button-toolbar.png");
