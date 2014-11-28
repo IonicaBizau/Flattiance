@@ -544,6 +544,10 @@ GtkIconView.content-view.check:selected {
     background: none;
 }
 
+.frame.flat {
+    border: none;
+}
+
 /************
  * iconview *
  ************/
