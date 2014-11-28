@@ -569,6 +569,10 @@ GtkIconView.view.cell:selected:focused {
                 inset 0 -1px shade (@selected_bg_color, 1.0);
 }
 
+GtkIconView.cell {
+    background-color: transparent;
+}
+
 .rubberband {
     background-color: alpha (@selected_bg_color, 0.35);
     border-color: @selected_bg_color;
