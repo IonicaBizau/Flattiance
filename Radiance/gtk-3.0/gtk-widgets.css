@@ -185,25 +185,25 @@ GtkAssistant .sidebar {
     border-image-source: url("assets/backdrop-button-disabled.png");
 }
 
-.button:active {
+.button:checked {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#cecece),
                                      to (#e8e8e8));
     border-image-source: url("assets/button-active.png");
 }
 
-.button:active:focus {
+.button:checked:focus {
     border-image-source: url("assets/button-active-focused.png");
 }
 
-.button:active:hover {
+.button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#dcdcdc),
                                      to (#f3f3f3));
     border-image-source: url("assets/button-active-hover.png");
 }
 
-.button:active:hover:focus {
+.button:active:focus {
     border-image-source: url("assets/button-active-focused-hover.png");
 }
 
@@ -214,15 +214,15 @@ GtkAssistant .sidebar {
     border-image-source: url("assets/button-active-disabled.png");
 }
 
-.button:active:backdrop {
+.button:checked:backdrop {
     border-image-source: url("assets/backdrop-button-active.png");
 }
 
-.button:active:hover:backdrop {
+.button:active:backdrop {
     border-image-source: url("assets/backdrop-button-active-hover.png");
 }
 
-.button:active:insensitive:backdrop {
+.button:checked:insensitive:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (#e3e3e3, @bg_color, 0.5)),
                                      to (mix (#f3f3f3, @bg_color, 0.5)));
@@ -454,12 +454,12 @@ GtkIconView.content-view.check {
     background-color: transparent;
 }
 
-GtkIconView.content-view.check:active {
+GtkIconView.content-view.check:checked {
     background-color: transparent;
 }
 
 .content-view.view.check,
-.content-view.view.check:active {
+.content-view.view.check:checked {
     background-color: transparent;
 }
 
@@ -731,8 +731,8 @@ GtkComboBox .menu {
 }
 
 .menu.button:hover,
-.menu.button:active,
-.menu.button:active:insensitive,
+.menu.button:checked,
+.menu.button:checked:insensitive,
 .menu.button:insensitive,
 .menu.button
 {
@@ -804,7 +804,7 @@ GtkComboBox .menuitem *:hover {
     color: @selected_fg_color;
 }
 
-.popover .menuitem:active:hover,
+.popover .menuitem:checked:hover,
 .menuitem:hover,
 .menu .menuitem:hover {
     border-radius: 0;
@@ -824,8 +824,8 @@ GtkComboBox .menuitem *:hover {
     text-shadow: 0 -1px shade (@selected_bg_color, 0.7);
 }
 
-.menuitem.check:active,
-.menuitem.radio:active {
+.menuitem.check:checked,
+.menuitem.radio:checked {
     color: @fg_color;
 }
 
@@ -1733,12 +1733,16 @@ GtkTextView {
 }
 
 .primary-toolbar .button:active,
-.header-bar .button:active {
+.primary-toolbar .button:checked,
+.header-bar .button:active,
+.header-bar .button:checked {
     border-image-source: url("assets/radiance-button-toolbar-active.png");
 }
 
 .primary-toolbar .button:active:focused,
-.header-bar .button:active:focused {
+.primary-toolbar .button:checked:focused,
+.header-bar .button:active:focused,
+.header-bar .button:checked:focused {
     border-image-source: url("assets/radiance-button-toolbar-active-focused.png");
 }
 
@@ -1751,18 +1755,16 @@ GtkTextView {
 }
 
 .primary-toolbar .button:active:backdrop,
-.header-bar .button:active:backdrop {
+.primary-toolbar .button:checked:backdrop,
+.header-bar .button:active:backdrop,
+.header-bar .button:checked:backdrop {
     border-image-source: url("assets/radiance-backdrop-button-toolbar-active.png");
 }
 
-.primary-toolbar .raised .button,
-.primary-toolbar .raised.button,
 .primary-toolbar .button:hover,
-.primary-toolbar .button:active,
-.header-bar .raised .button,
-.header-bar .raised.button,
+.primary-toolbar .button:checked,
 .header-bar .button:hover,
-.header-bar .button:active {
+.header-bar .button:checked {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
@@ -1771,22 +1773,14 @@ GtkTextView {
 .primary-toolbar .button:active,
 .header-bar .button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.9)),
-                                     to (shade (@dark_bg_color, 0.95)));
-
+                                     from (shade (@dark_bg_color, 0.95)),
+                                     to (shade (@dark_bg_color, 1.0)));
     text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
 }
 
-.primary-toolbar .button:active:hover,
-.header-bar .button:active:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.95)),
-                                     to (shade (@dark_bg_color, 1.0)));
-}
-
-.primary-toolbar .button:active:insensitive,
+.primary-toolbar .button:checked:insensitive,
 .primary-toolbar .button:insensitive,
-.header-bar .button:active:insensitive,
+.header-bar .button:checked:insensitive,
 .header-bar .button:insensitive {
     text-shadow: none;
 }
@@ -1798,8 +1792,8 @@ GtkTextView {
                                      to (shade (@dark_bg_color, 0.99)));
 }
 
-.primary-toolbar .button:active:insensitive,
-.header-bar .button:active:insensitive {
+.primary-toolbar .button:checked:insensitive,
+.header-bar .button:checked:insensitive {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
@@ -2002,9 +1996,9 @@ GtkViewport.frame {
  * the button styles for them.
  */
 .popover .menuitem,
-.popover .menuitem:active,
+.popover .menuitem:checked,
 .popover .menuitem:hover,
-.popover .menuitem:hover:active,
+.popover .menuitem:active,
 .popover .menuitem:insensitive,
 .popover .menuitem:backdrop {
     border-image: none;
@@ -2021,11 +2015,11 @@ GtkViewport.frame {
 }
 
 
-.popover .menuitem:active,
+.popover .menuitem:checked,
 .popover .menuitem.check,
-.popover .menuitem.check:active,
+.popover .menuitem.check:checked,
 .popover .menuitem.radio,
-.popover .menuitem.radio:active {
+.popover .menuitem.radio:checked {
     background-image: none;
     border: none;
 }
