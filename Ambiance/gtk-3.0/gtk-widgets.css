@@ -127,8 +127,7 @@ GtkAssistant .sidebar {
     color: @fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
 
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid transparent;
     border-radius: 8px;
     border-image-source: url("assets/button.png");
 
@@ -138,14 +137,22 @@ GtkAssistant .sidebar {
     border-image-repeat: stretch;
 }
 
+.button.flat {
+    background-image: none;
+    border-image-source: none;
+}
+
 .button:backdrop {
     background-image: none;
     background-color: @bg_color;
+    border-image-source: url("assets/backdrop-button.png");
 
     color: @backdrop_fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
+}
 
-    border-image-source: url("assets/backdrop-button.png");
+.button.flat:backdrop {
+    border-image-source: none;
 }
 
 .button:focus {
@@ -161,7 +168,6 @@ GtkAssistant .sidebar {
 }
 
 .button:hover:backdrop {
-    background-image: none;
     background-color: shade (@bg_color, 1.04);
     border-image-source: url("assets/backdrop-button-hover.png");
 }
@@ -179,11 +185,16 @@ GtkAssistant .sidebar {
 }
 
 .button:insensitive:backdrop {
-    background-image: none;
     background-color: #ebebeb;
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
     border-image-source: url("assets/backdrop-button-disabled.png");
+}
+
+.button.flat:insensitive,
+.button.flat:insensitive:backdrop {
+    background-color: transparent;
+    border-image-source: none;
 }
 
 .button:checked {
@@ -1728,6 +1739,11 @@ GtkTextView {
     border-image-source: url("assets/button-toolbar.png");
 }
 
+.primary-toolbar .button.flat {
+    border-image-source: none;
+    background: transparent;
+}
+
 .primary-toolbar .button:focused,
 .header-bar .button:focused {
     border-image-source: url("assets/button-toolbar-focused.png");
@@ -1753,6 +1769,10 @@ GtkTextView {
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
     border-image-source: url("assets/backdrop-button-toolbar.png");
+}
+
+.primary-toolbar .button.flat:backdrop {
+    border-image-source: none;
 }
 
 .primary-toolbar .button:active:backdrop,
@@ -1793,16 +1813,15 @@ GtkTextView {
                                      to (shade (@dark_bg_color, 0.99)));
 }
 
+.primary-toolbar .button.flat:insensitive {
+    background-image: none;
+}
+
 .primary-toolbar .button:checked:insensitive,
 .header-bar .button:checked:insensitive {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
-}
-
-.primary-toolbar .button.flat {
-    border: none;
-    background: transparent;
 }
 
 .primary-toolbar GtkSeparatorToolItem,
