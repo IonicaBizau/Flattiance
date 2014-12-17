@@ -1977,6 +1977,20 @@ GtkViewport.frame {
 }
 
 /************
+ * listbox  *
+ ************/
+.list-row.button {
+    border-image: none;
+    border-style: none;
+    border-radius: 0;
+    background-image: none;
+}
+
+.list-row.button:selected {
+    text-shadow: none;
+}
+
+/************
  * popover  *
  ************/
 .popover {
