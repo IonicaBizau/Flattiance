@@ -1,3 +1,10 @@
+ubuntu-themes (14.04+15.04.20141217-0ubuntu1) vivid; urgency=low
+
+  [ Lars Uebernickel ]
+  * light-themes: update for gtk 3.14
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 17 Dec 2014 17:09:24 +0000
+
 ubuntu-themes (14.04+15.04.20141105-0ubuntu1) vivid; urgency=low
 
   [ Matthieu James ]
