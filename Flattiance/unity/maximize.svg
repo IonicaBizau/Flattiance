@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="24.286129"
-     inkscape:cx="7.7441326"
-     inkscape:cy="13.364625"
+     inkscape:cx="1.0736583"
+     inkscape:cy="5.5914341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,11 +60,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(287.35715,-522.86219)">
-    <path
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.1;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;isolation:auto;mix-blend-mode:normal;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
-       d="m -281.35742,529.86133 0,0.5 0,6.5 7,0 0,-7 -7,0 z m 1,1 5,0 0,5 -5,0 0,-5 z"
-       id="rect4828"
-       inkscape:connector-curvature="0" />
     <ellipse
        style="fill:#2ecc71;fill-opacity:1;stroke:#27ae60;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4157"

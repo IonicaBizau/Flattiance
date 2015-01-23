@@ -77,64 +77,6 @@
        y1="9.4999952"
        x2="-1055.3622"
        y2="9.4999952" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4809-2">
-      <stop
-         style="stop-color:#5a5955;stop-opacity:1"
-         offset="0"
-         id="stop4511-6" />
-      <stop
-         id="stop4517-5"
-         offset="0.50001228"
-         style="stop-color:#75746d;stop-opacity:1" />
-      <stop
-         style="stop-color:#8e8d88;stop-opacity:1"
-         offset="1"
-         id="stop4513-6" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4521-2">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop4523-9" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop4525-9" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4809-2"
-       id="linearGradient5490"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-1072.3622,-1053.3622)"
-       x1="2.0000153"
-       y1="1062.8622"
-       x2="16.999975"
-       y2="1062.8622" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4521-2"
-       id="linearGradient5492"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,1,1,0,0,2125.7244)"
-       x1="-1070.3622"
-       y1="9.4999952"
-       x2="-1055.3622"
-       y2="9.4999952" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4521-2"
-       id="linearGradient5494"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,1.0357118,1.0357118,0,-0.33926172,2163.6811)"
-       x1="-1070.3622"
-       y1="9.4999952"
-       x2="-1055.3622"
-       y2="9.4999952" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -144,8 +86,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="23.716923"
-     inkscape:cx="4.2709082"
-     inkscape:cy="11.969063"
+     inkscape:cx="5.8731397"
+     inkscape:cy="6.8250568"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -175,50 +117,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(287.35715,-522.86219)">
-    <g
-       id="use4830"
-       inkscape:export-filename="maximize.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="translate(-358.52059,-1596.1156)">
-      <circle
-         r="8.5"
-         cy="1062.8622"
-         cx="9.4999924"
-         id="circle5480"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#383734;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;enable-background:accumulate" />
-      <circle
-         transform="rotate(-90)"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5490);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;enable-background:accumulate"
-         id="circle5482"
-         cx="-1062.8622"
-         cy="9.4999952"
-         r="7.49998" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5484"
-         d="m 2,1062.8613 c 0,-4.1362 3.363788,-7.5 7.5,-7.5 4.136212,0 7.5,3.3638 7.5,7.5 0,4.1362 -3.363788,7.5 -7.5,7.5 -4.136212,0 -7.5,-3.3638 -7.5,-7.5 z m 1,0 c 0,3.5958 2.9042281,6.5 6.5,6.5 3.595772,0 6.5,-2.9042 6.5,-6.5 0,-3.5957 -2.904228,-6.5 -6.5,-6.5 -3.5957719,0 -6.5,2.9043 -6.5,6.5 z"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.07000002;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:url(#linearGradient5492);fill-opacity:1;stroke:none;stroke-width:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5486"
-         d="m 2,1062.8613 c 0,-4.1391 3.3608366,-7.5 7.5,-7.5 4.139163,0 7.5,3.3609 7.5,7.5 0,4.1392 -3.360837,7.5 -7.5,7.5 -4.1391634,0 -7.5,-3.3608 -7.5,-7.5 z m 0.5,0 c 0,3.869 3.1310567,7 7,7 3.868943,0 7,-3.131 7,-7 0,-3.8689 -3.131057,-7 -7,-7 -3.8689433,0 -7,3.1311 -7,7 z"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.07000002;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:url(#linearGradient5494);fill-opacity:1;stroke:none;stroke-width:0.5;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         y="1053.3622"
-         x="-7.3563765e-06"
-         height="19"
-         width="19"
-         id="rect5488"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
-    </g>
-    <rect
-       y="532.86218"
-       x="-281.35715"
-       height="1"
-       width="7"
-       id="rect4836"
-       style="opacity:0.1;color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <ellipse
        style="fill:#f1c40f;fill-opacity:1;stroke:#d0aa0d;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4157"

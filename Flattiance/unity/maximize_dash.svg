@@ -13,7 +13,7 @@
    height="19"
    id="svg4486"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.91+devel r"
    viewBox="0 0 19 19"
    sodipodi:docname="maximize_dash.svg">
   <defs
@@ -25,16 +25,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9580786"
-     inkscape:cx="-7.3730107"
-     inkscape:cy="9.9678584"
+     inkscape:zoom="22.508845"
+     inkscape:cx="12.612177"
+     inkscape:cy="5.8564743"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4491">
     <rdf:RDF>
@@ -43,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,22 +57,19 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(290.21429,-522.86219)">
-    <g
-       transform="translate(-289.71429,-492.00011)"
-       style="display:inline"
-       id="g4218">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4209"
-         d="m 8.999998,1016.8622 a 7.4999796,7.4999796 0 0 0 -7.5,7.5 7.4999796,7.4999796 0 0 0 7.5,7.5 7.4999796,7.4999796 0 0 0 7.5,-7.5 7.4999796,7.4999796 0 0 0 -7.5,-7.5 z m -3.5,4 7,0 0,7 -7,0 0,-6.5 0,-0.5 z m 1,1 0,5 5,0 0,-5 -5,0 z"
-         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect4203"
-         width="19"
-         height="19"
-         x="-0.5000006"
-         y="1014.8623" />
-    </g>
+    <ellipse
+       style="fill:#2ecc71;fill-opacity:1;stroke:#27ae60;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4157-8"
+       cx="-280.71429"
+       cy="532.36218"
+       rx="5.859386"
+       ry="5.8593855" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.83600003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4153"
+       width="6.4188447"
+       height="4.3289881"
+       x="-283.92371"
+       y="530.19769" />
   </g>
 </svg>

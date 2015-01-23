@@ -1,7 +1,7 @@
 #!/bin/bash
 
-svg_dir="./Ambiance/unity"
-metacity_dir="./Ambiance/metacity-1"
+svg_dir="./Flattiance/unity"
+metacity_dir="./Flattiance/metacity-1"
 
 for svg_file in $svg_dir/*.svg; do
     base="${svg_file%.[^.]*}"
