@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Ambiance
-Comment=Ubuntu Ambiance theme
+Name=Flattiance
+Comment=A fork of the Ubuntu Ambiance theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Ambiance
+GtkTheme=Flattiance
 MetacityTheme=Ambiance
 IconTheme=ubuntu-mono-dark
 CursorTheme=DMZ-White
