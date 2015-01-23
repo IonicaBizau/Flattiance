@@ -26,6 +26,7 @@
 @define-color notebook_button_bg_color shade (@bg_color, 1.02);
 @define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
 @define-color dark_bg_color #3c3b37;
+@define-color unity_bg_color #3F3E3A;
 @define-color dark_fg_color #dfdbd2;
 
 @define-color backdrop_fg_color mix (@bg_color, @fg_color, 0.8);
@@ -44,7 +45,7 @@
 @import url("apps/baobab.css");
 @import url("apps/gedit.css");
 @import url("apps/nautilus.css");
-@import url("apps/gnome-panel.css");
+/*@import url("apps/gnome-panel.css");*/
 @import url("apps/gnome-terminal.css");
 @import url("apps/gnome-system-log.css");
 @import url("apps/unity-greeter.css");

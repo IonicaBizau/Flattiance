@@ -16,6 +16,7 @@ PanelToplevel {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
+     background-color: red;
 }
 
 PanelApplet {
@@ -30,6 +31,7 @@ PanelSeparator {
                                      to (shade (@dark_bg_color, 1.05)));
 
     color: @dark_fg_color;
+     background-color: green;
 }
 
 .gnome-panel-menu-bar,
@@ -41,14 +43,16 @@ PanelMenuBar.menubar.menuitem {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
+     background-color: yellow;
 }
 
-PanelAppletFrame { 
+PanelAppletFrame {
     background-color: @dark_bg_color;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (shade (@dark_bg_color, 1.05)));
     border-width: 0;
+     background-color: blue;
 }
 
 PanelApplet .button:backdrop,
@@ -66,6 +70,7 @@ PanelApplet .button {
 
     color: @dark_fg_color;
     text-shadow: none;
+     background-color: violet;
 }
 
 PanelApplet .button:active:prelight:backdrop,
@@ -75,8 +80,9 @@ PanelApplet .button:active {
     border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.85)),
-                                     to (shade (@dark_bg_color, 1.0))); 
+                                     to (shade (@dark_bg_color, 1.0)));
     border-color: shade (@dark_bg_color, 0.9);
+     background-color: orange;
 }
 
 PanelApplet .button:prelight:backdrop,
@@ -87,6 +93,7 @@ PanelApplet .button:prelight {
                                      to (shade (@dark_bg_color, 1.25)));
     border-color: alpha (shade (@dark_bg_color, 1.0), 0.6);
     border-left-color: alpha (shade (@dark_bg_color, 1.5), 0.4);
+     background-color: black;
 }
 
 ClockBox {

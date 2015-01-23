@@ -1877,6 +1877,7 @@ GtkTextView {
  * down grouped with normal toolbars.
  */
 .titlebar.header-bar {
+
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
                                      to (@dark_bg_color));
@@ -1947,18 +1948,14 @@ GtkTextView {
     -GtkWidget-window-dragging: true;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.96)),
-                                     to (shade (@dark_bg_color, 1.4)));
-    border-bottom-color: shade (@dark_bg_color, 1.1);
-    border-top-color: shade (@dark_bg_color, 1.09);
-    border-style: solid;
-    border-width: 1px 0 1px 0;
+                                     from (@unity_bg_color),
+                                     to (@unity_bg_color));
     border-radius: 0;
+    border: none;
+    padding: 2px 6px 6px 6px;
 
     color: @dark_fg_color;
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 
-    box-shadow: inset 0 1px shade (@dark_bg_color, 0.94);
 }
 
 .primary-toolbar .toolbar:backdrop,
