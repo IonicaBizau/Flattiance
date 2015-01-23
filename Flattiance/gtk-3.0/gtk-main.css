@@ -3,20 +3,20 @@
 @define-color fg_color #4c4c4c;
 @define-color base_color #ffffff;
 @define-color text_color #3C3C3C;
-@define-color selected_bg_color #f07746;
+@define-color selected_bg_color #534735;
 @define-color selected_fg_color #ffffff;
 @define-color tooltip_bg_color #000000;
 @define-color tooltip_fg_color #ffffff;
 
 /* misc colors used by gtk+ */
-@define-color info_fg_color rgb (181, 171, 156);
-@define-color info_bg_color rgb (252, 252, 189);
-@define-color warning_fg_color rgb (173, 120, 41);
-@define-color warning_bg_color rgb (250, 173, 61);
-@define-color question_fg_color rgb (97, 122, 214);
-@define-color question_bg_color rgb (138, 173, 212);
-@define-color error_fg_color rgb (235, 235, 235);
-@define-color error_bg_color rgb (223, 56, 44);
+@define-color info_fg_color #b5ab9c;
+@define-color info_bg_color #fcfcbd;
+@define-color warning_fg_color #ad7829;
+@define-color warning_bg_color #f39c12;
+@define-color question_fg_color #617ad6;
+@define-color question_bg_color #3498db;
+@define-color error_fg_color #ebebeb;
+@define-color error_bg_color #e74c3c;
 @define-color link_color @selected_bg_color;
 @define-color success_color #4e9a06;
 @define-color error_color #df382c;
