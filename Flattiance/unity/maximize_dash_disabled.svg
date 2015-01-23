@@ -11,13 +11,16 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="19"
    height="19"
-   id="svg4486"
+   id="svg4875"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.91+devel r"
    viewBox="0 0 19 19"
-   sodipodi:docname="maximize_dash_disabled.svg">
+   sodipodi:docname="maximize.svg"
+   inkscape:export-filename="/home/ionicabizau/Documents/foo/Flattiance/metacity-1/maximize.png"
+   inkscape:export-xdpi="8192"
+   inkscape:export-ydpi="8192">
   <defs
-     id="defs4488" />
+     id="defs4877" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,25 +28,30 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9580786"
-     inkscape:cx="-7.3730107"
-     inkscape:cy="9.9678584"
+     inkscape:zoom="24.286129"
+     inkscape:cx="1.0736583"
+     inkscape:cy="5.5914341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata4491">
+     id="metadata4880">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,23 +59,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(290.21429,-522.86219)">
-    <g
-       style="opacity:0.25;display:inline"
-       transform="translate(-289.71429,-492.00011)"
-       id="g4240">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4242"
-         d="m 8.999998,1016.8622 a 7.4999796,7.4999796 0 0 0 -7.5,7.5 7.4999796,7.4999796 0 0 0 7.5,7.5 7.4999796,7.4999796 0 0 0 7.5,-7.5 7.4999796,7.4999796 0 0 0 -7.5,-7.5 z m -3.5,4 7,0 0,7 -7,0 0,-6.5 0,-0.5 z m 1,1 0,5 5,0 0,-5 -5,0 z"
-         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect4244"
-         width="19"
-         height="19"
-         x="-0.5000006"
-         y="1014.8623" />
-    </g>
+     transform="translate(287.35715,-522.86219)">
+    <ellipse
+       style="fill:#2ecc71;fill-opacity:1;stroke:#27ae60;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4157"
+       cx="-277.85715"
+       cy="532.36218"
+       rx="5.859386"
+       ry="5.8593855" />
   </g>
 </svg>

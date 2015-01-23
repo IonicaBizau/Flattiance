@@ -9,37 +9,42 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg4486"
-   height="19"
-   viewBox="0 0 19 19"
    width="19"
+   height="19"
+   id="svg4875"
    version="1.1"
    inkscape:version="0.91+devel r"
-   sodipodi:docname="close_dash.svg">
+   viewBox="0 0 19 19"
+   sodipodi:docname="close.svg"
+   inkscape:export-filename="/home/ionicabizau/Documents/foo/Flattiance/metacity-1/close.png"
+   inkscape:export-xdpi="6553.6001"
+   inkscape:export-ydpi="6553.6001">
   <defs
-     id="defs10" />
+     id="defs4877" />
   <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
+     inkscape:zoom="30.357661"
+     inkscape:cx="5.8247242"
+     inkscape:cy="12.30579"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     id="namedview8"
-     showgrid="false"
-     inkscape:zoom="24.842105"
-     inkscape:cx="6.9094623"
-     inkscape:cy="10.140938"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4486" />
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata4491">
+     id="metadata4880">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -50,24 +55,17 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <ellipse
-     style="fill:#e74c3c;stroke:#c0392b;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path4157"
-     cx="9.5"
-     cy="9.5"
-     rx="5.859386"
-     ry="5.8593855" />
   <g
-     id="g4153">
-    <path
-       inkscape:connector-curvature="0"
-       id="path4149"
-       d="m 6.973816,6.9738163 5.052368,5.0523677"
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 12.026184,6.9738163 6.973816,12.026184"
-       id="path4151"
-       inkscape:connector-curvature="0" />
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(287.35715,-522.86219)">
+    <ellipse
+       style="fill:#e74c3c;stroke:#c0392b;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4157"
+       cx="-277.85715"
+       cy="532.36218"
+       rx="5.859386"
+       ry="5.8593855" />
   </g>
 </svg>

@@ -11,13 +11,16 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="19"
    height="19"
-   id="svg4486"
+   id="svg4875"
    version="1.1"
    inkscape:version="0.91+devel r"
    viewBox="0 0 19 19"
-   sodipodi:docname="maximize_dash.svg">
+   sodipodi:docname="maximize.svg"
+   inkscape:export-filename="/home/ionicabizau/Documents/foo/Flattiance/metacity-1/maximize.png"
+   inkscape:export-xdpi="8192"
+   inkscape:export-ydpi="8192">
   <defs
-     id="defs4488" />
+     id="defs4877" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.508845"
-     inkscape:cx="12.612177"
-     inkscape:cy="5.8564743"
+     inkscape:zoom="24.286129"
+     inkscape:cx="1.0736583"
+     inkscape:cy="5.5914341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +44,7 @@
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata4491">
+     id="metadata4880">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,20 +59,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(290.21429,-522.86219)">
+     transform="translate(287.35715,-522.86219)">
     <ellipse
        style="fill:#2ecc71;fill-opacity:1;stroke:#27ae60;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4157-8"
-       cx="-280.71429"
+       id="path4157"
+       cx="-277.85715"
        cy="532.36218"
        rx="5.859386"
        ry="5.8593855" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.83600003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4153"
-       width="6.4188447"
-       height="4.3289881"
-       x="-283.92371"
-       y="530.19769" />
   </g>
 </svg>
