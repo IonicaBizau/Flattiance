@@ -1,0 +1,13 @@
+#!/bin/bash
+
+svg_dir="./Ambiance/unity"
+metacity_dir="./Ambiance/metacity-1"
+
+for svg_file in $svg_dir/*.svg; do
+    base="${svg_file%.[^.]*}"
+    icon=`node -pe 'f = process.argv[1]; f.match(/unity\/(.*)$/)[1]' $base`
+    echo "Building $icon"
+    inkscape -z -e $metacity_dir/$icon.png -w 1024 -h 1024 $svg_dir/$icon.svg
+done
+
+sudo cp -r Ambiance/ /usr/share/themes/Flattiance/
