@@ -10,4 +10,5 @@ for svg_file in $svg_dir/*.svg; do
     inkscape -z -e $metacity_dir/$icon.png -w 1024 -h 1024 $svg_dir/$icon.svg
 done
 
-sudo cp -r Ambiance/ /usr/share/themes/Flattiance/
+sudo rm -rf /usr/share/themes/Flattiance/
+sudo cp -r Flattiance/ /usr/share/themes/Flattiance/
