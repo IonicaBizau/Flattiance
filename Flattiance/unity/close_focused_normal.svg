@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91+devel r"
    viewBox="0 0 19 19"
-   sodipodi:docname="close.svg"
+   sodipodi:docname="close_dash_prelight.svg"
    inkscape:export-filename="/home/ionicabizau/Documents/foo/Flattiance/metacity-1/close.png"
    inkscape:export-xdpi="6553.6001"
    inkscape:export-ydpi="6553.6001">
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="30.357661"
-     inkscape:cx="5.8247242"
-     inkscape:cy="12.30579"
+     inkscape:cx="10.831698"
+     inkscape:cy="9.6705409"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -61,7 +61,7 @@
      id="layer1"
      transform="translate(287.35715,-522.86219)">
     <ellipse
-       style="fill:#e74c3c;stroke:#c0392b;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#e74c3c;stroke:#c0392b;stroke-width:0.28122878;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.74509805;fill-opacity:0.74509805"
        id="path4157"
        cx="-277.85715"
        cy="532.36218"
