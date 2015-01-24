@@ -13,9 +13,9 @@ PanelToplevel {
 PanelWidget,
 PanelApplet,
 PanelToplevel {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.05)));
      background-color: red;
 }
 
@@ -26,9 +26,9 @@ PanelApplet {
 PanelSeparator:backdrop,
 PanelSeparator {
     border-width: 0;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.05)));
 
     color: @dark_fg_color;
      background-color: green;
@@ -40,17 +40,17 @@ PanelApplet > GtkMenuBar.menubar.menuitem,
 PanelMenuBar.menubar,
 PanelMenuBar.menubar.menuitem {
     -PanelMenuBar-icon-visible: true;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.05)));
      background-color: yellow;
 }
 
 PanelAppletFrame {
     background-color: @dark_bg_color;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.05)));
     border-width: 0;
      background-color: blue;
 }
@@ -60,11 +60,11 @@ PanelApplet .button {
     -GtkButton-inner-border: 2;
 
     border-image: none;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.05)));
-    border-color: alpha (shade (@dark_bg_color, 1.0), 0.6);
-    border-left-color: alpha (shade (@dark_bg_color, 1.5), 0.3);
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.05)));
+    border-color: alpha(shade(@dark_bg_color, 1.0), 0.6);
+    border-left-color: alpha(shade(@dark_bg_color, 1.5), 0.3);
     border-radius: 0;
     border-width: 0 1px 0 1px;
 
@@ -78,26 +78,26 @@ PanelApplet .button:active:prelight,
 PanelApplet .button:active:backdrop,
 PanelApplet .button:active {
     border-image: none;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.85)),
-                                     to (shade (@dark_bg_color, 1.0)));
-    border-color: shade (@dark_bg_color, 0.9);
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 0.85)),
+                                     to(shade(@dark_bg_color, 1.0)));
+    border-color: shade(@dark_bg_color, 0.9);
      background-color: orange;
 }
 
 PanelApplet .button:prelight:backdrop,
 PanelApplet .button:prelight {
     border-image: none;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.7)),
-                                     to (shade (@dark_bg_color, 1.25)));
-    border-color: alpha (shade (@dark_bg_color, 1.0), 0.6);
-    border-left-color: alpha (shade (@dark_bg_color, 1.5), 0.4);
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.7)),
+                                     to(shade(@dark_bg_color, 1.25)));
+    border-color: alpha(shade(@dark_bg_color, 1.0), 0.6);
+    border-left-color: alpha(shade(@dark_bg_color, 1.5), 0.4);
      background-color: black;
 }
 
 ClockBox {
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
+    text-shadow: 0 -1px shade(@dark_bg_color, 0.6);
 }
 
 WnckPager, WnckTasklist {

@@ -13,7 +13,7 @@ style "terminal_menubar"
 
 style "terminal_notebook" = "dark"
 {
-	fg[ACTIVE] = mix (0.8, "#dfdbd2", "#3c3b37")
+	fg[ACTIVE] = mix(0.8, "#dfdbd2", "#3c3b37")
 
 	engine "murrine" {
 	}

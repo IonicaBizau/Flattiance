@@ -139,7 +139,7 @@ NautilusWindow > GtkGrid > .pane-separator:hover {
     border-style: solid;
     border-color: @borders;
     background-color: @sidebar_bg;
-    color: shade (@theme_bg_color, 0.9);
+    color: shade(@theme_bg_color, 0.9);
 }
 
 NautilusWindow > GtkGrid > .pane-separator:backdrop,
@@ -148,7 +148,7 @@ NautilusWindow > GtkGrid > .pane-separator:hover:backdrop {
     border-style: solid;
     border-color: @unfocused_borders;
     background-color: @sidebar_bg_unfocused;
-    color: shade (@theme_bg_color, 0.9);
+    color: shade(@theme_bg_color, 0.9);
 }
 
 NautilusNotebook.notebook {
@@ -159,7 +159,7 @@ NautilusNotebook.notebook {
 
 /* gedit */
 
-GeditWindow .pane-separator, 
+GeditWindow .pane-separator,
 GeditWindow .pane-separator:hover {
    border-width: 0 1px 1px 1px;
    border-style: solid;
@@ -178,7 +178,7 @@ GeditWindow .sidebar {
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: @borders;
-    
+
 }
 
 GeditPanel .notebook {
@@ -198,7 +198,7 @@ GeditWindow .notebook tab {
 /* gnome-documents */
 .documents-dropdown,
 .documents-dropdown .view {
-    background-color: shade (@theme_bg_color, 1.02);
+    background-color: shade(@theme_bg_color, 1.02);
 }
 
 .documents-dropdown .frame {
@@ -497,7 +497,7 @@ EphyToolbar .location-entry .button:active:hover {
                                     from(shade(@entry_background_a, 0.9)),
                                     to(@entry_background_b));
     box-shadow: 1 0 inset @inset_dark_color,
-                0 1 inset @entry_inset, 
+                0 1 inset @entry_inset,
                 0 2 inset alpha(@entry_inset, 0.4);
 }
 
@@ -511,7 +511,7 @@ EphyToolbar .location-entry .button *:active {
 EphyToolbar .location-entry .button:backdrop,
 EphyToolbar .location-entry .button:hover:backdrop {
     background-image: none;
-    background-color: mix (@base_color, @bg_color, 0.4);
+    background-color: mix(@base_color, @bg_color, 0.4);
     border-radius: 3px;
     border-width: 1px 1px 2px 0;
 }
@@ -652,10 +652,10 @@ ContactsWindow .sidebar .view:selected:focus {
  border-radius: 0 0 5px 5px;
  padding: 8px;
  background-color: #d8d8d8;
- background-image: -gtk-gradient (linear, left top, left bottom,
-                                  from (rgba (0, 0, 0, 0.15)),
-                                  color-stop (0.15, rgba (0, 0, 0, 0.04)),
-                                  to (rgba (0, 0, 0, 0.0)));
+ background-image: -gtk-gradient(linear, left top, left bottom,
+                                  from(rgba(0, 0, 0, 0.15)),
+                                  color-stop(0.15, rgba(0, 0, 0, 0.04)),
+                                  to(rgba(0, 0, 0, 0.0)));
 }
 
 /* Gucharmap */

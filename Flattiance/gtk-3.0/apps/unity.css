@@ -6,13 +6,13 @@ UnityDecoration {
 
     -UnityDecoration-shadow-offset-x: 1px;
     -UnityDecoration-shadow-offset-y: 5px;
-    -UnityDecoration-active-shadow-color: rgba (0, 0, 0, 0.75);
+    -UnityDecoration-active-shadow-color: rgba(0, 0, 0, 0.75);
     -UnityDecoration-active-shadow-radius: 30px;
-    -UnityDecoration-inactive-shadow-color: rgba (0, 0, 0, 0.3);
+    -UnityDecoration-inactive-shadow-color: rgba(0, 0, 0, 0.3);
     -UnityDecoration-inactive-shadow-radius: 25px;
 
     -UnityDecoration-glow-size: 10px;
-    -UnityDecoration-glow-color: rgb (221, 72, 20);
+    -UnityDecoration-glow-color: rgb(221, 72, 20);
 
     -UnityDecoration-title-indent: 10px;
     -UnityDecoration-title-fade: 35px;
@@ -25,22 +25,22 @@ UnityDecoration.top {
     padding: 1px 6px 0 6px;
 
     background-color: transparent;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from ($unity_bg_color),
-                                     to ($unity_bg_color));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from($unity_bg_color),
+                                     to($unity_bg_color));
 
     color: @dark_fg_color;
     text-shadow: 1px 0 #333, -1px 0 #333, 0 1px #333, 0 -1px #333;
 }
 
 UnityDecoration.top:backdrop {
-    border: 1px solid rgba (14, 13, 0, 0.03); /* @dark_bg_color - shade (#474642, 0.92) */;
+    border: 1px solid rgba(14, 13, 0, 0.03); /* @dark_bg_color - shade(#474642, 0.92) */;
     border-bottom-width: 0;
     background-color: transparent;
     background-clip: border-box;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (#474642, 0.92)),
-                                     to (@dark_bg_color));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(#474642, 0.92)),
+                                     to(@dark_bg_color));
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
                 inset 0 1px #474642, inset 0 0 transparent;
     color: #807d78;
@@ -48,29 +48,29 @@ UnityDecoration.top:backdrop {
 
 UnityDecoration.left,
 UnityDecoration.right {
-    background-color: shade (@bg_color, 0.7);
+    background-color: shade(@bg_color, 0.7);
     background-size: 1px 70px;
     background-repeat: repeat-x;
 
     /* start color: mix of the top border color and bg-image gradient end */
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, #2b2a2a),
-                                     color-stop (0.5, #2b2a2a),
-                                     color-stop (1, shade (@bg_color, 0.7)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     color-stop(0, #2b2a2a),
+                                     color-stop(0.5, #2b2a2a),
+                                     color-stop(1, shade(@bg_color, 0.7)));
 }
 
 UnityDecoration.left:backdrop,
 UnityDecoration.right:backdrop {
     /* start color: mix of the top border color and bg-image gradient end */
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, #373632),
-                                     color-stop (0.5, #373632),
-                                     color-stop (1, shade (@bg_color, 0.7)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     color-stop(0, #373632),
+                                     color-stop(0.5, #373632),
+                                     color-stop(1, shade(@bg_color, 0.7)));
 }
 
 UnityDecoration.bottom {
     background-image: none;
-    background-color: shade (@bg_color, 0.7);
+    background-color: shade(@bg_color, 0.7);
 }
 
 /* Panel Style */
@@ -78,10 +78,10 @@ UnityDecoration.bottom {
 UnityPanelWidget,
 .unity-panel {
     background-color: transparent;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.04)));
-    border-top-color: shade (@dark_bg_color, 1.6);
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.04)));
+    border-top-color: shade(@dark_bg_color, 1.6);
     border-style: solid;
     border-width: 1px 0 0 0;
 
@@ -101,7 +101,7 @@ UnityPanelWidget:backdrop,
 .unity-panel.menuitem,
 .unity-panel .menuitem {
     border-width: 1px 1px 0 1px;
-    icon-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    icon-shadow: 0 -1px shade(@dark_bg_color, 0.7);
 }
 
 .unity-panel.menubar:backdrop,
@@ -111,7 +111,7 @@ UnityPanelWidget:backdrop,
 
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.11)));
+    background-image: -gtk-gradient(linear, left top, left bottom,
+                                     from(shade(@dark_bg_color, 1.5)),
+                                     to(shade(@dark_bg_color, 1.11)));
 }
