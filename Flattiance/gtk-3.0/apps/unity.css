@@ -4,12 +4,12 @@ UnityDecoration {
     -UnityDecoration-extents: 28px 0 0 0;
     -UnityDecoration-input-extents: 10px;
 
-    -UnityDecoration-shadow-offset-x: 1px;
-    -UnityDecoration-shadow-offset-y: 5px;
-    -UnityDecoration-active-shadow-color: rgba(0, 0, 0, 0.75);
-    -UnityDecoration-active-shadow-radius: 30px;
-    -UnityDecoration-inactive-shadow-color: rgba(0, 0, 0, 0.3);
-    -UnityDecoration-inactive-shadow-radius: 25px;
+    -UnityDecoration-shadow-offset-x: 0px;
+    -UnityDecoration-shadow-offset-y: 3px;
+    -UnityDecoration-active-shadow-color: rgba(0, 0, 0, 0.3);
+    -UnityDecoration-active-shadow-radius: 10px;
+    -UnityDecoration-inactive-shadow-color: rgba(0, 0, 0, 0.1);
+    -UnityDecoration-inactive-shadow-radius: 5px;
 
     -UnityDecoration-glow-size: 10px;
     -UnityDecoration-glow-color: rgb(221, 72, 20);

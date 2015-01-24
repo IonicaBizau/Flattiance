@@ -44,7 +44,7 @@ GtkSwitch.trough:active {
 .primary-toolbar .button:focused,
 .menubar.toolbar .button:focused,
 .header-bar .button:focused {
-    border-image: url("assets/button-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+    border-image: url("assets/button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 .primary-toolbar .button:active,
@@ -56,7 +56,7 @@ GtkSwitch.trough:active {
 .primary-toolbar .button:active:focused,
 .menubar.toolbar .button:active:focused,
 .header-bar .button:active:focused {
-    border-image: url("assets/button-toolbar-active-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+    border-image: url("assets/button-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 .primary-toolbar .button:backdrop,
@@ -85,19 +85,15 @@ GtkSwitch.trough:active {
     border-radius: 8px;
     border-width: 1px;
     border-style: solid;
-    border-color: transparent;
+    border-color: alpha(@unity_bg_color, 0.2);
 }
 
-.entry {
-    border-image: url("assets/entry.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
-}
-
-.entry:backdrop {
-    border-image: url("assets/backdrop-entry.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
-}
-
-.entry:focus {
-    border-image: url("assets/entry-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+.entry:backdrop,
+.entry:focus,
+.primary-toolbar .entry:focus,
+.menubar.toolbar .entry:focus,
+.header-bar .entry:focus {
+    border-color: alpha(@unity_bg_color, 0.3);
 }
 
 .entry:insensitive {
@@ -112,12 +108,6 @@ GtkSwitch.trough:active {
 .menubar.toolbar .entry,
 .header-bar .entry {
     border-image: url("assets/entry-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
-}
-
-.primary-toolbar .entry:focus,
-.menubar.toolbar .entry:focus,
-.header-bar .entry:focus {
-    border-image: url("assets/entry-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 .primary-toolbar .entry.progressbar,
