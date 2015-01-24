@@ -16,7 +16,7 @@ style "ff-default" {
 widget	"MozillaGtkWidget*"	style	"ff-default"
 
 # ------------------------------------------------------------------------------
-# Some Firefox(3.0/3.5) GTK widgets hierarchy(maybe useful for someone)
+# Some Firefox(3.0/3.5) GTK widgets hierarchy (maybe useful for someone)
 # ------------------------------------------------------------------------------
 
 # Top toolbars(and maybe others)

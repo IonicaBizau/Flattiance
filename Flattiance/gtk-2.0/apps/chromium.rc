@@ -31,9 +31,3 @@ style "chrome-gtk-frame"
 class "ChromeGtkFrame" style "chrome-gtk-frame"
 
 widget_class "*Chrom*Button*" style "chromium_toolbar_button"
-
-
-
-
-
-
