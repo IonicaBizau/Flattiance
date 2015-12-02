@@ -1,6 +1,6 @@
 {
   "name": "flattiance",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A semi-flat fork of the Ubuntu Ambiance theme.",
   "main": "index.js",
   "scripts": {
@@ -24,11 +24,15 @@
   },
   "homepage": "https://github.com/IonicaBizau/Flattiance#readme",
   "blah": {
-      "title": "Flattiance",
-      "description": [
-        { "h2": "Installation" },
-        { "p": "Copy the `Flattiance` directory into `/usr/share/themes/` and activate it using `unity-tweak-tool`." }
-      ],
-      "ex_img": "http://i.imgur.com/rt7GEIL.png"
+    "title": "Flattiance",
+    "description": [
+      {
+        "h2": "Installation"
+      },
+      {
+        "p": "Copy the `Flattiance` directory into `/usr/share/themes/` and activate it using `unity-tweak-tool`."
+      }
+    ],
+    "ex_img": "http://i.imgur.com/rt7GEIL.png"
   }
 }
