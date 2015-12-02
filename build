@@ -1,8 +1,5 @@
 #!/bin/bash
 
-## Hi
-##
-
 svg_dir="./Flattiance/unity"
 metacity_dir="./Flattiance/metacity-1"
 
