@@ -1,6 +1,6 @@
 {
   "name": "flattiance",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A semi-flat fork of the Ubuntu Ambiance theme.",
   "main": "lib/index.js",
   "scripts": {
@@ -40,6 +40,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
