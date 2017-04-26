@@ -1,16 +1,32 @@
-
 # Flattiance
+> A semi-flat fork of the Ubuntu Ambiance theme.
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Version](https://img.shields.io/npm/v/flattiance.svg)](https://www.npmjs.com/package/flattiance) [![Downloads](https://img.shields.io/npm/dt/flattiance.svg)](https://www.npmjs.com/package/flattiance)
 
-> A semi-flat fork of the Ubuntu Ambiance theme.
+
+[![flattiance](http://i.imgur.com/rt7GEIL.png)](#)
 
 ## Installation
 
-Copy the `Flattiance` directory into `/usr/share/themes/` and activate it using `unity-tweak-tool`.
+### npm
 
+```sh
+npm install --global flattiance
+```
 
-[![flattiance](http://i.imgur.com/rt7GEIL.png)](#)
+That's it. Skip to [Getting Started](#getting-started)
+
+### Manual
+
+1. Clone this repo: `git clone https://github.com/IonicaBizau/Flattiance.git`
+1. Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`
+    - Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`
+
+## Getting Started
+
+Activate the theme via `unity-tweak-tool`:
+- Click `Theme`
+- Select `Flattiance`
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
