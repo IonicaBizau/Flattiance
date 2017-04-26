@@ -4,7 +4,9 @@
   "description": "A semi-flat fork of the Ubuntu Ambiance theme.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run postinstall:create-themes-dir && npm run postinstall:copy-theme",
+    "postinstall:create-themes-dir": "mkdir -p $HOME/.themes",
+    "postinstall:copy-theme": "cp -r Flattiance $HOME/.themes"
   },
   "repository": {
     "type": "git",
