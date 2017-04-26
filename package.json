@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "npm run postinstall:create-themes-dir && npm run postinstall:copy-theme",
     "postinstall:create-themes-dir": "mkdir -p $HOME/.themes",
-    "postinstall:copy-theme": "cp -r Flattiance $HOME/.themes"
+    "postinstall:copy-theme": "cp -r Flattiance $HOME/.themes",
+    "postinstall:start-unity-tweak-tool": "if type unity-tweak-tool > /dev/null; then unity-tweak-tool -a; else echo 'Please, install unity-tweak-tool and manually activate Flattiance theme'; fi"
   },
   "repository": {
     "type": "git",
