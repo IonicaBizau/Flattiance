@@ -4,7 +4,7 @@
   "description": "A semi-flat fork of the Ubuntu Ambiance theme.",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "npm run postinstall:create-themes-dir && npm run postinstall:copy-theme",
+    "postinstall": "npm run postinstall:create-themes-dir && npm run postinstall:copy-theme && npm run postinstall:start-unity-tweak-tool",
     "postinstall:create-themes-dir": "mkdir -p $HOME/.themes",
     "postinstall:copy-theme": "cp -r Flattiance $HOME/.themes",
     "postinstall:start-unity-tweak-tool": "if type unity-tweak-tool > /dev/null; then unity-tweak-tool -a; else echo 'Please, install unity-tweak-tool and manually activate Flattiance theme'; fi"
