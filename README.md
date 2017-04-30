@@ -6,8 +6,26 @@
 > A semi-flat fork of the Ubuntu Ambiance theme.
 
 ## Installation
+### Via `npm`
+```sh
+npm install --global flattiance
+```
 
-Copy the `Flattiance` directory into `/usr/share/themes/` and activate it using `unity-tweak-tool`.
+That's it. Skip to [Getting Started](#getting-started)
+
+#### Manual
+
+ 1. Clone this repo: `git clone https://github.com/IonicaBizau/Flattiance.git`
+ 2. Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`
+    Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`
+
+### Getting Started
+
+Activate the theme via `unity-tweak-tool`:
+
+
+ - Click `Theme`
+ - Select `Flattiance`
 
 
 [![flattiance](http://i.imgur.com/rt7GEIL.png)](#)

@@ -30,11 +30,43 @@
         "h2": "Installation"
       },
       {
-        "p": "Copy the `Flattiance` directory into `/usr/share/themes/` and activate it using `unity-tweak-tool`."
+          "h3": "Via `npm`"
+      },
+      {
+          "code": {
+              "language": "sh",
+              "content": "npm install --global flattiance"
+          }
+      },
+      {
+          "p": "That's it. Skip to [Getting Started](#getting-started)"
+      },
+      {
+          "h4": "Manual"
+      },
+      {
+          "ol": [
+            "Clone this repo: `git clone https://github.com/IonicaBizau/Flattiance.git`",
+            [
+                "Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`",
+                "Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`"
+            ]
+          ]
+      },
+      {
+        "h2": "Getting Started"
+      },
+      {
+          "p": "Activate the theme via `unity-tweak-tool`:"
+      },
+      {
+          "ul": [
+            "Click `Theme`",
+            "Select `Flattiance`"
+          ]
       }
     ],
-    "ex_img": "http://i.imgur.com/rt7GEIL.png",
-    "generateLicense": false
+    "ex_img": "http://i.imgur.com/rt7GEIL.png"
   },
   "files": [
     "bin/",
