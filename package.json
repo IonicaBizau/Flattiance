@@ -1,6 +1,6 @@
 {
   "name": "flattiance",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A semi-flat fork of the Ubuntu Ambiance theme.",
   "main": "lib/index.js",
   "scripts": {
@@ -33,40 +33,40 @@
         "h2": "Installation"
       },
       {
-          "h3": "Via `npm`"
+        "h3": "Via `npm`"
       },
       {
-          "code": {
-              "language": "sh",
-              "content": "npm install --global flattiance"
-          }
+        "code": {
+          "language": "sh",
+          "content": "npm install --global flattiance"
+        }
       },
       {
-          "p": "That's it. Skip to [Getting Started](#getting-started)"
+        "p": "That's it. Skip to [Getting Started](#getting-started)"
       },
       {
-          "h4": "Manual"
+        "h4": "Manual"
       },
       {
-          "ol": [
-            "Clone this repo: `git clone https://github.com/IonicaBizau/Flattiance.git`",
-            [
-                "Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`",
-                "Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`"
-            ]
+        "ol": [
+          "Clone this repo: `git clone https://github.com/IonicaBizau/Flattiance.git`",
+          [
+            "Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`",
+            "Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`"
           ]
+        ]
       },
       {
         "h2": "Getting Started"
       },
       {
-          "p": "Activate the theme via `unity-tweak-tool`:"
+        "p": "Activate the theme via `unity-tweak-tool`:"
       },
       {
-          "ul": [
-            "Click `Theme`",
-            "Select `Flattiance`"
-          ]
+        "ul": [
+          "Click `Theme`",
+          "Select `Flattiance`"
+        ]
       }
     ],
     "ex_img": "http://i.imgur.com/rt7GEIL.png"
