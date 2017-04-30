@@ -19,7 +19,7 @@ That's it. Skip to [Getting Started](#getting-started)
  2. Copy the `Flattiance` sub-directory into `/usr/share/themes/` (for all users): `[sudo] cp -r Flattiance/Flattiance /usr/share/themes`
     Or copy to `$HOME/.themes` (for local user): `cp -r Flattiance/Flattiance $HOME/.themes`
 
-### Getting Started
+## Getting Started
 
 Activate the theme via `unity-tweak-tool`:
 
